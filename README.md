@@ -19,7 +19,7 @@
 
 ---
 
-<img src="https://yourbannerurl.com/banner1.png" alt="Ahsan Ahmed's Profile Banner" align="center" width="100%"/>
+<img src="https://avatars.githubusercontent.com/u/39599664?v=4" alt="Ahsan Ahmed's Profile Banner" align="center" width="100%"/>
 
 ---
 
@@ -73,10 +73,6 @@ I'm **Ahsan Ahmed**, a passionate Web Developer and Software Engineer with a kna
   <img src="https://github-readme-stats.vercel.app/api?username=Ahsanjuly29&show_icons=true&theme=radical" alt="Ahsan Ahmed's GitHub Stats" height="180px"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahsanjuly29&layout=compact&theme=radical" alt="Top Languages" height="180px"/>
 </p>
-
----
-
-<img src="https://yourbannerurl.com/banner2.png" alt="Projects Banner" align="center" width="100%"/>
 
 ---
 
