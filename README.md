@@ -19,7 +19,7 @@
 
 ---
 
-<img src="https://avatars.githubusercontent.com/u/39599664?v=4" alt="Ahsan Ahmed's Profile Banner" align="center" width="100%"/>
+<img src="https://avatars.githubusercontent.com/u/39599664?v=4" alt="Ahsan Ahmed's Profile Banner" align="center" width="20%"/>
 
 ---
 
