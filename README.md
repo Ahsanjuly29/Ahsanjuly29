@@ -48,7 +48,9 @@
   <img src="https://img.shields.io/badge/Bootstrap-563D7C?logo=bootstrap&logoColor=white&style=for-the-badge" alt="Bootstrap">
   <img src="https://img.shields.io/badge/REST_APIs-00ADD8?logo=rest&logoColor=white&style=for-the-badge" alt="REST APIs">
 </p>
+
 ---
+
 ## 🔧 Skills & Expertise
 
 - **Backend**: PHP (Laravel, SOLID principles), RESTful APIs, MySQL, Firebase
