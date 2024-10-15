@@ -8,6 +8,9 @@
   <a href="https://github.com/Ahsanjuly29">
     <img src="https://img.shields.io/github/followers/Ahsanjuly29?label=Follow%20Me&style=social" alt="GitHub followers">
   </a>
+  <a href="https://github.com/Ahsanjuly29">
+    <img src="https://img.shields.io/github/stars/Ahsanjuly29?style=social" alt="GitHub stars">
+  </a>  
   <a href="https://www.linkedin.com/in/ahsanjuly29/">
     <img src="https://img.shields.io/badge/LinkedIn-Ahsan%20Ahmed-blue?logo=linkedin" alt="LinkedIn">
   </a>
@@ -66,10 +69,12 @@
 ### Software Engineer (Freelancer) - Oct 2023 - Present
 - Led development of various e-commerce and payment gateway integrations.
 - Created APIs for mobile applications and built user-friendly admin panels.
-
+- API and e-commerce solutions, payment gateway integrations, and building user-friendly admin panels.
+  
 ### Software Engineer - Flight Expert | Apr 2022 - Sept 2023
 - Worked on OTA and CMS software development.
 - Created RESTful APIs and user panels, maintained existing software, and mentored junior engineers.
+- Developed OTA and CMS systems using Laravel and conducted code reviews for junior engineers.
 
 ### Software Engineer - Nexoda (Contract) | Mar 2024 - Jun 2024
 - Developed file-sharing solutions using Laravel.
@@ -94,6 +99,8 @@
 ### [Personal Finance Management System](https://github.com/Ahsanjuly29/PersonalFinanceManagementSystem)
 A Laravel-based finance tool that helps users track daily income, expenses, and investments, along with dynamic financial reports and charts.
 
+[![Repo stars](https://img.shields.io/github/stars/Ahsanjuly29/PersonalFinanceManagementSystem?style=social)](https://github.com/Ahsanjuly29/PersonalFinanceManagementSystem)
+
 ### [My Notes Easy Solutions](https://github.com/Ahsanjuly29/My-Notes-Easy-Solutions)
 An AJAX-based note-taking system with jQuery examples. It allows easy note management and integrates the GitHub API for note storage.
 
@@ -102,6 +109,19 @@ A PHP-based tool to create and export professional resumes dynamically with cust
 
 ### [Mail PDF Tester](https://github.com/Ahsanjuly29/MailPdfTesterLive)
 An email service built with Laravel for sending emails with or without attached PDFs, including customizable templates.
+
+---
+
+## 🌱 Currently Learning
+
+- Laravel 11 & Related
+- Cloud-based architectures (AWS, Digital Ocean)
+
+---
+
+## 🌱 Planning to Learn
+
+- Next.js for front-end API handling
 
 ---
 
