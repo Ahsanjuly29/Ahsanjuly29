@@ -34,16 +34,6 @@
 
 ---
 
-
-## 🔧 Skills & Expertise
-
-- **Backend**: PHP (Laravel, SOLID principles), RESTful APIs, MySQL, Firebase
-- **Frontend**: HTML5, CSS3, Bootstrap, JavaScript (jQuery, AJAX, Parsley.js)
-- **DevOps**: Git, C-Panel, Cloud Storage (Google Drive, AWS), Filezilla, FTP
-- **Tools**: Composer, XAMPP, Terminal (SSH), Web-based software engineering
-- **Other**: Payment gateway integrations (SSLCommerz, Paypal, Bkash), SMS integrations
-
----
 ### Languages and Tools
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge" alt="HTML5">
@@ -58,6 +48,14 @@
   <img src="https://img.shields.io/badge/Bootstrap-563D7C?logo=bootstrap&logoColor=white&style=for-the-badge" alt="Bootstrap">
   <img src="https://img.shields.io/badge/REST_APIs-00ADD8?logo=rest&logoColor=white&style=for-the-badge" alt="REST APIs">
 </p>
+---
+## 🔧 Skills & Expertise
+
+- **Backend**: PHP (Laravel, SOLID principles), RESTful APIs, MySQL, Firebase
+- **Frontend**: HTML5, CSS3, Bootstrap, JavaScript (jQuery, AJAX, Parsley.js)
+- **DevOps**: Git, C-Panel, Cloud Storage (Google Drive, AWS), Filezilla, FTP
+- **Tools**: Composer, XAMPP, Terminal (SSH), Web-based software engineering
+- **Other**: Payment gateway integrations (SSLCommerz, Paypal, Bkash), SMS integrations
 
 ---
 
