@@ -25,16 +25,25 @@
 
 ## 👨‍💻 About Me
 
-I'm **Ahsan Ahmed**, a passionate Web Developer and Software Engineer with a knack for building scalable and efficient web applications. I have expertise in both front-end and back-end technologies, and I thrive on solving complex problems with innovative solutions.
 
-- 💻 **Full-Stack Developer** with expertise in **Laravel**, **Node.js**, and modern JavaScript frameworks.
+👋 Hi! I'm **Ahsan Ahmed**, a software engineer with nearly 4 years of experience developing robust web applications using **Laravel** and modern web technologies. I specialize in building scalable and maintainable solutions for clients worldwide, including expertise in **REST APIs**, **payment gateway integrations**, and **e-commerce solutions**.
+
+- 💻 **Full-Stack Developer** with expertise in **Laravel**,  and Jquery, AJAX.
 - 🛠️ I specialize in creating **responsive**, **high-performance web apps** with a focus on seamless user experiences.
 - 🔥 I’m always exploring new technologies and pushing the boundaries of what I can create.
 
 ---
 
-## 💼 Skills & Technologies
 
+## 🔧 Skills & Expertise
+
+- **Backend**: PHP (Laravel, SOLID principles), RESTful APIs, MySQL, Firebase
+- **Frontend**: HTML5, CSS3, Bootstrap, JavaScript (jQuery, AJAX, Parsley.js)
+- **DevOps**: Git, C-Panel, Cloud Storage (Google Drive, AWS), Filezilla, FTP
+- **Tools**: Composer, XAMPP, Terminal (SSH), Web-based software engineering
+- **Other**: Payment gateway integrations (SSLCommerz, Paypal, Bkash), SMS integrations
+
+---
 ### Languages and Tools
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge" alt="HTML5">
@@ -49,6 +58,50 @@ I'm **Ahsan Ahmed**, a passionate Web Developer and Software Engineer with a kna
   <img src="https://img.shields.io/badge/Bootstrap-563D7C?logo=bootstrap&logoColor=white&style=for-the-badge" alt="Bootstrap">
   <img src="https://img.shields.io/badge/REST_APIs-00ADD8?logo=rest&logoColor=white&style=for-the-badge" alt="REST APIs">
 </p>
+
+---
+
+## 💼 Work Experience
+
+### Software Engineer (Freelancer) - Oct 2023 - Present
+- Led development of various e-commerce and payment gateway integrations.
+- Created APIs for mobile applications and built user-friendly admin panels.
+
+### Software Engineer - Flight Expert | Apr 2022 - Sept 2023
+- Worked on OTA and CMS software development.
+- Created RESTful APIs and user panels, maintained existing software, and mentored junior engineers.
+
+### Software Engineer - Nexoda (Contract) | Mar 2024 - Jun 2024
+- Developed file-sharing solutions using Laravel.
+
+### Software Engineer - Roots-Edu | Mar 2021 - Aug 2021
+- Built REST APIs for EdTech solutions.
+
+### Software Engineer (Jr.) - Smart Software Ltd | Aug 2020 - Mar 2021
+- Worked on e-commerce solutions and enhanced performance of existing systems.
+
+---
+
+## 🎓 Education
+
+- **B.Sc. in Computer Science & Engineering**  
+  Eastern University, Bangladesh (2014 - 2019)
+
+---
+
+## 🏆 Key Projects
+
+### [Personal Finance Management System](https://github.com/Ahsanjuly29/PersonalFinanceManagementSystem)
+A Laravel-based finance tool that helps users track daily income, expenses, and investments, along with dynamic financial reports and charts.
+
+### [My Notes Easy Solutions](https://github.com/Ahsanjuly29/My-Notes-Easy-Solutions)
+An AJAX-based note-taking system with jQuery examples. It allows easy note management and integrates the GitHub API for note storage.
+
+### [CvMaker](https://github.com/Ahsanjuly29/CvMaker-Php)
+A PHP-based tool to create and export professional resumes dynamically with customizable templates and download options.
+
+### [Mail PDF Tester](https://github.com/Ahsanjuly29/MailPdfTesterLive)
+An email service built with Laravel for sending emails with or without attached PDFs, including customizable templates.
 
 ---
 
@@ -94,12 +147,13 @@ An all-in-one solution for managing personal finances, tracking investments, and
 
 ---
 
-## 🔗 Let's Connect
+## 🔗 Let's Connect  ## 📞 Contact Information
 
 - **📧 Email**: [ahsan.july29@gmail.com](mailto:ahsan.july29@gmail.com)
 - **🔗 LinkedIn**: [Ahsan Ahmed](https://www.linkedin.com/in/ahsanjuly29/)
 - **🌐 GitHub**: [Ahsanjuly29](https://github.com/Ahsanjuly29)
-
+- **WhatsApp**: [+880-1777-51-9553](https://wa.me/qr/3GD6BU7EVZL3I1)
+- 
 ---
 
 ## 🤝 Let's Collaborate
