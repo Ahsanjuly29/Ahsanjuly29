@@ -1,0 +1,39 @@
+name: Update README with Latest Commit
+
+on:
+  push:
+    branches:
+      - main  # You can change this to match the branch you're using, such as "master"
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Get the latest commit details
+        run: |
+          # Fetch the latest commit hash and commit message
+          COMMIT_HASH=$(git log -1 --format=%H)
+          COMMIT_MESSAGE=$(git log -1 --format=%s)
+          
+          # Get the repository name
+          REPO_NAME=$(basename $(pwd))
+
+          # Prepare the commit info for the README file
+          echo "## Latest Commit" > README.md
+          echo "" >> README.md
+          echo "### Latest Commit Details" >> README.md
+          echo "" >> README.md
+          echo "- **Commit Message:** $COMMIT_MESSAGE" >> README.md
+          echo "- **Repository:** [${REPO_NAME}](https://github.com/Ahsanjuly29/$REPO_NAME)" >> README.md
+          echo "- **Commit URL:** [https://github.com/Ahsanjuly29/$REPO_NAME/commit/$COMMIT_HASH](https://github.com/Ahsanjuly29/$REPO_NAME/commit/$COMMIT_HASH)" >> README.md
+
+      - name: Commit changes to README
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: Ahsanjuly29
+          author_email: ahsan.july29@gmail.com
+          message: "Update README with latest commit"
