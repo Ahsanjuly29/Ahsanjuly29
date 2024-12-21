@@ -3,7 +3,7 @@ name: Update README with Latest Commit
 on:
   push:
     branches:
-      - main  # The action will trigger on pushes to the main branch
+      - main  # Trigger this workflow when changes are pushed to the 'main' branch
 
 jobs:
   update-readme:
@@ -23,6 +23,7 @@ jobs:
           REPO_NAME="Ahsanjuly29"
 
           # Append commit info to the README file
+          echo "" >> README.md  # Add a new line for better formatting
           echo "## Latest Commit" >> README.md
           echo "" >> README.md
           echo "### Latest Commit Details" >> README.md
