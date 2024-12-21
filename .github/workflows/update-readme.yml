@@ -3,7 +3,7 @@ name: Update README with Latest Commit
 on:
   push:
     branches:
-      - main  # You can change this to match the branch you're using, such as "master"
+      - main  # The action will trigger on pushes to the main branch
 
 jobs:
   update-readme:
@@ -19,11 +19,11 @@ jobs:
           COMMIT_HASH=$(git log -1 --format=%H)
           COMMIT_MESSAGE=$(git log -1 --format=%s)
           
-          # Get the repository name
-          REPO_NAME=$(basename $(pwd))
+          # Get the repository name (for this case it's Ahsanjuly29)
+          REPO_NAME="Ahsanjuly29"
 
-          # Prepare the commit info for the README file
-          echo "## Latest Commit" > README.md
+          # Append commit info to the README file
+          echo "## Latest Commit" >> README.md
           echo "" >> README.md
           echo "### Latest Commit Details" >> README.md
           echo "" >> README.md
@@ -35,5 +35,5 @@ jobs:
         uses: EndBug/add-and-commit@v7
         with:
           author_name: Ahsanjuly29
-          author_email: ahsan.july29@gmail.com
-          message: "Update README with latest commit"
+          author_email: ahsan.july29@gmail.com  # Ensure this is your actual email
+          message: "Update README with latest commit details"
