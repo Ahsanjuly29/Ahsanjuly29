@@ -37,6 +37,16 @@
 
 ---
 
+# Latest Commit
+
+## Latest Commit Details
+
+- **Commit Message:** _<insert latest commit message here>_
+- **Repository:** [<insert repo name here>](https://github.com/Ahsanjuly29/<insert-repo-name>)
+- **Commit URL:** [<insert commit URL here>](https://github.com/Ahsanjuly29/<insert-repo-name>/commit/<commit-hash>)
+
+---
+
 ### Languages and Tools
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge" alt="HTML5">
