@@ -1,3 +1,52 @@
+<h1 align="center">Hi, I'm Ahsan Ahmed 👋</h1>
+
+<p align="center">
+  <em>Web Developer | Software Engineer | Problem Solver</em>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Ahsanjuly29">
+    <img src="https://img.shields.io/github/followers/Ahsanjuly29?label=Follow%20Me&style=social" alt="GitHub followers">
+  </a>
+  <a href="https://github.com/Ahsanjuly29">
+    <img src="https://img.shields.io/github/stars/Ahsanjuly29?style=social" alt="GitHub stars">
+  </a>  
+  <a href="https://www.linkedin.com/in/ahsanjuly29/">
+    <img src="https://img.shields.io/badge/LinkedIn-Ahsan%20Ahmed-blue?logo=linkedin" alt="LinkedIn">
+  </a>
+  <a href="mailto:ahsan.july29@gmail.com">
+    <img src="https://img.shields.io/badge/Email-ahsan.july29@gmail.com-red?logo=gmail&logoColor=white" alt="Email">
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=Ahsanjuly29&color=brightgreen" alt="Profile Views">
+</p>
+
+---
+
+<img src="https://avatars.githubusercontent.com/u/39599664?v=4" alt="Ahsan Ahmed's Profile Banner" align="center" width="20%"/>
+
+---
+
+## 👨‍💻 About Me
+
+
+👋 Hi! I'm **Ahsan Ahmed**, a software engineer with nearly 4 years of experience developing robust web applications using **Laravel** and modern web technologies. I specialize in building scalable and maintainable solutions for clients worldwide, including expertise in **REST APIs**, **payment gateway integrations**, and **e-commerce solutions**.
+
+- 💻 **Full-Stack Developer** with expertise in **Laravel**,  and Jquery, AJAX.
+- 🛠️ I specialize in creating **responsive**, **high-performance web apps** with a focus on seamless user experiences.
+- 🔥 I’m always exploring new technologies and pushing the boundaries of what I can create.
+
+---
+
+# Latest Commit
+
+## Latest Commit Details
+
+- **Commit Message:** _<insert latest commit message here>_
+- **Repository:** [<insert repo name here>](https://github.com/Ahsanjuly29/<insert-repo-name>)
+- **Commit URL:** [<insert commit URL here>](https://github.com/Ahsanjuly29/<insert-repo-name>/commit/<commit-hash>)
+
+---
+
 ### Languages and Tools
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge" alt="HTML5">
@@ -140,21 +189,3 @@ An all-in-one solution for managing personal finances, tracking investments, and
 ## 🤝 Let's Collaborate
 
 I'm always excited to work on new projects, share knowledge, and collaborate with other developers. Feel free to get in touch if you're interested in working together on something awesome!
- 
-
- ...
-## Latest Commit
-
-### Latest Commit Details
-
-- **Commit Message:** Merge branch 'main' of https://github.com/Ahsanjuly29/Ahsanjuly29
-- **Repository:** [Ahsanjuly29](https://github.com/Ahsanjuly29/Ahsanjuly29)
-- **Commit URL:** [https://github.com/Ahsanjuly29/Ahsanjuly29/commit/ceed6726b63fcfe395465157d87949c871a6d9ac](https://github.com/Ahsanjuly29/Ahsanjuly29/commit/ceed6726b63fcfe395465157d87949c871a6d9ac)
-
-## Latest Commit
-
-### Latest Commit Details
-
-- **Commit Message:** 1test
-- **Repository:** [Ahsanjuly29](https://github.com/Ahsanjuly29/Ahsanjuly29)
-- **Commit URL:** [https://github.com/Ahsanjuly29/Ahsanjuly29/commit/95a9149fa54664d52c043c2bb31863aef94da3b5](https://github.com/Ahsanjuly29/Ahsanjuly29/commit/95a9149fa54664d52c043c2bb31863aef94da3b5)
