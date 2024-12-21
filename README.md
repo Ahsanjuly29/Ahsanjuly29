@@ -146,3 +146,6 @@ An all-in-one solution for managing personal finances, tracking investments, and
 ## 🤝 Let's Collaborate
 
 I'm always excited to work on new projects, share knowledge, and collaborate with other developers. Feel free to get in touch if you're interested in working together on something awesome!
+ 
+
+ ...
