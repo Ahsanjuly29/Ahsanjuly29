@@ -67,7 +67,12 @@
 
 ## 💼 Work Experience
 
-### Software Engineer (Freelancer) - Oct 2023 - Present
+### Software Engineer (Freelancer) - Jan 2020 - Present
+- Provide solutions Using Laravel, JQuery.
+- Create APIs for Multi Language/Device communication and built user-friendly admin panels.
+- Diffrent e-commerce solutions, payment gateway integrations, and building user-friendly admin panels.
+- 
+### Software Engineer - Ibook.com - Dec 2024 - Present
 - Led development of various e-commerce and payment gateway integrations.
 - Created APIs for mobile applications and built user-friendly admin panels.
 - API and e-commerce solutions, payment gateway integrations, and building user-friendly admin panels.
