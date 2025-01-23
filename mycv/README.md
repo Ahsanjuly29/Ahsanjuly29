@@ -26,9 +26,9 @@ You can view the live version of the CV by cloning the repository and opening `i
 
 ### Steps to Run Locally
 
-1. Clone and paste on Browser or <a href="https://ahsanjuly29.github.io/Mycv/" target="_blank">click here</a>:
+1. Clone and paste on Browser or <a href="https://ahsanjuly29.github.io/Ahsanjuly29/mycv/" target="_blank">click here</a>:
    ```bash
-   https://ahsanjuly29.github.io/Mycv/
+   https://ahsanjuly29.github.io/Ahsanjuly29/mycv/
    ```
       
 ## License
