@@ -12910,10 +12910,7 @@
 </head>
 
 <body>
-    <header>
-        &nbsp;
-    </header>
-    <main class="main-body">
+    <main class="main-body mt-2">
         <div class="top-header">
             <div class="top-header-content">
                 <div class="row">
@@ -13058,6 +13055,33 @@
                     </div>
                     <div class="col-sm-4">
                         <div class="thumbnail text-left">
+
+
+                            <div class="mb-3" style="display: flex; justify-content: space-between; width: 100%;">
+                                <a target="_blank" href="contact/ahsan.vcf"
+                                    class="btn btn-sm btn-outline-dark px-1 py-0 d-print-none" id="save_vcf"
+                                    style="flex-grow: 1; text-align: center; margin-right: 10px;">
+                                    <i class="bi bi-download" style="font-size: 1rem;"></i>
+                                    Contact
+                                </a>
+
+                                <a target="_blank" href="contact/ahsan.vcf"
+                                    class="btn btn-sm btn-outline-danger px-1 py-0 d-print-none" id="save_vcf"
+                                    style="flex-grow: 1; text-align: center; margin-right: 10px;">
+                                    <i class="bi bi-download" style="font-size: 1rem;"></i>
+                                    Pdf
+                                </a>
+
+                                <button class="btn btn-sm btn-outline-success px-1 py-0 d-print-none" id="print_cv"
+                                    style="flex-grow: 1; text-align: center;">
+                                    <i class="bi bi-printer" style="font-size: 1rem;"></i>
+                                    Print
+                                </button>
+                            </div>
+
+
+
+
                             <img class="profile-img rounded"
                                 src="https://media.licdn.com/dms/image/v2/D5603AQHgGkeVbCaf-g/profile-displayphoto-shrink_800_800/B56ZUPRxyLHEAc-/0/1739718073954?e=1745452800&v=beta&t=416IcHnZZtQ0C9cM2OG0V-NNMh6HJ-eVz5O1yDEzlOA"
                                 alt="Lights" style="width:100%">
@@ -13066,13 +13090,6 @@
                                 <div class="about-me">
                                     <h3>
                                         About Me
-                                        <a target="_blank" href="contact/ahsan.vcf"
-                                            class="btn btn-outline-danger px-1 py-0 d-print-none" id="save_vcf"
-                                            style="float: inline-end;">
-                                            <i class="bi bi-download" style="font-size: 1rem;"></i>
-                                            Download
-                                            <!-- Larger download icon -->
-                                        </a>
                                     </h3>
                                     <p>
                                         <span class="d-block">
@@ -13189,7 +13206,7 @@
                                     </p>
                                     <p>
                                         <b style="color: #1d247d;">
-                                            Malaysia/International | July, 2024 - present
+                                            Malaysia/International | Nov, 2024 - present
                                         </b>
                                     </p>
                                 </div>
@@ -13406,6 +13423,8 @@
 
 </body>
 
+<!-- Add this in the <head> or just before closing the </body> tag -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <script>
     function calculateYearDifference() {
@@ -13415,12 +13434,14 @@
     }
 
 
-    window.onload = function () {
-        calculateYearDifference();
-        document.getElementById("save_vcf").click();
-    }
+    // window.onload = function () {
+    //     calculateYearDifference();
+    //     document.getElementById("save_vcf").click();
+    // }
 
-    // window.print();
+    $('#print_cv').click(function () {
+        window.print();
+    });
 </script>
 
 </html>
