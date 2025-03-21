@@ -88,6 +88,8 @@
         ::before {
             box-sizing: border-box;
             text-align: left;
+            font-family: 'Calibri' !important;
+            letter-spacing: 0.1px;
         }
 
         @media print {
@@ -102,6 +104,10 @@
             html,
             body {
                 height: 99%;
+            }
+
+            .page-break {
+                page-break-before: always;
             }
         }
 
@@ -125,7 +131,6 @@
         }
 
         */ html {
-            font-family: sans-serif;
             -ms-text-size-adjust: 100%;
             -webkit-text-size-adjust: 100%
         }
@@ -330,6 +335,7 @@
         }
 
         a {
+            display: inline-block;
             color: var(--bs-link-color);
             text-decoration: underline
         }
@@ -444,7 +450,6 @@
         select,
         textarea {
             margin: 0;
-            font-family: inherit;
             font-size: inherit;
             line-height: inherit
         }
@@ -2589,12 +2594,12 @@
 
         .thumbnail {
             display: block;
+            height: 70vh;
             padding: 4px;
             margin-top: 5%;
             margin-bottom: 0px;
             line-height: 1.42857143;
-            background-color: #a2849e4f;
-            background-color: #008d2b52;
+            background-color: #00ff4c2f;
             border: 1px solid rgb(2 64 8);
             border-radius: 4px;
             -webkit-transition: border .2s ease-in-out;
@@ -5467,6 +5472,7 @@
         }
 
         .alert-success {
+            /* --bs-alert-color: #0f5132; */
             --bs-alert-color: #0f5132;
             --bs-alert-bg: #d1e7dd;
             --bs-alert-border-color: #badbcc
@@ -5917,7 +5923,7 @@
         .list-group-item-success.list-group-item-action.active {
             color: #fff;
             background-color: #0f5132;
-            border-color: #0f5132
+            border-color: #00ff4c2f
         }
 
         .list-group-item-info {
@@ -12739,8 +12745,8 @@
         li,
         a,
         p {
-            font-size: 11.5px;
-            line-height: 1.2rem;
+            font-size: 14px;
+            line-height: 1.5rem;
         }
 
         h3 {
@@ -12763,15 +12769,15 @@
             margin: 0;
             padding: 0;
             background: #ffffff;
-            font-family: "Nunito Sans", sans-serif;
+            font-family: 'Calibri' !important;
             text-transform: capitalize;
             -webkit-text-size-adjust: 100%;
             -ms-text-size-adjust: 100%;
         }
 
         .main-body {
-            width: 760px;
-            max-width: 800px;
+            width: 700px;
+            max-width: 700px;
             margin: 0px auto;
             padding: 0px !important;
             height: 90vh;
@@ -12785,23 +12791,32 @@
             padding-bottom: 1px;
         }
 
+        .education,
+        .links {
+            padding: 10px 0px;
+        }
+
         .education-ul {
-            padding-left: 0px;
+            padding-left: 1rem;
+            margin-bottom: 5px;
+            /* padding-left: 0px;
             margin-bottom: 0px;
-            letter-spacing: 0.6px;
+            letter-spacing: 0.6px; */
         }
 
         .education-li {
-            /* display: inline-block; */
+            margin-left: 15px;
+            /* list-style: none; */
+            /* display: inline-block;
             text-align: left;
             padding: 5px;
             padding-top: 5px;
-            text-decoration: dotted;
+            text-decoration: dotted; */
         }
 
         .experience {
-            padding: 20px;
-            padding-top: 0px;
+            padding: 0px;
+            padding-top: 10px;
         }
 
         .experience h3 {
@@ -12824,7 +12839,7 @@
         .work-experience p,
         .work-experience li,
         .work-experience a {
-            font-size: 13px;
+            font-size: 14px;
         }
 
         .caption h3 {
@@ -12897,12 +12912,6 @@
             font-weight: 600;
         }
 
-        * {
-            font-family: Calibri, 'Trebuchet MS', sans-serif !important;
-            /* font-family: 'Lato', sans-serif; */
-            letter-spacing: 0.2px;
-        }
-
         footer {
             height: 100px;
         }
@@ -12918,145 +12927,87 @@
                         <div class="profile">
                             <h1 class="title_name" style="margin-bottom: 0px; font-size: 60px;">Ahsan Ahmed</h1>
                             <h3 style="margin-top: 0px;">
-                                Software Engineer
+                                Software Engineer(<span id="job_experience_year"></span>)yrs
                             </h3>
                             <p style="margin-bottom: 10px;">
                                 <span style="padding-left: 5px;">
                                     -
-                                </span>
-                                Software Engineer with(<span id="job_experience_year"></span>)years of
-                                Experience in developing Quality Software Solutions.
+                                </span>Providing innovative solutions to complex challenges.
                             </p>
                         </div>
-                        <div class="education row">
-                            <h3 class="mb-0">Education</h3>
-                            <div class="col-sm-4">
-                                <ul class="education-ul" style="padding-left: 1rem;">
-                                    <li class="education-li">
-                                        <p>
-                                            <span class="d-block">
-                                                Bsc in CSE (2014-2019)
-                                            </span>
-                                            <span class="d-block" style="font-weight: 800;">
-                                                Eastern University
-                                            </span>
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-4">
-                                <ul class="education-ul">
-                                    <li class="education-li">
-                                        <p>
-                                            <span class="d-block">
-                                                HSC in Scince (2012-2014)
-                                            </span>
-                                            <span class="d-block" style="font-weight: 800;">
-                                                Dhaka Bigyan College
-                                            </span>
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-4">
-                                <ul class="education-ul">
-                                    <li class="education-li">
-                                        <p>
-                                            <span class="d-block">
-                                                SSC in Science (2010-2012)
-                                            </span>
-                                            <span class="d-block" style="font-weight: 800;">
-                                                Ahmed Bawany Academy
-                                            </span>
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-
-                        </div>
-
+                        <hr>
                         <div class="row">
-                            <div class="col-sm-6">
+                            <div class="col-sm-12">
+                                <div class="expertise">
+                                    <h3 class="mt-0">Expertise</h3>
+                                    <ul class="expertise-ul">
+                                        <!-- Server Management & Infrastructure -->
+                                        <li class="expertise-li">Server Management & Deployment (AWS, Vultr, Laravel
+                                            Forge, SSH)</li>
+                                        <li>Cloud Storage Management (Google Drive, FTP)</li>
+
+                                        <!-- Backend Development & Database -->
+                                        <li>Laravel Framework (Blade, RestAPI, Jetstream, Eloquent ORM, MVC)</li>
+                                        <li>PHP Development with SOLID Principles</li>
+                                        <li>Database Management & Optimization (MySQL, Firebase, PostgreSQL, SQL Server,
+                                            MariaDB)</li>
+                                        <li>RDBMS Expertise (Oracle, MySQL, MSSQL, PostgreSQL)</li>
+                                        <li>SQL Query Optimization & Performance Tuning</li>
+
+                                        <!-- Frontend & Client-Side Development -->
+                                        <li>Frontend Development (HTML5, CSS3, Bootstrap, TailwindCSS)</li>
+                                        <li>JavaScript (jQuery, AJAX, Parsley.js, Angular)</li>
+                                        <li>RESTful API Integration(JSON, XML)</li>
+
+                                        <!-- Version Control & Collaboration -->
+                                        <li>Version Control with Git (GitHub, Bitbucket)</li>
+                                        <li>Agile Development & Team Collaboration (JIRA, Trello)</li>
+
+                                        <!-- Additional Development Expertise -->
+                                        <li>Linux Platform Basic</li>
+                                        <li>Full-Stack Engineering problems Solving & Performance Tuning</li>
+                                        <li>Database Design, Implementation, and Data Modeling</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3">
                                 <div class="portfolio">
                                     <h3 class="mt-0">Portfolio</h3>
                                     <ul class="portfolio-ul">
                                         <li class="portfolio-li">
-                                            <p>
-                                                <a href="https://github.com/Ahsanjuly29">Github</a>
-                                            </p>
+                                            <a href="https://github.com/Ahsanjuly29">
+                                                <h5>GitHub</h5>
+                                            </a>
                                         </li>
                                     </ul>
                                 </div>
+                            </div>
+                            <div class="col-sm-9">
                                 <div>
-                                    <h3 class="mt-0">Training</h3>
+                                    <h3 class="mt-0">Certifications & Training</h3>
                                     <ul class="portfolio-ul">
                                         <li class="portfolio-li">
                                             <p>
-                                                <a href="#">Creative IT(2019)(5 months)</a>
-                                                <span class="d-block">
-                                                    subject : Web Application Development(Laravel)
-                                                </span>
+                                                <a href="#">Creative IT (2019) - 5 months</a>
+                                                <span class="d-block">Specialization: Advanced Web Application
+                                                    Development (Laravel, Blade, Jquery)</span>
                                             </p>
                                         </li>
                                         <li>
                                             <p>
-                                                <a href="#">NASSCOM Certification 2017 Learning From LICT Project (6
-                                                    months)</a>
-                                                <span class="d-block">
-                                                    subject : Web Design & Development Course (html, css, PHP)
-                                                </span>
+                                                <a href="#">NASSCOM Certification (2017) - 6 months</a>
+                                                <span class="d-block">Specialization: Full Stack Web Development (HTML,
+                                                    CSS, PHP)</span>
                                             </p>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="expertise">
-                                    <h3 class="mt-0">Expertise</h3>
-                                    <ul class="expertise-ul">
-                                        <li class="expertise-li">
-                                            Laravel (Blade, RestAPI, Jetstream, Tailwind),
-                                        </li>
-                                        <li>
-                                            SOLID PHP
-                                        </li>
-                                        <li>
-                                            JS (Jquery, AJAX, parsley.js)
-                                        </li>
-                                        <li>
-                                            Mysql, Firebase
-                                        </li>
-                                        <li>
-                                            FrontEnd(HTML, CSS, BS4)
-                                        </li>
-                                        <li>
-                                            GIT Vertion Control,
-                                        </li>
-                                        <li>
-                                            C-Panel Handling With Terminal
-                                        </li>
-                                        <li>
-                                            Cloud Storage(gDrive, Filezilla, Ftp)
-                                        </li>
-                                        <li>
-                                            Server(AWS, Vultr, Laravel Forge)
-                                        </li>
-                                        <li>
-                                            Coding, Debugging, Object Oriented, Eloquent DB handle, Web-based
-                                            software
-                                            engineering, Team collaboration
-                                        </li>
-                                    </ul>
-                                </div>
-
-                            </div>
                         </div>
-
                     </div>
                     <div class="col-sm-4">
                         <div class="thumbnail text-left">
-
-
                             <div class="mb-3" style="display: flex; justify-content: space-between; width: 100%;">
                                 <a target="_blank" href="contact/ahsan.vcf"
                                     class="btn btn-sm btn-outline-dark px-1 py-0 d-print-none" id="save_vcf"
@@ -13079,10 +13030,6 @@
                                     Print
                                 </button>
                             </div>
-
-
-
-
                             <img class="profile-img rounded"
                                 src="https://media.licdn.com/dms/image/v2/D5603AQHgGkeVbCaf-g/profile-displayphoto-shrink_800_800/B56ZUPRxyLHEAc-/0/1739718073954?e=1745452800&v=beta&t=416IcHnZZtQ0C9cM2OG0V-NNMh6HJ-eVz5O1yDEzlOA"
                                 alt="Lights" style="width:100%">
@@ -13127,15 +13074,12 @@
                                             <span>
                                                 <i class="fas fa-mobile font-weight-bold"></i>
                                                 +880-1777-51-9553
-                                                <img src="image/prefer.png" alt="" width="20px;">
                                             </span>
                                         </a>
                                     </p>
                                     <p>
-                                        Address :
-                                        <a href="https://maps.app.goo.gl/fetSeF9sDPWLScg97">
-                                            <span>
-                                                <i class="fas fa-map-marker-alt"></i>
+                                        Address : <a href="https://maps.app.goo.gl/fetSeF9sDPWLScg97">
+                                            <span class="text-capitalize"><i class=" fas fa-map-marker-alt"></i>
                                                 Nayabazar, Dhaka-1100
                                             </span>
                                         </a>
@@ -13144,11 +13088,64 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-sm-12">
+                        <div class="education row">
+                            <h3 class="mb-0">Education</h3>
+
+                            <div class="col-sm-4">
+                                <ul class="education-ul">
+                                    <li class="education-li">
+                                        <p>
+                                            <span class="d-block">
+                                                Bsc in CSE (2014-2019)
+                                            </span>
+                                            <span class="d-block" style="font-weight: 800;">
+                                                Eastern University
+                                            </span>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4">
+                                <ul class="education-ul">
+                                    <li class="education-li">
+                                        <p>
+                                            <span class="d-block">
+                                                HSC in Scince (2012-2014)
+                                            </span>
+                                            <span class="d-block" style="font-weight: 800;">
+                                                Dhaka Bigyan College
+                                            </span>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4">
+                                <ul class="education-ul">
+                                    <li class="education-li">
+                                        <p>
+                                            <span class="d-block">
+                                                SSC in Science (2010-2012)
+                                            </span>
+                                            <span class="d-block" style="font-weight: 800;">
+                                                Ahmed Bawany Academy
+                                            </span>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
 
-        <div class="experience">
+        <hr>
+
+        <!-- page-break -->
+        <div class="experience ">
             <!-- Work Experience starts here  -->
             <div class="row">
                 <div class="col-sm-12">
@@ -13159,46 +13156,14 @@
                         <ul>
                             <li class="experience-list">
                                 <div class="alert alert-success m-0 py-1">
-                                    <h5>
-                                        <b class="text-dark">
-                                            Freelancing/Outsourcing(Contract)
-                                        </b>
-                                    </h5>
-                                    <p>
-                                        <b class="text-dark">Software Engineer</b>
-                                    </p>
-                                    <p>
-                                        <b class="text-dark">
-                                            Home - Dhaka| jan, 2020 - present - &#8734;
-                                        </b>
-                                    </p>
-                                </div>
-                                <p class="list ms-3">
-                                    Responsibilities:
-                                </p>
-                                <ul>
-                                    <li>
-                                        Participation for planning and Designing of software solutions to the
-                                        requirements specification
-                                    </li>
-                                    <li>Handle Database Structures - Create Databse through Migration</li>
-                                    <li>Report directly to <b> Client</b></li>
-                                    <li>Project Update On Github OR Hosting Server</li>
-                                    <li>Ecommerce-Solutions</li>
-                                    <li>Payment Gateway Solution(Like, SSL-Commerz, Paypal, Amar-Pay, Bkash)</li>
-                                    <li>SMS Gateway Integrations</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="work-experience">
-                        <ul>
-                            <li class="experience-list">
-                                <div class="alert alert-success m-0 py-1">
                                     <a href="https://ibook.com.my/">
                                         <h5 class="text-lowercase" style="color: #1d247d;">
                                             <b>
-                                                <span class="text-warning">i</span>book
+                                                <span class="text-warning">
+                                                    <img src="https://ibook.com.my/assets/images/logo-icon.png" alt=""
+                                                        width="20px" />
+
+                                                    i</span>book<span class="text-capitalize">(Remotely)</span>
                                             </b>
                                         </h5>
                                     </a>
@@ -13207,7 +13172,7 @@
                                     </p>
                                     <p>
                                         <b style="color: #1d247d;">
-                                            Malaysia/International | Nov, 2024 - present
+                                            Malaysia/International | Jul 2024 - Present
                                         </b>
                                     </p>
                                 </div>
@@ -13215,12 +13180,22 @@
                                     Responsibilities:
                                 </p>
                                 <ul>
-                                    <li>
-                                        Participation for planning and Designing of software solutions to the
-                                        requirements specification
-                                    </li>
-                                    <li>Handle Database Structures - Create Databse through Migration</li>
-                                    <li>Handle total coding for in-house products</li>
+                                    <li>Managed server operations and deployment via SSH, ensuring smooth staging and
+                                        production server maintenance.</li>
+                                    <li>Maintained GitHub repositories, overseeing version control, code reviews, and
+                                        seamless integration of updates into production.</li>
+                                    <li>Developed dynamic, responsive web applications using Laravel 9, implementing
+                                        business logic and user interface enhancements.</li>
+                                    <li>Automated backend processes, such as updating hotel prices and availability,
+                                        using Cron Jobs, Queues, and Schedulers.</li>
+                                    <li>Monitored, troubleshot, and resolved critical website issues, including
+                                        downtime, ensuring high availability and performance.</li>
+                                    <li>Optimized B2B hotel booking calculations, addressing discrepancies to maintain
+                                        accurate pricing and charges.</li>
+                                    <li>Resolved integration issues with hotel search functionality and external
+                                        supplier APIs, ensuring smooth system operation.</li>
+                                    <li>Developed internal APIs to enhance system integration and improve backend
+                                        functionality.</li>
                                 </ul>
                             </li>
                         </ul>
@@ -13231,7 +13206,44 @@
                                 <div class="alert alert-success m-0 py-1">
                                     <h5>
                                         <b>
-                                            <span class="text-success"> Nexoda(BDRen)(Contract)</span>
+                                            <span class="text-danger">Flight Expert</span>
+                                        </b>
+                                    </h5>
+                                    <p>
+                                        <b>Software Engineer</b>
+                                    </p>
+                                    <p>
+                                        <b>City-Center, Motijheel, Dhaka | Apr 2022 - Dec 2023</b>
+                                    </p>
+                                </div>
+                                <p class="list ms-3">
+                                    Responsibilities:
+                                </p>
+                                <ul>
+                                    <li>Developed OTA & CMS solutions, optimizing functionality.</li>
+                                    <li>Collaborated with Team Lead, addressing technical concerns and offering
+                                        solutions.</li>
+                                    <li>Conducted daily code reviews to ensure quality and best practices.</li>
+                                    <li>Mentored junior engineers, fostering team growth and expertise.</li>
+                                    <li>Built robust REST APIs using Laravel for seamless integration.</li>
+                                    <li>Designed and implemented intuitive user admin panels for enhanced UX.</li>
+                                    <li>Maintained and updated legacy software to ensure ongoing efficiency.</li>
+                                    <li>Utilized jQuery, Bootstrap, CSS, and HTML for front-end enhancements.</li>
+                                    <li>Implemented security best practices and managed version control with Git.</li>
+                                    <li>Managed AWS file backups, ensuring data security and availability.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="work-experience">
+                        <ul>
+                            <li class="experience-list">
+                                <div class="alert alert-success m-0 py-1">
+                                    <h5>
+                                        <b>
+                                            <span class="text-warning"> Nexoda(BDRen)(Contract)</span>
                                         </b>
                                     </h5>
                                     <p>
@@ -13252,75 +13264,20 @@
                                             File Sharing Software
                                         </a>
                                     </li>
-                                    <li>
-                                        Participating in the design and planning of software solutions to the
-                                        requirements specification
-                                    </li>
-                                    <li>Report directly to Project Manager</li>
-                                    <li>Project Update On GIT</li>
-                                    <li>
-                                        Driving adoption of best practices in code health, testing, and
-                                        maintainability.
-                                    </li>
-                                    <li>
-                                        Create API For FrontEnd(Next.js) by Laravel
-                                    </li>
-                                    <li>Create Admin panel by Blade, Laravel, Jquery, Bootstrap
-                                    </li>
+                                    <li>Contributed to software design and planning, ensuring alignment with
+                                        requirements.</li>
+                                    <li>Reported directly to Project Manager and updated project status on Git.</li>
+                                    <li>Promoted best practices in code quality, testing, and maintainability.</li>
+                                    <li>Developed APIs with Laravel for frontend (Next.js) integration.</li>
+                                    <li>Built an admin panel using Laravel, Blade, jQuery, and Bootstrap.</li>
+                                    <li>Worked on the development of a file-sharing platform for improved user
+                                        interaction.</li>
+
                                 </ul>
                             </li>
                         </ul>
                     </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="work-experience">
-                        <ul>
-                            <li class="experience-list">
-                                <div class="alert alert-success m-0 py-1">
-                                    <h5>
-                                        <b>
-                                            <span class="text-danger">Flight Expert</span>
-                                        </b>
-                                    </h5>
-                                    <p>
-                                        <b> Software Engineer</b>
-                                    </p>
-                                    <p>
-                                        <b>
-                                            City-Center, Motijheel, Dhaka| Apr, 2022 - Dec, 2023.
-                                        </b>
-                                    </p>
-                                </div>
-                                <p class="list ms-3">
-                                    Responsibilities:
-                                </p>
-                                <ul>
-                                    <li>
-                                        OTA & CMS Software Development
-                                        </a>
-                                    </li>
-                                    <li>
-                                        Reporting directly to the Software Engineering Team Lead and raising all
-                                        concerns or technical issues before developing solutions.
-                                    </li>
-                                    <li>Conducting daily code reviews</li>
-                                    <li>
-                                        mentoring junior engineers and providing them with support where necessary
-                                    </li>
-                                    <li>
-                                        Providing Rest API by Laravel
-                                    </li>
-                                    <li>
-                                        Created User Admin Panel(interfaces) to ensure user friendly Experience
-                                    </li>
-                                    <li>Maintained and updated Existing Software</li>
-                                    <li>Jquery, Bootstrap, Css, Html</li>
-                                    <li>Security Principles, GIT</li>
-                                    <li>AWS file Backup</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
+
                     <div class="work-experience">
                         <ul>
                             <li class="experience-list">
@@ -13328,56 +13285,87 @@
                                     <h5>
                                         <b>
                                             <span class="text-warning">R</span><span
-                                                class="text-primary">oots-Edu</span>
+                                                class="text-primary">oots-Edu</span> (Remotely)
                                         </b>
                                     </h5>
                                     <p>
                                         <b>Software Engineer</b>
                                     </p>
                                     <p>
-                                        <b>
-                                            Uttara, Dhaka| Mar, 2021 - Aug, 2021.
-                                        </b>
+                                        <b>Uttara, Dhaka | Mar 2021 - Aug 2021</b>
                                     </p>
                                 </div>
                                 <p class="list ms-3">
                                     Responsibilities:
                                 </p>
                                 <ul>
-                                    <li>
-                                        <a href="#">
-                                            Ed-Tech & Admin Panel Development
-                                        </a>
-                                    </li>
-                                    <li>
-                                        Rest API by Laravel for Android.
-                                    </li>
-                                    <li>Jquery, Bootstrap, Css, Html</li>
-                                    <li>GIT Version Control</li>
+                                    <li>Developed Ed-Tech platform and admin panel.</li>
+                                    <li>Built REST APIs using Laravel for Android integration.</li>
+                                    <li>Utilized jQuery, Bootstrap, CSS, and HTML for frontend development.</li>
+                                    <li>Managed version control with Git for project collaboration.</li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
+
                     <div class="work-experience">
                         <ul>
                             <li class="experience-list">
                                 <div class="alert alert-success m-0 py-1">
                                     <h5>
                                         <b>
-                                            <span class="text-primary">
-                                                Smart
-                                            </span>
-                                            <span class="text-warning">
-                                                Software Ltd
-                                            </span>
+                                            <span class="text-primary">Smart</span>
+                                            <span class="text-warning">Software Ltd</span>
                                         </b>
                                     </h5>
                                     <p>
-                                        <b> Software Engineer(JR.)</b>
+                                        <b>Software Engineer (JR.)</b>
                                     </p>
                                     <p>
-                                        <b>
-                                            Panathapath, Dhaka| Aug, 2020 – Mar, 2021.
+                                        <b>Panathapath, Dhaka | Aug 2020 – Mar 2021</b>
+                                    </p>
+                                </div>
+                                <p class="list ms-3">
+                                    Responsibilities:
+                                </p>
+                                <ul>
+                                    <li>Played an integral role in various software development projects, embracing new
+                                        challenges and learning opportunities.</li>
+                                    <li>Collaborated with clients to ensure project alignment, addressing concerns and
+                                        making adjustments to meet expectations.</li>
+                                    <li>Contributed to detailed documentation, supporting the development process with
+                                        clarity and structure.</li>
+                                    <li>Enhanced existing software, implementing performance improvements and error
+                                        corrections.</li>
+                                    <li>Designed and updated eCommerce products using Laravel, balancing creativity and
+                                        functionality.</li>
+                                    <li>Utilized jQuery, Bootstrap, CSS, and HTML to craft seamless front-end
+                                        experiences.</li>
+                                    <li>Leveraged Git for efficient version control, ensuring smooth collaboration
+                                        within the team.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="work-experience">
+                        <ul>
+                            <li class="experience-list">
+                                <div class="alert alert-success m-0 py-1">
+                                    <h5>
+                                        <b class="text-dark">
+                                            Freelancing / Outsourcing (Contract)
+                                        </b>
+                                    </h5>
+                                    <p>
+                                        <b class="text-dark">Software Engineer</b>
+                                    </p>
+                                    <p>
+                                        <b class="text-dark">
+                                            Home - Dhaka | Jan 2020 - Present
                                         </b>
                                     </p>
                                 </div>
@@ -13385,34 +13373,25 @@
                                     Responsibilities:
                                 </p>
                                 <ul>
-                                    <li>
-                                        <a href="#">
-                                            Various Software Development
-                                        </a>
-                                    </li>
-                                    <li>
-                                        Working to a schedule designed around these factors and updating the client
-                                        of
-                                        any
-                                        issues which may cause a delay or any necessary changes.
-                                    </li>
-                                    <li>
-                                        Understanding the principles and objectives of documentation and
-                                        assisting in the preparation of documentation.
-                                    </li>
-                                    <li>
-                                        Modified existing software to correct errors, upgrade interfaces and
-                                        improve performance.
-                                    </li>
-                                    <li>
-                                        Create, Update, various Ecommerce Product by Laravel
-                                    </li>
-                                    <li>Jquery, Bootstrap, Css, Html</li>
-                                    <li>GIT Version Control</li>
+                                    <li>Designed and developed tailored software solutions to meet client needs and
+                                        improve efficiency.</li>
+                                    <li>Managed complex databases, ensuring smooth migrations and optimal data
+                                        integrity.</li>
+                                    <li>Communicated directly with clients, providing regular updates and adjusting
+                                        solutions to align with their goals.</li>
+                                    <li>Handled version control and deployments via GitHub, ensuring smooth and timely
+                                        releases.</li>
+                                    <li>Built effective eCommerce solutions that enhanced user experience and helped
+                                        clients grow their business.</li>
+                                    <li>Integrated multiple payment gateways (SSL-Commerz, PayPal, Amar-Pay, Bkash) to
+                                        support secure transactions.</li>
+                                    <li>Implemented SMS gateway solutions, improving client communication and service
+                                        reliability.</li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -13431,13 +13410,13 @@
     function calculateYearDifference() {
         const currentYear = new Date().getFullYear();
         const difference = currentYear - 2020;
-        document.getElementById('job_experience_year').innerText = ` ~ ${difference} `;
+        document.getElementById('job_experience_year').innerText = `~${difference}`;
     }
 
 
     window.onload = function () {
         calculateYearDifference();
-        document.getElementById("save_vcf").click();
+        // document.getElementById("save_vcf").click();
     }
 
     $('#print_cv').click(function () {
