@@ -131,7 +131,8 @@ An email service built with Laravel for sending emails with or without attached 
 
 ## 🌱 Planning to Learn
 
-- Next.js for front-end API handling
+- react.js for front-end API handling
+- AI to add Laravel enhance backend program
 
 ---
 
