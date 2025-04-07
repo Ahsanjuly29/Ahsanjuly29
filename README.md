@@ -57,46 +57,50 @@
 
 ## 🔧 Skills & Expertise
 
-- **Backend**: PHP (Laravel, SOLID principles), RESTful APIs, MySQL, Firebase
-- **Frontend**: HTML5, CSS3, Bootstrap, JavaScript (jQuery, AJAX, Parsley.js)
-- **DevOps**: Git, C-Panel, Cloud Storage (Google Drive, AWS), Filezilla, FTP
-- **Tools**: Composer, XAMPP, Terminal (SSH), Web-based software engineering
-- **Other**: Payment gateway integrations (SSLCommerz, Paypal, Bkash), SMS integrations
+# Skills & Expertise
+
+## 🔧 Skills & Expertise
+
+- **Backend**: PHP (Laravel, SOLID principles), RESTful APIs, MySQL, Firebase | **Frontend**: HTML5, CSS3, Bootstrap, TailwindCSS, JavaScript (jQuery, AJAX, Parsley.js, Angular)  
+- **DevOps**: Git, C-Panel, Cloud Storage (Google Drive, AWS), Filezilla, FTP | **Tools**: Composer, XAMPP, Terminal (SSH), Web-based software engineering  
+- **Database**: MySQL, Firebase, PostgreSQL, SQL Server, MariaDB | 
+- **RDBMS**: Oracle, MySQL, MSSQL, PostgreSQL | SQL Query Optimization & Performance Tuning  
+- **API Development**: RESTful APIs, Multi-language/Device communication APIs, API-based e-commerce solutions, RESTful API Integration (JSON, XML)  
+- **Server Management**: Server Management & Deployment (AWS, Vultr, Laravel Forge, SSH)  
+- **E-commerce**: Payment gateway integrations (SSLCommerz, Paypal, Bkash), SMS integrations | Performance enhancement of existing systems | User-friendly admin panel development  
+- **Leadership**: Led development of e-commerce solutions, mentored junior engineers, conducted code reviews  
+- **Software Development**: Worked on OTA (Over-The-Air) systems, CMS (Content Management System) software development, maintained existing software  
+- **Agile Development**: Agile Development & Team Collaboration (JIRA, Trello) | **Version Control**: Git (GitHub, Bitbucket)  
+- **Additional**: Laravel Framework (Blade, RESTful APIs, Jetstream, Eloquent ORM, MVC), Linux Platform Basics | Full-Stack Engineering Problem Solving & Performance Tuning  
 
 ---
 
 ## 💼 Work Experience
 
-### Software Engineer (Freelancer) - Jan 2020 - Present
-- Provide solutions Using Laravel, JQuery.
-- Create APIs for Multi Language/Device communication and built user-friendly admin panels.
-- Diffrent e-commerce solutions, payment gateway integrations, and building user-friendly admin panels.
-- 
-### Software Engineer - Ibook.com - Dec 2024 - Present
-- Led development of various e-commerce and payment gateway integrations.
-- Created APIs for mobile applications and built user-friendly admin panels.
-- API and e-commerce solutions, payment gateway integrations, and building user-friendly admin panels.
-  
-### Software Engineer - Flight Expert | Apr 2022 - Sept 2023
-- Worked on OTA and CMS software development.
-- Created RESTful APIs and user panels, maintained existing software, and mentored junior engineers.
-- Developed OTA and CMS systems using Laravel and conducted code reviews for junior engineers.
+### Software Engineer (Remotely)
+-Various platforms
+ 
+### Software Engineer - Ibook.com (Remotely)
+- Malaysia
 
-### Software Engineer - Nexoda (Contract) | Mar 2024 - Jun 2024
-- Developed file-sharing solutions using Laravel.
+### Software Engineer - Flight Expert 
+- city center, Motejheel, Dhaka
 
-### Software Engineer - Roots-Edu | Mar 2021 - Aug 2021
-- Built REST APIs for EdTech solutions.
+### Software Engineer - Nexoda - BDREN (Remotely)
+- Navana HR Tower, Bir Uttam Mir Shawkat Sarak, Dhaka
 
-### Software Engineer (Jr.) - Smart Software Ltd | Aug 2020 - Mar 2021
-- Worked on e-commerce solutions and enhanced performance of existing systems.
+### Software Engineer - Roots-Edu
+- Uttara, Dhaka
+
+### Software Engineer (Jr.) - Smart Software Ltd
+- pantahpath, Dhaka
 
 ---
 
 ## 🎓 Education
 
 - **B.Sc. in Computer Science & Engineering**  
-  Eastern University, Bangladesh (2014 - 2019)
+  Eastern University, Bangladesh
 
 ---
 
