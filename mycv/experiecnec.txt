@@ -1,0 +1,230 @@
+ <div class="work-experience">
+                                                                                                                                                                                                                <ul>
+                                                                                                                                                                                                                    <li class="experience-list">
+                                                                                                                                                                                                                        <div class="alert alert-success m-0 py-1">
+                                                                                                                                                                                                                            <a href="https://ibook.com.my/">
+                                                        <h5 class="text-lowercase" style="color: #1d247d;">
+                                                            <b>
+                                                                <span class="text-warning">
+                                                                    <img src="https://ibook.com.my/assets/images/logo-icon.png" alt="" width="20px" />
+
+                                                                    i</span>book<span class="text-capitalize">(Remotely)</span>
+                                                                    </b>
+                                                                    </h5>
+                                                                    </a>
+                                                                    <p>
+                                                                        <b style="color: #1d247d;">Software Engineer</b>
+                                                                    </p>
+                                                                    <p>
+                                                                        <b style="color: #1d247d;">
+                                                                            Malaysia/International | Jul 2024 - Present
+                                                                        </b>
+                                                                    </p>
+                                                                    </div>
+                                                                    <p class="list ms-3">
+                                                                        Responsibilities:
+                                                                    </p>
+                                                                    <ul>
+                                                    <li>Managed server operations and deployment via SSH, ensuring
+                                                        smooth staging and
+                                                        production server maintenance.</li>
+                                                    <li>Maintained GitHub repositories, overseeing version control, code
+                                                        reviews, and
+                                                        seamless integration of updates into production.</li>
+                                                    <li>Developed dynamic, responsive web applications using Laravel 9,
+                                                        implementing
+                                                        business logic and user interface enhancements.</li>
+                                                    <li>Automated backend processes, such as updating hotel prices and
+                                                        availability,
+                                                        using Cron Jobs, Queues, and Schedulers.</li>
+                                                    <li>Monitored, troubleshot, and resolved critical website issues,
+                                                        including
+                                                        downtime, ensuring high availability and performance.</li>
+                                                    <li>Optimized B2B hotel booking calculations, addressing
+                                                        discrepancies to maintain
+                                                        accurate pricing and charges.</li>
+                                                    <li>Resolved integration issues with hotel search functionality and
+                                                        external
+                                                        supplier APIs, ensuring smooth system operation.</li>
+                                                    <li>Developed internal APIs to enhance system integration and
+                                                        improve backend
+                                                        functionality.</li>
+                                                    </ul>
+                                                    </li>
+                                                    </ul>
+                                                    </div>
+                                                    <div class="work-experience">
+                                                        <ul>
+                                                            <li class="experience-list">
+                                                                <div class="alert alert-success m-0 py-1">
+                                                                    <h5>
+                                                                        <b>
+                                                                            <span class="text-danger">Flight Expert</span>
+                                                                        </b>
+                                                                    </h5>
+                                                                    <p>
+                                                                        <b>Software Engineer</b>
+                                                                    </p>
+                                                                    <p>
+                                                                        <b>City-Center, Motijheel, Dhaka | Apr 2022 - Dec 2023</b>
+                                                                    </p>
+                                                                </div>
+                                                                <p class="list ms-3">
+                                                                    Responsibilities:
+                                                                </p>
+                                                                <ul>
+                                                                    <li>Developed OTA & CMS solutions, optimizing functionality.</li>
+                                                    <li>Collaborated with Team Lead, addressing technical concerns and
+                                                        offering
+                                                        solutions.</li>
+                                                    <li>Conducted daily code reviews to ensure quality and best
+                                                        practices.</li>
+                                                    <li>Mentored junior engineers, fostering team growth and expertise.
+                                                    </li>
+                                                    <li>Built robust REST APIs using Laravel for seamless integration.
+                                                    </li>
+                                                    <li>Designed and implemented intuitive user admin panels for
+                                                        enhanced UX.</li>
+                                                    <li>Maintained and updated legacy software to ensure ongoing
+                                                        efficiency.</li>
+                                                    <li>Utilized jQuery, Bootstrap, CSS, and HTML for front-end
+                                                        enhancements.</li>
+                                                    <li>Implemented security best practices and managed version control
+                                                        with Git.</li>
+                                                    <li>Managed AWS file backups, ensuring data security and
+                                                        availability.</li>
+                                                    </ul>
+                                                    </li>
+                                                    </ul>
+                                                    </div>
+                                    <div class="work-experience">
+                                        <ul>
+                                            <li class="experience-list">
+                                                <div class="alert alert-success m-0 py-1">
+                                    <h5>
+                                        <b>
+                                            <span class="text-warning"> Nexoda(BDRen)(Contract)</span>
+                                        </b>
+                                    </h5>
+                                    <p>
+                                        <b>Software Engineer</b>
+                                    </p>
+                                    <p>
+                                        <b>
+                                            Dhaka| March, 2024 - june, 2024
+                                        </b>
+                                    </p>
+                                </div>
+                                <p class="list ms-3">
+                                    Responsibilities:
+                                </p>
+                                <ul>
+                                    <li>
+                                        <a href="https://filesender.bdren.net.bd/en/login">
+                                            File Sharing Software
+                                        </a>
+                                    </li>
+                                    <li>Contributed to software design and planning, ensuring alignment with
+                                        requirements.</li>
+                                    <li>Reported directly to Project Manager and updated project status on Git.</li>
+                                    <li>Promoted best practices in code quality, testing, and maintainability.</li>
+                                    <li>Developed APIs with Laravel for frontend (Next.js) integration.</li>
+                                    <li>Built an admin panel using Laravel, Blade, jQuery, and Bootstrap.</li>
+                                    <li>Worked on the development of a file-sharing platform for improved user
+                                        interaction.</li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="work-experience">
+                        <ul>
+                            <li class="experience-list">
+                                <div class="alert alert-success m-0 py-1">
+                                    <h5>
+                                        <b>
+                                            <span class="text-primary">Smart</span>
+                                            <span class="text-warning">Software Ltd</span>
+                                        </b>
+                                    </h5>
+                                    <p>
+                                        <b>Software Engineer (JR.)</b>
+                                    </p>
+                                    <p>
+                                        <b>Panathapath, Dhaka | Aug 2020 – Mar 2021</b>
+                                    </p>
+                                </div>
+                                <p class="list ms-3">
+                                    Responsibilities:
+                                </p>
+                                <ul>
+                                    <li>Played an integral role in various software development projects, embracing new
+                                        challenges and learning opportunities.</li>
+                                    <li>Collaborated with clients to ensure project alignment, addressing concerns and
+                                        making adjustments to meet expectations.</li>
+                                    <li>Contributed to detailed documentation, supporting the development process with
+                                        clarity and structure.</li>
+                                    <li>Enhanced existing software, implementing performance improvements and error
+                                        corrections.</li>
+                                    <li>Designed and updated eCommerce products using Laravel, balancing creativity and
+                                        functionality.</li>
+                                    <li>Utilized jQuery, Bootstrap, CSS, and HTML to craft seamless front-end
+                                        experiences.</li>
+                                    <li>Leveraged Git for efficient version control, ensuring smooth collaboration
+                                        within the team.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                                                    <div class="col-sm-12">
+                                    <div class="work-experience">
+                                        <ul>
+                                            <li class="experience-list">
+                                                <div class="alert alert-success m-0 py-1">
+                                                    <h5>
+                                                        <b class="text-dark">
+                                                            Freelancing / Outsourcing (Contract)
+                                                        </b>
+                                                    </h5>
+                                                    <p>
+                                                        <b class="text-dark">Software Engineer</b>
+                                                    </p>
+                                                    <p>
+                                                        <b class="text-dark">
+                                                            Home - Dhaka | Jan 2020 - Present
+                                                        </b>
+                                                    </p>
+                                                </div>
+                                                <p class="list ms-3">
+                                                    Responsibilities:
+                                                </p>
+                                                <ul>
+                                                    <li>Designed and developed tailored software solutions to meet
+                                                        client needs and
+                                                        improve efficiency.</li>
+                                                    <li>Managed complex databases, ensuring smooth migrations and
+                                                        optimal data
+                                                        integrity.</li>
+                                                    <li>Communicated directly with clients, providing regular updates
+                                                        and adjusting
+                                                        solutions to align with their goals.</li>
+                                                    <li>Handled version control and deployments via GitHub, ensuring
+                                                        smooth and timely
+                                                        releases.</li>
+                                                    <li>Built effective eCommerce solutions that enhanced user
+                                                        experience and helped
+                                                        clients grow their business.</li>
+                                                    <li>Integrated multiple payment gateways (SSL-Commerz, PayPal,
+                                                        Amar-Pay, Bkash) to
+                                                        support secure transactions.</li>
+                                                    <li>Implemented SMS gateway solutions, improving client
+                                                        communication and service
+                                                        reliability.</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
