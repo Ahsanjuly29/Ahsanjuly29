@@ -10,6 +10,11 @@
     <!-- Bootstrap Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
 
     <style>
         @charset "UTF-8";
@@ -88,7 +93,7 @@
         ::before {
             box-sizing: border-box;
             text-align: left;
-            font-family: 'Calibri' !important;
+            font-family: "Source Sans 3", "Roboto", sans-serif !important;
             letter-spacing: 0.1px;
         }
 
@@ -214,6 +219,7 @@
         h3 {
             font-size: calc(1.25rem);
             font-weight: 600;
+            color: rgb(2 64 8);
         }
 
         @media (min-width:1200px) {
@@ -12769,7 +12775,11 @@
             margin: 0;
             padding: 0;
             background: #ffffff;
-            font-family: 'Calibri' !important;
+            font-family: "Source Sans 3", "Roboto", sans-serif !important;
+            font-optical-sizing: auto;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
             text-transform: capitalize;
             -webkit-text-size-adjust: 100%;
             -ms-text-size-adjust: 100%;
@@ -12930,9 +12940,7 @@
                                 Software Engineer
                             </h3>
                             <p style="margin-bottom: 10px;">
-                                <span style="padding-left: 5px;">
-                                    -
-                                </span>(<span id="job_experience_year"></span>)yrs years of
+                                (<span id="job_experience_year"></span>)yrs years of
                                 experience delivering innovative,
                                 scalable solutions to complex problems
                                 across diverse domains.
@@ -13001,12 +13009,12 @@
                                                         <h5 style="color: #1d247d;">
                                                             <img src="https://ibook.com.my/assets/images/logo-icon.png"
                                                                 width="20px" />
-                                                            <b><span class="text-warning">i</span>book</b>
+                                                            <b>ibook</b>
                                                             <span>(Remote)</span>
                                                         </h5>
                                                     </a>
                                                     <p><b style="color: #1d247d;">Software Engineer</b></p>
-                                                    <p><b style="color: #1d247d;">Malaysia | Jul 2024 - Present</b></p>
+                                                    <p><b style="color: #1d247d;">Malaysia | Jul 2024 - Jul 2025</b></p>
                                                 </div>
                                                 <ul class="ms-3">
                                                     <li>Handled server ops, deployments (SSH).</li>
@@ -13017,24 +13025,24 @@
                                                     <li>Fixed downtime & performance issues.</li>
                                                     <li>Resolved & Developed API integration issues.</li>
                                                 </ul>
-                                                </li>
-                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="work-experience">
+                                        <ul>
+                                            <li class="experience-list">
+                                                <div class="alert alert-success m-0 py-1">
+                                                    <h5><b><span class="text-warning">Nexoda (BDRen)</span></b></h5>
+                                                    <p><b>Software Engineer</b></p>
+                                                    <p><b>Dhaka | Mar 2024 - Jun 2024</b></p>
                                                 </div>
-                                                <div class="work-experience">
-                                                    <ul>
-                                                        <li class="experience-list">
-                                                            <div class="alert alert-success m-0 py-1">
-                                                                <h5><b><span class="text-warning">Nexoda (BDRen)</span></b></h5>
-                                                                <p><b>Software Engineer</b></p>
-                                                                <p><b>Dhaka | Mar 2024 - Jun 2024</b></p>
-                                                            </div>
-                                                            <ul class="ms-3">
-                                                                <li><a href="https://filesender.bdren.net.bd/en/login">File Sharing
-                                                                        Software</a>
-                                                                </li>
-                                                                <li>Planned & developed Laravel APIs and admin panel.</li>
-                                                                <li>Integrated with Next.js; improved UX.</li>
-                                                                <li>Followed Git workflow and coding best practices.</li>
+                                                <ul class="ms-3">
+                                                    <li><a href="https://filesender.bdren.net.bd/en/login">File Sharing
+                                                            Software</a>
+                                                    </li>
+                                                    <li>Planned & developed Laravel APIs and admin panel.</li>
+                                                    <li>Integrated with Next.js; improved UX.</li>
+                                                    <li>Followed Git workflow and coding best practices.</li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -13119,10 +13127,9 @@
                                             </li>
                                         </ul>
                                     </div>
-
                                 </div>
 
-                                <div class="col-sm-12">
+                                <!-- <div class="col-sm-12">
                                     <div class="work-experience">
                                         <ul>
                                             <li class="experience-list">
@@ -13144,8 +13151,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
-
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -13175,10 +13181,8 @@
                             </div>
 
                             <img class="profile-img rounded" src="https://avatars.githubusercontent.com/u/39599664?v=4"
-                                alt="Lights" style="width:100%">
-                            <!-- <img class="profile-img rounded"
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                src="https://media.licdn.com/dms/image/v2/D5603AQHgGkeVbCaf-g/profile-displayphoto-shrink_800_800/B56ZUPRxyLHEAc-/0/1739718073954?e=1745452800&v=beta&t=416IcHnZZtQ0C9cM2OG0V-NNMh6HJ-eVz5O1yDEzlOA"
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                alt="Lights" style="width:100%"> -->
+                                alt="Ahsan Ahmed" style="width:100%; ">
+                            <!-- height: 15%; -->
                             <div class="caption">
                                 <!-- <h3>Software Engineer</h3> -->
                                 <div class="about-me">
@@ -13232,6 +13236,7 @@
                                         <a class="text-lowercase"
                                             href="https://github.com/Ahsanjuly29">github.com/Ahsanjuly29</a>
                                     </p>
+                                    <p></p>
                                 </div>
 
                                 <div class="row">
@@ -13309,8 +13314,6 @@
                 </div>
             </div>
         </div>
-        <hr>
-
     </main>
 
     <footer>
@@ -13332,7 +13335,7 @@
 
     window.onload = function () {
         calculateYearDifference();
-        document.getElementById("save_vcf").click();
+        // document.getElementById("save_vcf").click();
     }
 
     $('#print_cv').click(function () {
