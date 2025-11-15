@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Ahsan Ahmed 👋</h1>
 
 <p align="center">
-  <em>Web Developer | Software Engineer | Problem Solver</em>
+  <em>Full Stack Web Engineer (Laravel Specialist) | Backend Focused Full Stack</em>
 </p>
 
 <p align="center">
@@ -28,130 +28,139 @@
 
 ## 👨‍💻 About Me
 
+I'm a **backend focused full stack engineer** with 5+ years building production grade systems using **Laravel**, **Blade**, **jQuery**, **MySQL**, **Redis**, and cloud platforms. I build scalable SaaS solutions, POS systems, ERP modules, HRM workflows, automation pipelines, and robust API architectures.
 
-👋 Hi! I'm **Ahsan Ahmed**, a software engineer with nearly 4 years of experience developing robust web applications using **Laravel** and modern web technologies. I specialize in building scalable and maintainable solutions for clients worldwide, including expertise in **REST APIs**, **payment gateway integrations**, and **e-commerce solutions**.
+I focus on:
 
-- 💻 **Full-Stack Developer** with expertise in **Laravel**,  and Jquery, AJAX.
-- 🛠️ I specialize in creating **responsive**, **high-performance web apps** with a focus on seamless user experiences.
-- 🔥 I’m always exploring new technologies and pushing the boundaries of what I can create.
+* Backend architecture & high throughput API development
+* Advanced queue systems (Redis, Horizon) and background jobs
+* Cloud deployment & backups (Vultr, AWS, cPanel, Firebase, Google Drive)
+* System optimization, database tuning & debugging
+* Full stack development with Laravel + Blade; learning React/Next.js and MERN stack
 
 ---
 
-
 ### Languages and Tools
+
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge" alt="CSS3">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white&style=for-the-badge" alt="Node.js">
+  <img src="https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white&style=for-the-badge" alt="PHP">
   <img src="https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white&style=for-the-badge" alt="Laravel">
   <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge" alt="MySQL">
-  <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge" alt="MongoDB">
-  <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge" alt="Git">
-  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge" alt="Docker">
+  <img src="https://img.shields.io/badge/Redis-d82c20?logo=redis&logoColor=white&style=for-the-badge" alt="Redis">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" alt="JavaScript">
+  <img src="https://img.shields.io/badge/jQuery-0769ad?logo=jquery&logoColor=white&style=for-the-badge" alt="jQuery">
   <img src="https://img.shields.io/badge/Bootstrap-563D7C?logo=bootstrap&logoColor=white&style=for-the-badge" alt="Bootstrap">
-  <img src="https://img.shields.io/badge/REST_APIs-00ADD8?logo=rest&logoColor=white&style=for-the-badge" alt="REST APIs">
+  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge" alt="Docker">
+  <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge" alt="Git">
+  <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white&style=for-the-badge" alt="AWS">
+  <img src="https://img.shields.io/badge/Vultr-2D9CDB?logo=vultr&logoColor=white&style=for-the-badge" alt="Vultr">
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black&style=for-the-badge" alt="Firebase">
 </p>
 
 ---
 
 ## 🔧 Skills & Expertise
 
-# Skills & Expertise
+### Backend & Architecture
 
-## 🔧 Skills & Expertise
+* Laravel (Advanced), Eloquent ORM, Jobs & Events, Queue workers (Redis + Horizon)
+* REST APIs, API Authentication (Sanctum/Passport), Rate limiting, Throttling
+* MySQL performance tuning: indexing, query profiling, schema design
+* Caching strategies with Redis, cache invalidation patterns
+* Modular architecture & multi tenant design patterns
 
-- **Backend**: PHP (Laravel, SOLID principles), RESTful APIs, MySQL, Firebase | **Frontend**: HTML5, CSS3, Bootstrap, TailwindCSS, JavaScript (jQuery, AJAX, Parsley.js, Angular)  
-- **DevOps**: Git, C-Panel, Cloud Storage (Google Drive, AWS), Filezilla, FTP | **Tools**: Composer, XAMPP, Terminal (SSH), Web-based software engineering  
-- **Database**: MySQL, Firebase, PostgreSQL, SQL Server, MariaDB | 
-- **RDBMS**: Oracle, MySQL, MSSQL, PostgreSQL | SQL Query Optimization & Performance Tuning  
-- **API Development**: RESTful APIs, Multi-language/Device communication APIs, API-based e-commerce solutions, RESTful API Integration (JSON, XML)  
-- **Server Management**: Server Management & Deployment (AWS, Vultr, Laravel Forge, SSH)  
-- **E-commerce**: Payment gateway integrations (SSLCommerz, Paypal, Bkash), SMS integrations | Performance enhancement of existing systems | User-friendly admin panel development  
-- **Leadership**: Led development of e-commerce solutions, mentored junior engineers, conducted code reviews  
-- **Software Development**: Worked on OTA (Over-The-Air) systems, CMS (Content Management System) software development, maintained existing software  
-- **Agile Development**: Agile Development & Team Collaboration (JIRA, Trello) | **Version Control**: Git (GitHub, Bitbucket)  
-- **Additional**: Laravel Framework (Blade, RESTful APIs, Jetstream, Eloquent ORM, MVC), Linux Platform Basics | Full-Stack Engineering Problem Solving & Performance Tuning  
+### DevOps & Deployment
+
+* Git workflows, CI/CD basics (GitHub Actions / manual pipelines)
+* SSH based deployments, Nginx configuration, Ubuntu server management
+* Cloud platforms: Vultr, AWS, cPanel
+* Backup automation: Google Drive and FTP/FileZilla based pipelines
+* Process supervision: Supervisor / systemd for queue workers
+
+### Frontend & Integrations
+
+* Blade templating, jQuery, AJAX
+* Payment integrations (SSLCommerz, PayPal, bKash)
+* Firebase (Auth, Realtime DB)
+* React & Next.js (learning)
+
+### Leadership & Process
+
+* Code reviews, mentoring junior developers
+* Requirement analysis, documentation, and sprint based delivery (Agile)
+
+---
+
+## 🏆 Key Achievements (Highlights)
+
+* Designed multi tenant architecture and stock/batch ledgers for a Pharmacy POS SaaS
+* Built queue driven reporting pipelines to process 100k+ records reliably
+* Optimized pricing automation for Ibook (Malaysia) → **60% faster processing**
+* Reduced deployment time by **~80%** via Git based release workflow and automation
+* Improved API response times (2–3x) through indexing and query refactor
+* Automated cloud backups and safe transfer using Google Drive + FTP/FileZilla
+* Led small backend teams: code review, mentoring, and technical onboarding
 
 ---
 
 ## 💼 Work Experience
 
-### Software Engineer (Remotely)
--Various platforms
- 
-### Software Engineer - Ibook.com (Remotely)
-- Malaysia
+### **Software Engineer – Ibook (Remote, Malaysia)**
 
-### Software Engineer - Flight Expert 
-- city center, Motejheel, Dhaka
+* Jul 2024 – Jul 2025
+* Optimized hotel pricing engine using Redis queues; automated cron tasks; improved stability.
 
-### Software Engineer - Nexoda - BDREN (Remotely)
-- Navana HR Tower, Bir Uttam Mir Shawkat Sarak, Dhaka
+### **Software Engineer – Nexoda (BDREN)**
 
-### Software Engineer - Roots-Edu
-- Uttara, Dhaka
+* Mar 2024 – Jun 2024
+* Built Laravel APIs for large file transfer platform and integrated with Next.js frontend.
 
-### Software Engineer (Jr.) - Smart Software Ltd
-- pantahpath, Dhaka
+### **Software Engineer – Flight Expert**
 
----
+* Apr 2022 – Dec 2023
+* Developed OTA & CMS modules, maintained backups on AWS, mentored juniors.
 
-## 🎓 Education
+### **Software Engineer – Roots Edu**
 
-- **B.Sc. in Computer Science & Engineering**  
-  Eastern University, Bangladesh
+* Mar 2021 – Aug 2021
+
+### **Software Engineer (Jr.) – Smart Software Ltd**
+
+* Aug 2020 – Mar 2021
 
 ---
 
-## 🏆 Key Projects(Personal Made)
+## 💸 Featured Projects
 
-### [Personal Finance Management System](https://github.com/Ahsanjuly29/PersonalFinanceManagementSystem)
-A Laravel-based finance tool that helps users track daily income, expenses, and investments, along with dynamic financial reports and charts.
+### 🎯 [Task Management System](https://github.com/Ahsanjuly29/TaskMangegementSystem)
 
-[![Repo stars](https://img.shields.io/github/stars/Ahsanjuly29/PersonalFinanceManagementSystem?style=social)](https://github.com/Ahsanjuly29/PersonalFinanceManagementSystem)
+A full featured task management app with role based access control, notifications, and collaboration features.
 
-### [My Notes Easy Solutions](https://github.com/Ahsanjuly29/My-Notes-Easy-Solutions)
-An AJAX-based note-taking system with jQuery examples. It allows easy note management and integrates the GitHub API for note storage.
+* **Tech Stack**: Laravel, MySQL, Bootstrap, JavaScript
+* **Key features**: Task assignment, notifications, roles & permissions
 
-### [CvMaker](https://github.com/Ahsanjuly29/CvMaker-Php)
-A PHP-based tool to create and export professional resumes dynamically with customizable templates and download options.
+### 💸 [Expense Tracker](https://github.com/Ahsanjuly29/ExpenseTracker)
 
-### [Mail PDF Tester](https://github.com/Ahsanjuly29/MailPdfTesterLive)
-An email service built with Laravel for sending emails with or without attached PDFs, including customizable templates.
+Comprehensive finance tool for tracking income, expenses, investments, and automated reminders.
 
----
+* **Tech Stack**: Laravel (Jetstream), MySQL, Tailwind CSS
+* **Key features**: Investment tracking, transaction logs, reports
 
-## 🌱 Currently Learning
+### 💼 [Personal Finance Management System](https://github.com/Ahsanjuly29/PersonalFinanceManagementSystem)
 
-- Laravel 11 & Related
-- Cloud-based architectures (AWS, Digital Ocean)
+A Laravel based finance dashboard for investments, logs, and reporting.
 
----
+### 📄 [CvMaker (PHP)](https://github.com/Ahsanjuly29/CvMaker-Php)
 
-## 🌱 Planning to Learn
+Dynamic resume builder that exports professional CVs.
 
-- react.js for front-end API handling
-- AI to add Laravel enhance backend program
+### ✉️ [Mail PDF Tester (Laravel)](https://github.com/Ahsanjuly29/MailPdfTesterLive)
+
+Email service for sending PDFs with templating support.
 
 ---
 
-## 🏆 Achievements & Certifications
-
-- **Task Management System**  
-  - Built a full-featured Task Management System using **Laravel**, complete with role-based access control, real-time notifications, and task tracking.
-  - [🔗 Check it out](https://github.com/Ahsanjuly29/TaskMangegementSystem)
-
-- **Expense Tracker Application**  
-  - Developed a sophisticated financial tracking application that records daily expenses, tracks investments, and provides automated reminders via email and SMS.
-  - [🔗 Explore the repo](https://github.com/Ahsanjuly29/ExpenseTracker)
-
-- **Certified Full-Stack Developer**  
-  - Achieved certifications in **Full-Stack Web Development** and **Laravel Framework Mastery**.
-
----
-
-## 📊 GitHub Stats
+## 📊 GitHub Stats & Languages
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Ahsanjuly29&show_icons=true&theme=radical" alt="Ahsan Ahmed's GitHub Stats" height="180px"/>
@@ -160,33 +169,38 @@ An email service built with Laravel for sending emails with or without attached 
 
 ---
 
-## 🌟 Featured Projects
+## 🌱 Currently Learning
 
-### 🎯 [Task Management System](https://github.com/Ahsanjuly29/TaskMangegementSystem)
-A complete task management system for team collaboration, real-time task updates, and role-based control.
-
-- **Tech Stack**: Laravel, MySQL, Bootstrap, JavaScript
-- **Key Features**: Task assignment, real-time updates, role-based access control.
+* React.js & Next.js (front end modernizations)
+* Advanced cloud architecture and CI/CD pipelines
+* Go (Golang) basics (planned after MERN)
 
 ---
 
-### 💸 [Expense Tracker](https://github.com/Ahsanjuly29/ExpenseTracker)
-An all-in-one solution for managing personal finances, tracking investments, and automating reminders.
+## 🎓 Education
 
-- **Tech Stack**: Jetstream, PHP, MySQL, Tailwind CSS
-- **Key Features**: CRUD operations, investment tracking, automated notifications.
+**B.Sc. in Computer Science & Engineering**
+Eastern University, Bangladesh
 
 ---
 
-## 🔗 Let's Connect  ## 📞 Contact Information
+## 🏆 Achievements & Certifications
 
-- **📧 Email**: [ahsan.july29@gmail.com](mailto:ahsan.july29@gmail.com)
-- **🔗 LinkedIn**: [Ahsan Ahmed](https://www.linkedin.com/in/ahsanjuly29/)
-- **🌐 GitHub**: [Ahsanjuly29](https://github.com/Ahsanjuly29)
-- **WhatsApp**: [+880-1777-51-9553](https://wa.me/qr/3GD6BU7EVZL3I1)
-- 
+* Built Task Management System with role based access and real time features
+* Developed Expense Tracker and Personal Finance dashboard
+* Completed certifications in Full Stack Web Development and Laravel specialization
+
+---
+
+## 🔗 Let's Connect
+
+* 📧 Email: **[ahsan.july29@gmail.com](mailto:ahsan.july29@gmail.com)**
+* 💼 LinkedIn: [https://www.linkedin.com/in/ahsanjuly29/](https://www.linkedin.com/in/ahsanjuly29/)
+* 🧑‍💻 GitHub: [https://github.com/Ahsanjuly29](https://github.com/Ahsanjuly29)
+* 📱 WhatsApp: +880-1777-51-9553
+
 ---
 
 ## 🤝 Let's Collaborate
 
-I'm always excited to work on new projects, share knowledge, and collaborate with other developers. Feel free to get in touch if you're interested in working together on something awesome!
+I’m open to collaborating on SaaS products, backend systems, automation tools, and anything involving Laravel + cloud + performance engineering.
