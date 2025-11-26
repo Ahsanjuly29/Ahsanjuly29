@@ -197,7 +197,7 @@ Eastern University, Bangladesh
 * 📧 Email: **[ahsan.july29@gmail.com](mailto:ahsan.july29@gmail.com)**
 * 💼 LinkedIn: [https://www.linkedin.com/in/ahsanjuly29/](https://www.linkedin.com/in/ahsanjuly29/)
 * 🧑‍💻 GitHub: [https://github.com/Ahsanjuly29](https://github.com/Ahsanjuly29)
-* 📱 WhatsApp: +880-1777-51-9553
+* 📱 WhatsApp: +880-1674-55-3390
 
 ---
 
