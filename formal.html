@@ -49,7 +49,7 @@
 
         header span,
         a {
-            font-size: 1rem;
+            font-size: 10pt;
         }
 
         .profile-img {
@@ -63,11 +63,12 @@
         .section-title {
             font-weight: 700;
             padding-bottom: 3px;
-            margin-top: 10px;
-            margin-bottom: 12px;
+            margin: 0px;
             text-transform: uppercase;
             letter-spacing: 0.5px;
-            font-size: 0.95rem;
+            font-size: 1rem;
+            text-decoration: underline;
+
         }
 
         .badge-pill {
@@ -82,15 +83,10 @@
             display: inline-block;
         }
 
-        .history-card {
-            margin-bottom: 10px;
-            padding-bottom: 5px;
-        }
-
         .date-tag {
             color: #2563eb;
             font-weight: 700;
-            font-size: 0.75rem;
+            font-size: 0.9rem;
         }
 
         .achievement-list {
@@ -104,8 +100,34 @@
         }
 
         .achievement-group h6 {
-            font-size: 0.85rem;
+            font-size: 0.9rem;
             margin-bottom: 4px;
+        }
+
+        .history-card {
+            padding: 0.5rem 0.75rem;
+            /* smaller padding */
+            margin: 0.25rem 0;
+            /* tighter spacing between cards */
+            border-radius: 0.25rem;
+            font-size: 0.85rem;
+            /* smaller text */
+        }
+
+        .history-card .d-flex {
+            gap: 0.5rem;
+            /* spacing between title and date */
+        }
+
+        .history-card h6 {
+            font-size: 0.85rem;
+            margin-bottom: 0;
+        }
+
+        .history-card p {
+            font-size: 0.75rem;
+            margin-bottom: 0.25rem;
+            color: #6c757d;
         }
 
         .row {
@@ -157,80 +179,39 @@
 
     <div class="cv-container">
         <header class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-3 ps-1">
                 <img src="https://avatars.githubusercontent.com/u/39599664?v=4" alt="Ahsan Ahmed" class="profile-img">
             </div>
             <div class="col-sm-9 ps-3">
                 <h1 class="fw-bold mb-0 h3">AHSAN AHMED</h1>
-                <p class="mb-2 fw-semibold small text-uppercase tracking-wide">Full Stack Web Engineer |
-                    Laravel Expert</p>
+                <p class="mb-2 fw-semibold small text-uppercase tracking-wide">
+                    <u>
+                        Full Stack Web Engineer | Laravel Expert
+                    </u>
+                </p>
                 <div class="d-flex flex-wrap gap-2 small opacity-75 fw-medium">
                     <span>Email: <a href="mailto:ahsan.july29@gmail.com">ahsan.july29@gmail.com</a></span>
                     <span>Phone: <a href="tel:+8801674553390">+880-1674-553390</a></span> <br>
                     <span>Location: <a href="https://goo.gl/maps/...">Dhaka, BD</a></span>
                     <span>Portfolio: <a href="https://github.com/ahsanjuly29">github.com/ahsanjuly29</a></span>
                 </div>
+                <section>
+                    <h2 class="section-title">Education</h2>
+                    <h6 class="fw-bold mb-0 small">BSc in CSE</h6>
+                    <p class="x-small text-muted mb-0">Eastern University | 2014 - 19</p>
+                    <p class="x-small text-muted">Project: Social Media Platform with PHP/MySQL.</p>
+                </section>
             </div>
-            <hr class="my-3">
+            <hr class="my-2">
         </header>
 
         <div class="row g-0">
-            <!-- Left Side: History & Skills -->
-            <div class="col-md-5 border-end pe-3  work-history">
-                <section class="mb-3">
-                    <h2 class="section-title">Work History</h2>
-
-                    <div class="history-card">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="fw-bold mb-0 small">Ibook (Remote)</h6>
-                            <span class="date-tag">2024-25</span>
-                        </div>
-                        <p class="x-small text-muted mb-1">Software Engineer | Malaysia</p>
-                        <div class="mb-0">
-                            <span class="badge-pill">Laravel</span><span class="badge-pill">Redis</span>
-
-                        </div>
-                    </div>
-
-                    <div class="history-card">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="fw-bold mb-0 small">Nexoda (BDRen)</h6>
-                            <span class="date-tag">2024</span>
-                        </div>
-                        <p class="x-small text-muted mb-1">Software Engineer | Dhaka</p>
-                        <div class="mb-0">
-                            <span class="badge-pill">Laravel</span><span class="badge-pill">Next.js</span>
-                        </div>
-                    </div>
-
-                    <div class="history-card">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="fw-bold mb-0 small">Flight Expert</h6>
-                            <span class="date-tag">2022-23</span>
-                        </div>
-                        <p class="x-small text-muted mb-1">Software Engineer | Dhaka</p>
-                        <div class="mb-0">
-                            <span class="badge-pill">Laravel</span><span class="badge-pill">OTA API</span> <span
-                                class="badge-pill">AWS</span>
-                        </div>
-                    </div>
-
-                    <div class="history-card">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="fw-bold mb-0 small">Roots-Edu</h6>
-                            <span class="date-tag">2021</span>
-                        </div>
-                        <p class="x-small text-muted mb-1">Software Engineer | Dhaka</p>
-                        <div class="mb-0">
-                            <span class="badge-pill">PHP</span><span class="badge-pill">RBAC</span>
-                        </div>
-                    </div>
-                </section>
-
+            <div class="col-md-12">
                 <section class="mb-3">
                     <h2 class="section-title">Tech Stack</h2>
                     <div class="d-flex flex-wrap">
-                        <span class="badge-pill">PHP 7.x, - PHP 8.x</span>
+                        <span class="badge-pill">PHP 7.x</span>
+                        <span class="badge-pill">PHP 8.x</span>
                         <span class="badge-pill">Laravel</span>
                         <span class="badge-pill">MySQL / Postgres</span>
                         <span class="badge-pill">Redis / Queues</span>
@@ -240,17 +221,6 @@
                         <span class="badge-pill">Tailwind / JQuery</span>
                     </div>
                 </section>
-
-                <section>
-                    <h2 class="section-title">Education</h2>
-                    <h6 class="fw-bold mb-0 small">BSc in CSE</h6>
-                    <p class="x-small text-muted mb-0">Eastern University | 2014 - 19</p>
-                    <p class="x-small text-muted">Project: Social Media Platform with PHP/MySQL.</p>
-                </section>
-            </div>
-
-            <!-- Right Side: Achievements -->
-            <div class="col-md-7 ps-3">
                 <section>
                     <h2 class="section-title">Technical Achievements</h2>
 
@@ -297,21 +267,95 @@
             </div>
         </div>
 
+        <div class="row g-0">
+            <div class="col-sm-12">
+                <h2 class="section-title">Work Experience</h2>
+            </div>
 
-        <footer class=" p-2 text-center border-top x-small text-muted">
-            Professionally Structured Skill-Based Profile | Ahsan Ahmed
-        </footer>
+            <div class="col-sm-6">
+                <div class="history-card card">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h6 class="fw-bold">Ibook (Remote)</h6>
+                        <span class="date-tag">2024-25</span>
+                    </div>
+                    <p>Software Engineer | Malaysia</p>
+                    <div>
+                        <span class="badge-pill">Laravel</span>
+                        <span class="badge-pill">Redis</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="history-card card">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h6 class="fw-bold">Nexoda (BDRen)</h6>
+                        <span class="date-tag">2024</span>
+                    </div>
+                    <p>Software Engineer | Dhaka</p>
+                    <div>
+                        <span class="badge-pill">Laravel</span>
+                        <span class="badge-pill">Next.js</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="history-card card">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h6 class="fw-bold">Roots-Edu</h6>
+                        <span class="date-tag">2021</span>
+                    </div>
+                    <p>Software Engineer | Dhaka</p>
+                    <div>
+                        <span class="badge-pill">PHP</span>
+                        <span class="badge-pill">RBAC</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="history-card card">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h6 class="fw-bold">Roots-Edu</h6>
+                        <span class="date-tag">2021</span>
+                    </div>
+                    <p>Software Engineer | Dhaka</p>
+                    <div>
+                        <span class="badge-pill">PHP</span>
+                        <span class="badge-pill">RBAC</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="history-card card">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h6 class="fw-bold">Roots-Edu</h6>
+                        <span class="date-tag">2021</span>
+                    </div>
+                    <p>Software Engineer | Dhaka</p>
+                    <div>
+                        <span class="badge-pill">PHP</span>
+                        <span class="badge-pill">RBAC</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 
-    <!-- ATS Only Content (Hidden from display) -->
-    <div class="ats-only">
-        <h2>Skills for ATS Verification</h2>
-        <ul>
-            <li>Backend: Laravel, PHP 7.x, PHP 8.x, Eloquent ORM, MySQL, PostgreSQL, Redis, REST APIs</li>
-            <li>DevOps: AWS EC2, AWS S3, Docker, Nginx, GitHub Actions, CI/CD, Vultr</li>
-            <li>Frontend: Tailwind CSS, JavaScript, JQuery, AJAX, Bootstrap 5, Blade</li>
-            <li>Expertise: System Architecture, API Design, Performance Tuning, Database Indexing, Redis Queues</li>
-        </ul>
+
+    <footer class=" p-2 text-center border-top x-small text-muted">
+        <p> Ahsan Ahmed</p>
+        <!-- ATS Only Content (Hidden from display) -->
+        <div class="ats-only">
+            <h2>Skills for ATS Verification</h2>
+            <ul>
+                <li>Backend: Laravel, PHP 7.x, PHP 8.x, Eloquent ORM, MySQL, PostgreSQL, Redis, REST APIs</li>
+                <li>DevOps: AWS EC2, AWS S3, Docker, Nginx, GitHub Actions, CI/CD, Vultr</li>
+                <li>Frontend: Tailwind CSS, JavaScript, JQuery, AJAX, Bootstrap 5, Blade</li>
+                <li>Expertise: System Architecture, API Design, Performance Tuning, Database Indexing, Redis Queues</li>
+            </ul>
+        </div>
+    </footer>
     </div>
 </body>
 
