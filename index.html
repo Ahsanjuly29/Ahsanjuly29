@@ -153,6 +153,32 @@
             display: inline-block;
             border: none;
         }
+
+        .tech-card {
+            transition: all 0.3s ease;
+            border: 1px solid transparent !important;
+        }
+
+        .tech-card:hover {
+            transform: translateY(-10px);
+            border-color: #2563eb !important;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1) !important;
+        }
+
+        .badge-tech {
+            background: #f1f5f9;
+            color: #475569;
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .tech-card:hover .badge-tech {
+            background: #e0e7ff;
+            color: #2563eb;
+        }
     </style>
 </head>
 
@@ -194,115 +220,6 @@
             </div>
         </div>
     </header>
-
-    <section id="services" class="section-padding">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="heading-style">What I Can Do For You</h2>
-                <p class="text-muted">Professional services to help your business grow and automate tasks.</p>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-cloud-upload-alt"></i></div>
-                        <h4>SaaS Dev</h4>
-                        <p class="text-muted">Build multi-user software that can handle thousands of customers at once.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-city"></i></div>
-                        <h4>ERP Dev</h4>
-                        <p class="text-muted">Custom business tools to automate your daily work and reduce complexity.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-rocket"></i></div>
-                        <h4>Performance Tuning</h4>
-                        <p class="text-muted">I guarantee to make your slow database or API up to 3 times faster.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-network-wired"></i></div>
-                        <h4>Enterprise Tools</h4>
-                        <p class="text-muted">Build custom CRM and POS systems to manage your business easily.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-tachometer-alt"></i></div>
-                        <h4>Optimization</h4>
-                        <p class="text-muted">Speed up slow websites and fix database query issues for better
-                            performance.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-server"></i></div>
-                        <h4>DevOps</h4>
-                        <p class="text-muted">Cloud management (AWS/Vultr) and setup for zero downtime systems.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-code"></i></div>
-                        <h4>Web Dev</h4>
-                        <p class="text-muted">High-quality web applications built with Laravel and React JS.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-mobile-alt"></i></div>
-                        <h4>API Dev</h4>
-                        <p class="text-muted">Fast and secure REST APIs for iOS, Android, and web platforms.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-tools"></i></div>
-                        <h4>Maintenance</h4>
-                        <p class="text-muted">Updating old code and providing technical support for running systems.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-user-shield"></i></div>
-                        <h4>Security</h4>
-                        <p class="text-muted">Finding security holes and protecting your system from hackers.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-database"></i></div>
-                        <h4>Database</h4>
-                        <p class="text-muted">Designing large-scale databases with clean and efficient architecture.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-paint-brush"></i></div>
-                        <h4>UI/UX</h4>
-                        <p class="text-muted">Creating modern and simple designs to make user experience better.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <section class="bg-alternate" id="projects">
         <div class="container">
@@ -393,6 +310,185 @@
 
             <div class="text-center mt-5">
                 <button class="btn btn-outline-primary px-5 py-2 fw-bold" id="loadMore">Load More Projects</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5" style="background-color: #f8fafc; border-bottom: 1px solid #e2e8f0;">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 style="font-weight: 800; color: #0f172a; font-size: 2.5rem;">My Tech Stack</h2>
+                <p style="color: #64748b; font-size: 1.1rem;">Powerful technologies I use to build world-class solutions
+                </p>
+                <div style="width: 80px; height: 5px; background: #2563eb; margin: 20px auto; border-radius: 10px;">
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="tech-card shadow-sm h-100 p-4 bg-white border-0 rounded-4">
+                        <div class="mb-3 text-primary fs-3"><i class="fas fa-laptop-code"></i></div>
+                        <h5 class="fw-bold mb-3">Frontend</h5>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="badge-tech">React.js</span>
+                            <span class="badge-tech">Next.js</span>
+                            <span class="badge-tech">Vue.js</span>
+                            <span class="badge-tech">Tailwind</span>
+                            <span class="badge-tech">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="tech-card shadow-sm h-100 p-4 bg-white border-0 rounded-4">
+                        <div class="mb-3 text-success fs-3"><i class="fas fa-server"></i></div>
+                        <h5 class="fw-bold mb-3">Backend</h5>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="badge-tech">Laravel</span>
+                            <span class="badge-tech">Node.js</span>
+                            <span class="badge-tech">Express</span>
+                            <span class="badge-tech">REST APIs</span>
+                            <span class="badge-tech">Microservices</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="tech-card shadow-sm h-100 p-4 bg-white border-0 rounded-4">
+                        <div class="mb-3 text-warning fs-3"><i class="fas fa-database"></i></div>
+                        <h5 class="fw-bold mb-3">Database</h5>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="badge-tech">PostgreSQL</span>
+                            <span class="badge-tech">MySQL</span>
+                            <span class="badge-tech">MongoDB</span>
+                            <span class="badge-tech">Redis</span>
+                            <span class="badge-tech">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="tech-card shadow-sm h-100 p-4 bg-white border-0 rounded-4">
+                        <div class="mb-3 text-info fs-3"><i class="fas fa-cloud-upload-alt"></i></div>
+                        <h5 class="fw-bold mb-3">Cloud/Ops</h5>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="badge-tech">AWS</span>
+                            <span class="badge-tech">Docker</span>
+                            <span class="badge-tech">NGINX</span>
+                            <span class="badge-tech">CI/CD</span>
+                            <span class="badge-tech">SSL Security</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="heading-style">What I Can Do For You</h2>
+                <p class="text-muted">Professional services to help your business grow and automate tasks.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card">
+                        <div class="icon-circle"><i class="fas fa-cloud-upload-alt"></i></div>
+                        <h4>SaaS Dev</h4>
+                        <p class="text-muted">Build multi-user software that can handle thousands of customers at once.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card">
+                        <div class="icon-circle"><i class="fas fa-city"></i></div>
+                        <h4>ERP Dev</h4>
+                        <p class="text-muted">Custom business tools to automate your daily work and reduce complexity.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card">
+                        <div class="icon-circle"><i class="fas fa-rocket"></i></div>
+                        <h4>Performance Tuning</h4>
+                        <p class="text-muted">I guarantee to make your slow database or API up to 3 times faster.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card">
+                        <div class="icon-circle"><i class="fas fa-network-wired"></i></div>
+                        <h4>Enterprise Tools</h4>
+                        <p class="text-muted">Build custom CRM and POS systems to manage your business easily.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card">
+                        <div class="icon-circle"><i class="fas fa-tachometer-alt"></i></div>
+                        <h4>Optimization</h4>
+                        <p class="text-muted">Speed up slow websites and fix database query issues for better
+                            performance.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card">
+                        <div class="icon-circle"><i class="fas fa-server"></i></div>
+                        <h4>DevOps</h4>
+                        <p class="text-muted">Cloud management (AWS/Vultr) and setup for zero downtime systems.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card">
+                        <div class="icon-circle"><i class="fas fa-code"></i></div>
+                        <h4>Web Dev</h4>
+                        <p class="text-muted">High-quality web applications built with Laravel and React JS.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card">
+                        <div class="icon-circle"><i class="fas fa-mobile-alt"></i></div>
+                        <h4>API Dev</h4>
+                        <p class="text-muted">Fast and secure REST APIs for iOS, Android, and web platforms.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card">
+                        <div class="icon-circle"><i class="fas fa-tools"></i></div>
+                        <h4>Maintenance</h4>
+                        <p class="text-muted">Updating old code and providing technical support for running systems.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card">
+                        <div class="icon-circle"><i class="fas fa-user-shield"></i></div>
+                        <h4>Security</h4>
+                        <p class="text-muted">Finding security holes and protecting your system from hackers.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card">
+                        <div class="icon-circle"><i class="fas fa-database"></i></div>
+                        <h4>Database</h4>
+                        <p class="text-muted">Designing large-scale databases with clean and efficient architecture.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card">
+                        <div class="icon-circle"><i class="fas fa-paint-brush"></i></div>
+                        <h4>UI/UX</h4>
+                        <p class="text-muted">Creating modern and simple designs to make user experience better.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
