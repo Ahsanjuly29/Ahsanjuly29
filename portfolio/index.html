@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahsan | Senior Full-Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-light: #ffffff;
+            --bg-alt: #f8fafc;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        /* Section Differentiation */
+        section {
+            padding: 100px 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .bg-alternate {
+            background-color: var(--bg-alt);
+        }
+
+        .heading-style {
+            font-weight: 800;
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: #0f172a;
+        }
+
+        /* Service Cards */
+        .service-card {
+            background: white;
+            border: 1px solid var(--border);
+            padding: 40px;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+            height: 100%;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--primary);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+
+        .icon-circle {
+            width: 70px;
+            height: 70px;
+            background: #eff6ff;
+            color: var(--primary);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            margin-bottom: 25px;
+        }
+
+        /* Portfolio Filter */
+        .filter-btn {
+            background: white;
+            border: 1px solid var(--border);
+            padding: 10px 25px;
+            border-radius: 50px;
+            margin: 5px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .filter-btn.active,
+        .filter-btn:hover {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        .project-card {
+            display: none;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+            margin-bottom: 30px;
+            transition: 0.3s;
+        }
+
+        .project-card.visible {
+            display: block;
+        }
+
+        .project-img-box {
+            height: 220px;
+            background: #f1f5f9;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .project-img-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: 0.5s;
+        }
+
+        .project-card:hover img {
+            transform: scale(1.1);
+        }
+
+        .project-link {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .project-link:hover h5 {
+            color: var(--primary);
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            color: white;
+            border-radius: 30px;
+            padding: 80px 40px;
+            margin: 50px 0;
+        }
+
+        .btn-main {
+            background: var(--primary);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 50px;
+            font-weight: 700;
+            text-decoration: none;
+            display: inline-block;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-white sticky-top border-bottom py-3">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3" href="#">AHSAN<span class="text-primary">.DEV</span></a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navContent">
+                <ul class="navbar-nav ms-auto fw-semibold">
+                    <li class="nav-item"><a class="nav-link px-3" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#projects">Portfolio</a></li>
+                    <li class="nav-item"><a class="btn btn-primary rounded-pill px-4 ms-lg-3" href="#contact">Hire
+                            Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="py-5 text-center bg-alternate">
+        <div class="container py-5">
+            <span class="badge bg-primary-subtle text-primary px-3 py-2 rounded-pill mb-3 fw-bold">Available for New
+                Projects</span>
+            <h1 class="heading-style">Expert Software Engineer & <br><span class="text-primary">Full-Stack
+                    Developer</span></h1>
+            <p class="lead text-muted mx-auto mb-5" style="max-width: 800px;">
+                I build high-performance web applications, scalable software, and secure business systems. With 5+ years
+                of experience, I turn your complex business ideas into easy-to-use digital products.
+            </p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#projects" class="btn btn-dark btn-lg rounded-pill px-5">View My Work</a>
+                <a href="#contact" class="btn btn-primary btn-lg rounded-pill px-5">Get a Quote</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="services">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="heading-style">What I Can Do For You</h2>
+                <p class="text-muted">Professional services to help your business grow and automate tasks.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="icon-circle"><i class="fas fa-cloud"></i></div>
+                        <h4>SaaS Development</h4>
+                        <p class="text-muted">I build Multi-tenant software platforms where you can manage thousands of
+                            users under one system securely.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="icon-circle"><i class="fas fa-chart-line"></i></div>
+                        <h4>ERP & CRM Systems</h4>
+                        <p class="text-muted">Custom automation tools for your business to manage inventory, staff, and
+                            sales in one place.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="icon-circle"><i class="fas fa-rocket"></i></div>
+                        <h4>Performance Tuning</h4>
+                        <p class="text-muted">Is your website slow? I optimize database queries and code to make your
+                            system 3x faster.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="icon-circle"><i class="fas fa-shopping-bag"></i></div>
+                        <h4>E-Commerce Solutions</h4>
+                        <p class="text-muted">Custom online stores with secure payment integration and easy product
+                            management systems.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="icon-circle"><i class="fas fa-shield-alt"></i></div>
+                        <h4>Security Audits</h4>
+                        <p class="text-muted">Protecting your data from hackers. I find security holes and fix them to
+                            keep your business safe.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="icon-circle"><i class="fas fa-mobile-alt"></i></div>
+                        <h4>App Development</h4>
+                        <p class="text-muted">High-quality mobile applications for Android and iOS with a smooth user
+                            experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-alternate" id="projects">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="heading-style">Recent Projects</h2>
+                <p class="text-muted">Click on a project to see detailed case studies.</p>
+            </div>
+
+            <div class="text-center mb-5">
+                <button class="filter-btn active" onclick="filterProjects('all')">All Works</button>
+                <button class="filter-btn" onclick="filterProjects('ecommerce')">E-Commerce</button>
+                <button class="filter-btn" onclick="filterProjects('saas')">SaaS/ERP</button>
+                <button class="filter-btn" onclick="filterProjects('pos')">POS Systems</button>
+            </div>
+
+            <div class="row" id="projectGrid">
+                <div class="col-lg-4 col-md-6 project-card ecommerce visible">
+                    <a href="projects/fashion-store.html" class="project-link">
+                        <div class="project-img-box"><img src="p1.jpg" alt="Project"></div>
+                        <div class="p-4 bg-white border-top">
+                            <h5 class="fw-bold mb-1">Global Fashion Store</h5>
+                            <p class="small text-muted mb-0">Full E-commerce Solution</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 project-card saas visible">
+                    <a href="projects/hrm-pro.html" class="project-link">
+                        <div class="project-img-box"><img src="p2.jpg" alt="Project"></div>
+                        <div class="p-4 bg-white border-top">
+                            <h5 class="fw-bold mb-1">HRM Enterprise</h5>
+                            <p class="small text-muted mb-0">Custom SaaS Platform</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 project-card pos visible">
+                    <a href="projects/pharmacy-pos.html" class="project-link">
+                        <div class="project-img-box"><img src="p3.jpg" alt="Project"></div>
+                        <div class="p-4 bg-white border-top">
+                            <h5 class="fw-bold mb-1">Pharmacy POS</h5>
+                            <p class="small text-muted mb-0">Inventory & Sales System</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 project-card ecommerce">
+                    <a href="projects/grocery.html" class="project-link">
+                        <div class="project-img-box"><img src="p4.jpg" alt="Project"></div>
+                        <div class="p-4 bg-white border-top">
+                            <h5>Grocery App</h5>
+                            <p class="small text-muted">Mobile E-commerce</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 project-card saas">
+                    <a href="projects/lms.html" class="project-link">
+                        <div class="project-img-box"><img src="p5.jpg" alt="Project"></div>
+                        <div class="p-4 bg-white border-top">
+                            <h5>LMS Portal</h5>
+                            <p class="small text-muted">Education SaaS</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 project-card pos">
+                    <a href="projects/restro.html" class="project-link">
+                        <div class="project-img-box"><img src="p6.jpg" alt="Project"></div>
+                        <div class="p-4 bg-white border-top">
+                            <h5>Restro POS</h5>
+                            <p class="small text-muted">Food Order System</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <button class="btn btn-outline-primary px-5 py-2 fw-bold" id="loadMore">Load More Projects</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="container text-center" id="contact">
+        <div class="cta-section">
+            <h2 class="display-5 fw-bold mb-4">Let's Discuss Your Project</h2>
+            <p class="lead mb-5 opacity-75">I am available for long-term partnerships and fixed-price projects.
+                <br>Please send me a message in the inbox to get started.</p>
+            <button class="btn btn-light btn-lg rounded-pill px-5 fw-bold text-primary"
+                onclick="alert('Please contact me through the marketplace inbox!')">
+                <i class="fas fa-paper-plane me-2"></i> Hire Me Now
+            </button>
+        </div>
+    </div>
+
+    <footer class="text-center py-5">
+        <div class="container">
+            <p class="mb-0">© 2026 Ahsan - Professional Software Engineer. Built for Performance. ✨</p>
+        </div>
+    </footer>
+
+    <script>
+        // Project Filter
+        function filterProjects(category) {
+            const cards = document.querySelectorAll('.project-card');
+            const btns = document.querySelectorAll('.filter-btn');
+
+            btns.forEach(b => b.classList.remove('active'));
+            event.target.classList.add('active');
+
+            let count = 0;
+            cards.forEach(card => {
+                card.classList.remove('visible');
+                if ((category === 'all' || card.classList.contains(category)) && count < 6) {
+                    card.classList.add('visible');
+                    count++;
+                }
+            });
+        }
+
+        // Load More Logic
+        document.getElementById('loadMore').addEventListener('click', function () {
+            const hidden = document.querySelectorAll('.project-card:not(.visible)');
+            hidden.forEach((card, index) => {
+                if (index < 3) card.classList.add('visible');
+            });
+            if (document.querySelectorAll('.project-card:not(.visible)').length === 0) this.style.display = 'none';
+        });
+    </script>
+</body>
+
+</html>
