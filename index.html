@@ -27,14 +27,24 @@
             line-height: 1.6;
         }
 
+        .container {
+            max-width: 1300px;
+        }
+
         /* Section Differentiation */
         section {
-            padding: 100px 0;
+            padding: 50px 0;
             border-bottom: 1px solid var(--border);
         }
 
         .bg-alternate {
             background-color: var(--bg-alt);
+        }
+
+        .h4,
+        h4 {
+            font-size: calc(0.9rem + .3vw);
+            font-weight: 600;
         }
 
         .heading-style {
@@ -182,7 +192,7 @@
     </style>
 </head>
 
-<body>
+<body class="bg-alternate">
     <nav class="navbar navbar-expand-lg bg-white sticky-top border-bottom py-3">
         <div class="container">
             <a class="navbar-brand fw-bold fs-3" href="#"><span class="text-primary">AHSAN</span></a>
@@ -221,288 +231,298 @@
         </div>
     </header>
 
-    <section class="bg-alternate" id="projects">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="heading-style">Recent Projects</h2>
-                <p class="text-muted">Click on a project to see detailed case studies.</p>
+    <div class="container">
+        <hr>
+        <section class="bg-alternate" id="projects">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="heading-style">Recent Projects</h2>
+                    <p class="text-muted">Click on a project to see detailed case studies.</p>
+                </div>
+
+                <div class="text-center mb-5">
+                    <button class="filter-btn active" onclick="filterProjects('all')">All Works</button>
+                    <button class="filter-btn" onclick="filterProjects('ecommerce')">E-Commerce</button>
+                    <button class="filter-btn" onclick="filterProjects('saas')">SaaS/ERP</button>
+                    <button class="filter-btn" onclick="filterProjects('pos')">POS Systems</button>
+                </div>
+
+                <div class="row" id="projectGrid">
+                    <div class="col-lg-4 col-md-6 project-card ecommerce visible">
+                        <div class="shadow rounded-3 overflow-hidden">
+                            <a href="projects/fashion-store.html" class="project-link">
+                                <div class="project-img-box">
+                                    <img src="https://static.vecteezy.com/system/resources/thumbnails/057/068/323/small/single-fresh-red-strawberry-on-table-green-background-food-fruit-sweet-macro-juicy-plant-image-photo.jpg"
+                                        alt="Project">
+                                </div>
+                                <div class="p-4 bg-white border-top">
+                                    <h5 class="fw-bold mb-1">Global Fashion Store</h5>
+                                    <p class="small text-muted mb-0">Full E-commerce Solution</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 project-card saas visible">
+                        <div class="shadow rounded-3 overflow-hidden">
+
+                            <a href="projects/hrm-pro.html" class="project-link">
+                                <div class="project-img-box"><img src="p2.jpg" alt="Project"></div>
+                                <div class="p-4 bg-white border-top">
+                                    <h5 class="fw-bold mb-1">HRM Enterprise</h5>
+                                    <p class="small text-muted mb-0">Custom SaaS Platform</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 project-card pos visible">
+                        <div class="shadow rounded-3 overflow-hidden">
+                            <a href="projects/pharmacy-pos.html" class="project-link">
+                                <div class="project-img-box"><img src="p3.jpg" alt="Project"></div>
+                                <div class="p-4 bg-white border-top">
+                                    <h5 class="fw-bold mb-1">Pharmacy POS</h5>
+                                    <p class="small text-muted mb-0">Inventory & Sales System</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 project-card ecommerce">
+                        <div class="shadow rounded-3 overflow-hidden">
+                            <a href="projects/grocery.html" class="project-link">
+                                <div class="project-img-box"><img src="p4.jpg" alt="Project"></div>
+                                <div class="p-4 bg-white border-top">
+                                    <h5>Grocery App</h5>
+                                    <p class="small text-muted">Mobile E-commerce</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 project-card saas">
+                        <div class="shadow rounded-3 overflow-hidden">
+                            <a href="projects/lms.html" class="project-link">
+                                <div class="project-img-box"><img src="p5.jpg" alt="Project"></div>
+                                <div class="p-4 bg-white border-top">
+                                    <h5>LMS Portal</h5>
+                                    <p class="small text-muted">Education SaaS</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 project-card pos">
+                        <div class="shadow rounded-3 overflow-hidden">
+                            <a href="projects/restro.html" class="project-link">
+                                <div class="project-img-box"><img src="p6.jpg" alt="Project"></div>
+                                <div class="p-4 bg-white border-top">
+                                    <h5>Restro POS</h5>
+                                    <p class="small text-muted">Food Order System</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-5">
+                    <button class="btn btn-outline-primary px-5 py-2 fw-bold" id="loadMore">Load More Projects</button>
+                </div>
             </div>
+        </section>
 
-            <div class="text-center mb-5">
-                <button class="filter-btn active" onclick="filterProjects('all')">All Works</button>
-                <button class="filter-btn" onclick="filterProjects('ecommerce')">E-Commerce</button>
-                <button class="filter-btn" onclick="filterProjects('saas')">SaaS/ERP</button>
-                <button class="filter-btn" onclick="filterProjects('pos')">POS Systems</button>
-            </div>
+        <section class="py-5" style="background-color: #f8fafc; border-bottom: 1px solid #e2e8f0;">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 style="font-weight: 800; color: #0f172a; font-size: 2.5rem;">My Tech Stack</h2>
+                    <p style="color: #64748b; font-size: 1.1rem;">Powerful technologies I use to build world-class
+                        solutions
+                    </p>
+                    <div style="width: 80px; height: 5px; background: #2563eb; margin: 20px auto; border-radius: 10px;">
+                    </div>
+                </div>
 
-            <div class="row" id="projectGrid">
-                <div class="col-lg-4 col-md-6 project-card ecommerce visible">
-                    <div class="shadow rounded-3 overflow-hidden">
-                        <a href="projects/fashion-store.html" class="project-link">
-                            <div class="project-img-box">
-                                <img src="https://static.vecteezy.com/system/resources/thumbnails/057/068/323/small/single-fresh-red-strawberry-on-table-green-background-food-fruit-sweet-macro-juicy-plant-image-photo.jpg"
-                                    alt="Project">
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="tech-card shadow-sm h-100 p-4 bg-white border-0 rounded-4">
+                            <div class="mb-3 text-primary fs-3"><i class="fas fa-laptop-code"></i></div>
+                            <h5 class="fw-bold mb-3">Frontend</h5>
+                            <div class="d-flex flex-wrap gap-2">
+                                <!-- <span class="badge-tech">React.js</span> -->
+                                <!-- <span class="badge-tech">Next.js</span> -->
+                                <!-- <span class="badge-tech">Vue.js</span> -->
+                                <span class="badge-tech">Livewire</span>
+                                <span class="badge-tech">Tailwind</span>
+                                <span class="badge-tech">Bootstrap</span>
                             </div>
-                            <div class="p-4 bg-white border-top">
-                                <h5 class="fw-bold mb-1">Global Fashion Store</h5>
-                                <p class="small text-muted mb-0">Full E-commerce Solution</p>
-                            </div>
-                        </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 project-card saas visible">
-                    <div class="shadow rounded-3 overflow-hidden">
 
-                        <a href="projects/hrm-pro.html" class="project-link">
-                            <div class="project-img-box"><img src="p2.jpg" alt="Project"></div>
-                            <div class="p-4 bg-white border-top">
-                                <h5 class="fw-bold mb-1">HRM Enterprise</h5>
-                                <p class="small text-muted mb-0">Custom SaaS Platform</p>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="tech-card shadow-sm h-100 p-4 bg-white border-0 rounded-4">
+                            <div class="mb-3 text-success fs-3"><i class="fas fa-server"></i></div>
+                            <h5 class="fw-bold mb-3">Backend</h5>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge-tech">Laravel</span>
+                                <!-- <span class="badge-tech">Node.js</span> -->
+                                <!-- <span class="badge-tech">Express</span> -->
+                                <span class="badge-tech">REST APIs</span>
+                                <span class="badge-tech">Microservices</span>
                             </div>
-                        </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 project-card pos visible">
-                    <div class="shadow rounded-3 overflow-hidden">
-                        <a href="projects/pharmacy-pos.html" class="project-link">
-                            <div class="project-img-box"><img src="p3.jpg" alt="Project"></div>
-                            <div class="p-4 bg-white border-top">
-                                <h5 class="fw-bold mb-1">Pharmacy POS</h5>
-                                <p class="small text-muted mb-0">Inventory & Sales System</p>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="tech-card shadow-sm h-100 p-4 bg-white border-0 rounded-4">
+                            <div class="mb-3 text-warning fs-3"><i class="fas fa-database"></i></div>
+                            <h5 class="fw-bold mb-3">Database</h5>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge-tech">PostgreSQL</span>
+                                <span class="badge-tech">MySQL</span>
+                                <span class="badge-tech">MongoDB</span>
+                                <span class="badge-tech">Redis</span>
+                                <span class="badge-tech">Firebase</span>
                             </div>
-                        </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 project-card ecommerce">
-                    <div class="shadow rounded-3 overflow-hidden">
-                        <a href="projects/grocery.html" class="project-link">
-                            <div class="project-img-box"><img src="p4.jpg" alt="Project"></div>
-                            <div class="p-4 bg-white border-top">
-                                <h5>Grocery App</h5>
-                                <p class="small text-muted">Mobile E-commerce</p>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="tech-card shadow-sm h-100 p-4 bg-white border-0 rounded-4">
+                            <div class="mb-3 text-info fs-3"><i class="fas fa-cloud-upload-alt"></i></div>
+                            <h5 class="fw-bold mb-3">Cloud/Ops</h5>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge-tech">AWS</span>
+                                <span class="badge-tech">Docker</span>
+                                <span class="badge-tech">NGINX</span>
+                                <span class="badge-tech">CI/CD</span>
+                                <span class="badge-tech">SSL Security</span>
                             </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 project-card saas">
-                    <div class="shadow rounded-3 overflow-hidden">
-                        <a href="projects/lms.html" class="project-link">
-                            <div class="project-img-box"><img src="p5.jpg" alt="Project"></div>
-                            <div class="p-4 bg-white border-top">
-                                <h5>LMS Portal</h5>
-                                <p class="small text-muted">Education SaaS</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 project-card pos">
-                    <div class="shadow rounded-3 overflow-hidden">
-                        <a href="projects/restro.html" class="project-link">
-                            <div class="project-img-box"><img src="p6.jpg" alt="Project"></div>
-                            <div class="p-4 bg-white border-top">
-                                <h5>Restro POS</h5>
-                                <p class="small text-muted">Food Order System</p>
-                            </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <div class="text-center mt-5">
-                <button class="btn btn-outline-primary px-5 py-2 fw-bold" id="loadMore">Load More Projects</button>
+        <section id="services" class="section-padding">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="heading-style">What I Can Do For You</h2>
+                    <p class="text-muted">Professional services to help your business grow and automate tasks.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-card">
+                            <div class="icon-circle"><i class="fas fa-cloud-upload-alt"></i></div>
+                            <h4>SaaS Dev</h4>
+                            <p class="text-muted">Build multi-user software that can handle thousands of customers at
+                                once.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-card">
+                            <div class="icon-circle"><i class="fas fa-city"></i></div>
+                            <h4>ERP Dev</h4>
+                            <p class="text-muted">Custom business tools to automate your daily work and reduce
+                                complexity.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-card">
+                            <div class="icon-circle"><i class="fas fa-rocket"></i></div>
+                            <h4>Performance Tuning</h4>
+                            <p class="text-muted">I guarantee to make your slow database or API up to 3 times faster.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-card">
+                            <div class="icon-circle"><i class="fas fa-network-wired"></i></div>
+                            <h4>Enterprise Tools</h4>
+                            <p class="text-muted">Build custom CRM and POS systems to manage your business easily.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-card">
+                            <div class="icon-circle"><i class="fas fa-tachometer-alt"></i></div>
+                            <h4>Optimization</h4>
+                            <p class="text-muted">Speed up slow websites and fix database query issues for better
+                                performance.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-card">
+                            <div class="icon-circle"><i class="fas fa-server"></i></div>
+                            <h4>DevOps</h4>
+                            <p class="text-muted">Cloud management (AWS/Vultr) and setup for zero downtime systems.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-card">
+                            <div class="icon-circle"><i class="fas fa-code"></i></div>
+                            <h4>Web Dev</h4>
+                            <p class="text-muted">High-quality web applications built with Laravel and React JS.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-card">
+                            <div class="icon-circle"><i class="fas fa-mobile-alt"></i></div>
+                            <h4>API Dev</h4>
+                            <p class="text-muted">Fast and secure REST APIs for iOS, Android, and web platforms.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-card">
+                            <div class="icon-circle"><i class="fas fa-tools"></i></div>
+                            <h4>Maintenance</h4>
+                            <p class="text-muted">Updating old code and providing technical support for running systems.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-card">
+                            <div class="icon-circle"><i class="fas fa-user-shield"></i></div>
+                            <h4>Security</h4>
+                            <p class="text-muted">Finding security holes and protecting your system from hackers.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-card">
+                            <div class="icon-circle"><i class="fas fa-database"></i></div>
+                            <h4>Database</h4>
+                            <p class="text-muted">Designing large-scale databases with clean and efficient architecture.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-card">
+                            <div class="icon-circle"><i class="fas fa-paint-brush"></i></div>
+                            <h4>UI/UX</h4>
+                            <p class="text-muted">Creating modern and simple designs to make user experience better.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="py-5" style="background-color: #f8fafc; border-bottom: 1px solid #e2e8f0;">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 style="font-weight: 800; color: #0f172a; font-size: 2.5rem;">My Tech Stack</h2>
-                <p style="color: #64748b; font-size: 1.1rem;">Powerful technologies I use to build world-class solutions
+        <div class="container text-center" id="contact">
+            <div class="cta-section">
+                <h2 class="display-5 fw-bold mb-4">Let's Discuss Your Project</h2>
+                <p class="lead mb-5 opacity-75">I am available for long-term partnerships and fixed-price projects.
+                    <br>Please send me a message in the inbox to get started.
                 </p>
-                <div style="width: 80px; height: 5px; background: #2563eb; margin: 20px auto; border-radius: 10px;">
-                </div>
+                <button class="btn btn-light btn-lg rounded-pill px-5 fw-bold text-primary"
+                    onclick="alert('Please reply to me in the inbox on the same platform where you received this portfolio link.')">
+                    <i class="fas fa-paper-plane me-2"></i> Hire Me Now
+                </button>
             </div>
-
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6">
-                    <div class="tech-card shadow-sm h-100 p-4 bg-white border-0 rounded-4">
-                        <div class="mb-3 text-primary fs-3"><i class="fas fa-laptop-code"></i></div>
-                        <h5 class="fw-bold mb-3">Frontend</h5>
-                        <div class="d-flex flex-wrap gap-2">
-                            <span class="badge-tech">React.js</span>
-                            <span class="badge-tech">Next.js</span>
-                            <span class="badge-tech">Vue.js</span>
-                            <span class="badge-tech">Tailwind</span>
-                            <span class="badge-tech">Bootstrap</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="tech-card shadow-sm h-100 p-4 bg-white border-0 rounded-4">
-                        <div class="mb-3 text-success fs-3"><i class="fas fa-server"></i></div>
-                        <h5 class="fw-bold mb-3">Backend</h5>
-                        <div class="d-flex flex-wrap gap-2">
-                            <span class="badge-tech">Laravel</span>
-                            <span class="badge-tech">Node.js</span>
-                            <span class="badge-tech">Express</span>
-                            <span class="badge-tech">REST APIs</span>
-                            <span class="badge-tech">Microservices</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="tech-card shadow-sm h-100 p-4 bg-white border-0 rounded-4">
-                        <div class="mb-3 text-warning fs-3"><i class="fas fa-database"></i></div>
-                        <h5 class="fw-bold mb-3">Database</h5>
-                        <div class="d-flex flex-wrap gap-2">
-                            <span class="badge-tech">PostgreSQL</span>
-                            <span class="badge-tech">MySQL</span>
-                            <span class="badge-tech">MongoDB</span>
-                            <span class="badge-tech">Redis</span>
-                            <span class="badge-tech">Firebase</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="tech-card shadow-sm h-100 p-4 bg-white border-0 rounded-4">
-                        <div class="mb-3 text-info fs-3"><i class="fas fa-cloud-upload-alt"></i></div>
-                        <h5 class="fw-bold mb-3">Cloud/Ops</h5>
-                        <div class="d-flex flex-wrap gap-2">
-                            <span class="badge-tech">AWS</span>
-                            <span class="badge-tech">Docker</span>
-                            <span class="badge-tech">NGINX</span>
-                            <span class="badge-tech">CI/CD</span>
-                            <span class="badge-tech">SSL Security</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="services" class="section-padding">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="heading-style">What I Can Do For You</h2>
-                <p class="text-muted">Professional services to help your business grow and automate tasks.</p>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-cloud-upload-alt"></i></div>
-                        <h4>SaaS Dev</h4>
-                        <p class="text-muted">Build multi-user software that can handle thousands of customers at once.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-city"></i></div>
-                        <h4>ERP Dev</h4>
-                        <p class="text-muted">Custom business tools to automate your daily work and reduce complexity.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-rocket"></i></div>
-                        <h4>Performance Tuning</h4>
-                        <p class="text-muted">I guarantee to make your slow database or API up to 3 times faster.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-network-wired"></i></div>
-                        <h4>Enterprise Tools</h4>
-                        <p class="text-muted">Build custom CRM and POS systems to manage your business easily.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-tachometer-alt"></i></div>
-                        <h4>Optimization</h4>
-                        <p class="text-muted">Speed up slow websites and fix database query issues for better
-                            performance.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-server"></i></div>
-                        <h4>DevOps</h4>
-                        <p class="text-muted">Cloud management (AWS/Vultr) and setup for zero downtime systems.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-code"></i></div>
-                        <h4>Web Dev</h4>
-                        <p class="text-muted">High-quality web applications built with Laravel and React JS.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-mobile-alt"></i></div>
-                        <h4>API Dev</h4>
-                        <p class="text-muted">Fast and secure REST APIs for iOS, Android, and web platforms.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-tools"></i></div>
-                        <h4>Maintenance</h4>
-                        <p class="text-muted">Updating old code and providing technical support for running systems.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-user-shield"></i></div>
-                        <h4>Security</h4>
-                        <p class="text-muted">Finding security holes and protecting your system from hackers.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-database"></i></div>
-                        <h4>Database</h4>
-                        <p class="text-muted">Designing large-scale databases with clean and efficient architecture.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-paint-brush"></i></div>
-                        <h4>UI/UX</h4>
-                        <p class="text-muted">Creating modern and simple designs to make user experience better.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="container text-center" id="contact">
-        <div class="cta-section">
-            <h2 class="display-5 fw-bold mb-4">Let's Discuss Your Project</h2>
-            <p class="lead mb-5 opacity-75">I am available for long-term partnerships and fixed-price projects.
-                <br>Please send me a message in the inbox to get started.
-            </p>
-            <button class="btn btn-light btn-lg rounded-pill px-5 fw-bold text-primary"
-                onclick="alert('Please reply to me in the inbox on the same platform where you received this portfolio link.')">
-                <i class="fas fa-paper-plane me-2"></i> Hire Me Now
-            </button>
         </div>
     </div>
 
