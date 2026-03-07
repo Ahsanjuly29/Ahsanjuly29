@@ -97,7 +97,6 @@
             background: white;
             border-radius: 15px;
             overflow: hidden;
-            border: 1px solid var(--border);
             margin-bottom: 30px;
             transition: 0.3s;
         }
@@ -127,6 +126,8 @@
         .project-link {
             text-decoration: none;
             color: inherit;
+            /* border: 3px solid var(--border);
+            padding: 10px; */
         }
 
         .project-link:hover h5 {
@@ -156,15 +157,17 @@
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-lg bg-white sticky-top border-bottom py-3">
         <div class="container">
-            <a class="navbar-brand fw-bold fs-3" href="#">AHSAN<span class="text-primary">.DEV</span></a>
+            <a class="navbar-brand fw-bold fs-3" href="#"><span class="text-primary">AHSAN</span></a>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navContent">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navContent">
                 <ul class="navbar-nav ms-auto fw-semibold">
+                    <li class="nav-item mt-2">
+                        <div id="google_translate_element" class="ms-lg-3"></div>
+                    </li>
                     <li class="nav-item"><a class="nav-link px-3" href="#services">Services</a></li>
                     <li class="nav-item"><a class="nav-link px-3" href="#projects">Portfolio</a></li>
                     <li class="nav-item"><a class="btn btn-primary rounded-pill px-4 ms-lg-3"
@@ -192,7 +195,7 @@
         </div>
     </header>
 
-    <section id="services">
+    <section id="services" class="section-padding">
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="heading-style">What I Can Do For You</h2>
@@ -201,50 +204,100 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-cloud"></i></div>
-                        <h4>SaaS Development</h4>
-                        <p class="text-muted">I build Multi-tenant software platforms where you can manage thousands of
-                            users under one system securely.</p>
+                        <div class="icon-circle"><i class="fas fa-cloud-upload-alt"></i></div>
+                        <h4>SaaS Dev</h4>
+                        <p class="text-muted">Build multi-user software that can handle thousands of customers at once.
+                        </p>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-chart-line"></i></div>
-                        <h4>ERP & CRM Systems</h4>
-                        <p class="text-muted">Custom automation tools for your business to manage inventory, staff, and
-                            sales in one place.</p>
+                        <div class="icon-circle"><i class="fas fa-city"></i></div>
+                        <h4>ERP Dev</h4>
+                        <p class="text-muted">Custom business tools to automate your daily work and reduce complexity.
+                        </p>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card">
                         <div class="icon-circle"><i class="fas fa-rocket"></i></div>
                         <h4>Performance Tuning</h4>
-                        <p class="text-muted">Is your website slow? I optimize database queries and code to make your
-                            system 3x faster.</p>
+                        <p class="text-muted">I guarantee to make your slow database or API up to 3 times faster.</p>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-shopping-bag"></i></div>
-                        <h4>E-Commerce Solutions</h4>
-                        <p class="text-muted">Custom online stores with secure payment integration and easy product
-                            management systems.</p>
+                        <div class="icon-circle"><i class="fas fa-network-wired"></i></div>
+                        <h4>Enterprise Tools</h4>
+                        <p class="text-muted">Build custom CRM and POS systems to manage your business easily.</p>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card">
-                        <div class="icon-circle"><i class="fas fa-shield-alt"></i></div>
-                        <h4>Security Audits</h4>
-                        <p class="text-muted">Protecting your data from hackers. I find security holes and fix them to
-                            keep your business safe.</p>
+                        <div class="icon-circle"><i class="fas fa-tachometer-alt"></i></div>
+                        <h4>Optimization</h4>
+                        <p class="text-muted">Speed up slow websites and fix database query issues for better
+                            performance.</p>
                     </div>
                 </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="icon-circle"><i class="fas fa-server"></i></div>
+                        <h4>DevOps</h4>
+                        <p class="text-muted">Cloud management (AWS/Vultr) and setup for zero downtime systems.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="icon-circle"><i class="fas fa-code"></i></div>
+                        <h4>Web Dev</h4>
+                        <p class="text-muted">High-quality web applications built with Laravel and React JS.</p>
+                    </div>
+                </div>
+
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card">
                         <div class="icon-circle"><i class="fas fa-mobile-alt"></i></div>
-                        <h4>App Development</h4>
-                        <p class="text-muted">High-quality mobile applications for Android and iOS with a smooth user
-                            experience.</p>
+                        <h4>API Dev</h4>
+                        <p class="text-muted">Fast and secure REST APIs for iOS, Android, and web platforms.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="icon-circle"><i class="fas fa-tools"></i></div>
+                        <h4>Maintenance</h4>
+                        <p class="text-muted">Updating old code and providing technical support for running systems.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="icon-circle"><i class="fas fa-user-shield"></i></div>
+                        <h4>Security</h4>
+                        <p class="text-muted">Finding security holes and protecting your system from hackers.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="icon-circle"><i class="fas fa-database"></i></div>
+                        <h4>Database</h4>
+                        <p class="text-muted">Designing large-scale databases with clean and efficient architecture.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="icon-circle"><i class="fas fa-paint-brush"></i></div>
+                        <h4>UI/UX</h4>
+                        <p class="text-muted">Creating modern and simple designs to make user experience better.</p>
                     </div>
                 </div>
             </div>
@@ -267,58 +320,74 @@
 
             <div class="row" id="projectGrid">
                 <div class="col-lg-4 col-md-6 project-card ecommerce visible">
-                    <a href="projects/fashion-store.html" class="project-link">
-                        <div class="project-img-box"><img src="p1.jpg" alt="Project"></div>
-                        <div class="p-4 bg-white border-top">
-                            <h5 class="fw-bold mb-1">Global Fashion Store</h5>
-                            <p class="small text-muted mb-0">Full E-commerce Solution</p>
-                        </div>
-                    </a>
+                    <div class="shadow rounded-3 overflow-hidden">
+                        <a href="projects/fashion-store.html" class="project-link">
+                            <div class="project-img-box">
+                                <img src="https://static.vecteezy.com/system/resources/thumbnails/057/068/323/small/single-fresh-red-strawberry-on-table-green-background-food-fruit-sweet-macro-juicy-plant-image-photo.jpg"
+                                    alt="Project">
+                            </div>
+                            <div class="p-4 bg-white border-top">
+                                <h5 class="fw-bold mb-1">Global Fashion Store</h5>
+                                <p class="small text-muted mb-0">Full E-commerce Solution</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-6 project-card saas visible">
-                    <a href="projects/hrm-pro.html" class="project-link">
-                        <div class="project-img-box"><img src="p2.jpg" alt="Project"></div>
-                        <div class="p-4 bg-white border-top">
-                            <h5 class="fw-bold mb-1">HRM Enterprise</h5>
-                            <p class="small text-muted mb-0">Custom SaaS Platform</p>
-                        </div>
-                    </a>
+                    <div class="shadow rounded-3 overflow-hidden">
+
+                        <a href="projects/hrm-pro.html" class="project-link">
+                            <div class="project-img-box"><img src="p2.jpg" alt="Project"></div>
+                            <div class="p-4 bg-white border-top">
+                                <h5 class="fw-bold mb-1">HRM Enterprise</h5>
+                                <p class="small text-muted mb-0">Custom SaaS Platform</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-6 project-card pos visible">
-                    <a href="projects/pharmacy-pos.html" class="project-link">
-                        <div class="project-img-box"><img src="p3.jpg" alt="Project"></div>
-                        <div class="p-4 bg-white border-top">
-                            <h5 class="fw-bold mb-1">Pharmacy POS</h5>
-                            <p class="small text-muted mb-0">Inventory & Sales System</p>
-                        </div>
-                    </a>
+                    <div class="shadow rounded-3 overflow-hidden">
+                        <a href="projects/pharmacy-pos.html" class="project-link">
+                            <div class="project-img-box"><img src="p3.jpg" alt="Project"></div>
+                            <div class="p-4 bg-white border-top">
+                                <h5 class="fw-bold mb-1">Pharmacy POS</h5>
+                                <p class="small text-muted mb-0">Inventory & Sales System</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-6 project-card ecommerce">
-                    <a href="projects/grocery.html" class="project-link">
-                        <div class="project-img-box"><img src="p4.jpg" alt="Project"></div>
-                        <div class="p-4 bg-white border-top">
-                            <h5>Grocery App</h5>
-                            <p class="small text-muted">Mobile E-commerce</p>
-                        </div>
-                    </a>
+                    <div class="shadow rounded-3 overflow-hidden">
+                        <a href="projects/grocery.html" class="project-link">
+                            <div class="project-img-box"><img src="p4.jpg" alt="Project"></div>
+                            <div class="p-4 bg-white border-top">
+                                <h5>Grocery App</h5>
+                                <p class="small text-muted">Mobile E-commerce</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-6 project-card saas">
-                    <a href="projects/lms.html" class="project-link">
-                        <div class="project-img-box"><img src="p5.jpg" alt="Project"></div>
-                        <div class="p-4 bg-white border-top">
-                            <h5>LMS Portal</h5>
-                            <p class="small text-muted">Education SaaS</p>
-                        </div>
-                    </a>
+                    <div class="shadow rounded-3 overflow-hidden">
+                        <a href="projects/lms.html" class="project-link">
+                            <div class="project-img-box"><img src="p5.jpg" alt="Project"></div>
+                            <div class="p-4 bg-white border-top">
+                                <h5>LMS Portal</h5>
+                                <p class="small text-muted">Education SaaS</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-6 project-card pos">
-                    <a href="projects/restro.html" class="project-link">
-                        <div class="project-img-box"><img src="p6.jpg" alt="Project"></div>
-                        <div class="p-4 bg-white border-top">
-                            <h5>Restro POS</h5>
-                            <p class="small text-muted">Food Order System</p>
-                        </div>
-                    </a>
+                    <div class="shadow rounded-3 overflow-hidden">
+                        <a href="projects/restro.html" class="project-link">
+                            <div class="project-img-box"><img src="p6.jpg" alt="Project"></div>
+                            <div class="p-4 bg-white border-top">
+                                <h5>Restro POS</h5>
+                                <p class="small text-muted">Food Order System</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -348,33 +417,94 @@
     </footer>
 
     <script>
-        // Project Filter
-        function filterProjects(category) {
+        // Project Filter Function
+        function filterProjects(category, event) {
             const cards = document.querySelectorAll('.project-card');
             const btns = document.querySelectorAll('.filter-btn');
+            const loadMoreBtn = document.getElementById('loadMore');
 
+            // Handle Active Button State
             btns.forEach(b => b.classList.remove('active'));
-            event.target.classList.add('active');
+            if (event) {
+                event.currentTarget.classList.add('active');
+            } else {
+                // Initial load protection
+                document.querySelector('.filter-btn[onclick*="all"]').classList.add('active');
+            }
 
-            let count = 0;
+            let visibleInThisCategory = 0;
+            let totalInThisCategory = 0;
+
             cards.forEach(card => {
                 card.classList.remove('visible');
-                if ((category === 'all' || card.classList.contains(category)) && count < 6) {
-                    card.classList.add('visible');
-                    count++;
+                card.style.display = 'none';
+
+                if (category === 'all' || card.classList.contains(category)) {
+                    totalInThisCategory++;
+                    // Show only first 3 initially
+                    if (visibleInThisCategory < 3) {
+                        card.classList.add('visible');
+                        card.style.display = 'block';
+                        visibleInThisCategory++;
+                    }
                 }
             });
+
+            // Hide/Show Load More button based on count
+            if (totalInThisCategory <= 3) {
+                loadMoreBtn.style.setProperty('display', 'none', 'important');
+            } else {
+                loadMoreBtn.style.setProperty('display', 'inline-block', 'important');
+            }
         }
 
         // Load More Logic
         document.getElementById('loadMore').addEventListener('click', function () {
-            const hidden = document.querySelectorAll('.project-card:not(.visible)');
-            hidden.forEach((card, index) => {
-                if (index < 3) card.classList.add('visible');
+            const activeBtn = document.querySelector('.filter-btn.active');
+            // Extract category from onclick attribute safely
+            const onclickAttr = activeBtn.getAttribute('onclick');
+            const category = onclickAttr.match(/'([^']+)'/)[1];
+
+            const cards = document.querySelectorAll('.project-card');
+            let shownCount = 0;
+
+            for (let card of cards) {
+                // Check if card belongs to category and is currently hidden
+                if ((category === 'all' || card.classList.contains(category)) && !card.classList.contains('visible')) {
+                    card.classList.add('visible');
+                    card.style.display = 'block';
+                    shownCount++;
+                    if (shownCount >= 3) break; // Load 3 more at a time
+                }
+            }
+
+            // Check if any hidden cards remain in this category
+            let remains = false;
+            cards.forEach(card => {
+                if ((category === 'all' || card.classList.contains(category)) && !card.classList.contains('visible')) {
+                    remains = true;
+                }
             });
-            if (document.querySelectorAll('.project-card:not(.visible)').length === 0) this.style.display = 'none';
+
+            if (!remains) this.style.setProperty('display', 'none', 'important');
         });
+
+        // Run filter on page load
+        window.onload = () => filterProjects('all');
     </script>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'en,bn', // শুধু ইংরেজি এবং বাংলা রাখা হয়েছে
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 
 </html>
