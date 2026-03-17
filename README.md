@@ -22,25 +22,28 @@
 
 ---
 
-<img src="https://avatars.githubusercontent.com/u/39599664?v=4" alt="Ahsan Ahmed's Profile Banner" align="center" width="20%"/>
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/39599664?v=4" alt="Ahsan Ahmed's Profile" width="20%"/>
+</p>
 
 ---
 
 ## 👨‍💻 About Me
 
-I'm a **backend focused full stack engineer** with 5+ years building production grade systems using **Laravel**, **Blade**, **jQuery**, **MySQL**, **Redis**, and cloud platforms. I build scalable SaaS solutions, POS systems, ERP modules, HRM workflows, automation pipelines, and robust API architectures.
+I'm a **backend focused full stack engineer** with 6+ years building production grade systems using **Laravel**, **Blade**, **jQuery**, **MySQL**, **Redis**, and cloud platforms. I build scalable SaaS solutions, POS systems, ERP modules, HRM workflows, automation pipelines, and robust API architectures.
 
 I focus on:
-
-* Backend architecture & high throughput API development
-* Advanced queue systems (Redis, Horizon) and background jobs
-* Cloud deployment & backups (Vultr, AWS, cPanel, Firebase, Google Drive)
-* System optimization, database tuning & debugging
-* Full stack development with Laravel + Blade; learning React/Next.js and MERN stack
+* **Backend Architecture** & high throughput API development.
+* **Advanced Queue Systems** (Redis, Horizon) and background jobs.
+* **Cloud Deployment & Backups** (Vultr, AWS, cPanel, Firebase, Google Drive).
+* **System Optimization**, database tuning & debugging.
+* **Full Stack Development** with Laravel + Blade; learning React/Next.js and MERN stack.
 
 ---
 
 ### Languages and Tools
+
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white&style=for-the-badge" alt="PHP">
@@ -62,145 +65,79 @@ I focus on:
 ## 🔧 Skills & Expertise
 
 ### Backend & Architecture
-
-* Laravel (Advanced), Eloquent ORM, Jobs & Events, Queue workers (Redis + Horizon)
-* REST APIs, API Authentication (Sanctum/Passport), Rate limiting, Throttling
-* MySQL performance tuning: indexing, query profiling, schema design
-* Caching strategies with Redis, cache invalidation patterns
-* Modular architecture & multi tenant design patterns
+* Laravel (Advanced), Eloquent ORM, Jobs & Events, Queue workers (Redis + Horizon).
+* REST APIs, API Authentication (Sanctum/Passport), Rate limiting, Throttling.
+* MySQL performance tuning: indexing, query profiling, schema design.
+* Caching strategies with Redis, cache invalidation patterns.
+* Modular architecture & multi tenant design patterns.
 
 ### DevOps & Deployment
-
-* Git workflows, CI/CD basics (GitHub Actions / manual pipelines)
-* SSH based deployments, Nginx configuration, Ubuntu server management
-* Cloud platforms: Vultr, AWS, cPanel
-* Backup automation: Google Drive and FTP/FileZilla based pipelines
-* Process supervision: Supervisor / systemd for queue workers
+* Git workflows, CI/CD basics (GitHub Actions / manual pipelines).
+* SSH based deployments, Nginx configuration, Ubuntu server management.
+* Cloud platforms: **Vultr, AWS, cPanel**.
+* **Backup automation:** Google Drive and FTP/FileZilla based pipelines.
+* Process supervision: Supervisor / systemd for queue workers.
 
 ### Frontend & Integrations
-
-* Blade templating, jQuery, AJAX
-* Payment integrations (SSLCommerz, PayPal, bKash)
-* Firebase (Auth, Realtime DB)
-* React & Next.js (learning)
+* Blade templating, jQuery, AJAX.
+* **Payment integrations:** SSLCommerz, PayPal, bKash.
+* Firebase (Auth, Realtime DB).
+* React & Next.js (learning).
 
 ### Leadership & Process
-
-* Code reviews, mentoring junior developers
-* Requirement analysis, documentation, and sprint based delivery (Agile)
+* Code reviews, mentoring junior developers.
+* Requirement analysis, documentation, and sprint based delivery (Agile).
 
 ---
 
 ## 🏆 Key Achievements (Highlights)
-
-* Designed multi tenant architecture and stock/batch ledgers for a Pharmacy POS SaaS
-* Built queue driven reporting pipelines to process 100k+ records reliably
-* Optimized pricing automation for Ibook (Malaysia) → **60% faster processing**
-* Reduced deployment time by **~80%** via Git based release workflow and automation
-* Improved API response times (2–3x) through indexing and query refactor
-* Automated cloud backups and safe transfer using Google Drive + FTP/FileZilla
-* Led small backend teams: code review, mentoring, and technical onboarding
+* Designed multi tenant architecture and stock/batch ledgers for a **Pharmacy POS SaaS**.
+* Built queue driven reporting pipelines to process **100k+ records reliably**.
+* Optimized pricing automation for **Ibook (Malaysia)** → **60% faster processing**.
+* Reduced deployment time by **~80%** via Git based workflow and automation.
+* Improved API response times (**2–3x**) through indexing and query refactor.
+* Automated cloud backups and safe transfer using **Google Drive + FTP/FileZilla**.
+* Led small backend teams: code review, mentoring, and technical onboarding.
 
 ---
 
 ## 💼 Work Experience
 
-### **Software Engineer – Ibook (Remote, Malaysia)**
-
-* Jul 2024 – Jul 2025
-* Optimized hotel pricing engine using Redis queues; automated cron tasks; improved stability.
-
-### **Software Engineer – Nexoda (BDREN)**
-
-* Mar 2024 – Jun 2024
-* Built Laravel APIs for large file transfer platform and integrated with Next.js frontend.
-
-### **Software Engineer – Flight Expert**
-
-* Apr 2022 – Dec 2023
-* Developed OTA & CMS modules, maintained backups on AWS, mentored juniors.
-
-### **Software Engineer – Roots Edu**
-
-* Mar 2021 – Aug 2021
-
-### **Software Engineer (Jr.) – Smart Software Ltd**
-
-* Aug 2020 – Mar 2021
+* **Software Engineer – Ibook (Remote, Malaysia)** | *Jul 2024 – Jul 2025*
+* **Software Engineer – Nexoda (BDREN)** | *Mar 2024 – Jun 2024*
+* **Software Engineer – Flight Expert** | *Apr 2022 – Dec 2023*
+* **Software Engineer – Roots Edu** | *Mar 2021 – Aug 2021*
+* **Software Engineer (Jr.) – Smart Software Ltd** | *Aug 2020 – Mar 2021*
 
 ---
 
 ## 💸 Featured Projects
 
-### 🎯 [Task Management System](https://github.com/Ahsanjuly29/TaskMangegementSystem)
-
-A full featured task management app with role based access control, notifications, and collaboration features.
-
-* **Tech Stack**: Laravel, MySQL, Bootstrap, JavaScript
-* **Key features**: Task assignment, notifications, roles & permissions
-
-### 💸 [Expense Tracker](https://github.com/Ahsanjuly29/ExpenseTracker)
-
-Comprehensive finance tool for tracking income, expenses, investments, and automated reminders.
-
-* **Tech Stack**: Laravel (Jetstream), MySQL, Tailwind CSS
-* **Key features**: Investment tracking, transaction logs, reports
-
-### 💼 [Personal Finance Management System](https://github.com/Ahsanjuly29/PersonalFinanceManagementSystem)
-
-A Laravel based finance dashboard for investments, logs, and reporting.
-
-### 📄 [CvMaker (PHP)](https://github.com/Ahsanjuly29/CvMaker-Php)
-
-Dynamic resume builder that exports professional CVs.
-
-### ✉️ [Mail PDF Tester (Laravel)](https://github.com/Ahsanjuly29/MailPdfTesterLive)
-
-Email service for sending PDFs with templating support.
+* 🎯 **[Task Management System](https://github.com/Ahsanjuly29/TaskMangegementSystem)**: RBAC, notifications, collaboration.
+* 💰 **[Expense Tracker](https://github.com/Ahsanjuly29/ExpenseTracker)**: Investment tracking, transaction logs, reports.
+* 💼 **[Personal Finance Management](https://github.com/Ahsanjuly29/PersonalFinanceManagementSystem)**: Laravel-based dashboard for investments.
+* 📄 **[CvMaker (PHP)](https://github.com/Ahsanjuly29/CvMaker-Php)**: Professional resume builder.
+* ✉️ **[Mail PDF Tester](https://github.com/Ahsanjuly29/MailPdfTesterLive)**: Laravel email service for PDF templates.
 
 ---
 
 ## 📊 GitHub Stats & Languages
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Ahsanjuly29&show_icons=true&theme=radical" alt="Ahsan Ahmed's GitHub Stats" height="180px"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahsanjuly29&layout=compact&theme=radical" alt="Top Languages" height="180px"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Ahsanjuly29&show_icons=true&theme=radical" height="180px"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahsanjuly29&layout=compact&theme=radical" height="180px"/>
 </p>
 
 ---
 
-## 🌱 Currently Learning
-
-* React.js & Next.js (front end modernizations)
-* Advanced cloud architecture and CI/CD pipelines
-* Go (Golang) basics (planned after MERN)
-
----
-
-## 🎓 Education
-
-**B.Sc. in Computer Science & Engineering**
-Eastern University, Bangladesh
-
----
-
-## 🏆 Achievements & Certifications
-
-* Built Task Management System with role based access and real time features
-* Developed Expense Tracker and Personal Finance dashboard
-* Completed certifications in Full Stack Web Development and Laravel specialization
+## 🌱 Learning & Education
+* **Currently Learning:** React.js, Next.js, Go (Golang) basics.
+* 🎓 **B.Sc. in Computer Science & Engineering** - Eastern University, Bangladesh.
+* 🏆 Built real-time features and completed certifications in Laravel specialization.
 
 ---
 
 ## 🔗 Let's Connect
-
-* 📧 Email: **[ahsan.july29@gmail.com](mailto:ahsan.july29@gmail.com)**
-* 💼 LinkedIn: [https://www.linkedin.com/in/ahsanjuly29/](https://www.linkedin.com/in/ahsanjuly29/)
-* 🧑‍💻 GitHub: [https://github.com/Ahsanjuly29](https://github.com/Ahsanjuly29)
-* 📱 WhatsApp: +880-1674-55-3390
+📧 **[ahsan.july29@gmail.com](mailto:ahsan.july29@gmail.com)** | 💼 **[LinkedIn](https://www.linkedin.com/in/ahsanjuly29/)** | 📱 **WhatsApp:** +880-1674-55-3390
 
 ---
-
-## 🤝 Let's Collaborate
-
-I’m open to collaborating on SaaS products, backend systems, automation tools, and anything involving Laravel + cloud + performance engineering.
+<p align="center"><em>I’m open to collaborating on SaaS products, backend systems, and performance engineering.</em></p>
