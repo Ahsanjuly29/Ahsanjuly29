@@ -43,6 +43,7 @@
         .main-body {
             background-color: #fff;
             padding-bottom: 50px;
+            font-size: 13.5px;
         }
 
         .col-sm-7,
@@ -50,9 +51,14 @@
             padding: 0px;
         }
 
+        .title {
+            padding: 10px 0px;
+            border-bottom: 1px solid black;
+        }
+
         /* UI Components */
         .title_name {
-            font-size: 35px;
+            font-size: 40px;
             font-weight: 800;
             color: #000;
             margin-bottom: 0;
@@ -62,7 +68,7 @@
         .sub-title {
             color: #1d247d;
             font-weight: 700;
-            font-size: 1.3rem;
+            font-size: 20px;
             margin-top: 5px;
         }
 
@@ -100,7 +106,7 @@
             padding-bottom: 5px;
             margin-top: 25px;
             margin-bottom: 12px;
-            font-size: 1.2rem;
+            font-size: 18px;
             text-transform: uppercase;
         }
 
@@ -120,21 +126,20 @@
         }
 
         .raw-data li {
-            margin-bottom: 8px;
+            margin-bottom: 5px;
             text-align: justify;
         }
 
         .res-tag {
-            color: var(--sig-mute);
             background: var(--sig-lime);
-            font-weight: 700;
+
+            color: #232323;
             font-size: 12px;
             display: block;
-            margin-top: 2px;
-
-            line-height: 22px;
-            letter-spacing: 0.2px;
-            padding: 0 0 0 5px;
+            margin: 0px;
+            line-height: 20px;
+            letter-spacing: 0.3px;
+            padding: 5px;
         }
 
         .tech-badge {
@@ -144,7 +149,7 @@
             padding: 1px 8px;
             margin: 2px 2px 0 0;
             border-radius: 10px;
-            font-size: 12px;
+            font-size: 10px;
             font-weight: 700;
             border: 1px solid #ced4da;
             text-transform: uppercase;
@@ -281,11 +286,17 @@
     <div class="header">
         <div class="row">
             <div class="col-sm-7" style="padding: 0;">
-                <h1 class="title_name">Ahsan Ahmed</h1>
-                <div class="sub-title">Software Engineer | Laravel Expertise</div>
+                <div class="title">
+                    <h1 class="title_name">Ahsan Ahmed</h1>
+                    <div class="sub-title">Full Stack Software Engineer | Laravel Expert</div>
+                </div>
 
                 <div class="summary">
-                    <h3 class="mb-0 mt-2">Career Summary</h3>
+                    <h3 class="mb-0 mt-2">
+                        <u>
+                            Career Summary
+                        </u>
+                    </h3>
                     <p class="summary-text mt-0 pe-3 text-justify">
                         <b>Full-Stack Engineer</b> with over <span class="fw-bold text-dark"
                             id="job_experience_year"></span> years of professional experience, specializing in the
@@ -300,10 +311,9 @@
 
                 <div class="mb-1">
                     <p class="sub-title m-0">
-                        <strong>
-                            <u>
-                                Education:
-                            </u>
+                        <u>
+                            Education:
+                        </u>
                         </strong>
                     </p>
                     <p class="mb-0"><strong>B.Sc. in Computer Science & Engineering</strong> (Graduated 2019)</p>
@@ -379,19 +389,23 @@
         </div>
     </div>
 
+
+
+
     <main class="main-body pt-2">
         <div class="skills">
             <h3 class="m-0">Skills & Expertise</h3>
             <h4>Architecture, Backend & System Design patterns</h4>
             <ul class="raw-data">
                 <li><strong>Laravel & PHP (Advanced):</strong> Breeze, SOLID, Multi-tenant SaaS, MVC and Data Isolation.
-                    <span class="res-tag">Achievement: Designed multi-tenant architecture and stock/batch ledgers for a
+                    <span class="res-tag"><strong><u>Achievement:</u></strong> Designed multi-tenant architecture and
+                        stock/batch ledgers for a
                         Pharmacy POS SaaS, ERP, HRM, E-commerce,.</span>
                 </li>
                 <li><strong>Architecture:</strong> API/Web/Worker separation, Load Balancing, System Design, and
                     Legacy Refactoring.
                     <span class="res-tag">
-                        Achievement:
+                        <strong><u>Achievement:</u></strong>
                         <ol class="achievement-list">
                             <li>
                                 Refactored legacy core modules in OTA platform, improving performance and
@@ -408,7 +422,8 @@
                 <li><strong>Design Patterns:</strong> Expert in <strong>Service-Repository Pattern</strong>, using
                     <strong>Interfaces</strong> for decoupling, <strong>Traits</strong> for code reusability, and
                     <strong>Action Classes</strong> for thin controllers.
-                    <span class="res-tag">Achievement: Implemented modular architecture in Pharmacy POS and ERP systems
+                    <span class="res-tag"><strong><u>Achievement:</u></strong> Implemented modular architecture in
+                        Pharmacy POS and ERP systems
                         to
                         ensure high maintainability.</span>
                 </li>
@@ -418,7 +433,7 @@
                     without
                     downtime.
                     <span class="res-tag">
-                        Achievement:
+                        <strong><u>Achievement:</u></strong>
                         <ol class="achievement-list">
                             <li>Refactored legacy OTA core modules, reducing system latency by 50%(2x faster) and
                                 improving reliability through optimized API-first architecture and service decoupling.
@@ -428,14 +443,16 @@
                 </li>
                 <li><strong>Jobs & Task Automation:</strong> Redis Horizon, Queue Workers, Caching, and Invalidation
                     patterns.
-                    <span class="res-tag">Achievement: Built robust queue-driven pipelines using Redis to handle 100k+
+                    <span class="res-tag"><strong><u>Achievement:</u></strong> Built robust queue-driven pipelines using
+                        Redis to handle 100k+
                         real-time availability updates, ensuring data consistency across external supplier
                         APIs..</span>
                 </li>
                 <li><strong>Rest API & Security:</strong> OAuth (Sanctum/Passport), API Tokens, Rate Limiting,
                     Throttling,
                     and Permissions management.
-                    <span class="res-tag">Achievement: Developed secure, high-performance APIs for a large-scale file
+                    <span class="res-tag"><strong><u>Achievement:</u></strong> Developed secure, high-performance APIs
+                        for a large-scale file
                         transfer platform (BDRen) and resolved critical travel-data synchronization bottlenecks through
                         rate-limiting and payload optimization.</span>
                 </li>
@@ -447,7 +464,7 @@
             <ul class="raw-data">
                 <li><strong>Database Management:</strong> MySQL, PostgreSQL, MariaDB, and SQLite performance tuning.
                     <span class="res-tag">
-                        Achievement:
+                        <strong><u>Achievement:</u></strong>
                         <ol>
                             <li>Enhanced DB performance by 3x through Query Profiling and Indexing strategies,
                                 specifically resolving bottlenecks in complex B2B booking and pricing calculation
@@ -469,12 +486,14 @@
                     Composer.</li>
                 <li><strong>CI/CD & Deployment:</strong> GitHub Actions, Bitbucket, manual/auto pipelines, and SSH
                     deployment automation.
-                    <span class="res-tag">Achievement: Reduced deployment time by ~80% via Git-based release
+                    <span class="res-tag"><strong><u>Achievement:</u></strong> Reduced deployment time by ~80% via
+                        Git-based release
                         workflows.</span>
                 </li>
                 <li><strong>Reliability & Backup:</strong> Supervisor / systemd for queue reliability and automated
                     pipelines (Google Drive, FTP).
-                    <span class="res-tag">Achievement: Automated secure cloud backups and server deployment workflows,
+                    <span class="res-tag"><strong><u>Achievement:</u></strong> Automated secure cloud backups and server
+                        deployment workflows,
                         reducing manual maintenance overhead and ensuring rapid disaster recovery.</span>
                 </li>
             </ul>
@@ -484,13 +503,15 @@
                 <li><strong>Frontend Interactivity:</strong> Blade, Mix/Vite bundling, jQuery, AJAX, Parsley.js,
                     Angular,
                     HTML5/CSS3, Bootstrap.
-                    <span class="res-tag">Achievement: Integrated Next.js frontend with Laravel APIs and built complex
+                    <span class="res-tag"><strong><u>Achievement:</u></strong> Integrated Next.js frontend with Laravel
+                        APIs and built complex
                         SEO-focused pricing UIs.</span>
                 </li>
                 <li><strong>Modern JS Stack:</strong> React & Next.js (Learning process), MERN Stack (Upcoming).</li>
                 <li><strong>Lead & Process:</strong> Agile (JIRA, Trello), Mentoring, Requirement Analysis, and Sprint
                     delivery.
-                    <span class="res-tag">Achievement: Led small backend teams through code review and technical
+                    <span class="res-tag"><strong><u>Achievement:</u></strong> Led small backend teams through code
+                        review and technical
                         onboarding.</span>
                 </li>
             </ul>
@@ -507,8 +528,14 @@
                 <div class="job-info">
                     <div class="job-title">Software Engineer</div>
                     <div class="tech-list">
-                        <span class="t-tag">Laravel</span> <span class="t-tag">Redis Queues</span> <span
-                            class="t-tag">MySQL Profiling</span> <span class="t-tag">SSH Automation</span>
+                        <span class="t-tag">Laravel</span>
+                        <span class="t-tag">Redis caching and Queues</span>
+                        <span class="t-tag">MySQL Profiling</span>
+                        <span class="t-tag">SSH Automation</span>
+                        <span class="t-tag">Ubuntu server setup</span>
+                        <span class="t-tag">systemd, Supervisord, horizon</span>
+                        <span class="t-tag">PG: CHIP, FPX, TNG</span>
+                        <span class="t-tag">Blade Technology</span>
                     </div>
                 </div>
             </div>
@@ -521,8 +548,10 @@
                 <div class="job-info">
                     <div class="job-title">Software Engineer</div>
                     <div class="tech-list">
-                        <span class="t-tag">Next.js</span> <span class="t-tag">File Transfer API</span> <span
-                            class="t-tag">Git Workflow</span>
+                        <span class="t-tag">Sanctum Security</span>
+                        <span class="t-tag">File Transfer API</span>
+                        <span class="t-tag">Git Workflow</span>
+                        <span class="t-tag">Next.js</span>
                     </div>
                 </div>
             </div>
@@ -535,8 +564,14 @@
                 <div class="job-info">
                     <div class="job-title">Software Engineer</div>
                     <div class="tech-list">
-                        <span class="t-tag">OTA Modules</span> <span class="t-tag">AWS S3/EC2</span> <span
-                            class="t-tag">API Optimization</span>
+                        <span class="t-tag">B2C & B2B OTA Modules</span>
+                        <span class="t-tag">B2C BackOffice Software</span>
+                        <span class="t-tag">AWS S3/EC2</span>
+                        <span class="t-tag">API Optimization</span>
+                        <span class="t-tag">Large Data Email & Excel</span>
+                        <span class="t-tag">Ticket booking to Success Pdf</span>
+                        <span class="t-tag">Blade Technology</span>
+                        <span class="t-tag">Next.js</span>
                     </div>
                 </div>
             </div>
@@ -549,8 +584,9 @@
                 <div class="job-info">
                     <div class="job-title">Software Engineer</div>
                     <div class="tech-list">
-                        <span class="t-tag">EdTech API</span> <span class="t-tag">Auth Patterns</span> <span
-                            class="t-tag">Admin Panel</span>
+                        <span class="t-tag">EdTech API</span> 
+                        <span class="t-tag">Auth Patterns</span> 
+                        <span class="t-tag">Admin Panel</span>
                     </div>
                 </div>
             </div>
@@ -563,8 +599,14 @@
                 <div class="job-info">
                     <div class="job-title">Junior Software Engineer</div>
                     <div class="tech-list">
-                        <span class="t-tag">eCommerce</span> <span class="t-tag">jQuery</span> <span
-                            class="t-tag">AJAX</span>
+                        <span class="t-tag">e-Commerce</span> 
+                        <span class="t-tag">Hospital MS</span> 
+                        <span class="t-tag">Clinic MS</span>
+                        <span class="t-tag">POS</span>
+                        <span class="t-tag">Bug find & solve</span>
+                        <span class="t-tag">blade</span> 
+                        <span class="t-tag">jQuery</span> 
+                        <span class="t-tag">AJAX</span>
                     </div>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Ahsan Ahmed 👋</h1>
 
 <p align="center">
-  <em>Full Stack Web Engineer (Laravel Specialist) | Backend Focused Full Stack</em>
+  <em>Full Stack Web Engineer (Laravel Expert)</em>
 </p>
 
 <p align="center">
