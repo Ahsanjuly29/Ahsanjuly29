@@ -4,7 +4,10 @@
   <em>Full Stack Web Engineer (Laravel Expert)</em>
 </p>
 
-<p align="center">
+<p align="center"> 
+<a href="https://ahsanjuly29.github.io/Ahsanjuly29/" download="Ahsan_Ahmed_CV.pdf">
+  <img src="https://img.shields.io/badge/Download-CV-blue?style=for-the-badge&logo=googledrive" alt="Download CV">
+</a>
   <a href="https://github.com/Ahsanjuly29">
     <img src="https://img.shields.io/github/followers/Ahsanjuly29?label=Follow%20Me&style=social" alt="GitHub followers">
   </a>
