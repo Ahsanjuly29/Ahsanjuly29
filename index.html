@@ -4,630 +4,336 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
     <title>Ahsan Ahmed - Senior Software Engineer</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap Icons -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-
-    <style>
-        :root {
-            --sig-green: rgb(0, 100, 10);
-            --sig-lime: #e9f5ea !important;
-            --sig-mute: #5f5f5f !important;
-        }
-
-        body {
-            font-family: "Source Sans 3", sans-serif;
-            font-size: 14px;
-            color: #333;
-            line-height: 1.4;
-            margin: 0px;
-            padding: 0;
-        }
-
-        .header {
-            background-color: #e9f5ea !important;
-            width: 100%;
-            margin: 0;
-            padding: 0px 0px 10px 0px;
-            border-bottom: 2px solid var(--sig-green);
-        }
-
-        .header>.row,
-        .main-body {
-            max-width: 1000px;
-            margin: 0 auto !important;
-            padding: 0 10px;
-        }
-
-        .main-body {
-            background-color: #fff;
-            padding-bottom: 50px;
-            font-size: 13.5px;
-        }
-
-        .col-sm-7,
-        .col-sm-5 {
-            padding: 0px;
-        }
-
-        .title {
-            padding: 10px 0px;
-            border-bottom: 1px solid black;
-        }
-
-        /* UI Components */
-        .title_name {
-            font-size: 40px;
-            font-weight: 800;
-            color: #000;
-            margin-bottom: 0;
-            line-height: 1;
-        }
-
-        .sub-title {
-            color: #1d247d;
-            font-weight: 700;
-            font-size: 20px;
-            margin-top: 5px;
-        }
-
-        .section-right {
-            border-left: 2px dashed #000;
-            padding-left: 15px;
-            margin-top: 25px;
-        }
-
-        .profile-img {
-            width: 145px;
-            height: 165px;
-            object-fit: cover;
-            border-radius: 4px;
-            border: 3px solid var(--sig-green);
-            background: #fff;
-        }
-
-        .caption p {
-            color: var(--sig-green);
-            font-weight: 800;
-            margin: 4px 0px;
-            word-break: break-all;
-        }
-
-        .caption span {
-            font-weight: 400;
-            color: #000;
-        }
-
-        h3 {
-            color: var(--sig-green);
-            font-weight: 800;
-            border-bottom: 2px solid #eee;
-            padding-bottom: 5px;
-            margin-top: 25px;
-            margin-bottom: 12px;
-            font-size: 18px;
-            text-transform: uppercase;
-        }
-
-        h4 {
-            font-weight: 800;
-            color: #1d247d;
-            font-size: 15px;
-            margin-top: 18px;
-            margin-bottom: 8px;
-            text-decoration: underline;
-        }
-
-        .raw-data {
-            list-style: square;
-            padding-left: 20px;
-            margin-bottom: 10px;
-        }
-
-        .raw-data li {
-            margin-bottom: 5px;
-            text-align: justify;
-        }
-
-        .res-tag {
-            background: var(--sig-lime);
-
-            color: #232323;
-            font-size: 12px;
-            display: block;
-            margin: 0px;
-            line-height: 20px;
-            letter-spacing: 0.3px;
-            padding: 5px;
-        }
-
-        .tech-badge {
-            display: inline-block;
-            background: var(--sig-green);
-            color: var(--sig-lime);
-            padding: 1px 8px;
-            margin: 2px 2px 0 0;
-            border-radius: 10px;
-            font-size: 10px;
-            font-weight: 700;
-            border: 1px solid #ced4da;
-            text-transform: uppercase;
-        }
-
-        .btn-action {
-            font-size: 10px;
-            font-weight: 700;
-            padding: 2px 6px;
-            margin-bottom: 5px;
-            border-radius: 3px;
-            text-transform: uppercase;
-            border: none;
-        }
-
-        .btn-contact {
-            background-color: #000;
-            color: #fff;
-        }
-
-        .btn-pdf {
-            background-color: #dc3545;
-            color: #fff;
-        }
-
-        .btn-print {
-            background-color: #198754;
-            color: #fff;
-        }
-
-        .cv-work {
-            font-family: 'Inter', sans-serif;
-            font-size: 13px;
-            color: #333;
-            max-width: 850px;
-            margin-top: 20px;
-        }
-
-        .work-row {
-            display: grid;
-            grid-template-columns: 140px 1fr;
-            gap: 0px;
-            padding: 2px 0;
-            border-bottom: 1px solid #f0f0f0;
-        }
-
-        .work-meta {
-            background: #e9f5ea;
-            padding: 5px;
-            text-align: left;
-        }
-
-        .comp-name {
-            font-weight: 800;
-            color: #1a202c;
-            display: block;
-        }
-
-        .work-date {
-            color: #718096;
-            font-size: 11px;
-            font-weight: 600;
-            text-transform: uppercase;
-        }
-
-        .job-info {
-            border-left: 2px solid #3182ce;
-            padding-left: 15px;
-        }
-
-        .job-title {
-            font-weight: 700;
-            color: #2d3748;
-            margin-bottom: 4px;
-        }
-
-        .tech-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 5px;
-            margin-top: 5px;
-        }
-
-        .t-tag {
-            background: #f1f5f9;
-            color: #475569;
-            padding: 1px 6px;
-            border-radius: 3px;
-            font-size: 11px;
-            font-weight: 600;
-            border: 1px solid #e2e8f0;
-        }
-
-        .section-title {
-            font-size: 16px;
-            font-weight: 800;
-            border-bottom: 2px solid #3182ce;
-            margin-bottom: 10px;
-            padding-bottom: 3px;
-        }
-
-        .summary-text {
-            line-height: 25px;
-            letter-spacing: 0.2px;
-        }
-
-        .achievement-list {
-            padding: 0px 15px 1px 15px;
-        }
-
-        /* PDF and Print Perfection */
-        @media print {
-            * {
-                -webkit-print-color-adjust: exact !important;
-                print-color-adjust: exact !important;
-            }
-
-            @page {
-                margin-bottom: 5px;
-                margin-right: 10px;
-                margin-left: 10px;
-                margin-top: 20px;
-                /* background-color: var(--sig-lime) !important; */
-            }
-
-            .d-print-none {
-                display: none !important;
-            }
-        }
-    </style>
 </head>
 
 <body>
-    <div class="header">
+    <div class="cv-container cv-wrapper">
         <div class="row">
-            <div class="col-sm-7" style="padding: 0;">
-                <div class="title">
-                    <h1 class="title_name">Ahsan Ahmed</h1>
-                    <div class="sub-title">Full Stack Software Engineer | Laravel Expert</div>
-                </div>
-
-                <div class="summary">
-                    <h3 class="mb-0 mt-2">
-                        <u>
-                            Career Summary
-                        </u>
-                    </h3>
-                    <p class="summary-text mt-0 pe-3 text-justify">
-                        <b>Full-Stack Engineer</b> with over <span class="fw-bold text-dark"
-                            id="job_experience_year"></span> years of professional experience, specializing in the
-                        <b>Laravel and PHP ecosystem</b>. Throughout my career at companies like Flight Expert and
-                        iBook, I have focused on developing and maintaining business-critical systems, including ERP,
-                        POS, and high-traffic OTA platforms. My technical background includes <b>optimizing database
-                            performance, managing background tasks with Redis, and refactoring legacy codebases</b> to
-                        enhance system reliability. I am experienced in building scalable APIs and managing cloud
-                        deployments on <b>AWS and Vultr</b>, ensuring clean and maintainable code architecture.
+            <header class="mb-1">
+                <h1 class="display-5  text-uppercase">Ahsan Ahmed</h1>
+                <p class="h5 text-secondary">Senior Software Engineer | Laravel | System Architecture</p>
+                <div class="d-flex flex-wrap gap-2 contact-links">
+                    <strong>Email:</strong>
+                    <p style="text-decoration: none; color: inherit;">
+                        ahsan.july29@gmail.com
+                    </p>
+                    <strong>|</strong>
+                    <p target="_blank" style="text-decoration: none; color: inherit;">
+                        +880-1674-553390
+                    </p>
+                    <strong>| LinkedIn:</strong>
+                    <p target="_blank" style="text-decoration: none; color: inherit;">
+                        linkedin.com/in/ahsanjuly29
+                    </p>
+                    <strong>| GitHub:</strong>
+                    <p target="_blank" style="text-decoration: none; color: inherit;">
+                        github.com/Ahsanjuly29
                     </p>
                 </div>
+            </header>
 
-                <div class="mb-1">
-                    <p class="sub-title m-0">
-                        <u>
-                            Education:
-                        </u>
-                        </strong>
-                    </p>
-                    <p class="mb-0"><strong>B.Sc. in Computer Science & Engineering</strong> (Graduated 2019)</p>
-                    <p class="mb-0 text-muted">
-                        <b>
-                            Eastern University
-                        </b>
-                    </p>
-                    <small class="text-muted d-block">Final Project: Social media management system (PHP, MySQL,
-                        jQuery). Features: Auth, Posts, Reactions & Comments.</small>
-                </div>
-            </div>
+            <section class="mb-1">
+                <h2 class="h6 border-bottom border-2 pb-1 section-title text-uppercase">Career Summary</h2>
+                <p class="text-justify">
+                    <strong>Software Engineer and System Architect since 2020</strong>, focusing on building<strong>
+                        high stakes
+                        business stability</strong> and long term <strong>ROI</strong> over mere syntax. Core expertise
+                    involves engineering high concurrency <strong>Fintech and OTA APIs</strong>, <strong>multi tenant
+                        SaaS architectures</strong>, and reducing 10s query latencies to a <strong>consistent
+                        200ms</strong>. Proficiency includes deploying <strong>self healing, fault tolerant
+                        infrastructures</strong> and automated <strong>zero downtime CI/CD pipelines</strong>. Dedicated
+                    to transforming complex technical debt into <strong> scalable and maintainable systems</strong>,
+                    leveraged resilient, optimized infrastructure to ensure <strong>uncompromising data
+                        integrity</strong> across global platforms.
+                </p>
+            </section>
 
-            <div class="col-sm-5">
-                <div class="section-right">
-                    <div class="d-print-none mb-1">
-                        <a target="_blank" href="contact/ahsan.vcf"
-                            class="btn btn-sm btn-action btn-outline-dark px-1 py-0 d-print-none" id="save_vcf"
-                            style="flex-grow: 1; text-align: center; margin-right: 10px;">
-                            <i class="bi bi-download" style="font-size: 1rem;"></i>
-                            Contact
-                        </a>
 
-                        <a target="_blank"
-                            href="https://drive.google.com/file/d/1GOeo78-z3Aq34nli08a-EZwzh-IJhlvi/view?usp=sharing"
-                            class="btn btn-sm btn-action btn-outline-danger px-1 py-0 d-print-none" id="save_vcf"
-                            style="flex-grow: 1; text-align: center; margin-right: 10px;">
-                            <i class="bi bi-download" style="font-size: 1rem;"></i>
-                            Pdf
-                        </a>
+            <section class="mb-1">
+                <h2 class="h6 border-bottom border-2 pb-1 section-title">Professional Experience</h2>
 
-                        <button class="btn btn-action btn-sm btn-outline-success px-1 py-0 d-print-none" id="print_cv"
-                            style="flex-grow: 1; text-align: center;">
-                            <i class="bi bi-printer" style="font-size: 1rem;"></i>
-                            Print
-                        </button>
+                <div class="job-info mb-3">
+                    <div class="d-flex justify-content-between align-items-baseline">
+                        <h3 class="h6">iBook (Malaysia) (OTA Hotel)</h3>
+                        <span class="text-secondary">Jul 2024 - Jul 2025</span>
                     </div>
-
-                    <img class="profile-img mb-2 shadow-sm" src="https://avatars.githubusercontent.com/u/39599664?v=4"
-                        alt="Ahsan Ahmed">
-
-                    <div class="caption text-start">
-                        <p>Email: <span>ahsan.july29@gmail.com</span></p>
-                        <p>LinkedIn: <span>linkedin.com/in/ahsanjuly29/</span></p>
-                        <p>GitHub: <span>github.com/Ahsanjuly29</span></p>
-                        <p>WhatsApp: <span>+880-1674-553390</span></p>
-                    </div>
-
-                    <div class="mx-0 mt-4">
-                        <h3 class="m-0">
-                            <u>
-                                Language & Tools
-                            </u>
-                        </h3>
-                        <span class="tech-badge">Php</span>
-                        <span class="tech-badge">laravel</span>
-                        <span class="tech-badge">Mysql</span>
-                        <span class="tech-badge">Redis</span>
-                        <span class="tech-badge">Docker</span>
-                        <span class="tech-badge">git</span>
-                        <span class="tech-badge">AWS</span>
-                        <span class="tech-badge">Vultr</span>
-                        <span class="tech-badge">Javascript</span>
-                        <span class="tech-badge">Jquery</span>
-                        <span class="tech-badge">TailwindCSS</span>
-                        <span class="tech-badge">PostgreSQL</span>
-                        <span class="tech-badge">MariaDB</span>
-                        <span class="tech-badge">NGINX</span>
-                        <span class="tech-badge">Firebase</span>
+                    <p class="mb-2 fw-500 text-uppercase">Senior Software Engineer <small>(Backend & DevOps)</small></p>
+                    <div class="ps-3 border-start border-2">
+                        <div class="mb-3">
+                            <p class="mb-1"><strong>Infrastructure Recovery & Scalability:</strong>
+                            </p>
+                            <p class="mb-2 text-muted" style="font-size: 0.9rem;">Architected zero state reconstruction
+                                of the production environment following a catastrophic system failure on Vultr.</p>
+                            <ol class="mb-2">
+                                <li>Engineered a YAMLdriven Infrastructure as Code (IaC) stack utilizing Nginx,
+                                    PHP, and MySQL automation for rapid provisioning.</li>
+                                <li>Transformed manual workflows into a self healing, immutable infrastructure
+                                    protocol, ensuring long term stability and zero environment drift.</li>
+                            </ol>
+                        </div>
+                        <div class="mb-3">
+                            <p class="mb-1"><strong>High Frequency Data Orchestration & Fault Tolerance:</strong></p>
+                            <p class="mb-2 text-muted" style="font-size: 0.9rem;">Orchestrated real time SEO and pricing
+                                data synchronization with Google Ads/Search APIs under high throughput constraints.</p>
+                            <ol class="mb-2">
+                                <li>Developed high performance pipelines via Redis Horizon and Supervisor to process
+                                    1M+ daily syncs without impacting system latency.</li>
+                                <li>Implemented idempotent retry logic and memory threshold management to ensure
+                                    zero downtime and 100% data integrity.</li>
+                            </ol>
+                        </div>
+                        <div class="tech-list">
+                            <p><strong>Responsibilities</strong>-
+                                <span class="t-tag">Distributed Systems</span>,
+                                <span class="t-tag">Infrastructure as Code (IaC)</span>,
+                                <span class="t-tag">Disaster Recovery</span>,
+                                <span class="t-tag">Multilayered Redis</span>,
+                                <span class="t-tag">Fintech PG Orchestration (TNG/FPX/CHIP)</span>,
+                                <span class="t-tag">SEO Infrastructure Automation</span>,
+                                <span class="t-tag">Self Healing Automation</span>
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
+
+                <div class="job-info mb-3">
+                    <div class="d-flex justify-content-between align-items-baseline">
+                        <h3 class="h6">Flight Expert (OTA Flight + Hotel)</h3>
+                        <span class="text-secondary">Apr 2022 - Dec 2023</span>
+                    </div>
+                    <p class="mb-2 text-uppercase fw-500">Software Engineer <small>(System Optimization &
+                            Performance)</small></p>
+                    <div class="ps-3 border-start border-2">
+                        <div class="mb-3">
+                            <p class="mb-1"><strong>Enterprise Sales Reporting Scalability:</strong></p>
+                            <p class="mb-2 text-muted" style="font-size: 0.9rem;">Resolved severe timeout failures in
+                                B2B analytics during complex relational joins across multi million row datasets.</p>
+                            <ol class="mb-2">
+                                <li>Pioneered a Decoupled Reporting Architecture using pre aggregated summary tables
+                                    and denormalized snapshots for rapid data retrieval.</li>
+                                <li>Leveraged Asynchronous Multi process Execution to reduce report generation time
+                                    by 95%, optimizing memory usage for massive datasets.</li>
+                            </ol>
+                        </div>
+                        <div class="mb-3">
+                            <p class="mb-1"><strong>Global Booking Latency Optimization:</strong></p>
+                            <p class="mb-2 text-muted" style="font-size: 0.9rem;">Addressed 10s+ delays in GDS and Hotel
+                                API data synchronization that impacted real time conversion rates.</p>
+                            <ol class="mb-2">
+                                <li>Reduced critical path response delays from 10s to 200ms through advanced
+                                    Composite Indexing and specialized Document Automation engines.</li>
+                                <li>Boosted system throughput by 300% for high traffic flight and hotel booking
+                                    modules.</li>
+                            </ol>
+                        </div>
+                        <div class="tech-list">
+                            <p><strong>Responsibilities</strong>-
+                                <span class="t-tag">GDS/HOTEL API Orchestration</span>,
+                                <span class="t-tag">Query Performance Tuning</span>,
+                                <span class="t-tag">Big Data Analytics</span>,
+                                <span class="t-tag">AWS (EC2/S3)</span>,
+                                <span class="t-tag">Asynchronous Pipelines</span>,
+                                <span class="t-tag">PDF/Excel/Email Automation</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="job-info mb-1">
+                    <div class="d-flex justify-content-between align-items-baseline">
+                        <h3 class="h6 ">Smart Software LTD</h3>
+                        <span class="text-secondary">2020 - 2021</span>
+                    </div>
+                    <div class="mb-2 text-uppercase fw-500">Jr. Software Engineer</div>
+                    <div class="ps-3 border-start border-2">
+                        <ol>
+                            <li><strong>Legacy System Modernization:</strong> Spearheaded the comprehensive refactoring
+                                of high traffic projects using Database Normalization (3NF), improving
+                                responsiveness by 40%.</li>
+                            <li><strong>Enterprise SaaS Engineering:</strong> Architected and engineered core modules
+                                for multi tenant ERP and POS ecosystems focusing on data isolation and transactional
+                                integrity.</li>
+                        </ol>
+                        <div class="tech-list">
+                            <p><strong>Responsibilities</strong>-
+                                <span class="t-tag">Multi tenant ERP</span>,
+                                <span class="t-tag">E commerce Architectures</span>,
+                                <span class="t-tag">Database Normalization</span>,
+                                <span class="t-tag">Firebase/Mobile APIs</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mb-2">
+                <h2 class="h6 border-bottom border-2 pb-1 section-title">Technical Skills
+                </h2>
+                <div class="row">
+                    <div class="project-tags col-sm-5">
+                        <p class="fw-bold border-bottom border-dark">Domains</p>
+                        <div class="d-flex flex-wrap gap-1">
+                            <span class="rounded-pill t-tag">Fintech (Ledgers, Payment Gateways)</span>
+                            <span class="rounded-pill t-tag">HRM (Resource & Capital)</span>
+                            <span class="rounded-pill t-tag">Travel Tech (Flight, Hotel, Bus)</span>
+                            <span class="rounded-pill t-tag">Multi tenant Architecture
+                                SaaS & Logistics (ERP,POS,MS)</span>
+                            <span class="rounded-pill t-tag">Ed Tech</span>
+                            <span class="rounded-pill t-tag">Multi vendor E Commerce</span>
+                        </div>
+                    </div>
+                    <div class="project-tags col-sm-4">
+                        <p class="fw-bold  border-bottom border-dark">Backend & Database</p>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="rounded-pill t-tag">PHP, Laravel</span>
+                            <span class="rounded-pill t-tag">REST API Development</span>
+                            <span class="rounded-pill t-tag">Redis, Queue Systems (Laravel Horizon)</span>
+                            <span class="rounded-pill t-tag">Unit Testing & SOLID Principles</span>
+                            <span class="rounded-pill t-tag">MySQL</span>
+                            <span class="rounded-pill t-tag">Redis</span>
+                            <span class="rounded-pill t-tag">PostgreSQL</span>
+                            <span class="rounded-pill t-tag">Firebase</span>
+                            <span class="rounded-pill t-tag">MongoDB</span>
+                            <span class="rounded-pill t-tag">HTML, CSS, Bootstrap, jQuery, AJAX, MIX, VITE</span>
+                        </div>
+                    </div>
+
+                    <div class="project-tags col-sm-3">
+                        <p class="fw-bold border-bottom border-dark">Infrastructure & DevOps</p>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="t-tag rounded-pill">AWS</span>
+                            <span class="t-tag rounded-pill">Oracle Cloud</span>
+                            <span class="t-tag rounded-pill">Vultr</span>
+                            <span class="t-tag rounded-pill">Docker</span>
+                            <span class="t-tag rounded-pill">Nginx</span>
+                            <span class="t-tag rounded-pill">GitHub Actions (CI/CD)</span>
+                            <span class="t-tag rounded-pill">CPanel/Shared Hosting</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mb-1">
+                <h6 class="border-bottom border-2 pb-1 section-title">CORE COMPETENCIES & ARCHITECTURE
+                </h6>
+                <div class="row">
+                    <div class="col-sm-6 pe-lg-4">
+                        <div class="mb-1">
+                            <p class="mb-2"><strong>1. Modular Hexagonal Governance & Debt Mitigation:</strong>
+                                Architecting Hexagonal (Ports & Adapters) and DDD systems using Interface driven DI
+                                and Single Action Classes; enforcing SOLID decoupling to <strong>slash
+                                    maintenance debt by 40%</strong> and ensure framework agnostic, future proof
+                                scalability.</p>
+                        </div>
+
+                        <div class="mb-1">
+                            <p class="mb-2"><strong>2. Contract Driven Resilience & Integration Strategy:</strong>
+                                Utilizing Interface Segregation and Service Repository orchestration to build fully
+                                testable systems; enabling <strong>seamless third party swaps</strong> in complex
+                                B2B ecosystems without breaking core business logic.</p>
+                        </div>
+
+                        <div class="mb-1">
+                            <p class="mb-2"><strong>3. Advanced Pattern Engineering & Flexibility:</strong>
+                                Implementing Creational and Behavioral patterns (Strategy, Factory, Observer,
+                                Decorator) to eliminate hardcoded conditionals; <strong>maximizing codebase
+                                    extensibility</strong> and accelerating feature delivery cycles for multi tenant
+                                SaaS.</p>
+                        </div>
+
+                        <div class="mb-1">
+                            <p class="mb-2"><strong>4. High Concurrency Data Architecture & Throughput:</strong>
+                                Mastering Strategic Denormalization, Read/Write Splitting, and Database Sharding
+                                with ACID compliance; leveraging EXPLAIN driven indexing and Atomic Transactions to
+                                <strong>boost B2B transaction throughput by 3x</strong>.
+                            </p>
+                        </div>
+
+                        <div class="mb-1">
+                            <p class="mb-2"><strong>5. Multi Tiered Performance & Cost Optimization:</strong>
+                                Orchestrating multi layer Distributed Redis Tags, Cache Aside, and Edge Caching
+                                patterns; <strong>slashing critical path latency from 10s to 200ms</strong> and
+                                reducing primary DB load by 60% to optimize infrastructure costs.</p>
+                        </div>
+
+                        <div class="mb-1">
+                            <p class="mb-2"><strong>6. Fintech Integrity & Audit Ready Logic:</strong> Engineering
+                                Financial Management Systems (FMS) based on Double entry Bookkeeping and Ledger
+                                Immutability; enforcing Idempotent Logic for <strong>zero discrepancy, fully
+                                    automated reconciliation</strong> across 10+ global payment gateways.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 ps-lg-4">
+                        <div class="mb-1">
+                            <p class="mb-2"><strong>7. Stateless Security & Risk Mitigation:</strong> Engineering
+                                Defense in Depth via Stateless OAuth2 (Passport/Sanctum) and strict JSON Schema
+                                validation; eliminating SQLi/XSS risks through middleware level sanitization to
+                                <strong>secure multi million dollar Fintech traffic</strong>.
+                            </p>
+                        </div>
+
+                        <div class="mb-1">
+                            <p class="mb-2"><strong>8. Real time Stream Synchronization & UI Stability:</strong>
+                                Orchestrating high throughput streams via Firebase Realtime/Firestore and FCM;
+                                managing 100k+ concurrent updates with sub second propagation via Asynchronous
+                                Multi process Execution to <strong>prevent UI thread blocking</strong>.</p>
+                        </div>
+
+                        <div class="mb-1">
+                            <p class="mb-2"><strong>9. Infrastructure Immutability & Rapid Provisioning:</strong>
+                                Architecting YAML-driven automation and Docker Containerization to eliminate
+                                Environment Drift; established <strong>"Live in Minutes" provisioning
+                                    protocols</strong> across AWS and Oracle Cloud, accelerating time to market.</p>
+                        </div>
+
+                        <div class="mb-1">
+                            <p class="mb-2"><strong>10. Zero Downtime Resilience & Fault Tolerance:</strong>
+                                Engineering GitHub Actions for Blue Green/Rolling deployments and Self Healing
+                                infrastructures via Supervisor/Horizon; ensuring <strong>high reliability and
+                                    zero manual intervention costs</strong> during catastrophic failures.</p>
+                        </div>
+
+                        <div class="mb-1">
+                            <p class="mb-2"><strong>11. Technical Governance & Velocity Engineering:</strong>
+                                Directing engineering squads through structured Code Reviews and architectural
+                                onboarding; enforcing Clean Code standards and SOLID principles to <strong>reduce
+                                    production bugs by 50% and increase team velocity</strong>.</p>
+                        </div>
+
+                        <div class="mb-1">
+                            <p class="mb-2"><strong>12. ROI Driven Product Strategy & Delivery:</strong> Translating
+                                ambiguous business requirements into high level Technical Blueprints via
+                                Agile/Scrum; acting as the Strategic Bridge between stakeholders and developers to
+                                <strong>ensure on time delivery of mission critical milestones</strong>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="education">
+                <h2 class="h6 border-bottom border-2 pb-1 section-title">
+                    Education</h2>
+                <div class="company-header">
+                    <p class="h6">
+                        Eastern University - B.Sc. in Computer Science & Engineering
+                    </p>
+                    <span class="text-secondary">
+                        Graduated 2019
+                    </span>
+                </div>
+                <p class="small">
+                    <strong>Final Project:</strong> Social media management system (RAW PHP, MySQL, jQuery, AJAX)
+                </p>
+            </section>
         </div>
     </div>
-
-
-
-
-    <main class="main-body pt-2">
-        <div class="skills">
-            <h3 class="m-0">Skills & Expertise</h3>
-            <h4>Architecture, Backend & System Design patterns</h4>
-            <ul class="raw-data">
-                <li><strong>Laravel & PHP (Advanced):</strong> Breeze, SOLID, Multi-tenant SaaS, MVC and Data Isolation.
-                    <span class="res-tag"><strong><u>Achievement:</u></strong> Designed multi-tenant architecture and
-                        stock/batch ledgers for a
-                        Pharmacy POS SaaS, ERP, HRM, E-commerce,.</span>
-                </li>
-                <li><strong>Architecture:</strong> API/Web/Worker separation, Load Balancing, System Design, and
-                    Legacy Refactoring.
-                    <span class="res-tag">
-                        <strong><u>Achievement:</u></strong>
-                        <ol class="achievement-list">
-                            <li>
-                                Refactored legacy core modules in OTA platform, improving performance and
-                                downtime resolution.
-                            </li>
-                            <li>
-                                Architected high-throughput API gateways and background worker systems for ota,
-                                ensuring 99.9% uptime by isolating long-running pricing sync tasks from the main
-                                web thread
-                            </li>
-                        </ol>
-                    </span>
-                </li>
-                <li><strong>Design Patterns:</strong> Expert in <strong>Service-Repository Pattern</strong>, using
-                    <strong>Interfaces</strong> for decoupling, <strong>Traits</strong> for code reusability, and
-                    <strong>Action Classes</strong> for thin controllers.
-                    <span class="res-tag"><strong><u>Achievement:</u></strong> Implemented modular architecture in
-                        Pharmacy POS and ERP systems
-                        to
-                        ensure high maintainability.</span>
-                </li>
-                <li><strong>System Design:</strong> Separated systems into <strong>Web, API, and Background
-                        Workers</strong>
-                    to handle high traffic; expert in <strong>Legacy Refactoring</strong> to modernize old codebases
-                    without
-                    downtime.
-                    <span class="res-tag">
-                        <strong><u>Achievement:</u></strong>
-                        <ol class="achievement-list">
-                            <li>Refactored legacy OTA core modules, reducing system latency by 50%(2x faster) and
-                                improving reliability through optimized API-first architecture and service decoupling.
-                                made significantly more stable</li>
-                        </ol>
-                    </span>
-                </li>
-                <li><strong>Jobs & Task Automation:</strong> Redis Horizon, Queue Workers, Caching, and Invalidation
-                    patterns.
-                    <span class="res-tag"><strong><u>Achievement:</u></strong> Built robust queue-driven pipelines using
-                        Redis to handle 100k+
-                        real-time availability updates, ensuring data consistency across external supplier
-                        APIs..</span>
-                </li>
-                <li><strong>Rest API & Security:</strong> OAuth (Sanctum/Passport), API Tokens, Rate Limiting,
-                    Throttling,
-                    and Permissions management.
-                    <span class="res-tag"><strong><u>Achievement:</u></strong> Developed secure, high-performance APIs
-                        for a large-scale file
-                        transfer platform (BDRen) and resolved critical travel-data synchronization bottlenecks through
-                        rate-limiting and payload optimization.</span>
-                </li>
-                <li><strong>Payment Gateways (PGs):</strong> SSLCommerz, PayPal, Stripe, bKash, Aamarpay, Surjopay, TNG,
-                    CHIP.</li>
-            </ul>
-
-            <h4>Databases & Optimization</h4>
-            <ul class="raw-data">
-                <li><strong>Database Management:</strong> MySQL, PostgreSQL, MariaDB, and SQLite performance tuning.
-                    <span class="res-tag">
-                        <strong><u>Achievement:</u></strong>
-                        <ol>
-                            <li>Enhanced DB performance by 3x through Query Profiling and Indexing strategies,
-                                specifically resolving bottlenecks in complex B2B booking and pricing calculation
-                                engines.</li>
-                            <li>Utilized <b>Database Sharding & Partitioning</b> to optimize high-volume data
-                                performance.</li>
-                        </ol>
-                    </span>
-                </li>
-                <li><strong>Eloquent ORM:</strong> Complex migrations, relationship mapping, and data optimization.</li>
-                <li><strong>Realtime DB:</strong> Firebase Auth & Realtime Database, MongoDB.</li>
-            </ul>
-
-            <h4>DevOps, Cloud & Infrastructure</h4>
-            <ul class="raw-data">
-                <li><strong>Cloud Services:</strong> Vultr, AWS (S3, EC2), VPS, cPanel, and Docker management.</li>
-                <li><strong>Server Administration:</strong> Ubuntu server installation, Nginx config, manual PHP setup,
-                    and
-                    Composer.</li>
-                <li><strong>CI/CD & Deployment:</strong> GitHub Actions, Bitbucket, manual/auto pipelines, and SSH
-                    deployment automation.
-                    <span class="res-tag"><strong><u>Achievement:</u></strong> Reduced deployment time by ~80% via
-                        Git-based release
-                        workflows.</span>
-                </li>
-                <li><strong>Reliability & Backup:</strong> Supervisor / systemd for queue reliability and automated
-                    pipelines (Google Drive, FTP).
-                    <span class="res-tag"><strong><u>Achievement:</u></strong> Automated secure cloud backups and server
-                        deployment workflows,
-                        reducing manual maintenance overhead and ensuring rapid disaster recovery.</span>
-                </li>
-            </ul>
-
-            <h4>Frontend & Leadership</h4>
-            <ul class="raw-data">
-                <li><strong>Frontend Interactivity:</strong> Blade, Mix/Vite bundling, jQuery, AJAX, Parsley.js,
-                    Angular,
-                    HTML5/CSS3, Bootstrap.
-                    <span class="res-tag"><strong><u>Achievement:</u></strong> Integrated Next.js frontend with Laravel
-                        APIs and built complex
-                        SEO-focused pricing UIs.</span>
-                </li>
-                <li><strong>Modern JS Stack:</strong> React & Next.js (Learning process), MERN Stack (Upcoming).</li>
-                <li><strong>Lead & Process:</strong> Agile (JIRA, Trello), Mentoring, Requirement Analysis, and Sprint
-                    delivery.
-                    <span class="res-tag"><strong><u>Achievement:</u></strong> Led small backend teams through code
-                        review and technical
-                        onboarding.</span>
-                </li>
-            </ul>
-        </div>
-
-        <div class="cv-work">
-            <div class="section-title">WORK EXPERIENCE</div>
-
-            <div class="work-row">
-                <div class="work-meta">
-                    <span class="comp-name">iBook (Malaysia)</span>
-                    <span class="work-date">Jul 24 — Jul 25</span>
-                </div>
-                <div class="job-info">
-                    <div class="job-title">Software Engineer</div>
-                    <div class="tech-list">
-                        <span class="t-tag">Laravel</span>
-                        <span class="t-tag">Redis caching and Queues</span>
-                        <span class="t-tag">MySQL Profiling</span>
-                        <span class="t-tag">SSH Automation</span>
-                        <span class="t-tag">Ubuntu server setup</span>
-                        <span class="t-tag">systemd, Supervisord, horizon</span>
-                        <span class="t-tag">PG: CHIP, FPX, TNG</span>
-                        <span class="t-tag">Blade Technology</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="work-row">
-                <div class="work-meta">
-                    <span class="comp-name">Nexoda (BDRen)</span>
-                    <span class="work-date">Mar 24 — Jun 24</span>
-                </div>
-                <div class="job-info">
-                    <div class="job-title">Software Engineer</div>
-                    <div class="tech-list">
-                        <span class="t-tag">Sanctum Security</span>
-                        <span class="t-tag">File Transfer API</span>
-                        <span class="t-tag">Git Workflow</span>
-                        <span class="t-tag">Next.js</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="work-row">
-                <div class="work-meta">
-                    <span class="comp-name">Flight Expert</span>
-                    <span class="work-date">Apr 22 — Dec 23</span>
-                </div>
-                <div class="job-info">
-                    <div class="job-title">Software Engineer</div>
-                    <div class="tech-list">
-                        <span class="t-tag">B2C & B2B OTA Modules</span>
-                        <span class="t-tag">B2C BackOffice Software</span>
-                        <span class="t-tag">AWS S3/EC2</span>
-                        <span class="t-tag">API Optimization</span>
-                        <span class="t-tag">Large Data Email & Excel</span>
-                        <span class="t-tag">Ticket booking to Success Pdf</span>
-                        <span class="t-tag">Blade Technology</span>
-                        <span class="t-tag">Next.js</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="work-row">
-                <div class="work-meta">
-                    <span class="comp-name">Roots-Edu</span>
-                    <span class="work-date">Mar 21 — Aug 21</span>
-                </div>
-                <div class="job-info">
-                    <div class="job-title">Software Engineer</div>
-                    <div class="tech-list">
-                        <span class="t-tag">EdTech API</span> 
-                        <span class="t-tag">Auth Patterns</span> 
-                        <span class="t-tag">Admin Panel</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="work-row" style="border:none;">
-                <div class="work-meta">
-                    <span class="comp-name">Smart Software</span>
-                    <span class="work-date">Aug 20 — Mar 21</span>
-                </div>
-                <div class="job-info">
-                    <div class="job-title">Junior Software Engineer</div>
-                    <div class="tech-list">
-                        <span class="t-tag">e-Commerce</span> 
-                        <span class="t-tag">Hospital MS</span> 
-                        <span class="t-tag">Clinic MS</span>
-                        <span class="t-tag">POS</span>
-                        <span class="t-tag">Bug find & solve</span>
-                        <span class="t-tag">blade</span> 
-                        <span class="t-tag">jQuery</span> 
-                        <span class="t-tag">AJAX</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </main>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        function calculateYearDifference() {
-            const currentYear = new Date().getFullYear();
-            const difference = currentYear - 2020;
-            document.getElementById('job_experience_year').innerText = `${difference}+`;
-        }
-        window.onload = function () {
-            calculateYearDifference();
-        }
-        $('#print_cv').click(function () {
-            window.print();
-        });
-    </script>
 </body>
 
 </html>
