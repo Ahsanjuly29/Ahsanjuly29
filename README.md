@@ -1,146 +1,108 @@
 <h1 align="center">Hi, I'm Ahsan Ahmed 👋</h1>
 
 <p align="center">
-  <em>Full Stack Web Engineer (Laravel Expert)</em>
+  <strong>Senior Software Engineer | Backend & System Architect</strong><br>
+  <em>Specializing in High-Performance Systems, Fintech Integrity & Scalable SaaS</em>
 </p>
 
 <p align="center"> 
 <a href="https://ahsanjuly29.github.io/Ahsanjuly29/" download="Ahsan_Ahmed_CV.pdf">
   <img src="https://img.shields.io/badge/Download-CV-blue?style=for-the-badge&logo=googledrive" alt="Download CV">
 </a>
-  <a href="https://github.com/Ahsanjuly29">
-    <img src="https://img.shields.io/github/followers/Ahsanjuly29?label=Follow%20Me&style=social" alt="GitHub followers">
-  </a>
-  <a href="https://github.com/Ahsanjuly29">
-    <img src="https://img.shields.io/github/stars/Ahsanjuly29?style=social" alt="GitHub stars">
-  </a>  
-  <a href="https://www.linkedin.com/in/ahsanjuly29/">
-    <img src="https://img.shields.io/badge/LinkedIn-Ahsan%20Ahmed-blue?logo=linkedin" alt="LinkedIn">
-  </a>
-  <a href="mailto:ahsan.july29@gmail.com">
-    <img src="https://img.shields.io/badge/Email-ahsan.july29@gmail.com-red?logo=gmail&logoColor=white" alt="Email">
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=Ahsanjuly29&color=brightgreen" alt="Profile Views">
+<a href="https://www.linkedin.com/in/ahsanjuly29/">
+  <img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+</a>
+<a href="mailto:ahsan.july29@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+</a>
+<img src="https://komarev.com/ghpvc/?username=Ahsanjuly29&color=brightgreen&style=for-the-badge" alt="Profile Views">
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/39599664?v=4" alt="Ahsan Ahmed's Profile" width="20%"/>
+  <img src="https://avatars.githubusercontent.com/u/39599664?v=4" alt="Ahsan Ahmed's Profile" width="180px" style="border-radius: 50%;"/>
 </p>
 
 ---
 
-## 👨‍💻 About Me
+## 👨‍💻 Professional Summary
 
-I'm a **backend focused full stack engineer** with 6+ years building production grade systems using **Laravel**, **Blade**, **jQuery**, **MySQL**, **Redis**, and cloud platforms. I build scalable SaaS solutions, POS systems, ERP modules, HRM workflows, automation pipelines, and robust API architectures.
+I am a **Backend-focused Software Engineer** with over 6 years of experience building production-grade systems. My expertise lies in architecting robust backend infrastructures that solve complex business problems through automation, high-concurrency processing, and deep system optimization.
 
-I focus on:
-* **Backend Architecture** & high throughput API development.
-* **Advanced Queue Systems** (Redis, Horizon) and background jobs.
-* **Cloud Deployment & Backups** (Vultr, AWS, cPanel, Firebase, Google Drive).
-* **System Optimization**, database tuning & debugging.
-* **Full Stack Development** with Laravel + Blade; learning React/Next.js and MERN stack.
+### 🚀 Technical Impact & Expertise
+*   **Performance Optimization:** Successfully reduced API response times from 10 seconds to 200ms for high-traffic platforms.
+*   **System Scalability:** Engineered background pipelines handling 1M+ daily record synchronizations for global hotel search engines.
+*   **Fintech & Data Integrity:** Designed secure transaction lifecycles and multi-tenant stock ledger systems with 100% data accuracy.
+*   **Infrastructure & DevOps:** Optimized deployment workflows using Docker and CI/CD, reducing deployment time by 80%.
 
 ---
 
-### Languages and Tools
-
-
+## 🛠️ Languages and Tools
 
 <p align="center">
   <img src="https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white&style=for-the-badge" alt="PHP">
   <img src="https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white&style=for-the-badge" alt="Laravel">
   <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge" alt="MySQL">
   <img src="https://img.shields.io/badge/Redis-d82c20?logo=redis&logoColor=white&style=for-the-badge" alt="Redis">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" alt="JavaScript">
-  <img src="https://img.shields.io/badge/jQuery-0769ad?logo=jquery&logoColor=white&style=for-the-badge" alt="jQuery">
-  <img src="https://img.shields.io/badge/Bootstrap-563D7C?logo=bootstrap&logoColor=white&style=for-the-badge" alt="Bootstrap">
   <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge" alt="Docker">
-  <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge" alt="Git">
   <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white&style=for-the-badge" alt="AWS">
-  <img src="https://img.shields.io/badge/Vultr-2D9CDB?logo=vultr&logoColor=white&style=for-the-badge" alt="Vultr">
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black&style=for-the-badge" alt="Firebase">
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white&style=for-the-badge" alt="CI/CD">
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white&style=for-the-badge" alt="PostgreSQL">
 </p>
 
 ---
 
-## 🔧 Skills & Expertise
+## 🔧 Skills & Competencies
 
 ### Backend & Architecture
-* Laravel (Advanced), Eloquent ORM, Jobs & Events, Queue workers (Redis + Horizon).
-* REST APIs, API Authentication (Sanctum/Passport), Rate limiting, Throttling.
-* MySQL performance tuning: indexing, query profiling, schema design.
-* Caching strategies with Redis, cache invalidation patterns.
-* Modular architecture & multi tenant design patterns.
+*   **Laravel Mastery:** Advanced Eloquent, Queue Workers (Horizon), and Service Layer patterns.
+*   **API Engineering:** Scalable RESTful APIs with Sanctum/Passport authentication and rate limiting.
+*   **Database Design:** Advanced MySQL indexing, query profiling, and schema normalization.
 
-### DevOps & Deployment
-* Git workflows, CI/CD basics (GitHub Actions / manual pipelines).
-* SSH based deployments, Nginx configuration, Ubuntu server management.
-* Cloud platforms: **Vultr, AWS, cPanel**.
-* **Backup automation:** Google Drive and FTP/FileZilla based pipelines.
-* Process supervision: Supervisor / systemd for queue workers.
-
-### Frontend & Integrations
-* Blade templating, jQuery, AJAX.
-* **Payment integrations:** SSLCommerz, PayPal, bKash.
-* Firebase (Auth, Realtime DB).
-* React & Next.js (learning).
-
-### Leadership & Process
-* Code reviews, mentoring junior developers.
-* Requirement analysis, documentation, and sprint based delivery (Agile).
+### DevOps & Cloud
+*   **Automation:** CI/CD pipelines via GitHub Actions and automated cloud backup systems.
+*   **Server Management:** Nginx configuration, Ubuntu server tuning, and Supervisor process management.
 
 ---
 
-## 🏆 Key Achievements (Highlights)
-* Designed multi tenant architecture and stock/batch ledgers for a **Pharmacy POS SaaS**.
-* Built queue driven reporting pipelines to process **100k+ records reliably**.
-* Optimized pricing automation for **Ibook (Malaysia)** → **60% faster processing**.
-* Reduced deployment time by **~80%** via Git based workflow and automation.
-* Improved API response times (**2–3x**) through indexing and query refactor.
-* Automated cloud backups and safe transfer using **Google Drive + FTP/FileZilla**.
-* Led small backend teams: code review, mentoring, and technical onboarding.
+## 📊 Live GitHub Activity
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Ahsanjuly29&show_icons=true&theme=radical&count_private=true" alt="Ahsan's Stats" height="180px"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahsanjuly29&layout=compact&theme=radical" alt="Top Languages" height="180px"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ahsanjuly29&theme=radical" alt="GitHub Streak" />
+</p>
 
 ---
 
 ## 💼 Work Experience
 
-* **Software Engineer – Ibook (Remote, Malaysia)** | *Jul 2024 – Jul 2025*
-* **Software Engineer – Nexoda (BDREN)** | *Mar 2024 – Jun 2024*
-* **Software Engineer – Flight Expert** | *Apr 2022 – Dec 2023*
-* **Software Engineer – Roots Edu** | *Mar 2021 – Aug 2021*
-* **Software Engineer (Jr.) – Smart Software Ltd** | *Aug 2020 – Mar 2021*
+*   🚀 **Senior Software Engineer** @ **IBOOK (Remote, Malaysia)** | *Jul 2024 – Present*
+*   📊 **Software Engineer** @ **Nexoda (BDREN)** | *Mar 2024 – Jun 2024*
+*   ✈️ **Software Engineer** @ **Flight Expert** | *Apr 2022 – Dec 2023*
+*   🎓 **Software Engineer** @ **Roots Edu** | *Mar 2021 – Aug 2021*
 
 ---
 
 ## 💸 Featured Projects
 
-* 🎯 **[Task Management System](https://github.com/Ahsanjuly29/TaskMangegementSystem)**: RBAC, notifications, collaboration.
-* 💰 **[Expense Tracker](https://github.com/Ahsanjuly29/ExpenseTracker)**: Investment tracking, transaction logs, reports.
-* 💼 **[Personal Finance Management](https://github.com/Ahsanjuly29/PersonalFinanceManagementSystem)**: Laravel-based dashboard for investments.
-* 📄 **[CvMaker (PHP)](https://github.com/Ahsanjuly29/CvMaker-Php)**: Professional resume builder.
-* ✉️ **[Mail PDF Tester](https://github.com/Ahsanjuly29/MailPdfTesterLive)**: Laravel email service for PDF templates.
+*   🎯 **[Task Management System](https://github.com/Ahsanjuly29/TaskMangegementSystem)**: Enterprise-level collaboration platform with RBAC and real-time updates.
+*   💰 **[Expense Tracker](https://github.com/Ahsanjuly29/ExpenseTracker)**: Comprehensive finance engine with transaction logs and visual reporting.
+*   📄 **[CvMaker](https://github.com/Ahsanjuly29/CvMaker-Php)**: Professional resume builder focused on template modularity.
 
----
-
-## 📊 GitHub Stats & Languages
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Ahsanjuly29&show_icons=true&theme=radical" height="180px"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahsanjuly29&layout=compact&theme=radical" height="180px"/>
-</p>
-
----
-
-## 🌱 Learning & Education
-* **Currently Learning:** React.js, Next.js, Go (Golang) basics.
-* 🎓 **B.Sc. in Computer Science & Engineering** - Eastern University, Bangladesh.
-* 🏆 Built real-time features and completed certifications in Laravel specialization.
+### 🎓 Engineering Foundations (Legacy Projects)
+*   🌐 **[UniConnect](https://github.com/Ahsanjuly29/UniConnect-PHP)**: A social networking engine built with **Procedural PHP** to master core fundamentals.
+*   🚂 **[RailFlow](https://github.com/Ahsanjuly29/RailwayManagementSystem-php)**: Transactional booking system exploring inventory management logic.
 
 ---
 
 ## 🔗 Let's Connect
-📧 **[ahsan.july29@gmail.com](mailto:ahsan.july29@gmail.com)** | 💼 **[LinkedIn](https://www.linkedin.com/in/ahsanjuly29/)** | 📱 **WhatsApp:** +880-1674-55-3390
+📧 **[ahsan.july29@gmail.com](mailto:ahsan.july29@gmail.com)** | 💼 **[LinkedIn](https://www.linkedin.com/in/ahsanjuly29/)** | 📱 **WhatsApp:** +880-1674-553390
 
----
-<p align="center"><em>I’m open to collaborating on SaaS products, backend systems, and performance engineering.</em></p>
+<p align="center">
+  <em>"I engineering stability, performance, and scale into every line of code."</em>
+</p>
