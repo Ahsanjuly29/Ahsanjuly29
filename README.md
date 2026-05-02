@@ -63,7 +63,7 @@ Senior Software Engineer with 6+ years of experience in architecting high-concur
 ### DevOps & Cloud
 *   **Automation:** End-to-end **CI/CD pipelines** via GitHub Actions and custom automated cloud backup systems for high availability.
 *   **Server Management:** Expert in **Nginx** configuration, **Ubuntu** server hardening, and Supervisor/systemd process management.
-*   **Cloud Infrastructure:** Hands-on experience with **AWS (S3/EC2)**, **Vultr**, and **Firebase** for scalable production environments.
+*   **Cloud Infrastructure:** Hands-on experience with **AWS (S3)**, **Vultr**, and **Firebase** for scalable production environments.
 
 ---
 
