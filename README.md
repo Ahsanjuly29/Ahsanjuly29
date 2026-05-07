@@ -1,8 +1,8 @@
-<h1 align="center">Hi, I'm Ahsan Ahmed 👋</h1>
+<h1 align="center">Hi, I'm Ahsan Ahmed 👨🏻‍💻</h1>
 
 <p align="center">
   <strong>Senior Software Engineer | Backend & System Architect</strong><br>
-  <em>Specializing in High-Performance Systems, Fintech Integrity & Scalable SaaS</em>
+  <em>Driving ROI through High-Performance Systems, Fintech Precision & DevOps Automation</em>
 </p>
 
 <p align="center"> 
@@ -20,66 +20,22 @@
 
 ---
 
-<p align="center">
-  <img src="https://avatars.githubusercontent.com/u/39599664?v=4" alt="Ahsan Ahmed's Profile" width="180px" style="border-radius: 50%;"/>
+## 👨‍💻 Professional Summary
+
+<p class="text-justify">
+    <strong>Senior Software Engineer</strong> with <strong>5+ years of expertise</strong> in building high-scale backends for 
+    <strong>Fintech, Logistics, and Multi-tenant SaaS</strong>. Specializing in <strong>System Architecture (SOLID/DDD)</strong> and <strong>Database Optimization</strong>, I focus on transforming complex legacy bottlenecks into streamlined, revenue-driven infrastructures. My goal is to bridge the gap between technical complexity and business ROI by engineering resilient, fault-tolerant systems that scale globally.
 </p>
 
 ---
 
-## 👨‍💻 Professional Summary
+## 🚀 Technical Impact
 
-Senior Software Engineer with 6+ years of experience in architecting high-concurrency backend systems[cite: 1, 2]. I specialize in system optimization, fintech integrity, and scalable cloud infrastructure.
-
-### 🚀 Technical Impact
-
-*   **Performance:** Reduced API latency from **10s to 200ms** via query optimization and Redis caching[cite: 1, 2].
-*   **Scalability:** Engineered pipelines handling **1M+ daily record syncs** using Laravel Horizon[cite: 1, 2].
-*   **Integrity:** Developed multi-tenant stock ledgers with **100% financial data integrity**[cite: 1, 2].
-*   **Efficiency:** Cut deployment cycles by **80%** using **Docker** and **GitHub Actions** CI/CD[cite: 1, 2].
-
----
-
-## 🛠️ Languages and Tools
-
-### Backend & Database
-![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white&style=flat-square) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white&style=flat-square) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white&style=flat-square) ![Redis](https://img.shields.io/badge/Redis-d82c20?logo=redis&logoColor=white&style=flat-square)
-
-### DevOps & Cloud
-![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white&style=flat-square) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat-square) ![GitHub Actions](https://img.shields.io/badge/CI/CD-2088FF?logo=github-actions&logoColor=white&style=flat-square) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E94333?logo=ubuntu&logoColor=white&style=flat-square) ![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white&style=flat-square) ![Vultr](https://img.shields.io/badge/Vultr-007BFF?logo=vultr&logoColor=white&style=flat-square)
-
-### Frontend & Others
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square) ![jQuery](https://img.shields.io/badge/jQuery-0769ad?logo=jquery&logoColor=white&style=flat-square) ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?logo=bootstrap&logoColor=white&style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black&style=flat-square) ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=flat-square)
-
----
-
-## 🔧 Skills & Competencies
-
-### Backend & Architecture
-*   **Laravel Mastery:** Advanced Eloquent ORM, Service Layer patterns, and robust Queue management using **Horizon & Redis**.
-*   **API Engineering:** Scalable RESTful architectures with **Sanctum/Passport**, specialized in high-concurrency throttling and rate limiting.
-*   **System Optimization:** Expert in **MySQL query profiling**, advanced indexing, and database normalization to handle millions of records.
-*   **Fintech Logic:** Architecting secure, multi-tenant transaction lifecycles and automated stock ledger systems.
-
-### DevOps & Cloud
-*   **Automation:** End-to-end **CI/CD pipelines** via GitHub Actions and custom automated cloud backup systems for high availability.
-*   **Server Management:** Expert in **Nginx** configuration, **Ubuntu** server hardening, and Supervisor/systemd process management.
-*   **Cloud Infrastructure:** Hands-on experience with **AWS (S3)**, **Vultr**, and **Firebase** for scalable production environments.
-
----
-
-## 📊 Live GitHub Activity
-
-| **Core Stats** | **Most Used Languages** | **Contribution Streak** |
-| :---: | :---: | :---: |
-| <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Ahsanjuly29&show_icons=true&theme=radical" height="170"/> | <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Ahsanjuly29&layout=compact&theme=radical" height="170"/> | <img src="https://streak-stats.demolab.com?user=Ahsanjuly29&theme=radical" height="170"/> |
-
----
----
-
-### 🚀 Contribution Insights
-* **Production Readiness:** My GitHub activity reflects a consistent focus on architecting robust backend systems and CI/CD pipelines.
-* **System Integrity:** I maintain a high standard of building and optimizing high-concurrency Laravel applications and database architectures.
-* **Automation Focus:** Most contributions center around DevOps automation and performance engineering for enterprise-grade SaaS products.
+1. **Performance Surge:** Slashed API latency from 10s to 200ms via deep query profiling and Redis caching—achieving a 50x speed improvement.
+2. **Data Scalability:** Engineered high-throughput pipelines processing 1M+ daily record syncs using Laravel Horizon with zero data loss.
+3. **Fiscal Integrity:** Architected secure multi-tenant stock ledgers ensuring 100% financial precision for mission-critical operations.
+4. **DevOps ROI:** Automated deployment cycles via GitHub Actions and Docker, reducing time-to-market by 80% while hardening server security.
+5. **System Resilience:** Designed distributed architectures and automated recovery systems to maintain high availability for enterprise-grade SaaS.
 
 ---
 
@@ -103,6 +59,9 @@ Senior Software Engineer with 6+ years of experience in architecting high-concur
     * Engineered scalable features for a leading Ed-Tech platform, focusing on high-performance database schema design and RESTful API development.
     * Automated internal deployment workflows, reducing manual intervention and deployment cycles by approximately **80%**.
 
+* **Software Engineer** @ **Smart Software Ltd** | *2020 – 2021*
+    * Built single and multi vendor Ecommerce platform, focusing on high-performance database schema design.
+    * Automated internal deployment workflows, debugging and problem solving.
 ---
  
 ## 💸 Featured Projects
@@ -123,6 +82,32 @@ Senior Software Engineer with 6+ years of experience in architecting high-concur
 
 ---
 
+## 🛠️ Languages and Tools
+
+### Backend & Database ![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white&style=flat-square) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white&style=flat-square) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white&style=flat-square) ![Redis](https://img.shields.io/badge/Redis-d82c20?logo=redis&logoColor=white&style=flat-square)
+
+### DevOps & Cloud ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white&style=flat-square) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat-square) ![GitHub Actions](https://img.shields.io/badge/CI/CD-2088FF?logo=github-actions&logoColor=white&style=flat-square) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E94333?logo=ubuntu&logoColor=white&style=flat-square) ![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white&style=flat-square) ![Vultr](https://img.shields.io/badge/Vultr-007BFF?logo=vultr&logoColor=white&style=flat-square)
+
+### Frontend & Others ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square) ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=flat-square) ![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?logo=tailwind-css&logoColor=white&style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black&style=flat-square) ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=flat-square)
+
+
+---
+
+
+## 📊 Live GitHub Activity
+
+| **Core Stats** | **Most Used Languages** | **Contribution Streak** |
+| :---: | :---: | :---: |
+| <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Ahsanjuly29&show_icons=true&theme=radical" height="170"/> | <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Ahsanjuly29&layout=compact&theme=radical" height="170"/> | <img src="https://streak-stats.demolab.com?user=Ahsanjuly29&theme=radical" height="170"/> |
+
+
+### 🚀 Contribution Insights
+* **Production Readiness:** My GitHub activity reflects a consistent focus on architecting robust backend systems and CI/CD pipelines.
+* **System Integrity:** I maintain a high standard of building and optimizing high-concurrency Laravel applications and database architectures.
+* **Automation Focus:** Most contributions center around DevOps automation and performance engineering for enterprise-grade SaaS products.
+
+
+---
 ## 🔗 Let's Connect
 
 📧 **[ahsan.july29@gmail.com](mailto:ahsan.july29@gmail.com)** | 💼 **[LinkedIn](https://www.linkedin.com/in/ahsanjuly29/)** | 📱 **WhatsApp:** [+8801674553390](https://wa.me/8801674553390)
@@ -132,21 +117,3 @@ Senior Software Engineer with 6+ years of experience in architecting high-concur
 </p>
 
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
