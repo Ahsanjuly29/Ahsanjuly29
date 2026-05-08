@@ -14,7 +14,8 @@
 
 * {
     box-sizing: border-box;
-    font-family: 'Roboto', 'Poppins', sans-serif;
+    /* font-family: 'Roboto', 'Poppins', sans-serif; */
+    font-family: 'Inter', sans-serif;
     text-align: justify;
     line-height: 1.6;
 }
@@ -38,7 +39,8 @@ body {
 
 /* 2. Header Section */
 h1.display-5 {
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Inter', sans-serif;
     font-weight: 800;
     font-size: 24pt !important;
     color: var(--accent-color);
@@ -64,7 +66,8 @@ h1.display-5 {
 
 /* 3. Section Titles */
 .section-title {
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Inter', sans-serif;
     font-weight: 700 !important;
     text-transform: uppercase;
     color: var(--accent-color) !important;
@@ -74,10 +77,11 @@ h1.display-5 {
 }
 
 .h6 {
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Inter', sans-serif;
     font-weight: 700 !important;
     text-transform: uppercase;
-    color: var(--accent-color) !important; 
+    color: var(--accent-color) !important;
     border-bottom: 2px solid var(--accent-color) !important;
 }
 
