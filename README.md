@@ -96,12 +96,11 @@ My expertise lies in transforming technical bottlenecks into competitive advanta
 
 ---
 
-### 🔷 Building from Zero & Exploring
+### 🔷 Deep Diving & Specialization
 
-<!-- 1. **High-Performance Systems:** Deep diving into **Go (Golang)** to build ultra-low latency microservices. -->
-2. **Architecture:** Implementing **Domain-Driven Design (DDD)** for complex logistics and Fintech logic.
-<!-- 3. **MERN Stack:** Expanding full-stack capabilities with **React, Next.js, and Node.js** to build modern, reactive user interfaces. -->
-4. **Cloud Sovereignty:** Mastering **Oracle Cloud** and automated server provisioning to eliminate environment drift.
+1. **PHP Internals & Performance:** Mastering Zend Engine optimization and high-level performance tuning for complex enterprise apps.
+2. **Advanced Architecture:** Implementing **Domain-Driven Design (DDD)** and **Hexagonal Architecture** for large-scale Fintech and Logistics logic.
+3. **Infrastructure Excellence:** Mastering **Oracle Cloud** and automated server provisioning via YAML to ensure 100% environment consistency.
 
 ---
 
