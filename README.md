@@ -1,119 +1,118 @@
-<h1 align="center">Hi, I'm Ahsan Ahmed 👨🏻‍💻</h1>
+<div align="center">
 
+**Core Stack** & **Infrastructure:** 
+
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-d82c20?style=for-the-badge&logo=redis&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![CI/CD](https://img.shields.io/badge/CI/CD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E94333?style=for-the-badge&logo=ubuntu&logoColor=white)
+
+</div>
+
+
+<h1 align="center">Ahsan Ahmed</h1>
 <p align="center">
   <strong>Senior Software Engineer | Backend & System Architect</strong><br>
-  <em>Driving ROI through High-Performance Systems, Fintech Precision & DevOps Automation</em>
+  <em>Engineering High-Scale ROI through Fintech Precision, System Resilience & DevOps Automation</em>
 </p>
 
-<p align="center"> 
-<a href="https://ahsanjuly29.github.io/Ahsanjuly29/" download="Ahsan_Ahmed_CV.pdf">
-  <img src="https://img.shields.io/badge/Download-CV-blue?style=for-the-badge&logo=googledrive" alt="Download CV">
-</a>
-<a href="https://www.linkedin.com/in/ahsanjuly29/">
-  <img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn">
-</a>
-<a href="mailto:ahsan.july29@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-</a>
-<img src="https://komarev.com/ghpvc/?username=Ahsanjuly29&color=brightgreen&style=for-the-badge" alt="Profile Views">
+<p align="center">
+<a href="https://www.linkedin.com/in/ahsanjuly29/" target="_blank">LinkedIn</a> •
+<a href="mailto:ahsan.july29@gmail.com" target="_blank">Email</a> •
+<a href="https://wa.me/8801674553390" target="_blank">WhatsApp</a>
 </p>
 
 ---
 
-## 👨‍💻 Professional Summary
+#### 👨‍💻 Professional Summary
+Senior Software Engineer and System Architect with **5+ years of experience** specializing in the Laravel ecosystem and cloud infrastructure. I build revenue-driven infrastructures for **Fintech, Logistics, and Travel (OTA)** sectors. 
 
-<p class="text-justify">
-    <strong>Senior Software Engineer</strong> with <strong>5+ years of expertise</strong> in building high-scale backends for 
-    <strong>Fintech, Logistics, and Multi-tenant SaaS</strong>. Specializing in <strong>System Architecture (SOLID/DDD)</strong> and <strong>Database Optimization</strong>, I focus on transforming complex legacy bottlenecks into streamlined, revenue-driven infrastructures. My goal is to bridge the gap between technical complexity and business ROI by engineering resilient, fault-tolerant systems that scale globally.
-</p>
+My expertise lies in transforming technical bottlenecks into competitive advantages—proven by reducing legacy API latencies from **10s to 200ms** and scaling data pipelines to handle **1M+ daily record synchronizations**. With a deep focus on **SOLID principles, DDD, and Hexagonal Architecture**, I engineer fault-tolerant, high-concurrency systems that guarantee data integrity and 24/7 availability. My mission is to bridge the gap between complex engineering and business growth, ensuring every architectural decision delivers a measurable ROI. 
 
----
+### 💼 Professional Journey
 
-## 🚀 Technical Impact
+1. **Senior Software Engineer (Backend & DevOps)** @ **IBOOK (Malaysia)** | *Jul 2024 – Jul 2025*
+   - **Infrastructure:** Designed and deployed a **3-server decoupled architecture** (Frontend, Backend, DB) to optimize load distribution and system uptime.
+   - **Data Engineering:** Engineered high-throughput background pipelines to sync **1M+ daily prices**, maintaining **Google Hotel Search Top 10** rankings.
+   - **DevOps:** Integrated **YAML automation** to resolve deployment bottlenecks and utilized Redis for high-concurrency responsiveness.
+   - **Fintech:** Managed full payment lifecycles (TNG, FPX, CHIP) with **Webhook verification and retry logic**, ensuring 100% data integrity.
 
-1. **Performance Surge:** Slashed API latency from 10s to 200ms via deep query profiling and Redis caching—achieving a 50x speed improvement.
-2. **Data Scalability:** Engineered high-throughput pipelines processing 1M+ daily record syncs using Laravel Horizon with zero data loss.
-3. **Fiscal Integrity:** Architected secure multi-tenant stock ledgers ensuring 100% financial precision for mission-critical operations.
-4. **DevOps ROI:** Automated deployment cycles via GitHub Actions and Docker, reducing time-to-market by 80% while hardening server security.
-5. **System Resilience:** Designed distributed architectures and automated recovery systems to maintain high availability for enterprise-grade SaaS.
+2. **Software Engineer (Optimization & Performance)** @ **Flight Expert** | *Apr 2022 – Dec 2023*
+   - **Latency:** Slashed GDS and Hotel API sync delays from **10s to 200ms** using composite indexing and query profiling.
+   - **Big Data:** Built a reporting system using **pre-aggregated tables and denormalized snapshots**, resolving timeouts on multi-million row datasets.
+   - **Throughput:** Developed asynchronous multi-process pipelines, reducing report generation time by **95%** and boosting throughput by **300%**.
 
----
+3. **Software Engineer** @ **Nexoda (BDRen)** | *Mar 2024 – Jun 2024*
+   - Optimized backend services for high-traffic research network infrastructure.
+   - Automated cloud backups and implemented **CI/CD pipelines** using GitHub Actions and Docker.
 
-## 💼 Work Experience
+4. **Software Engineer** @ **Smart Software Ltd** | *Aug 2020 – Mar 2021*
+   - **ERP/HRM:** Developed core HR and salary modules and secure multi-tenant E-commerce platforms.
+   - **Performance:** Improved legacy system speed by **40%** through database restructuring and Blade optimization.
 
-* **Senior Software Engineer** @ **IBOOK (Remote, Malaysia)** | *Jul 2024 – Present*
-    * Orchestrating high-scale background pipelines that handle **1M+ daily record synchronizations** for global hotel search engines.
-    * Architecting multi-tenant stock ledger systems and secure transaction lifecycles with **100% data integrity**.
-    * Leveraging **Laravel Horizon, Redis, and MySQL** to maintain system stability under high-concurrency environments.
+### 🚀 Technical Impact & Strategic Competencies
 
-* **Software Engineer** @ **Nexoda (BDREN)** | *Mar 2024 – Jun 2024*
-    * Designed and optimized backend services for high-traffic education and research network infrastructures.
-    * Implemented automated cloud backup systems and **CI/CD pipelines** using **GitHub Actions** and **Docker** to streamline production releases.
-
-* **Software Engineer** @ **Flight Expert** | *Apr 2022 – Dec 2023*
-    * Achieved significant performance breakthroughs by reducing core API latency from **10 seconds to 200ms** through advanced query profiling and Redis implementation.
-    * Developed and maintained complex flight search and booking modules using **Laravel** and **Microservices architecture**.
-    * Managed cloud resource deployments on **AWS (S3/EC2)** and optimized **Nginx/Ubuntu** server configurations.
-
-* **Software Engineer** @ **Roots Edu** | *Mar 2021 – Aug 2021*
-    * Engineered scalable features for a leading Ed-Tech platform, focusing on high-performance database schema design and RESTful API development.
-    * Automated internal deployment workflows, reducing manual intervention and deployment cycles by approximately **80%**.
-
-* **Software Engineer** @ **Smart Software Ltd** | *2020 – 2021*
-    * Built single and multi vendor Ecommerce platform, focusing on high-performance database schema design.
-    * Automated internal deployment workflows, debugging and problem solving.
----
- 
-## 💸 Featured Projects
-
-*   🎯 **[NexAuth-SSO](https://github.com/Ahsanjuly29/NexAuth-SSO)**: A **Single Sign-On (SSO)** solution designed to log into multiple applications via a central data provider, focusing on secure cross-domain authentication.
-*   📦 **[ProductInventoryMS](https://github.com/Ahsanjuly29/ProductInventoryMS)**: A high-level **Order Management System** developed as a Senior Laravel Developer assignment, featuring complex inventory tracking and E-commerce workflow automation.
-*   🛡️ **[Task Management System](https://github.com/Ahsanjuly29/TaskMangegementSystem)**: Enterprise-grade collaboration tool with **Role-Based Access Control (RBAC)** and scalable background processing for real-time task updates.
-*   📄 **[CvMaker](https://github.com/Ahsanjuly29/CvMaker-Php)**: A professional resume engine built with PHP, emphasizing **modular template injection** and high-fidelity document generation.
-
-### 🛠️ Utilities & Frameworks
-*   🔗 **[URL-Shortner](https://github.com/Ahsanjuly29/url-shortner)**: A lightweight, high-performance service for generating and managing shortened URLs with redirection analytics.
-*   📧 **[Mail-Generator](https://github.com/Ahsanjuly29/Mail-Generator)**: A specialized PHP utility designed for automated email structure generation and testing workflows.
-*   🧩 **[LaravelEasySolutions](https://github.com/Ahsanjuly29/LaravelEasySolutions-Manual)**: A private technical manual and boilerplate collection for solving common complex Laravel architectural challenges.
-
-### 🎓 Engineering Foundations (Legacy)
-*   🌐 **[PHP-Legacy-Social](https://github.com/Ahsanjuly29/PHP-Legacy-Social-media-management-system)**: A social media management engine built to master procedural backend logic and core system design.
-*   🚂 **[RailFlow](https://github.com/Ahsanjuly29/RailwayManagementSystem-php)**: A transactional booking system focused on **concurrency handling** and inventory management logic.
-
----
-
-## 🛠️ Languages and Tools
-
-### Backend & Database ![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white&style=flat-square) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white&style=flat-square) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white&style=flat-square) ![Redis](https://img.shields.io/badge/Redis-d82c20?logo=redis&logoColor=white&style=flat-square)
-
-### DevOps & Cloud ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white&style=flat-square) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat-square) ![GitHub Actions](https://img.shields.io/badge/CI/CD-2088FF?logo=github-actions&logoColor=white&style=flat-square) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E94333?logo=ubuntu&logoColor=white&style=flat-square) ![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white&style=flat-square) ![Vultr](https://img.shields.io/badge/Vultr-007BFF?logo=vultr&logoColor=white&style=flat-square)
-
-### Frontend & Others ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square) ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=flat-square) ![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?logo=tailwind-css&logoColor=white&style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black&style=flat-square) ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=flat-square)
+1. **System Architecture:** Expert in designing scalable backend systems using **SOLID, DDD, and Hexagonal Architecture** to reduce technical debt.
+2. **Performance Engineering:** Proven expertise in **Query Profiling and Indexing**, achieving up to 50x latency reduction in high-load environment.
+3. **Fintech Logic:** Specialized in transaction integrity, idempotent processing, and payment gateway reconciliation.
+4. **Cloud & Automation:** Skilled in **Infrastructure as Code (IaC)** using YAML, Docker, and GitHub Actions across AWS and Oracle Cloud.
+5. **Data Scaling:** Orchestrating high-throughput streams and asynchronous updates via Redis Horizon and Firebase.
+6. **Product Strategy:** Translating complex business requirements into technical blueprints to ensure high-ROI delivery.
 
 
----
+### 💸 Featured Projects & Open Source
+
+1. **[NexAuth-SSO](https://github.com/Ahsanjuly29/NexAuth-SSO)**
+   - **Purpose:** An enterprise-grade Single Sign-On (SSO) solution for secure cross-domain authentication.
+   - **Architecture & Patterns:** Built using **Service-Oriented Architecture (SOA)** and **OAuth2 patterns** to manage centralized sessions and secure token exchange.
+   - **Key Feature:** Implements strict data isolation and secure handshake protocols for distributed environments.
+
+2. **[ProductInventoryMS](https://github.com/Ahsanjuly29/ProductInventoryMS)**
+   - **Purpose:** A high-level Order Management System (OMS) designed for complex business inventory workflows.
+   - **Architecture & Patterns:** Developed using **Domain-Driven Design (DDD)** principles and **SOLID** patterns, featuring a decoupled service layer for clean business logic.
+   - **Key Feature:** High-speed stock tracking with optimized database indexing and automated inventory reconciliation.
+
+3. **[Task Management System](https://github.com/Ahsanjuly29/TaskMangegementSystem)**
+   - **Purpose:** Enterprise-grade collaboration tool designed for high-concurrency environments.
+   - **Architecture & Patterns:** Utilizes **Observer and Strategy patterns** with **Role-Based Access Control (RBAC)** for complex permission management.
+   - **Key Feature:** Scalable background processing via Redis Horizon to handle real-time task updates and notifications.
+
+4. **[CvMaker](https://github.com/Ahsanjuly29/CvMaker-Php)**
+   - **Purpose:** A professional resume engine emphasizing high-fidelity document generation.
+   - **Architecture & Patterns:** Built with **Vanilla PHP**, focusing on **Modular Template Injection** to separate layout logic from data processing.
+   - **Key Feature:** Direct file manipulation and dynamic PDF generation engine designed for precision and speed.
+
+5. **[PHP-Legacy-Social](https://github.com/Ahsanjuly29/RailwayManagementSystem-php)**
+   - **Purpose:** A social media management engine built to master procedural backend logic and core system design.
+   - **Architecture & Patterns:** Engineered using **Raw/Vanilla PHP** to demonstrate mastery over procedural programming and core MySQL interactions.
+   - **Key Feature:** Implements full social features (authentication, posting, reactions) using fundamental backend logic without external frameworks.
 
 
-## 📊 Live GitHub Activity
+### 📊 Live GitHub Activity & Insights
 
 | **Core Stats** | **Most Used Languages** | **Contribution Streak** |
 | :---: | :---: | :---: |
-| <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Ahsanjuly29&show_icons=true&theme=radical" height="170"/> | <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Ahsanjuly29&layout=compact&theme=radical" height="170"/> | <img src="https://streak-stats.demolab.com?user=Ahsanjuly29&theme=radical" height="170"/> |
+| <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Ahsanjuly29&show_icons=true&theme=radical&hide_border=true" height="170"/> | <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Ahsanjuly29&layout=compact&theme=radical&hide_border=true" height="170"/> | <img src="https://streak-stats.demolab.com?user=Ahsanjuly29&theme=radical&hide_border=true" height="170"/> |
 
-
-### 🚀 Contribution Insights
-* **Production Readiness:** My GitHub activity reflects a consistent focus on architecting robust backend systems and CI/CD pipelines.
-* **System Integrity:** I maintain a high standard of building and optimizing high-concurrency Laravel applications and database architectures.
-* **Automation Focus:** Most contributions center around DevOps automation and performance engineering for enterprise-grade SaaS products.
-
+- **Production Readiness:** Focused on building optimized, high-concurrency Laravel applications and automated CI/CD pipelines.
+- **System Integrity:** Maintaining a high standard of code quality through structured architectural patterns and performance tuning.
 
 ---
-## 🔗 Let's Connect
 
-📧 **[ahsan.july29@gmail.com](mailto:ahsan.july29@gmail.com)** | 💼 **[LinkedIn](https://www.linkedin.com/in/ahsanjuly29/)** | 📱 **WhatsApp:** [+8801674553390](https://wa.me/8801674553390)
+### 🔷 Building from Zero & Exploring
+
+<!-- 1. **High-Performance Systems:** Deep diving into **Go (Golang)** to build ultra-low latency microservices. -->
+2. **Architecture:** Implementing **Domain-Driven Design (DDD)** for complex logistics and Fintech logic.
+<!-- 3. **MERN Stack:** Expanding full-stack capabilities with **React, Next.js, and Node.js** to build modern, reactive user interfaces. -->
+4. **Cloud Sovereignty:** Mastering **Oracle Cloud** and automated server provisioning to eliminate environment drift.
+
+---
+
+### 🔗 Let's Connect
+
+If you are looking for a **Senior Architect** to optimize your existing infrastructure or build a **High-ROI SaaS** from the ground up, let's talk.
+
+📧 **Email:** [ahsan.july29@gmail.com](mailto:ahsan.july29@gmail.com) | 
+💼 **LinkedIn:** [linkedin.com/in/ahsanjuly29](https://www.linkedin.com/in/ahsanjuly29) | 
+📱 **WhatsApp:** [+8801674553390](https://wa.me/8801674553390)
 
 <p align="center">
   <em>"Engineering stability, performance, and scale into every line of code."</em>
 </p>
-
----
