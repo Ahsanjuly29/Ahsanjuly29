@@ -1,11 +1,3 @@
-<div align="center">
-
-**Core Stack** & **Infrastructure:** 
-
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-d82c20?style=for-the-badge&logo=redis&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![CI/CD](https://img.shields.io/badge/CI/CD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E94333?style=for-the-badge&logo=ubuntu&logoColor=white)
-
-</div>
-
 
 <h1 align="center">Ahsan Ahmed</h1>
 <p align="center">
@@ -14,10 +6,21 @@
 </p>
 
 <p align="center">
-<a href="https://www.linkedin.com/in/ahsanjuly29/" target="_blank">LinkedIn</a> •
-<a href="mailto:ahsan.july29@gmail.com" target="_blank">Email</a> •
-<a href="https://wa.me/8801674553390" target="_blank">WhatsApp</a>
+  <a href="https://www.linkedin.com/in/ahsanjuly29/">LinkedIn</a> | 
+  <a href="mailto:ahsan.july29@gmail.com">Email</a> | 
+  <a href="https://wa.me/8801674553390">WhatsApp</a> |
+  <img src="https://komarev.com/ghpvc/?username=Ahsanjuly29&color=blue&style=flat-square" alt="Views" valign="middle">
 </p>
+
+---
+
+<div align="center">
+
+#### Core Stack & Infrastructure
+
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-d82c20?style=for-the-badge&logo=redis&logoColor=white)  ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![CI/CD](https://img.shields.io/badge/CI/CD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E94333?style=for-the-badge&logo=ubuntu&logoColor=white)
+
+</div>
 
 ---
 
@@ -26,7 +29,7 @@ Senior Software Engineer and System Architect with **5+ years of experience** sp
 
 My expertise lies in transforming technical bottlenecks into competitive advantages—proven by reducing legacy API latencies from **10s to 200ms** and scaling data pipelines to handle **1M+ daily record synchronizations**. With a deep focus on **SOLID principles, DDD, and Hexagonal Architecture**, I engineer fault-tolerant, high-concurrency systems that guarantee data integrity and 24/7 availability. My mission is to bridge the gap between complex engineering and business growth, ensuring every architectural decision delivers a measurable ROI. 
 
-### 💼 Professional Journey
+#### 💼 Professional Journey
 
 1. **Senior Software Engineer (Backend & DevOps)** @ **IBOOK (Malaysia)** | *Jul 2024 – Jul 2025*
    - **Infrastructure:** Designed and deployed a **3-server decoupled architecture** (Frontend, Backend, DB) to optimize load distribution and system uptime.
@@ -47,7 +50,7 @@ My expertise lies in transforming technical bottlenecks into competitive advanta
    - **ERP/HRM:** Developed core HR and salary modules and secure multi-tenant E-commerce platforms.
    - **Performance:** Improved legacy system speed by **40%** through database restructuring and Blade optimization.
 
-### 🚀 Technical Impact & Strategic Competencies
+#### 🚀 Technical Impact & Strategic Competencies
 
 1. **System Architecture:** Expert in designing scalable backend systems using **SOLID, DDD, and Hexagonal Architecture** to reduce technical debt.
 2. **Performance Engineering:** Proven expertise in **Query Profiling and Indexing**, achieving up to 50x latency reduction in high-load environment.
@@ -57,7 +60,7 @@ My expertise lies in transforming technical bottlenecks into competitive advanta
 6. **Product Strategy:** Translating complex business requirements into technical blueprints to ensure high-ROI delivery.
 
 
-### 💸 Featured Projects & Open Source
+#### 💸 Featured Projects & Open Source
 
 1. **[NexAuth-SSO](https://github.com/Ahsanjuly29/NexAuth-SSO)**
    - **Purpose:** An enterprise-grade Single Sign-On (SSO) solution for secure cross-domain authentication.
@@ -85,7 +88,7 @@ My expertise lies in transforming technical bottlenecks into competitive advanta
    - **Key Feature:** Implements full social features (authentication, posting, reactions) using fundamental backend logic without external frameworks.
 
 
-### 📊 Live GitHub Activity & Insights
+#### 📊 Live GitHub Activity & Insights
 
 | **Core Stats** | **Most Used Languages** | **Contribution Streak** |
 | :---: | :---: | :---: |
@@ -96,7 +99,7 @@ My expertise lies in transforming technical bottlenecks into competitive advanta
 
 ---
 
-### 🔷 Deep Diving & Specialization
+#### 🔷 Deep Diving & Specialization
 
 1. **PHP Internals & Performance:** Mastering Zend Engine optimization and high-level performance tuning for complex enterprise apps.
 2. **Advanced Architecture:** Implementing **Domain-Driven Design (DDD)** and **Hexagonal Architecture** for large-scale Fintech and Logistics logic.
@@ -104,7 +107,7 @@ My expertise lies in transforming technical bottlenecks into competitive advanta
 
 ---
 
-### 🔗 Let's Connect
+#### 🔗 Let's Connect
 
 If you are looking for a **Senior Architect** to optimize your existing infrastructure or build a **High-ROI SaaS** from the ground up, let's talk.
 
