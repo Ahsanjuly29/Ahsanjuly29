@@ -68,6 +68,8 @@ The ultimate objective is bridging the gap between advanced backend engineering 
 
 ### 🎯 Technical Challenges & Strategic Solutions
 
+*(Challenges and solution workflows will be listed here.)*
+
 <!-- 1. **System Architecture:** Expert in designing scalable backend systems using **SOLID, DDD, and Hexagonal Architecture** to reduce technical debt.
 2. **Performance Engineering:** Proven expertise in **Query Profiling and Indexing**, achieving up to 50x latency reduction in high-load environment.
 3. **Fintech Logic:** Specialized in transaction integrity, idempotent processing, and payment gateway reconciliation.
@@ -77,33 +79,51 @@ The ultimate objective is bridging the gap between advanced backend engineering 
 
 ---
 
+### 📂 Open-Source Projects & Engineering Methodologies
 
-### 💸 Featured Projects & Open Source
+Here is a look into my open-source work, categorized by the development methodology and the strategic engineering approach applied to each:
+
+#### 1. Custom-Coded Projects
+> Handcrafted from scratch with pure logic and manual coding, built to be production-ready.
 
 1. **[NexAuth-SSO](https://github.com/Ahsanjuly29/NexAuth-SSO)**
-   - **Purpose:** An enterprise-grade Single Sign-On (SSO) solution for secure cross-domain authentication.
-   - **Architecture & Patterns:** Built using **Service-Oriented Architecture (SOA)** and **OAuth2 patterns** to manage centralized sessions and secure token exchange.
-   - **Key Feature:** Implements strict data isolation and secure handshake protocols for distributed environments.
+   * **Purpose:** An enterprise-grade Single Sign-On (SSO) solution for secure cross-domain authentication.
+   * **Architecture & Patterns:** Built using **Service-Oriented Architecture (SOA)** and **OAuth2 patterns** to manage centralized sessions and secure token exchange.
+   * **Key Feature:** Implements strict data isolation and secure handshake protocols for distributed environments.
 
 2. **[ProductInventoryMS](https://github.com/Ahsanjuly29/ProductInventoryMS)**
-   - **Purpose:** A high-level Order Management System (OMS) designed for complex business inventory workflows.
-   - **Architecture & Patterns:** Developed using **Domain-Driven Design (DDD)** principles and **SOLID** patterns, featuring a decoupled service layer for clean business logic.
-   - **Key Feature:** High-speed stock tracking with optimized database indexing and automated inventory reconciliation.
+   * **Purpose:** A high-level Order Management System (OMS) designed for complex business inventory workflows.
+   * **Architecture & Patterns:** Developed using **Domain-Driven Design (DDD)** principles and **SOLID** patterns, featuring a decoupled service layer for clean business logic.
+   * **Key Feature:** High-speed stock tracking with optimized database indexing and automated inventory reconciliation.
 
 3. **[Task Management System](https://github.com/Ahsanjuly29/TaskMangegementSystem)**
-   - **Purpose:** Enterprise-grade collaboration tool designed for high-concurrency environments.
-   - **Architecture & Patterns:** Utilizes **Observer and Strategy patterns** with **Role-Based Access Control (RBAC)** for complex permission management.
-   - **Key Feature:** Scalable background processing via Redis Horizon to handle real-time task updates and notifications.
+   * **Purpose:** Enterprise-grade collaboration tool designed for high-concurrency environments.
+   * **Architecture & Patterns:** Utilizes **Observer and Strategy patterns** with **Role-Based Access Control (RBAC)** for complex permission management.
+   * **Key Feature:** Scalable background processing via Redis Horizon to handle real-time task updates and notifications.
 
 4. **[CvMaker](https://github.com/Ahsanjuly29/CvMaker-Php)**
-   - **Purpose:** A professional resume engine emphasizing high-fidelity document generation.
-   - **Architecture & Patterns:** Built with **Vanilla PHP**, focusing on **Modular Template Injection** to separate layout logic from data processing.
-   - **Key Feature:** Direct file manipulation and dynamic PDF generation engine designed for precision and speed.
+   * **Purpose:** A professional resume engine emphasizing high-fidelity document generation.
+   * **Architecture & Patterns:** Built with **Vanilla PHP**, focusing on **Modular Template Injection** to separate layout logic from data processing.
+   * **Key Feature:** Direct file manipulation and dynamic PDF generation engine designed for precision and speed.
 
 5. **[PHP-Legacy-Social](https://github.com/Ahsanjuly29/RailwayManagementSystem-php)**
-   - **Purpose:** A social media management engine built to master procedural backend logic and core system design.
-   - **Architecture & Patterns:** Engineered using **Raw/Vanilla PHP** to demonstrate mastery over procedural programming and core MySQL interactions.
-   - **Key Feature:** Implements full social features (authentication, posting, reactions) using fundamental backend logic without external frameworks.
+   * **Purpose:** A social media management engine built to master procedural backend logic and core system design.
+   * **Architecture & Patterns:** Engineered using **Raw/Vanilla PHP** to demonstrate mastery over procedural programming and core MySQL interactions.
+   * **Key Feature:** Implements full social features (authentication, posting, reactions) using fundamental backend logic without external frameworks.
+
+---
+
+#### 2. Vibe Coding & AI-Assisted
+> Projects where core design is human-led, utilizing AI tools for faster execution and planning.
+
+*(Projects using AI-assisted workflows will be listed here.)*
+
+---
+
+#### 3. AI-Driven Prototypes
+> Experimental projects built fully via advanced prompting based on a specific business idea.
+
+*(Concept validation projects will be listed here.)*
 
 ---
 
