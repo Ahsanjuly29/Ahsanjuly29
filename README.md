@@ -79,51 +79,39 @@ The ultimate objective is bridging the gap between advanced backend engineering 
 
 ---
 
-### 📂 Open-Source Projects & Engineering Methodologies
+### 📂 Projects (Open-Source)
 
-Here is a look into my open-source work, categorized by the development methodology and the strategic engineering approach applied to each:
-
-#### 1. Custom-Coded Projects
+#### 1. Custom-Coded List
 > Handcrafted from scratch with pure logic and manual coding, built to be production-ready.
 
-1. **[NexAuth-SSO](https://github.com/Ahsanjuly29/NexAuth-SSO)**
-   * **Purpose:** An enterprise-grade Single Sign-On (SSO) solution for secure cross-domain authentication.
-   * **Architecture & Patterns:** Built using **Service-Oriented Architecture (SOA)** and **OAuth2 patterns** to manage centralized sessions and secure token exchange.
-   * **Key Feature:** Implements strict data isolation and secure handshake protocols for distributed environments.
+1. **[NexAuth-SSO](https://github.com/Ahsanjuly29/NexAuth-SSO)** ([Source Code](https://github.com/Ahsanjuly29/NexAuth-SSO))
+   This system connects user authentication across multiple independent platforms. Instead of requiring separate logins for different connected sites, a single login securely signs a user into the entire network automatically, while still supporting standard secure password access.
 
-2. **[ProductInventoryMS](https://github.com/Ahsanjuly29/ProductInventoryMS)**
-   * **Purpose:** A high-level Order Management System (OMS) designed for complex business inventory workflows.
-   * **Architecture & Patterns:** Developed using **Domain-Driven Design (DDD)** principles and **SOLID** patterns, featuring a decoupled service layer for clean business logic.
-   * **Key Feature:** High-speed stock tracking with optimized database indexing and automated inventory reconciliation.
+2. **[ProductInventoryMS](https://github.com/Ahsanjuly29/ProductInventoryMS)** ([Source Code](https://github.com/Ahsanjuly29/ProductInventoryMS))
+   A central stock tracker that replaces chaotic manual logs with real-time updates. It syncs inventory numbers directly with incoming orders and sales movements, helping businesses stay accurate and avoid running out of stock or accidental overordering.
 
-3. **[Task Management System](https://github.com/Ahsanjuly29/TaskMangegementSystem)**
-   * **Purpose:** Enterprise-grade collaboration tool designed for high-concurrency environments.
-   * **Architecture & Patterns:** Utilizes **Observer and Strategy patterns** with **Role-Based Access Control (RBAC)** for complex permission management.
-   * **Key Feature:** Scalable background processing via Redis Horizon to handle real-time task updates and notifications.
+3. **[Task Management System](https://github.com/Ahsanjuly29/TaskMangegementSystem)** ([Source Code](https://github.com/Ahsanjuly29/TaskMangegementSystem))
+   A digital shared workspace built to streamline daily team workflows. It allows instant task assignments and progress tracking, handling heavy live updates in the background smoothly so the team always sees real-time changes without app slowdowns.
 
-4. **[CvMaker](https://github.com/Ahsanjuly29/CvMaker-Php)**
-   * **Purpose:** A professional resume engine emphasizing high-fidelity document generation.
-   * **Architecture & Patterns:** Built with **Vanilla PHP**, focusing on **Modular Template Injection** to separate layout logic from data processing.
-   * **Key Feature:** Direct file manipulation and dynamic PDF generation engine designed for precision and speed.
-
-5. **[PHP-Legacy-Social](https://github.com/Ahsanjuly29/RailwayManagementSystem-php)**
-   * **Purpose:** A social media management engine built to master procedural backend logic and core system design.
-   * **Architecture & Patterns:** Engineered using **Raw/Vanilla PHP** to demonstrate mastery over procedural programming and core MySQL interactions.
-   * **Key Feature:** Implements full social features (authentication, posting, reactions) using fundamental backend logic without external frameworks.
+4. **[CvMaker](https://github.com/Ahsanjuly29/CvMaker-Php)** ([Source Code](https://github.com/Ahsanjuly29/CvMaker-Php))
+   A resume generator that automates document layout and structural alignment. Users can input their professional information without fighting broken text margins or formatting issues, instantly producing a clean, high-fidelity PDF ready for use.
 
 ---
 
-#### 2. Vibe Coding & AI-Assisted
+#### 2. Vibe Coding & AI-Assisted List
 > Projects where core design is human-led, utilizing AI tools for faster execution and planning.
 
-*(Projects using AI-assisted workflows will be listed here.)*
+1. **[BloodSync](https://github.com/Ahsanjuly29/BloodSync)** ([Source Code](https://github.com/Ahsanjuly29/BloodSync))
+   This platform links blood donors with people in urgent need, making the search for lifesavers fast and stress-free. It focuses on closing the communication gap during critical hours by helping users quickly request or offer donations in a clear, organized space.
 
----
+2. **[QRCodeGenerator](https://github.com/Ahsanjuly29/QRCodeGenerator)** ([Source Code](https://github.com/Ahsanjuly29/QRCodeGenerator) | [Live Demo](https://ahsanjuly29.github.io/QRCodeGenerator/))
+   A quick, no-nonsense web tool to turn text, links, or info into clean QR codes instantly. It runs directly in the browser without any software installs, making it super easy to create, view, and save codes on the fly.
 
-#### 3. AI-Driven Prototypes
-> Experimental projects built fully via advanced prompting based on a specific business idea.
+3. **[BlogSite-react-inertia](https://github.com/Ahsanjuly29/BlogSite-react-inertia)** ([Source Code](https://github.com/Ahsanjuly29/BlogSite-react-inertia))
+   A clean blogging network built for a smooth, fast-loading reading experience. It keeps things snappy by switching pages without full browser reloads, offering a distraction-free environment to publish and read articles.
 
-*(Concept validation projects will be listed here.)*
+4. **[InternetSpeedMeter](https://github.com/Ahsanjuly29/InternetSpeedMeter)** ([Source Code](https://github.com/Ahsanjuly29/InternetSpeedMeter) | [Live Demo](https://ahsanjuly29.github.io/InternetSpeedMeter/))
+   A lightweight, minimal web meter to check connection performance. It quickly measures download and upload bandwidth in real-time, giving a clear, instant look at current network stability without any third-party clutter.
 
 ---
 
