@@ -33,7 +33,7 @@
 
 Senior Software Engineer and System Architect with 5+ years of driving technical excellence across the Laravel ecosystem and cloud infrastructure. I specialize in architecting revenue-driven, high-scale backends for **Fintech, Travel (OTA), Logistics, and Ed-Tech** platforms.
 
-My expertise centers on transforming complex technical bottlenecks into clear commercial advantages—proven by reducing legacy API latencies from **seconds to milliseconds** and engineering data pipelines to **synchronize 1M+ daily records**. Grounded in **SOLID principles, Domain-Driven Design (DDD), and Hexagonal Architecture**, the core focus remains on building fault-tolerant, high-concurrency systems that guarantee data integrity and 24/7 availability.
+My expertise centers on transforming complex technical bottlenecks into clear commercial advantagesproven by reducing legacy API latencies from **seconds to milliseconds** and engineering data pipelines to **synchronize 1M+ daily records**. Grounded in **SOLID principles, Domain-Driven Design (DDD), and Hexagonal Architecture**, the core focus remains on building fault-tolerant, high-concurrency systems that guarantee data integrity and 24/7 availability.
 
 The ultimate objective is bridging the gap between advanced backend engineering and business growth, ensuring every architectural decision delivers a measurable ROI.
 
@@ -41,26 +41,36 @@ The ultimate objective is bridging the gap between advanced backend engineering 
 
 ### 💼 Professional Journey
 
-1. **Senior Software Engineer (Backend & DevOps)** @ **IBOOK (Malaysia)** | *Jul 2024 – Jul 2025*
+1. **Senior Software Engineer (Backend & DevOps)** </br>
+   @ **IBOOK (Malaysia)** | *Jul 2024 – Jul 2025*
+
    - **Infrastructure:** Designed and deployed a **3-server decoupled architecture** (Frontend, Backend, DB) to optimize load distribution and system uptime.
    - **Data Engineering:** Engineered high-throughput background pipelines to sync **1M+ daily prices**, maintaining **Google Hotel Search Top 10** rankings.
    - **DevOps:** Integrated **YAML automation** to resolve deployment bottlenecks and utilized Redis for high-concurrency responsiveness.
    - **Fintech:** Managed full payment lifecycles (TNG, FPX, CHIP) with **Webhook verification and retry logic**, ensuring 100% data integrity.
 
-2. **Software Engineer** @ **Nexoda (BDRen)** | *Mar 2024 – Jun 2024*
+2. **Software Engineer** </br>
+   @ **Nexoda (BDRen)** | *Mar 2024 – Jun 2024*
+
    - Optimized backend services for high-traffic research network infrastructure.
    - Automated cloud backups and implemented **CI/CD pipelines** using GitHub Actions and Docker.
 
-3. **Software Engineer (Optimization & Performance)** @ **Flight Expert** | *Apr 2022 – Dec 2023*
+3. **Software Engineer (Optimization & Performance)** </br>
+   @ **Flight Expert** | *Apr 2022 – Dec 2023*
+
    - **Latency:** Slashed GDS and Hotel API sync delays from **10s to 200ms** using composite indexing and query profiling.
    - **Big Data:** Built a reporting system using **pre-aggregated tables and denormalized snapshots**, resolving timeouts on multi-million row datasets.
    - **Throughput:** Developed asynchronous multi-process pipelines, reducing report generation time by **95%** and boosting throughput by **300%**.   
 
-4. **Software Engineer** @ **RootsEdu** | *2021 –  2022*
+4. **Software Engineer** </br>
+   @ **RootsEdu** | *2021 –  2022*
+   
    - Optimized backend services for high-traffic Users.
    - built sclable Api's for roots-edu Apps (User & Exam modules).
 
-5. **Software Engineer** @ **Smart Software Ltd** | *Aug 2020 – Mar 2021*
+5. **Software Engineer** </br>
+   @ **Smart Software Ltd** | *Aug 2020 – Mar 2021*
+
    - **ERP/HRM:** Developed core HR and salary modules and secure multi-tenant E-commerce platforms.
    - **Performance:** Improved legacy system speed by **40%** through database restructuring and Blade optimization.
 
@@ -81,8 +91,8 @@ The ultimate objective is bridging the gap between advanced backend engineering 
 
 ### 📂 Projects (Open-Source)
 
-#### 1. Custom-Coded List
-> Handcrafted from scratch with pure logic and manual coding, built to be production-ready.
+#### 1. Core Engineering | Pure Craftsmanship
+> Handcrafted from scratch with pure logic and manual coding, ready to use.
 
 1. **[NexAuth-SSO](https://github.com/Ahsanjuly29/NexAuth-SSO)** ([Source Code](https://github.com/Ahsanjuly29/NexAuth-SSO))
    This system connects user authentication across multiple independent platforms. Instead of requiring separate logins for different connected sites, a single login securely signs a user into the entire network automatically, while still supporting standard secure password access.
@@ -99,7 +109,7 @@ The ultimate objective is bridging the gap between advanced backend engineering 
 ---
 
 #### 2. Vibe Coding & AI-Assisted List
-> Projects where core design is human-led, utilizing AI tools for faster execution and planning.
+> Powered by human thoughts for unique conceptual ideas to solve new challenges, using AI tools purely to fast-track the execution and planning.
 
 1. **[BloodSync](https://github.com/Ahsanjuly29/BloodSync)** ([Source Code](https://github.com/Ahsanjuly29/BloodSync))
    This platform links blood donors with people in urgent need, making the search for lifesavers fast and stress-free. It focuses on closing the communication gap during critical hours by helping users quickly request or offer donations in a clear, organized space.
