@@ -1,9 +1,14 @@
 
 <h1 align="center">Ahsan Ahmed</h1>
-<p align="center">
-  <strong>Senior Software Engineer | Backend & System Architect</strong><br>
-  <em>Engineering High-Scale ROI through Fintech Precision, System Resilience & DevOps Automation</em>
-</p>
+
+<div align="center">
+
+### Senior Software Engineer | Backend & System Architect
+
+**Laravel Expert • Scalable SaaS & Fintech Solutions • Cloud Infrastructure • VPS • Resilient DevOps Automation**
+
+</div>
+
 
 <p align="center">
   <a href="https://www.linkedin.com/in/ahsanjuly29/">LinkedIn</a> | 
@@ -16,20 +21,25 @@
 
 <div align="center">
 
-#### Core Stack & Infrastructure
+#### 🛠️ Core Stack & Infrastructure
 
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-d82c20?style=for-the-badge&logo=redis&logoColor=white)  ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![CI/CD](https://img.shields.io/badge/CI/CD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E94333?style=for-the-badge&logo=ubuntu&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-d82c20?style=for-the-badge&logo=redis&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white) ![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white) ![Vultr](https://img.shields.io/badge/Vultr-007BFF?style=for-the-badge&logo=vultr&logoColor=white) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![CI/CD](https://img.shields.io/badge/CI/CD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E94333?style=for-the-badge&logo=ubuntu&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-074D5B?style=for-the-badge&logo=sqlite&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white) ![Alpine.js](https://img.shields.io/badge/Alpine.js-8BC0D0?style=for-the-badge&logo=alpine.js&logoColor=black) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 </div>
 
 ---
 
-#### 👨‍💻 Professional Summary
-Senior Software Engineer and System Architect with **5+ years of experience** specializing in the Laravel ecosystem and cloud infrastructure. I build revenue-driven infrastructures for **Fintech, Logistics, and Travel (OTA)** sectors. 
+### 👨‍💻 Professional Summary
 
-My expertise lies in transforming technical bottlenecks into competitive advantages—proven by reducing legacy API latencies from **10s to 200ms** and scaling data pipelines to handle **1M+ daily record synchronizations**. With a deep focus on **SOLID principles, DDD, and Hexagonal Architecture**, I engineer fault-tolerant, high-concurrency systems that guarantee data integrity and 24/7 availability. My mission is to bridge the gap between complex engineering and business growth, ensuring every architectural decision delivers a measurable ROI. 
+Senior Software Engineer and System Architect with 5+ years of driving technical excellence across the Laravel ecosystem and cloud infrastructure. I specialize in architecting revenue-driven, high-scale backends for **Fintech, Travel (OTA), Logistics, and Ed-Tech** platforms.
 
-#### 💼 Professional Journey
+My expertise centers on transforming complex technical bottlenecks into clear commercial advantages—proven by reducing legacy API latencies from **seconds to milliseconds** and engineering data pipelines to **synchronize 1M+ daily records**. Grounded in **SOLID principles, Domain-Driven Design (DDD), and Hexagonal Architecture**, the core focus remains on building fault-tolerant, high-concurrency systems that guarantee data integrity and 24/7 availability.
+
+The ultimate objective is bridging the gap between advanced backend engineering and business growth, ensuring every architectural decision delivers a measurable ROI.
+
+---
+
+### 💼 Professional Journey
 
 1. **Senior Software Engineer (Backend & DevOps)** @ **IBOOK (Malaysia)** | *Jul 2024 – Jul 2025*
    - **Infrastructure:** Designed and deployed a **3-server decoupled architecture** (Frontend, Backend, DB) to optimize load distribution and system uptime.
@@ -37,30 +47,38 @@ My expertise lies in transforming technical bottlenecks into competitive advanta
    - **DevOps:** Integrated **YAML automation** to resolve deployment bottlenecks and utilized Redis for high-concurrency responsiveness.
    - **Fintech:** Managed full payment lifecycles (TNG, FPX, CHIP) with **Webhook verification and retry logic**, ensuring 100% data integrity.
 
-2. **Software Engineer (Optimization & Performance)** @ **Flight Expert** | *Apr 2022 – Dec 2023*
-   - **Latency:** Slashed GDS and Hotel API sync delays from **10s to 200ms** using composite indexing and query profiling.
-   - **Big Data:** Built a reporting system using **pre-aggregated tables and denormalized snapshots**, resolving timeouts on multi-million row datasets.
-   - **Throughput:** Developed asynchronous multi-process pipelines, reducing report generation time by **95%** and boosting throughput by **300%**.
-
-3. **Software Engineer** @ **Nexoda (BDRen)** | *Mar 2024 – Jun 2024*
+2. **Software Engineer** @ **Nexoda (BDRen)** | *Mar 2024 – Jun 2024*
    - Optimized backend services for high-traffic research network infrastructure.
    - Automated cloud backups and implemented **CI/CD pipelines** using GitHub Actions and Docker.
 
-4. **Software Engineer** @ **Smart Software Ltd** | *Aug 2020 – Mar 2021*
+3. **Software Engineer (Optimization & Performance)** @ **Flight Expert** | *Apr 2022 – Dec 2023*
+   - **Latency:** Slashed GDS and Hotel API sync delays from **10s to 200ms** using composite indexing and query profiling.
+   - **Big Data:** Built a reporting system using **pre-aggregated tables and denormalized snapshots**, resolving timeouts on multi-million row datasets.
+   - **Throughput:** Developed asynchronous multi-process pipelines, reducing report generation time by **95%** and boosting throughput by **300%**.   
+
+4. **Software Engineer** @ **RootsEdu** | *2021 –  2022*
+   - Optimized backend services for high-traffic Users.
+   - built sclable Api's for roots-edu Apps (User & Exam modules).
+
+5. **Software Engineer** @ **Smart Software Ltd** | *Aug 2020 – Mar 2021*
    - **ERP/HRM:** Developed core HR and salary modules and secure multi-tenant E-commerce platforms.
    - **Performance:** Improved legacy system speed by **40%** through database restructuring and Blade optimization.
 
-#### 🚀 Technical Impact & Strategic Competencies
+---
 
-1. **System Architecture:** Expert in designing scalable backend systems using **SOLID, DDD, and Hexagonal Architecture** to reduce technical debt.
+### 🎯 Technical Challenges & Strategic Solutions
+
+<!-- 1. **System Architecture:** Expert in designing scalable backend systems using **SOLID, DDD, and Hexagonal Architecture** to reduce technical debt.
 2. **Performance Engineering:** Proven expertise in **Query Profiling and Indexing**, achieving up to 50x latency reduction in high-load environment.
 3. **Fintech Logic:** Specialized in transaction integrity, idempotent processing, and payment gateway reconciliation.
 4. **Cloud & Automation:** Skilled in **Infrastructure as Code (IaC)** using YAML, Docker, and GitHub Actions across AWS and Oracle Cloud.
 5. **Data Scaling:** Orchestrating high-throughput streams and asynchronous updates via Redis Horizon and Firebase.
-6. **Product Strategy:** Translating complex business requirements into technical blueprints to ensure high-ROI delivery.
+6. **Product Strategy:** Translating complex business requirements into technical blueprints to ensure high-ROI delivery. -->
+
+---
 
 
-#### 💸 Featured Projects & Open Source
+### 💸 Featured Projects & Open Source
 
 1. **[NexAuth-SSO](https://github.com/Ahsanjuly29/NexAuth-SSO)**
    - **Purpose:** An enterprise-grade Single Sign-On (SSO) solution for secure cross-domain authentication.
@@ -87,8 +105,9 @@ My expertise lies in transforming technical bottlenecks into competitive advanta
    - **Architecture & Patterns:** Engineered using **Raw/Vanilla PHP** to demonstrate mastery over procedural programming and core MySQL interactions.
    - **Key Feature:** Implements full social features (authentication, posting, reactions) using fundamental backend logic without external frameworks.
 
+---
 
-#### 📊 Live GitHub Activity & Insights
+### 📊 Live GitHub Activity & Insights
 
 | **Core Stats** | **Most Used Languages** | **Contribution Streak** |
 | :---: | :---: | :---: |
@@ -99,17 +118,9 @@ My expertise lies in transforming technical bottlenecks into competitive advanta
 
 ---
 
-#### 🔷 Deep Diving & Specialization
+### 🔗 Let's Connect
 
-1. **PHP Internals & Performance:** Mastering Zend Engine optimization and high-level performance tuning for complex enterprise apps.
-2. **Advanced Architecture:** Implementing **Domain-Driven Design (DDD)** and **Hexagonal Architecture** for large-scale Fintech and Logistics logic.
-3. **Infrastructure Excellence:** Mastering **Oracle Cloud** and automated server provisioning via YAML to ensure 100% environment consistency.
-
----
-
-#### 🔗 Let's Connect
-
-If you are looking for a **Senior Architect** to optimize your existing infrastructure or build a **High-ROI SaaS** from the ground up, let's talk.
+For an Excellent Experience and future-proof WebApp, let's talk.
 
 📧 **Email:** [ahsan.july29@gmail.com](mailto:ahsan.july29@gmail.com) | 
 💼 **LinkedIn:** [linkedin.com/in/ahsanjuly29](https://www.linkedin.com/in/ahsanjuly29) | 
