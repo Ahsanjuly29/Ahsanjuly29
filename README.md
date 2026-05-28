@@ -78,7 +78,7 @@ The ultimate objective is bridging the gap between advanced backend engineering 
 
 ### 🎯 Technical Challenges & Strategic Solutions
 
-Challenge 1: How to Export 1M rows from Database to CSV within 28s ? 👉 [Solution](https://lnkd.in/gszQAhRT)
+Challenge 1: How to Export 1M rows from Database to CSV within 28s ? 👉 [Solution](https://ahsanjuly29.github.io/LaravelEasySolutions-Manual/Export-csv/)
 
 ---
 
