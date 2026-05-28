@@ -78,14 +78,7 @@ The ultimate objective is bridging the gap between advanced backend engineering 
 
 ### 🎯 Technical Challenges & Strategic Solutions
 
-*(Challenges and solution workflows will be listed here.)*
-
-<!-- 1. **System Architecture:** Expert in designing scalable backend systems using **SOLID, DDD, and Hexagonal Architecture** to reduce technical debt.
-2. **Performance Engineering:** Proven expertise in **Query Profiling and Indexing**, achieving up to 50x latency reduction in high-load environment.
-3. **Fintech Logic:** Specialized in transaction integrity, idempotent processing, and payment gateway reconciliation.
-4. **Cloud & Automation:** Skilled in **Infrastructure as Code (IaC)** using YAML, Docker, and GitHub Actions across AWS and Oracle Cloud.
-5. **Data Scaling:** Orchestrating high-throughput streams and asynchronous updates via Redis Horizon and Firebase.
-6. **Product Strategy:** Translating complex business requirements into technical blueprints to ensure high-ROI delivery. -->
+Challenge 1: How to Export 1M rows from Database to CSV within 28s ? 👉 [Solution](https://lnkd.in/gszQAhRT)
 
 ---
 
