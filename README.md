@@ -114,8 +114,11 @@ A clean blogging network built for a smooth, fast-loading reading experience. It
 2. **[QRCodeGenerator](https://github.com/Ahsanjuly29/QRCodeGenerator)** ([Source Code](https://github.com/Ahsanjuly29/QRCodeGenerator) | [Live Demo](https://ahsanjuly29.github.io/QRCodeGenerator/))
    A quick, no-nonsense web tool to turn text, links, or info into clean QR codes instantly. It runs directly in the browser without any software installs, making it super easy to create, view, and save codes on the fly.
 
-5. **[InternetSpeedMeter](https://github.com/Ahsanjuly29/InternetSpeedMeter)** ([Source Code](https://github.com/Ahsanjuly29/InternetSpeedMeter) | [Live Demo](https://ahsanjuly29.github.io/InternetSpeedMeter/))
+3. **[InternetSpeedMeter](https://github.com/Ahsanjuly29/InternetSpeedMeter)** ([Source Code](https://github.com/Ahsanjuly29/InternetSpeedMeter) | [Live Demo](https://ahsanjuly29.github.io/InternetSpeedMeter/))
    A lightweight, minimal web meter to check connection performance. It quickly measures download and upload bandwidth in real-time, giving a clear, instant look at current network stability without any third-party clutter.
+
+4. **[mango-ecom](https://github.com/Ahsanjuly29/mango-ecom)** ([Source Code](https://github.com/Ahsanjuly29/mango-ecom))
+A dynamic Laravel MVC project for selling seasonal fruits like mangoes and lichis, featuring a premium glassmorphic landing page. It includes a straightforward product ordering system with mobile-only checkout, integrated payment options, a multi-role admin panel (Admin, Manager, Seller) for easy order and stock tracking, and a clean, lightweight sales report exporter built entirely using core PHP.
 
 ---
 
