@@ -78,7 +78,8 @@ The ultimate objective is bridging the gap between advanced backend engineering 
 
 ### 🎯 Technical Challenges & Strategic Solutions
 
-Challenge 1: How to Export 1M rows from Database to CSV within 28s ? 👉 [Solution](https://ahsanjuly29.github.io/LaravelEasySolutions-Manual/Export-csv/)
+Challenge 1: How to Export 1M rows from Database to CSV within 14s and mail to user ? 👉 [Solution](https://ahsanjuly29.github.io/LaravelEasySolutions-Manual/Export-csv/)
+[Prod-complexity-solution](https://ahsanjuly29.github.io/LaravelEasySolutions-Manual/Export-csv/Complex-export/)
 
 ---
 
@@ -99,6 +100,9 @@ Challenge 1: How to Export 1M rows from Database to CSV within 28s ? 👉 [Solut
 4. **[CvMaker](https://github.com/Ahsanjuly29/CvMaker-Php)** ([Source Code](https://github.com/Ahsanjuly29/CvMaker-Php))
    A resume generator that automates document layout and structural alignment. Users can input their professional information without fighting broken text margins or formatting issues, instantly producing a clean, high-fidelity PDF ready for use.
 
+5. **[BlogSite-react-inertia](https://github.com/Ahsanjuly29/BlogSite-react-inertia)** ([Source Code](https://github.com/Ahsanjuly29/BlogSite-react-inertia))
+A clean blogging network built for a smooth, fast-loading reading experience. It keeps things snappy by switching pages without full browser reloads, offering a distraction-free environment to publish and read articles.
+
 ---
 
 #### 2. Vibe Coding & AI-Assisted List
@@ -110,10 +114,7 @@ Challenge 1: How to Export 1M rows from Database to CSV within 28s ? 👉 [Solut
 2. **[QRCodeGenerator](https://github.com/Ahsanjuly29/QRCodeGenerator)** ([Source Code](https://github.com/Ahsanjuly29/QRCodeGenerator) | [Live Demo](https://ahsanjuly29.github.io/QRCodeGenerator/))
    A quick, no-nonsense web tool to turn text, links, or info into clean QR codes instantly. It runs directly in the browser without any software installs, making it super easy to create, view, and save codes on the fly.
 
-3. **[BlogSite-react-inertia](https://github.com/Ahsanjuly29/BlogSite-react-inertia)** ([Source Code](https://github.com/Ahsanjuly29/BlogSite-react-inertia))
-   A clean blogging network built for a smooth, fast-loading reading experience. It keeps things snappy by switching pages without full browser reloads, offering a distraction-free environment to publish and read articles.
-
-4. **[InternetSpeedMeter](https://github.com/Ahsanjuly29/InternetSpeedMeter)** ([Source Code](https://github.com/Ahsanjuly29/InternetSpeedMeter) | [Live Demo](https://ahsanjuly29.github.io/InternetSpeedMeter/))
+5. **[InternetSpeedMeter](https://github.com/Ahsanjuly29/InternetSpeedMeter)** ([Source Code](https://github.com/Ahsanjuly29/InternetSpeedMeter) | [Live Demo](https://ahsanjuly29.github.io/InternetSpeedMeter/))
    A lightweight, minimal web meter to check connection performance. It quickly measures download and upload bandwidth in real-time, giving a clear, instant look at current network stability without any third-party clutter.
 
 ---
