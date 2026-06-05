@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahsan Ahmed - Senior System Architect CV</title>
+    <title>Ahsan Ahmed - Senior Backend & System Architect CV</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
         body {
             font-family: 'Inter', sans-serif;
-            line-height: 1.5;
+            line-height: 1.45;
             color: #1a1a1a;
             margin: 0;
             padding: 0;
@@ -18,74 +18,86 @@
         }
 
         .cv-wrapper {
-            width: 850px;
+            width: 800px;
             margin: 0 auto;
-            padding: 40px;
+            padding: 35px 40px;
         }
 
         header {
             border-bottom: 3px solid #2d3436;
             padding-bottom: 10px;
-            margin-bottom: 20px;
+            margin-bottom: 18px;
         }
 
         h1 {
             margin: 0;
             font-size: 28px;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 0.5px;
             color: #2d3436;
         }
 
-        .contact-info {
+        .contact-links {
             display: flex;
             flex-wrap: wrap;
-            gap: 15px;
-            font-size: 13px;
+            gap: 12px;
+            font-size: 12.5px;
             margin-top: 8px;
             font-weight: 600;
             color: #636e72;
         }
 
+        .contact-links a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .contact-links a:hover {
+            color: #0984e3;
+        }
+
         .section-title {
-            font-size: 15px;
+            font-size: 14.5px;
             font-weight: 700;
             text-transform: uppercase;
             color: #2d3436;
             border-bottom: 1.5px solid #dfe6e9;
-            padding-bottom: 5px;
+            padding-bottom: 4px;
             margin: 20px 0 10px 0;
         }
 
         .job-entry {
-            margin-bottom: 18px;
+            margin-bottom: 16px;
         }
 
         .job-header {
             display: flex;
             justify-content: space-between;
             font-weight: 700;
-            font-size: 14.5px;
+            font-size: 14px;
             color: #2d3436;
         }
 
         .job-title {
             font-weight: 600;
             color: #0984e3;
-            font-size: 13.5px;
-            margin-bottom: 5px;
+            font-size: 13px;
+            margin-bottom: 4px;
+        }
+
+        .text-uppercase {
+            text-transform: uppercase;
         }
 
         ul {
-            margin: 5px 0;
-            padding-left: 18px;
+            margin: 4px 0;
+            padding-left: 16px;
             list-style-type: circle;
         }
 
-        /* Countable numbering as per your instruction */
         li {
-            margin-bottom: 6px;
-            font-size: 13px;
+            margin-bottom: 5px;
+            font-size: 12.5px;
             text-align: justify;
         }
 
@@ -95,27 +107,32 @@
         }
 
         .tech-tags {
-            font-size: 12px;
+            font-size: 11.5px;
             margin-top: 5px;
             font-weight: 600;
             color: #2d3436;
             background: #f1f2f6;
-            padding: 3px 8px;
+            padding: 3px 6px;
             border-radius: 4px;
             display: inline-block;
         }
 
-        .expertise-grid {
+        .architecture-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 10px;
-            font-size: 13px;
+            gap: 12px;
+            font-size: 12.5px;
+        }
+
+        .arch-card {
+            background: #fff;
+            padding: 1px 0;
         }
 
         .education-entry {
             display: flex;
             justify-content: space-between;
-            font-size: 13.5px;
+            font-size: 13px;
             font-weight: 600;
         }
 
@@ -127,168 +144,158 @@
 
             body {
                 background: none;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
             }
         }
     </style>
-
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="cv-wrapper">
-        <header class="">
-            <h1 class=" text-uppercase">Ahsan Ahmed</h1>
-            <p class="h5 text-secondary">Senior Software Engineer | Backend & System Architect
-                <small class="d-block" style="font-size: small;">
-                    Laravel Expert • Cloud Infrastructure & VPS • Scalable SaaS Solutions
+        <header>
+            <h1>Ahsan Ahmed</h1>
+            <p style="font-size: 15px; font-weight: 600; color: #636e72; margin: 4px 0 0 0;">
+                Senior Software Engineer | Backend & System Architect
+                <small style="display: block; font-size: 12.5px; font-weight: 400; color: #7f8c8d; margin-top: 1px;">
+                    Laravel Ecosystem • Distributed Cloud Systems • High-Scale SaaS Optimization
                 </small>
             </p>
-            <div class="d-flex flex-wrap gap-2 contact-links">
-                <a href="mailto:ahsan.july29@gmail.com" style="text-decoration: none; color: inherit;">
-                    ahsan.july29@gmail.com
-                </a>
-
-                <strong>|</strong>
-
-                <a href="tel:+8801674553390" style="text-decoration: none; color: inherit;">
-                    +880-1674-553390
-                </a>
-
-                <strong>|</strong>
-
-                <a href="https://linkedin.com/in/ahsanjuly29" target="_blank"
-                    style="text-decoration: none; color: inherit;">
-                    linkedin.com/in/ahsanjuly29
-                </a>
-
-                <strong>|</strong>
-
-                <a href="https://github.com/Ahsanjuly29" target="_blank" style="text-decoration: none; color: inherit;">
-                    github.com/Ahsanjuly29<b>(Portfolio)</b>
-                </a>
+            <div class="contact-links">
+                <a href="mailto:ahsan.july29@gmail.com">ahsan.july29@gmail.com</a>
+                <span>|</span>
+                <a href="tel:+8801948484161">+880-194848-4161</a>
+                <span>|</span>
+                <a href="https://linkedin.com/in/ahsanjuly29" target="_blank">linkedin.com/in/ahsanjuly29</a>
+                <span>|</span>
+                <a href="https://github.com/Ahsanjuly29" target="_blank">github.com/Ahsanjuly29
+                    <strong>(Portfolio)</strong></a>
             </div>
         </header>
 
         <section>
             <div class="section-title">Professional Summary</div>
-            <p style="font-size: 13.5px; margin: 0;">
-                Senior Software Engineer with <strong>5+ years of expertise</strong> in engineering high-scale SaaS,
+            <p style="font-size: 13px; margin: 0; text-align: justify;">
+                Senior Software Engineer with <strong>5+ years of experience</strong> engineering high-scale SaaS,
                 Fintech, and OTA platforms. Specialist in the <strong>Laravel Ecosystem, System Architecture
-                    (DDD/Hexagonal)</strong>, and Performance Engineering. Proven record of slashing legacy API latency
-                from <span class="highlight">10s to 200ms</span> and optimizing data pipelines for <span
+                    (DDD/Hexagonal)</strong>, and Performance Engineering. Proven track record of slashing legacy API
+                latency from <span class="highlight">10s to 200ms</span> and optimizing pipelines for <span
                     class="highlight">1M+ daily record synchronizations</span>. Focused on bridging the gap between
                 complex engineering and business ROI through DevOps automation and fault-tolerant system design.
             </p>
         </section>
 
         <section>
-            <div class="section-title">Professional Experience (best 3)</div>
+            <div class="section-title">Professional Experience</div>
 
             <div class="job-entry">
                 <div class="job-header">
-                    <span class="fw-bold">IBOOK (Malaysia) — OTA </span>
+                    <span><b>IBOOK (Malaysia) — OTA Hotel</b></span>
                     <span>2024 – 2025</span>
                 </div>
                 <div class="job-title text-uppercase">Senior Software Engineer (Backend & DevOps)</div>
-                <ul>
-                    <li><strong>System Architecture:</strong> Deployed a <span class="highlight">3-server decoupled
-                            infrastructure</span> (Frontend, Backend, DB) and YAML-based automation, eliminating
-                        deployment bottlenecks and ensuring 24/7 uptime.</li>
-                    <li><strong>Data Engineering:</strong> Engineered high-throughput pipelines to sync <span
-                            class="highlight">1M+ daily hotel prices</span>, maintaining Google Hotel Search Top 10
-                        rankings while using Redis for real-time responsiveness.</li>
-                    <li><strong>Fintech Logic:</strong> Managed end-to-end payment lifecycles (TNG, FPX, CHIP) with
-                        <span class="highlight">idempotent processing and retry logic</span>, ensuring 100% transaction
-                        integrity during peak traffic.
-                    </li>
-                </ul>
                 <div class="tech-tags">Stack: Laravel, Redis Horizon, AWS, Docker, YAML Automation, Fintech Webhooks.
                 </div>
+                <ul>
+                    <li><strong>High-Availability Infrastructure:</strong> Architected and deployed a <span
+                            class="highlight">3-server decoupled infrastructure</span> (Frontend, Backend, DB) via
+                        YAML-based CI/CD pipelines, eliminating delivery bottlenecks and ensuring 24/7 uptime.</li>
+                    <li><strong>High-Throughput Data Sync:</strong> Engineered asynchronous pipelines using Redis to
+                        synchronize <span class="highlight">1M+ daily hotel prices</span>, maintaining Google Hotel
+                        Search Top 10 rankings while offloading main system traffic.</li>
+                    <li><strong>Fintech Logic & Idempotency:</strong> Managed end-to-end payment lifecycles (TNG, FPX,
+                        CHIP) with <span class="highlight">idempotent webhook processing and automated retry
+                            logic</span>, ensuring 100% transactional integrity during peak hours.</li>
+                </ul>
             </div>
 
             <div class="job-entry">
                 <div class="job-header">
-                    <span class="fw-bold">Flight Expert — OTA (Flight & Hotel)</span>
+                    <span><b>Flight Expert — OTA (Flight & Hotel)</b></span>
                     <span>2022 – 2023</span>
                 </div>
                 <div class="job-title text-uppercase">Software Engineer (System Optimization & Performance)</div>
-                <ul>
-                    <li><strong>Latency Reduction:</strong> Reduced GDS and Hotel API sync delays from <span
-                            class="highlight">10s to 200ms</span> using composite indexing and query profiling, directly
-                        boosting booking conversion rates.</li>
-                    <li><strong>Performance Scaling:</strong> Resolved backend timeouts on multi-million row datasets by
-                        building a reporting engine using <span class="highlight">pre-aggregated tables and denormalized
-                            snapshots</span>.</li>
-                    <li><strong>Throughput Optimization:</strong> Developed asynchronous multi-process pipelines,
-                        reducing report generation time by <span class="highlight">95%</span> and increasing system
-                        throughput by <span class="highlight">300%</span>.</li>
-                </ul>
                 <div class="tech-tags">Stack: Laravel, MySQL (Advanced Indexing), Redis, AWS EC2/S3, Asynchronous
                     Pipelines.</div>
+                <ul>
+                    <li><strong>Latency & Query Engineering:</strong> Slashed core GDS and Hotel API sync delays from
+                        <span class="highlight">10s to 200ms</span> using composite indexing and advanced query
+                        profiling, directly boosting booking conversion rates.
+                    </li>
+                    <li><strong>Performance Scaling:</strong> Eliminated backend timeouts on multi-million row datasets
+                        by designing a reporting engine driven by <span class="highlight">pre-aggregated tables and
+                            denormalized snapshots</span>.</li>
+                    <li><strong>Throughput Optimization:</strong> Built asynchronous multi-process pipelines for heavy
+                        data workloads, reducing report generation time by <span class="highlight">95%</span> and
+                        increasing system throughput by <span class="highlight">300%</span>.</li>
+                </ul>
             </div>
 
             <div class="job-entry">
                 <div class="job-header">
-                    <span class="fw-bold">Smart Software LTD</span>
+                    <span><b>Smart Software LTD</b></span>
                     <span>2020 – 2021</span>
                 </div>
                 <div class="job-title text-uppercase">Junior Software Engineer</div>
+                <div class="tech-tags">Stack: Laravel, MySQL, PHP OOP, Blade, ERP Logic, Multi-tenancy.</div>
                 <ul>
-                    <li>Developed core <span class="highlight">HR and Salary modules</span> for multi-tenant ERP systems
-                        and improved legacy system speed by <span class="highlight">40%</span> through database
-                        restructuring.</li>
-                    <li>Developed single and multi tenant e-commerce and mostly debugged and problem solving</li>
+                    <li><strong>SaaS Modules & Database Tuning:</strong> Developed core multi-tenant HR and Salary
+                        modules for enterprise ERP systems, boosting legacy application speed by <span
+                            class="highlight">40%</span> through database schema restructuring.</li>
+                    <li><strong>System Stability:</strong> Maintained single and multi-tenant e-commerce platforms,
+                        resolving critical production bottlenecks and improving deployment stability.</li>
                 </ul>
             </div>
         </section>
 
         <section>
-            <div class="section-title">Technical Mastery & Architecture</div>
-            <div class="expertise-grid">
-                <div>
-                    <strong>Core Tech:</strong> PHP (Laravel Expert), MySQL, PostgreSQL, Redis Horizon, Docker, Nginx.
+            <div class="section-title">Technical Mastery & Core Domains</div>
+            <div class="architecture-grid">
+                <div class="arch-card">
+                    <strong>Backend & Systems:</strong> PHP (Laravel Expert), Redis & Message Queues (Horizon), MySQL,
+                    PostgreSQL, RESTful API Design, SOLID Principles, Unit Testing.
                 </div>
-                <div>
-                    <strong>Infrastructure:</strong> AWS (EC2/S3), Oracle Cloud, CI/CD (GitHub Actions), YAML
-                    Automation.
+                <div class="arch-card">
+                    <strong>Cloud & Infrastructure:</strong> AWS (EC2, S3), Oracle Cloud, Docker, Nginx, CI/CD (GitHub
+                    Actions), IaC (YAML Automation), Linux VPS Administration.
                 </div>
-                <div>
-                    <strong>Architecture:</strong> SOLID, DDD, Hexagonal Architecture, Design Patterns (Observer,
-                    Strategy).
+                <div class="arch-card">
+                    <strong>System Architecture:</strong> Domain-Driven Design (DDD), Hexagonal Architecture (Ports &
+                    Adapters), Design Patterns (Strategy, Observer, Factory).
                 </div>
-                <div>
-                    <strong>Business Logic:</strong> Fintech Ledgers, Payment Gateways, SaaS Multi-tenancy, GDS/OTA
-                    APIs.
+                <div class="arch-card">
+                    <strong>Core Domains:</strong> Fintech (Ledgers & PGs), SaaS Multi-tenant Infrastructure, Travel
+                    Tech (GDS, OTA), Enterprise Logistics (ERP, POS, HRM), E-Commerce & Ed-Tech.
                 </div>
             </div>
         </section>
 
         <section>
-            <div class="section-title">Strategic Competencies (ROI Focus)</div>
-            <div class="expertise-grid">
-                <ul>
-                    <li>Performance Tuning & Latency Engineering</li>
-                    <li>Infrastructure as Code (IaC) & Scalability</li>
-                </ul>
-                <ul>
-                    <li>Transactional Integrity & Idempotency</li>
-                    <li>Strategic Technical Blueprinting & Leadership</li>
-                </ul>
+            <div class="section-title">Architectural & Strategic Competencies</div>
+            <div class="architecture-grid">
+                <div class="arch-card">
+                    • High-Concurrency Data Design & Tuning<br>
+                    • Fault-Tolerant System Design<br>
+                    • Transactional Integrity & Idempotency
+                </div>
+                <div class="arch-card">
+                    • Performance Engineering & Latency Reduction<br>
+                    • Distributed Processing & Async Pipelines<br>
+                    • Product Strategy & Technical Blueprinting
+                </div>
             </div>
         </section>
 
-        <section>
+        <section style="margin-top: 5px;">
             <div class="section-title">Education</div>
             <div class="education-entry">
                 <span>Eastern University — B.Sc. in Computer Science & Engineering</span>
                 <span>Graduated 2019</span>
             </div>
-            <p style="font-size: 12px; margin-top: 5px;"><strong>Final Project:</strong> Social Media Engine built with
-                Raw OOP PHP and Mastered core MySQL interactions.</p>
+            <p style="font-size: 12px; margin: 4px 0 0 0;"><strong>Final Project:</strong> Social Media Engine built
+                with Raw PHP (OOP) and Mastered Advanced MySQL Schema Tuning.</p>
         </section>
     </div>
-
 </body>
 
 </html>
