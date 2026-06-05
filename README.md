@@ -5,7 +5,7 @@
 
 ### Senior Software Engineer | Backend & System Architect
 
-**Laravel Expert • Scalable SaaS & Fintech Solutions • Cloud Infrastructure • VPS • Resilient DevOps Automation**
+**Laravel Ecosystem • Distributed Cloud Systems • High-Scale SaaS & Fintech Solutions • Resilient DevOps Automation**
 
 </div>
 
@@ -44,8 +44,8 @@ The ultimate objective is bridging the gap between advanced backend engineering 
 1. **Senior Software Engineer (Backend & DevOps)** </br>
    @ **IBOOK (Malaysia)** | *Jul 2024 – Jul 2025*
 
-   - **Infrastructure:** Designed and deployed a **3-server decoupled architecture** (Frontend, Backend, DB) to optimize load distribution and system uptime.
-   - **Data Engineering:** Engineered high-throughput background pipelines to sync **1M+ daily prices**, maintaining **Google Hotel Search Top 10** rankings.
+   - **Infrastructure:** Architected and deployed a **3-server decoupled architecture** (Frontend, Backend, DB) to optimize load distribution and system uptime.
+   - **Data Engineering:** Engineered asynchronous pipelines using Redis to synchronize 1M+ daily hotel prices, maintaining **Google Hotel Search Top 10 rankings** while offloading main system traffic..
    - **DevOps:** Integrated **YAML automation** to resolve deployment bottlenecks and utilized Redis for high-concurrency responsiveness.
    - **Fintech:** Managed full payment lifecycles (TNG, FPX, CHIP) with **Webhook verification and retry logic**, ensuring 100% data integrity.
 
