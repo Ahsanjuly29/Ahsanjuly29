@@ -1,4 +1,3 @@
-
 <h1 align="center">Ahsan Ahmed</h1>
 
 <div align="center">
@@ -9,11 +8,10 @@
 
 </div>
 
-
 <p align="center">
   <a href="https://www.linkedin.com/in/ahsanjuly29/">LinkedIn</a> | 
   <a href="mailto:ahsan.july29@gmail.com">Email</a> | 
-  <a href="https://wa.me/8801674553390">WhatsApp</a> |
+  <a href="https://wa.me/8801948484161">WhatsApp</a> |
   <img src="https://komarev.com/ghpvc/?username=Ahsanjuly29&color=blue&style=flat-square" alt="Views" valign="middle">
 </p>
 
@@ -31,94 +29,82 @@
 
 ### 👨‍💻 Professional Summary
 
-Senior Software Engineer and System Architect with 5+ years of driving technical excellence across the Laravel ecosystem and cloud infrastructure. I specialize in architecting revenue-driven, high-scale backends for **Fintech, Travel (OTA), Logistics, and Ed-Tech** platforms.
+Senior Software Engineer and System Architect with **6+ years of experience** engineering high-scale Multi-tenant SaaS, Fintech, Travel (OTA), Enterprise ERP/Logistics, E-Commerce, and Ed-Tech platforms. Specialist in the **Laravel Ecosystem, Advanced Database Optimization**, and Decoupled System Architecture **(DDD/Hexagonal)**.
 
-My expertise centers on transforming complex technical bottlenecks into clear commercial advantagesproven by reducing legacy API latencies from **seconds to milliseconds** and engineering data pipelines to **synchronize 1M+ daily records**. Grounded in **SOLID principles, Domain-Driven Design (DDD), and Hexagonal Architecture**, the core focus remains on building fault-tolerant, high-concurrency systems that guarantee data integrity and 24/7 availability.
-
-The ultimate objective is bridging the gap between advanced backend engineering and business growth, ensuring every architectural decision delivers a measurable ROI.
+Proven track record of transforming complex technical bottlenecks into clear commercial advantages—demonstrated by slashing legacy API latencies from **10s to 200ms** and orchestrating asynchronous pipelines for **1M+ daily record synchronizations**. Grounded in **SOLID principles** and fault-tolerant design, the core focus remains on building high-concurrency architectures that guarantee 100% data integrity, 24/7 availability, and metrics-driven business ROI workflows.
 
 ---
 
 ### 💼 Professional Journey
 
-1. **Senior Software Engineer (Backend & DevOps)** </br>
-   @ **IBOOK (Malaysia)** | *Jul 2024 – Jul 2025*
+1. <b>Independent Technical Contractor (Remote Software Outsourcing)</b> </br>
+   @ <b>Global Clients</b> | 2019 to Present
+   1. <b>Asynchronous Communication & TDD:</b> Architected Test-Driven Development (TDD) pipelines utilizing PHPUnit and Pest. Maintained seamless Asynchronous Communication with decentralized global teams to align cross-border engineering goals.
+   2. <b>Fault-Tolerant Mocking:</b> Engineered advanced mock test matrices for Third-party API integrations, eliminating external dependency failures during automated test execution.
+   3. <b>Legacy Decoupling:</b> Profiled and refactored monolithic legacy codebases for global clients into decoupled Domain-Driven Design (DDD) layers, scaling system maintainability without halting production.
 
-   - **Infrastructure:** Architected and deployed a **3-server decoupled architecture** (Frontend, Backend, DB) to optimize load distribution and system uptime.
-   - **Data Engineering:** Engineered asynchronous pipelines using Redis to synchronize 1M+ daily hotel prices, maintaining **Google Hotel Search Top 10 rankings** while offloading main system traffic..
-   - **DevOps:** Integrated **YAML automation** to resolve deployment bottlenecks and utilized Redis for high-concurrency responsiveness.
-   - **Fintech:** Managed full payment lifecycles (TNG, FPX, CHIP) with **Webhook verification and retry logic**, ensuring 100% data integrity.
+2. <b>Senior Software Engineer (Backend & DevOps)</b> </br>
+   @ <b>IBOOK (Malaysia)</b> | Jul 2024 to Jul 2025
+   1. <b>High-Availability Infrastructure:</b> Architected a 3-server decoupled infrastructure utilizing YAML-based CI/CD pipelines to ensure load-balanced 24/7 system availability.
+   2. <b>High-Throughput Data Sync:</b> Engineered asynchronous Redis-backed pipelines to synchronize 1M+ daily hotel prices, maintaining Google Hotel Search Top 10 rankings while offloading core transaction traffic.
+   3. <b>Server Orchestration & Traffic Steering:</b> Configured Nginx Reverse Proxy load-balancing layers to steer traffic dynamically, eliminating deployment bottlenecks and manual server management dependencies.
+   4. <b>Fintech & Idempotency:</b> Managed complex payment lifecycles (TNG, FPX, CHIP) through idempotent webhook processing and atomic Redis application locks, achieving absolute zero-error ledger consistency.
 
-2. **Software Engineer** </br>
-   @ **Nexoda (BDRen)** | *Mar 2024 – Jun 2024*
+3. <b>Software Engineer</b> </br>
+   @ <b>Nexoda (BDRen)</b> | Mar 2024 to Jun 2024
+   1. Optimized distributed backend services and data structures for high-traffic research network infrastructures.
+   2. Built automated cloud backup storage mechanisms and containerized services using Docker and GitHub Actions CI/CD pipelines.
 
-   - Optimized backend services for high-traffic research network infrastructure.
-   - Automated cloud backups and implemented **CI/CD pipelines** using GitHub Actions and Docker.
+4. <b>Software Engineer (Optimization & Performance)</b> </br>
+   @ <b>Flight Expert</b> | 2022 to Dec 2023
+   1. <b>Latency Engineering:</b> Slashed GDS and multi-source Hotel API synchronization delays from 10s to 200ms using composite indexing, B-Tree schema tuning, and deep query profiling.
+   2. <b>Big Data Analytics:</b> Engineered a reporting system using pre-aggregated relational database models and denormalized table snapshots, completely eliminating timeouts on multi-million row datasets.
+   3. <b>Throughput Scalability:</b> Developed asynchronous multi-process worker pipelines, reducing heavy business report generation time by 95% and boosting total infrastructure throughput by 300%.
 
-3. **Software Engineer (Optimization & Performance)** </br>
-   @ **Flight Expert** | *Apr 2022 – Dec 2023*
+5. <b>Software Engineer</b> </br>
+   @ <b>RootsEdu</b> | 2021 to Mar 2022
+   1. Optimized high-concurrency API backends to support massive student traffic boundaries across live exam modules.
+   2. Architected decoupled, scalable RESTful API contracts tailored for mobile application integrations (User Core & Examination Engines).
 
-   - **Latency:** Slashed GDS and Hotel API sync delays from **10s to 200ms** using composite indexing and query profiling.
-   - **Big Data:** Built a reporting system using **pre-aggregated tables and denormalized snapshots**, resolving timeouts on multi-million row datasets.
-   - **Throughput:** Developed asynchronous multi-process pipelines, reducing report generation time by **95%** and boosting throughput by **300%**.   
-
-4. **Software Engineer** </br>
-   @ **RootsEdu** | *2021 –  2022*
-   
-   - Optimized backend services for high-traffic Users.
-   - built sclable Api's for roots-edu Apps (User & Exam modules).
-
-5. **Software Engineer** </br>
-   @ **Smart Software Ltd** | *Aug 2020 – Mar 2021*
-
-   - **ERP/HRM:** Developed core HR and salary modules and secure multi-tenant E-commerce platforms.
-   - **Performance:** Improved legacy system speed by **40%** through database restructuring and Blade optimization.
+6. <b>Software Engineer</b> </br>
+   @ <b>Smart Software Ltd</b> | 2020 to Mar 2021
+   1. <b>Enterprise Architecture:</b> Developed multi-tenant database layers and core HR, inventory, and automated payroll structures for large-scale multi-location ERP and E-Commerce platforms.
+   2. <b>Performance Tuning:</b> Overhauled legacy database schemas, applied Eloquent query optimizations, and implemented asynchronous Ajax/jQuery UI rendering to boost system responsiveness by 40%.
+   3. <b>POS System Stability:</b> Refactored core billing engine logic and POS concurrency routines, eliminating inventory sync locks and data race conditions during peak hour transactional traffic.
 
 ---
 
 ### 🎯 Technical Challenges & Strategic Solutions
 
-Challenge 1: How to Export 1M rows from Database to CSV within 14s and mail to user ? 👉 [Solution](https://ahsanjuly29.github.io/LaravelEasySolutions-Manual/Export-csv/)
-| 👉 [Prod-complexity-solution](https://ahsanjuly29.github.io/LaravelEasySolutions-Manual/Export-csv/Complex-export/)
+* **Challenge 01:** Optimized multi-million row database processing to stream and export 1M rows into a CSV within 14 seconds for automated user email delivery. 👉 [Solution Architecture](https://ahsanjuly29.github.io/LaravelEasySolutions-Manual/Export-csv/) | 👉 [Production-Complexity Blueprint](https://ahsanjuly29.github.io/LaravelEasySolutions-Manual/Export-csv/Complex-export/)
+
+* <b>Challenge 02 (Contractor Integration Defenses):</b> Mitigated third-party Structural Updates from crashing internal platforms by engineering Fault-Tolerant API Wrappers. Implemented strict automated boundary testing and Mock Test Matrices using PHPUnit/Pest, ensuring zero downtime during upstream API modifications.
+
+<!-- * **Challenge 02:** Engineered asynchronous batch ingestion pipelines to execute 1M+ live dynamic pricing updates without server timeouts or database deadlocks. 👉 [Asynchronous Batch Pipeline Blueprint](https://github.com/Ahsanjuly29/architecture-labs-laravel)
+
+* **Challenge 03:** Mitigated high-concurrency race conditions and duplicate fintech webhooks to eliminate double-accounting errors and dirty ledger states. 👉 [Idempotent API Locking Architecture](https://github.com/Ahsanjuly29/architecture-labs-laravel) -->
 
 ---
 
-### 📂 Projects (Open-Source)
+### 📂 Projects & Architectural Blueprints
 
 #### 1. Core Engineering | Pure Craftsmanship
-> Handcrafted from scratch with pure logic and manual coding, ready to use.
+> Handcrafted from scratch using pure backend design patterns, strict logic, and clean code principles.
 
-1. **[NexAuth-SSO](https://github.com/Ahsanjuly29/NexAuth-SSO)** ([Source Code](https://github.com/Ahsanjuly29/NexAuth-SSO))
-   This system connects user authentication across multiple independent platforms. Instead of requiring separate logins for different connected sites, a single login securely signs a user into the entire network automatically, while still supporting standard secure password access.
+1. **[NexAuth-SSO](https://github.com/Ahsanjuly29/NexAuth-SSO)** — Centralized Single Sign-On (SSO) engine built to securely bridge user sessions across independent platforms.
+2. **[ProductInventoryMS](https://github.com/Ahsanjuly29/ProductInventoryMS)** — Concurrent inventory engine engineered to eliminate database race conditions and over-selling.
+3. **[Task Management System](https://github.com/Ahsanjuly29/TaskMangegementSystem)** — Decoupled workflow manager executing heavy operational mutations through background queues.
+4. **[CvMaker](https://github.com/Ahsanjuly29/CvMaker-Php)** — High-fidelity layout generation engine processing automated PDF compilation without text margin breaks.
+5. **[BlogSite-react-inertia](https://github.com/Ahsanjuly29/BlogSite-react-inertia)** — Decoupled monolith structure demonstrating optimized client-to-backend Inertia.js pipeline mapping.
 
-2. **[ProductInventoryMS](https://github.com/Ahsanjuly29/ProductInventoryMS)** ([Source Code](https://github.com/Ahsanjuly29/ProductInventoryMS))
-   A central stock tracker that replaces chaotic manual logs with real-time updates. It syncs inventory numbers directly with incoming orders and sales movements, helping businesses stay accurate and avoid running out of stock or accidental overordering.
+#### 2. AI-Assisted Engineering & Future-Tech Labs
+> Leveraging modern AI-assisted workflows and rapid vibe-coding paradigms to fast-track conceptual execution and microservice prototyping.
 
-3. **[Task Management System](https://github.com/Ahsanjuly29/TaskMangegementSystem)** ([Source Code](https://github.com/Ahsanjuly29/TaskMangegementSystem))
-   A digital shared workspace built to streamline daily team workflows. It allows instant task assignments and progress tracking, handling heavy live updates in the background smoothly so the team always sees real-time changes without app slowdowns.
+1. **[BloodSync](https://github.com/Ahsanjuly29/BloodSync)** — Real-time geographical matching engine built to minimize communication latency during critical donor search hours.
+2. **[QRCodeGenerator](https://github.com/Ahsanjuly29/QRCodeGenerator)** ([Live Demo](https://ahsanjuly29.github.io/QRCodeGenerator/)) — Zero-dependency, browser-native serialization tool designed to generate clean data matrix structures instantly.
+3. **[InternetSpeedMeter](https://github.com/Ahsanjuly29/InternetSpeedMeter)** ([Live Demo](https://ahsanjuly29.github.io/InternetSpeedMeter/)) — Lightweight network profiling script constructed to measure download and upload bandwidth in real-time.
+4. **[mango-ecom](https://github.com/Ahsanjuly29/mango-ecom)** — Dynamic Laravel MVC prototype featuring custom Role-Based Access Control (RBAC) and a memory-efficient sales exporter.
 
-4. **[CvMaker](https://github.com/Ahsanjuly29/CvMaker-Php)** ([Source Code](https://github.com/Ahsanjuly29/CvMaker-Php))
-   A resume generator that automates document layout and structural alignment. Users can input their professional information without fighting broken text margins or formatting issues, instantly producing a clean, high-fidelity PDF ready for use.
-
-5. **[BlogSite-react-inertia](https://github.com/Ahsanjuly29/BlogSite-react-inertia)** ([Source Code](https://github.com/Ahsanjuly29/BlogSite-react-inertia))
-A clean blogging network built for a smooth, fast-loading reading experience. It keeps things snappy by switching pages without full browser reloads, offering a distraction-free environment to publish and read articles.
-
----
-
-#### 2. Vibe Coding & AI-Assisted List
-> Powered by human thoughts for unique conceptual ideas to solve new challenges, using AI tools purely to fast-track the execution and planning.
-
-1. **[BloodSync](https://github.com/Ahsanjuly29/BloodSync)** ([Source Code](https://github.com/Ahsanjuly29/BloodSync))
-   This platform links blood donors with people in urgent need, making the search for lifesavers fast and stress-free. It focuses on closing the communication gap during critical hours by helping users quickly request or offer donations in a clear, organized space.
-
-2. **[QRCodeGenerator](https://github.com/Ahsanjuly29/QRCodeGenerator)** ([Source Code](https://github.com/Ahsanjuly29/QRCodeGenerator) | [Live Demo](https://ahsanjuly29.github.io/QRCodeGenerator/))
-   A quick, no-nonsense web tool to turn text, links, or info into clean QR codes instantly. It runs directly in the browser without any software installs, making it super easy to create, view, and save codes on the fly.
-
-3. **[InternetSpeedMeter](https://github.com/Ahsanjuly29/InternetSpeedMeter)** ([Source Code](https://github.com/Ahsanjuly29/InternetSpeedMeter) | [Live Demo](https://ahsanjuly29.github.io/InternetSpeedMeter/))
-   A lightweight, minimal web meter to check connection performance. It quickly measures download and upload bandwidth in real-time, giving a clear, instant look at current network stability without any third-party clutter.
-
-4. **[mango-ecom](https://github.com/Ahsanjuly29/mango-ecom)** ([Source Code](https://github.com/Ahsanjuly29/mango-ecom))
-A dynamic Laravel MVC project for selling seasonal fruits like mangoes and lichis, featuring a premium glassmorphic landing page. It includes a straightforward product ordering system with mobile-only checkout, integrated payment options, a multi-role admin panel (Admin, Manager, Seller) for easy order and stock tracking, and a clean, lightweight sales report exporter built entirely using core PHP.
 
 ---
 
@@ -135,12 +121,13 @@ A dynamic Laravel MVC project for selling seasonal fruits like mangoes and lichi
 
 ### 🔗 Let's Connect
 
-For an Excellent Experience and future-proof WebApp, let's talk.
+For scalable software engineering, system architecture design, and high-concurrency optimization:
 
 📧 **Email:** [ahsan.july29@gmail.com](mailto:ahsan.july29@gmail.com) | 
 💼 **LinkedIn:** [linkedin.com/in/ahsanjuly29](https://www.linkedin.com/in/ahsanjuly29) | 
-📱 **WhatsApp:** [+8801674553390](https://wa.me/8801674553390)
+📱 **WhatsApp:** [+8801948484161](https://wa.me/8801948484161)
 
 <p align="center">
   <em>"Engineering stability, performance, and scale into every line of code."</em>
 </p>
+
