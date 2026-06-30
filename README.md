@@ -4,7 +4,7 @@
 
 ### Senior Software Engineer
 
-** Backend & System Architect • Laravel Ecosystem • Distributed Cloud Systems • High-Scale SaaS & Fintech Solutions • Resilient DevOps Automation**
+**Backend & System Architect • Laravel Ecosystem • Distributed Cloud Systems • High-Scale SaaS & Fintech Solutions • Resilient DevOps Automation**
 
 </div>
 
