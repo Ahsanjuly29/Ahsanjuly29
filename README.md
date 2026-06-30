@@ -37,52 +37,53 @@ Proven track record of transforming complex technical bottlenecks into clear com
 
 ### 💼 Professional Journey
 
-1. <b>Independent Technical Contractor (Remote Software Outsourcing)</b> </br>
-   @ <b>Global Clients</b> | 2019 to Present
-   1. <b>Asynchronous Communication & TDD:</b> Architected Test-Driven Development (TDD) pipelines utilizing PHPUnit and Pest. Maintained seamless Asynchronous Communication with decentralized global teams to align cross-border engineering goals.
-   2. <b>Fault-Tolerant Mocking:</b> Engineered advanced mock test matrices for Third-party API integrations, eliminating external dependency failures during automated test execution.
-   3. <b>Legacy Decoupling:</b> Profiled and refactored monolithic legacy codebases for global clients into decoupled Domain-Driven Design (DDD) layers, scaling system maintainability without halting production.
+#### 1. Independent Technical Contractor (Remote Systems Architecture & Consulting)
+> **Global Clients** | Mar 2019 to Present
 
-2. <b>Senior Software Engineer (Backend & DevOps)</b> </br>
-   @ <b>IBOOK (Malaysia)</b> | Jul 2024 to Jul 2025
-   1. <b>High-Availability Infrastructure:</b> Architected a 3-server decoupled infrastructure utilizing YAML-based CI/CD pipelines to ensure load-balanced 24/7 system availability.
-   2. <b>High-Throughput Data Sync:</b> Engineered asynchronous Redis-backed pipelines to synchronize 1M+ daily hotel prices, maintaining Google Hotel Search Top 10 rankings while offloading core transaction traffic.
-   3. <b>Server Orchestration & Traffic Steering:</b> Configured Nginx Reverse Proxy load-balancing layers to steer traffic dynamically, eliminating deployment bottlenecks and manual server management dependencies.
-   4. <b>Fintech & Idempotency:</b> Managed complex payment lifecycles (TNG, FPX, CHIP) through idempotent webhook processing and atomic Redis application locks, achieving absolute zero-error ledger consistency.
+1. **Asynchronous Communication & TDD:** Architected Test-Driven Development (TDD) pipelines utilizing PHPUnit and Pest. Maintained seamless Asynchronous Communication with decentralized global teams to align cross-border engineering goals.
+2. **Fault-Tolerant Mocking:** Engineered advanced mock test matrices for Third-party API integrations, eliminating external dependency failures during automated test execution.
+3. **Legacy Decoupling:** Profiled and refactored monolithic legacy codebases for global clients into decoupled Domain-Driven Design (DDD) layers, scaling system maintainability without halting production.
 
-3. <b>Software Engineer</b> </br>
-   @ <b>Nexoda (BDRen)</b> | Mar 2024 to Jun 2024
-   1. Optimized distributed backend services and data structures for high-traffic research network infrastructures.
-   2. Built automated cloud backup storage mechanisms and containerized services using Docker and GitHub Actions CI/CD pipelines.
+#### 2. Senior Software Engineer (FullStack)
+> **IBOOK (Malaysia)** | Jul 2024 to Jul 2025
 
-4. <b>Software Engineer (Optimization & Performance)</b> </br>
-   @ <b>Flight Expert</b> | 2022 to Dec 2023
-   1. <b>Latency Engineering:</b> Slashed GDS and multi-source Hotel API synchronization delays from 10s to 200ms using composite indexing, B-Tree schema tuning, and deep query profiling.
-   2. <b>Big Data Analytics:</b> Engineered a reporting system using pre-aggregated relational database models and denormalized table snapshots, completely eliminating timeouts on multi-million row datasets.
-   3. <b>Throughput Scalability:</b> Developed asynchronous multi-process worker pipelines, reducing heavy business report generation time by 95% and boosting total infrastructure throughput by 300%.
+1. **High-Availability Infrastructure:** Architected a 3-server decoupled infrastructure utilizing YAML-based CI/CD pipelines to ensure load-balanced 24/7 system availability.
+2. **High-Throughput Data Sync:** Engineered asynchronous Redis-backed pipelines to synchronize 1M+ daily hotel prices, maintaining Google Hotel Search Top 10 rankings while offloading core transaction traffic.
+3. **Server Orchestration & Traffic Steering:** Configured Nginx Reverse Proxy load-balancing layers to steer traffic dynamically, eliminating deployment bottlenecks and manual server management dependencies.
+4. **Fintech & Idempotency:** Managed complex payment lifecycles (TNG, FPX, CHIP) through idempotent webhook processing and atomic Redis application locks, achieving absolute zero-error ledger consistency.
 
-5. <b>Software Engineer</b> </br>
-   @ <b>RootsEdu</b> | 2021 to Mar 2022
-   1. Optimized high-concurrency API backends to support massive student traffic boundaries across live exam modules.
-   2. Architected decoupled, scalable RESTful API contracts tailored for mobile application integrations (User Core & Examination Engines).
+#### 3. Software Engineer (FullStack)
+> **Nexoda (BDRen)** | Mar 2024 to Jun 2024
 
-6. <b>Software Engineer</b> </br>
-   @ <b>Smart Software Ltd</b> | 2020 to Mar 2021
-   1. <b>Enterprise Architecture:</b> Developed multi-tenant database layers and core HR, inventory, and automated payroll structures for large-scale multi-location ERP and E-Commerce platforms.
-   2. <b>Performance Tuning:</b> Overhauled legacy database schemas, applied Eloquent query optimizations, and implemented asynchronous Ajax/jQuery UI rendering to boost system responsiveness by 40%.
-   3. <b>POS System Stability:</b> Refactored core billing engine logic and POS concurrency routines, eliminating inventory sync locks and data race conditions during peak hour transactional traffic.
+1. **Distributed Infrastructure:** Optimized distributed backend services and data structures for high-traffic research network infrastructures.
+2. **Automated Pipelines:** Built automated cloud backup storage mechanisms and containerized services using Docker and GitHub Actions CI/CD pipelines.
+
+#### 4. Senior Software Engineer (Backend & Systems & Frontend)
+> **Flight Expert** | Mar 2022 to Dec 2023
+
+1. **Latency Engineering:** Slashed GDS and multi-source Hotel API synchronization delays from 10s to 200ms using composite indexing, B-Tree schema tuning, and deep query profiling.
+2. **Big Data Analytics:** Engineered a reporting system using pre-aggregated relational database models and denormalized table snapshots, completely eliminating timeouts on multi-million row datasets.
+3. **Throughput Scalability:** Developed asynchronous multi-process worker pipelines, reducing heavy business report generation time by 95% and boosting total infrastructure throughput by 300%.
+
+#### 5. Software Engineer (FullStack)
+> **RootsEdu** | 2021 to Mar 2022
+
+1. **High-Concurrency Tuning:** Optimized high-concurrency API backends to support massive student traffic boundaries across live exam modules.
+2. **Decoupled API Subsystems:** Architected decoupled, scalable RESTful API contracts tailored for mobile application integrations (User Core & Examination Engines).
+
+#### 6. Software Engineer (FullStack)
+> **Smart Software Ltd** | 2020 to Mar 2021
+
+1. **Enterprise Architecture:** Developed multi-tenant database layers and core HR, inventory, and automated payroll structures for large-scale multi-location ERP and E-Commerce platforms.
+2. **Performance Tuning:** Overhauled legacy database schemas, applied Eloquent query optimizations, and implemented asynchronous Ajax/jQuery UI rendering to boost system responsiveness by 40%.
+3. **POS System Stability:** Refactored core billing engine logic and POS concurrency routines, eliminating inventory sync locks and data race conditions during peak hour transactional traffic.
 
 ---
 
 ### 🎯 Technical Challenges & Strategic Solutions
 
-* **Challenge 01:** Optimized multi-million row database processing to stream and export 1M rows into a CSV within 14 seconds for automated user email delivery. 👉 [Solution Architecture](https://ahsanjuly29.github.io/LaravelEasySolutions-Manual/Export-csv/) | 👉 [Production-Complexity Blueprint](https://ahsanjuly29.github.io/LaravelEasySolutions-Manual/Export-csv/Complex-export/)
-
-* <b>Challenge 02 (Contractor Integration Defenses):</b> Mitigated third-party Structural Updates from crashing internal platforms by engineering Fault-Tolerant API Wrappers. Implemented strict automated boundary testing and Mock Test Matrices using PHPUnit/Pest, ensuring zero downtime during upstream API modifications.
-
-<!-- * **Challenge 02:** Engineered asynchronous batch ingestion pipelines to execute 1M+ live dynamic pricing updates without server timeouts or database deadlocks. 👉 [Asynchronous Batch Pipeline Blueprint](https://github.com/Ahsanjuly29/architecture-labs-laravel)
-
-* **Challenge 03:** Mitigated high-concurrency race conditions and duplicate fintech webhooks to eliminate double-accounting errors and dirty ledger states. 👉 [Idempotent API Locking Architecture](https://github.com/Ahsanjuly29/architecture-labs-laravel) -->
+1. **Massive Data Streaming:** Optimized multi-million row database processing to stream and export 1M rows into a CSV within 14 seconds for automated user email delivery. 👉 [Solution Architecture](https://ahsanjuly29.github.io/LaravelEasySolutions-Manual/Export-csv/) | 👉 [Production-Complexity Blueprint](https://ahsanjuly29.github.io/LaravelEasySolutions-Manual/Export-csv/Complex-export/)
+2. **Contractor Integration Defenses:** Mitigated third-party Structural Updates from crashing internal platforms by engineering Fault-Tolerant API Wrappers. Implemented strict automated boundary testing and Mock Test Matrices using PHPUnit/Pest, ensuring zero downtime during upstream API modifications.
 
 ---
 
@@ -98,13 +99,12 @@ Proven track record of transforming complex technical bottlenecks into clear com
 5. **[BlogSite-react-inertia](https://github.com/Ahsanjuly29/BlogSite-react-inertia)** — Decoupled monolith structure demonstrating optimized client-to-backend Inertia.js pipeline mapping.
 
 #### 2. AI-Assisted Engineering & Future-Tech Labs
-> Leveraging modern AI-assisted workflows and rapid vibe-coding paradigms to fast-track conceptual execution and microservice prototyping.
+> Leveraging modern AI-assisted workflows and rapid execution paradigms to fast-track conceptual execution and microservice prototyping.
 
 1. **[BloodSync](https://github.com/Ahsanjuly29/BloodSync)** — Real-time geographical matching engine built to minimize communication latency during critical donor search hours.
 2. **[QRCodeGenerator](https://github.com/Ahsanjuly29/QRCodeGenerator)** ([Live Demo](https://ahsanjuly29.github.io/QRCodeGenerator/)) — Zero-dependency, browser-native serialization tool designed to generate clean data matrix structures instantly.
 3. **[InternetSpeedMeter](https://github.com/Ahsanjuly29/InternetSpeedMeter)** ([Live Demo](https://ahsanjuly29.github.io/InternetSpeedMeter/)) — Lightweight network profiling script constructed to measure download and upload bandwidth in real-time.
 4. **[mango-ecom](https://github.com/Ahsanjuly29/mango-ecom)** — Dynamic Laravel MVC prototype featuring custom Role-Based Access Control (RBAC) and a memory-efficient sales exporter.
-
 
 ---
 
@@ -114,8 +114,8 @@ Proven track record of transforming complex technical bottlenecks into clear com
 | :---: | :---: | :---: |
 | <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Ahsanjuly29&show_icons=true&theme=radical&hide_border=true" height="170"/> | <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Ahsanjuly29&layout=compact&theme=radical&hide_border=true" height="170"/> | <img src="https://streak-stats.demolab.com?user=Ahsanjuly29&theme=radical&hide_border=true" height="170"/> |
 
-- **Production Readiness:** Focused on building optimized, high-concurrency Laravel applications and automated CI/CD pipelines.
-- **System Integrity:** Maintaining a high standard of code quality through structured architectural patterns and performance tuning.
+1. **Production Readiness:** Focused on building optimized, high-concurrency Laravel applications and automated CI/CD pipelines.
+2. **System Integrity:** Maintaining a high standard of code quality through structured architectural patterns and performance tuning.
 
 ---
 
@@ -130,4 +130,5 @@ For scalable software engineering, system architecture design, and high-concurre
 <p align="center">
   <em>"Engineering stability, performance, and scale into every line of code."</em>
 </p>
+
 

@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ahsan Ahmed - Senior Backend & System Architect CV</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
-
         /* 1. Reset System & Base Layout Density */
         * {
             box-sizing: border-box;
@@ -17,11 +15,15 @@
 
         body {
             font-size: 12px;
-            font-family: 'Inter', sans-serif;
+            font-family: 'Calibri', 'Inter', sans-serif;
             line-height: 1.4;
             color: #1e293b;
             background-color: #ffffff;
             -webkit-font-smoothing: antialiased;
+        }
+
+        ol {
+            margin-left: 2%;
         }
 
         .cv-wrapper {
@@ -94,8 +96,8 @@
 
         .job-title {
             font-weight: 700;
-            color: #16a34a;
-            font-size: 10px;
+            color: #0f7202;
+            font-size: 11px;
             margin-top: 1px;
             margin-bottom: 4px;
             text-transform: uppercase;
@@ -104,17 +106,16 @@
 
         /* 5. Compact Stack Badge Container */
         .tech-tags {
-            font-size: 9px;
+            font-size: 10px;
             font-weight: 600;
             color: #475569;
-            background: #f1f5f9;
+            background: #d8f5e5;
             border: 1px solid #e2e8f0;
-            padding: 2px 6px;
-            border-radius: 2px;
+            padding: 3px 6px;
+            border-radius: 5px;
             display: block;
             margin-bottom: 5px;
-            width: fit-content;
-            letter-spacing: 0.3px;
+            /* width: fit-content; */
         }
 
         /* 6. List and Bullet Specifications */
@@ -169,6 +170,9 @@
                 background: none;
                 color: #000000;
                 -webkit-print-color-adjust: exact;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                text-rendering: optimizeLegibility;
                 print-color-adjust: exact;
             }
 
@@ -190,9 +194,10 @@
         <header>
             <h1>Ahsan Ahmed</h1>
             <p style="font-size: 14px; font-weight: 600; color: #636e72; margin: 4px 0 0 0;">
-                Senior Software Engineer | Backend & System Architect
+                Senior Software Engineer
                 <small style="display: block; font-weight: 400; color: #7f8c8d; margin-top: 1px;">
-                    Laravel Ecosystem • Distributed Cloud Systems • High-Scale SaaS Optimization
+                    Backend & System Architect • Laravel Ecosystem • Distributed Cloud Systems • High-Scale SaaS
+                    Optimization
                 </small>
             </p>
             <div class="contact-links">
@@ -202,136 +207,178 @@
                 <span>|</span>
                 <a href="https://linkedin.com/in/ahsanjuly29" target="_blank">Linkedin</a>
                 <span>|</span>
-                <a href="https://github.com/Ahsanjuly29" target="_blank">GitHub Profile</a>
+                <a href="https://github.com/Ahsanjuly29" target="_blank">GitHub CV details</a>
             </div>
         </header>
 
         <section>
             <div class="section-title">Professional Summary</div>
-            <p class="summary-text" style="margin: 0; text-align: justify; line-height: 1.5;">
-                Senior Software Engineer and System Architect with <strong>6+ years of experience</strong>
-                engineering high-scale
-                <strong>Multi-tenant SaaS, Fintech, Travel (OTA), Enterprise ERP/Logistics, E-Commerce, and Ed-Tech
-                    platforms</strong>.
-                Specialist in the <strong>Laravel Ecosystem, Advanced Database Optimization</strong>, and Decoupled
-                System Architecture
-                <strong>(DDD/Hexagonal)</strong>. Proven track record of slashing legacy API latency from
-                <span class="highlight">10s to 200ms</span> and orchestrating asynchronous pipelines for
-                <span class="highlight">1M+ daily record synchronizations</span>. Grounded in <strong>SOLID
-                    principles</strong> and
-                fault-tolerant design, the core focus remains on building high-concurrency architectures that
-                guarantee 100%
-                data integrity, 24/7 availability, and metrics-driven business ROI workflows.
+            <p class="summary-text">
+            <p>
+                As a <b>Senior Software Engineer &amp; System Architect</b> with <b>6+ years of experience</b>, I have
+                spent my career engineering high-scale platforms across
+                <b>
+                    Multi-tenant SaaS, Enterprise ERP/Logistics, E-Commerce, FinTech, OTA, and EdTech
+                </b>. I am expert in <b>Laravel ecosystem, advanced database optimization, and DDD/Hexagonal
+                    Architecture</b>. I enjoy solving complex performance bottlenecks, including reducing a legacy API's
+                latency from <b>10s to 200ms</b> and building pipelines that synchronize <b>1M+ records daily</b>.
+                Grounded in <b>SOLID principles</b>, I focus on building high-concurrency systems that ensure data
+                integrity, 24/7 availability, and measurable business ROI workflows.
+            </p>
             </p>
         </section>
 
         <section>
             <div class="section-title">Professional Experience</div>
 
-            <!-- always on top  -->
+            <!-- always on top -->
             <div class="job-entry">
                 <div class="job-header">
-                    <span><b>* Independent Technical Contractor — Remote Technical Outsourcing</b></span>
-                    <span>2019 – Present</span>
+                    <span><b>1. Independent (FullStack) Technical Contractor (Remote Systems Architecture & Consulting)</b></span>
+                    <span>2019 to Present</span>
                 </div>
-                <div class="job-title text-uppercase">Senior Backend Consultant (Distributed Architecture & Testing)
-                </div>
-                <div class="tech-tags">Stack: PHPUnit, Pest, TDD, Mocking, Domain-Driven Design (DDD), Code Profiling.
-                </div>
-                <ul>
-                    <li><strong>Automated Test Infrastructure:</strong> Deployed Test-Driven Development (TDD)
-                        architectures using PHPUnit and Pest for decentralized international dev teams, ensuring <span
-                            class="highlight">90%+ Code Coverage</span>.</li>
-                    <li><strong>Sub-Contracted Engineering:</strong> Partnered with global developers to profile complex
-                        legacy codebases, refactoring monolithic scripts into clean, decoupled Hexagonal Architecture
-                        layers.</li>
-                    <li><strong>Integration Defenses:</strong> Built custom, fault-tolerant API wrappers featuring
-                        automated boundary testing and mock test matrices to guarantee zero downtime during third-party
-                        structural updates.</li>
-                </ul>
+                <div class="job-title text-uppercase">Senior Systems Architect & Core Developer</div>
+                <div class="tech-tags">Stack: PHP (Laravel Ecosystem), Swoole, Payment & SMS Gateways, Multi-tenant SaaS,
+                    Centralized Ledgers, B-Tree Tuning, Oracle Cloud, Cloudflare Tunnels, Docker, TDD.</div>
+                <ol>
+                    <li><strong>Multi-Regional Payment, SMS & Ledger Orchestration:</strong> Engineered resilient
+                        financial and notification pipelines integrating global and local gateways (Stripe, PayPal, TNG,
+                        FPX, SSLCommerz, bKash) alongside fail-safe SMS gateways; utilized decoupled webhook handlers,
+                        centralized ledgers, and idempotent architectures to guarantee 100% transactional atomic
+                        consistency and eliminate double-spending.</li>
+                    <li><strong>Enterprise Multi-tenant SaaS & Cloud Infrastructure:</strong> Architected and deployed
+                        highly scalable, multi-tenant platforms (Invoice Management, EdTech, E-Commerce, Pharmacy &
+                        Restaurant POS) on Oracle Cloud VPS using Hexagonal Architecture guidelines, Docker, and
+                        Cloudflare Tunnels for secure multi-subdomain routing and automated, zero-downtime CI/CD
+                        pipelines.</li>
+                    <li><strong>High-Throughput Database Engineering & Query Tuning:</strong> Profiled complex
+                        monolithic codebases for global enterprise clients, eliminating severe N+1 query bottlenecks and
+                        applying rigorous B-Tree indexing strategies to process high-throughput B2B and B2C
+                        transactions, drastically minimizing overall API latency.</li>
+                    <li><strong>Secure Communication Engines & Isolation Patterns:</strong> Developed multi-phase
+                        enterprise communication SaaS engines featuring distinct Developer and User isolation modes,
+                        dynamic SMTP configurations, and strict XSS sanitization layers to ensure rigorous compliance
+                        and secure, enterprise-grade data transmission.</li>
+                </ol>
             </div>
 
-
+            <!-- 5. IBOOK -->
             <div class="job-entry">
                 <div class="job-header">
-                    <span>5. <b>IBOOK (Malaysia) — B2B OTA & Fintech Platform</b></span>
-                    <span>Jul 2024 – Jul 2025</span>
+                    <span><b>5. IBOOK (Malaysia) High Traffic Hotel Tech (OTA) Platform</b></span>
+                    <span>Jul 2024 to Jul 2025</span>
                 </div>
-                <div class="job-title text-uppercase">Senior Software Engineer (Backend & DevOps)</div>
-                <div class="tech-tags">Stack: Laravel, Redis, Horizon, Nginx, YAML, Vultr VPS.</div>
-                <ul>
-                    <li><strong>High-Availability Infrastructure:</strong> Architected and deployed a <span
-                            class="highlight">3-server decoupled infrastructure</span> via CI/CD pipelines, ensuring
-                        24/7 system uptime.</li>
-                    <li><strong>Data Ingestion Pipelines:</strong> Engineered asynchronous Redis worker networks to
-                        synchronize <span class="highlight">1M+ daily hotel prices</span> without impacting core
-                        transaction traffic.</li>
-                    <li><strong>Fintech Logic & Idempotency:</strong> Handled payment lifecycles using idempotent
-                        webhook processing and atomic database locks to eliminate transactional errors.</li>
-                </ul>
+                <div class="job-title text-uppercase">Senior Software Engineer (FullStack)</div>
+                <div class="tech-tags">Stack: Laravel, Redis Horizon, Nginx, YAML, Vultr, Load Balancing, Cron, Design
+                    Patterns (Observer/Strategy).</div>
+                <ol>
+                    <li><strong>High Availability IaC Architecture:</strong> Planned and deployed a 3 server decoupled
+                        infrastructure using YAML automated CI/CD pipelines, decoupling monolithic bottlenecks into
+                        isolated API, Web, and asynchronous Worker runtimes to cut production release latency by <span
+                            class="highlight">80%</span>.</li>
+                    <li><strong>Distributed Sync Pipelines and Pricing Automation:</strong> Engineered async Redis
+                        worker pipelines and Cron schedulers leveraging Strategy patterns to process 1M+ daily hotel
+                        rate ingestions and automated SEO pricing syncs 3 times daily, successfully maintaining listings
+                        in Google Hotel Search Top 10 without blocking transactional core traffic.
+                    </li>
+                    <li><strong>Idempotent Fintech Layer & Payment Lifecycle:</strong> Managed the full payment
+                        lifecycle integrating Malaysian Gateways (TNG, FPX, CHIP) using atomic database locks, decoupled
+                        webhook verification, and robust retry logic to ensure 100% financial state integrity and zero
+                        transaction loss during peak traffic hours.</li>
+                    <li><strong>Query Restructuring:</strong>
+                        Restructured core legacy queries and applied advanced indexing, resulting in up to
+                        <span class="highlight">3x faster</span> database operations, Search optimization and strict
+                        financial state integrity.
+                    </li>
+                </ol>
             </div>
 
+            <!-- 4. Nexoda -->
             <div class="job-entry">
                 <div class="job-header">
-                    <span>4. <b>Nexoda (BDRen) — Research Network Infrastructure</b></span>
-                    <span>Mar 2024 – Jun 2024</span>
+                    <span><b>4. Nexoda (BDRen)</b></span>
+                    <span>Mar 2024 to Jun 2024</span>
                 </div>
-                <div class="job-title text-uppercase">Software Engineer</div>
-                <div class="tech-tags">Stack: Distributed Services, Cloud Backups, Docker.</div>
-                <ul>
-                    <li><strong>System Optimization:</strong> Tuned distributed backend structures and optimized
-                        core data components for high-traffic research network environments.</li>
-                    <li><strong>Cloud Automation:</strong> Developed automated cloud backup mechanisms and
-                        containerized backend microservices using Docker.</li>
-                </ul>
+                <div class="job-title text-uppercase">Software Engineer (FullStack)</div>
+                <div class="tech-tags">Stack: Laravel, REST API, RBAC, React.js, Next.js, Resumable.js, Blade, Decoupled
+                    Design.</div>
+                <ol>
+                    <li><strong>Decoupled Architecture and BFF Pattern:</strong> Designed a greenfield dual system
+                        platform from scratch, isolating a scalable REST API backend for Next.js and React.js clients,
+                        alongside a unified Laravel Blade admin portal for structural telemetry.</li>
+                    <li><strong>Transient Storage Pipeline:</strong> Engineered high throughput RESTful APIs via
+                        Resumable.js optimized for large scale multi gigabyte chunked file transfers, structuring data
+                        into stateless session directories instead of rigid user paths for optimized indexing.</li>
+                    <li><strong>Tokenized Access Control and Rate Limiting:</strong> Engineered account less guest
+                        authorization matrices with strict API Rate Limiting and automated owner approval workflows,
+                        deploying path collision filters to eliminate duplicate file storage overhead.</li>
+                </ol>
             </div>
 
+            <!-- 3. Flight Expert -->
             <div class="job-entry">
                 <div class="job-header">
-                    <span>3. <b>Flight Expert — High-Traffic Travel Tech Platform</b></span>
-                    <span>2022 – Dec 2023</span>
+                    <span><b>3. Flight Expert High Traffic Travel Tech (OTA) Platform</b></span>
+                    <span>2022 to Dec 2023</span>
                 </div>
-                <div class="job-title text-uppercase">Software Engineer (Optimization & Performance)</div>
-                <div class="tech-tags">Stack: GDS & Hotel APIs, Indexing, B-Tree Tuning, Query Profiling.</div>
-                <ul>
-                    <li><strong>Latency Reduction:</strong> Reduced multi-source API payload synchronization Latency
-                        from <span class="highlight">10s to 200ms</span> using composite indexing and execution path
-                        optimization.</li>
-                    <li><strong>Performance Scalability:</strong> Engineered reporting systems via pre-aggregated
-                        tables and multi-process pipelines, cutting execution times by <span
-                            class="highlight">95%</span> and boosting total throughput.</li>
-                </ul>
+                <div class="job-title text-uppercase">Senior Software Engineer (Backend and Systems FullStack)</div>
+                <div class="tech-tags">
+                    <strong>Stack:</strong>
+                    Laravel, MySQL, PostgreSQL, Swoole, Octane, Redis Horizon, GDS APIs, Composite Indexing, B Tree
+                    Tuning, Domain Driven Design (DDD), Eloquent Observers, Event Listeners.
+                </div>
+                <ol>
+                    <li><strong>DDD Core and Latency Optimization:</strong> Scaled B2C and B2B OTA microservices using
+                        Domain Driven Design (DDD) principles with Swoole and Laravel Octane; reduced multi vendor GDS
+                        synchronization Latency from <span class="highlight">10s to 200ms</span> via advanced B Tree
+                        tuning, composite indexing, and intensive query profiling.</li>
+                    <li><strong>Ledger Architecture and State Machine:</strong> Engineered multi tenant agency wallets
+                        and payment reconciliation tracking bKash/Nagad/Cash operations. Modeled complex ticket
+                        lifecycles via strict state machines, leveraging <span class="highlight">Eloquent Observers,
+                            Event Listeners, and isDirty() checking</span> to safely lock financial ledgers.</li>
+                    <li><strong>Asynchronous Reporting Pipeline:</strong> Architected analytics engines over pre
+                        aggregated tables to stream 1M+ sales rows, cutting report generation runtimes by <span
+                            class="highlight">95%</span> and boosting total Throughput by <span
+                            class="highlight">300%</span> via asynchronous Redis Horizon pipelines.</li>
+                </ol>
             </div>
 
+            <!-- 2. RootsEdu -->
             <div class="job-entry">
                 <div class="job-header">
-                    <span>2. <b>RootsEdu — High-Concurrency Ed-Tech Platform</b></span>
-                    <span>2021 – Mar 2022</span>
+                    <span><b>2. RootsEdu High Concurrency Ed Tech Platform</b></span>
+                    <span>2021 to Mar 2022</span>
                 </div>
-                <div class="job-title text-uppercase">Software Engineer</div>
-                <div class="tech-tags">Stack: Live Exam Engines, RESTful APIs, Mobile Integration.</div>
-                <ul>
-                    <li><strong>Traffic Hardening:</strong> Scaled high-concurrency API backends to handle massive
-                        simultaneous student traffic spikes during live online examination sessions.</li>
-                    <li><strong>API Architecture:</strong> Designed clean, decoupled RESTful API contracts
-                        engineered for seamless mobile application subsystem integrations.</li>
-                </ul>
+                <div class="job-title text-uppercase">Software Engineer (FullStack)</div>
+                <div class="tech-tags">Stack: Laravel, RESTful APIs, Live Exam Engines, Design Patterns (Factory), RBAC.
+                </div>
+                <ol>
+                    <li><strong>High Concurrency Hardening:</strong> Optimized core database transaction limits and
+                        execution paths to sustain heavy simultaneous traffic bursts during high scale live online
+                        student examination slots.</li>
+                    <li><strong>Decoupled API Subsystems:</strong> Built clean, decoupled RESTful API contracts with
+                        secure multi role authorization (RBAC) and Multi Tenant Data Isolation structures utilizing
+                        Factory patterns to interface securely with native mobile application frontends.</li>
+                </ol>
             </div>
 
+            <!-- 1. Smart Software Ltd -->
             <div class="job-entry">
                 <div class="job-header">
-                    <span>1. <b>Smart Software Ltd — Enterprise ERP & POS Platforms</b></span>
-                    <span>2020 – Mar 2021</span>
+                    <span><b>1. Smart Software Ltd</b></span>
+                    <span>2020 to Mar 2021</span>
                 </div>
-                <div class="job-title text-uppercase">Software Engineer</div>
-                <div class="tech-tags">Stack: PHP OOP, MySQL, Multi-tenancy, Ajax, jQuery.</div>
-                <ul>
-                    <li><strong>Enterprise ERP Modules:</strong> Developed core multi-tenant HR, automated payroll,
-                        and inventory models for large-scale enterprise platforms.</li>
-                    <li><strong>Database Optimization:</strong> Refactored legacy schema structures and optimized
-                        queries, improving system responsiveness by <span class="highlight">40%</span> and
-                        eliminating POS transactional locks.</li>
-                </ul>
+                <div class="job-title text-uppercase">Software Engineer (FullStack)</div>
+                <div class="tech-tags">Stack: Laravel, PHP OOP, MySQL, NoSql(Firebase) ECommerce, Multi tenancy SaaS,
+                    Hexagonal Architecture.</div>
+                <ol>
+                    <li><strong>Multi Tenant SaaS ERP Modules:</strong> Programmed core logistics, automated payroll,
+                        ECommerce flows, and multi tenant inventory systems using Hexagonal separation guidelines to
+                        keep business logic isolated from DB schemas.</li>
+                    <li><strong>Query Performance Refactoring:</strong> Eliminated severe POS transactional row locks
+                        and schema bottlenecks, refactoring legacy relational structures to increase overall application
+                        responsiveness by <span class="highlight">40%</span>.</li>
+                </ol>
             </div>
         </section>
 
@@ -339,25 +386,27 @@
             <div class="section-title">Technical Mastery & Core Domains</div>
             <div class="architecture-grid">
                 <div class="arch-card">
-                    <strong> Core Domains:</strong> SaaS Multi-tenant Infrastructure, Travel
+                    <strong>1. Core Domains:</strong> SaaS Multi-tenant Infrastructure, Travel
                     Tech (GDS, OTA), Enterprise Logistics (ERP, POS, HRM), Fintech (Ledgers & PGs), E-Commerce &
                     Ed-Tech.
                 </div>
                 <div class="arch-card">
-                    <strong>Backend & Systems:</strong> PHP (Laravel Ecosystem), Redis & Message Queues (Horizon),
-                    Database Engineering (MySQL, PostgreSQL), Decoupled API Architecture & REST, High-Concurrency &
-                    Performance Tuning, SOLID Principles, Unit Testing.
+                    <strong>2. Backend & Systems:</strong> PHP (Laravel Ecosystem, Swoole, Octane), Redis & Message
+                    Queues (Horizon), Database Engineering (MySQL, PostgreSQL, MongoDB, B-Tree Tuning), Decoupled API
+                    Architecture & REST, High-Concurrency & Performance Tuning, SOLID Principles, Authentication
+                    (OAuth2, Sanctum), Unit Testing (Pest/PHPUnit)
                 </div>
+
                 <div class="arch-card">
-                    <strong>Cloud & Infrastructure:</strong> Vultr, AWS (EC2, S3), OCI (Oracle Cloud), Docker &
-                    Nginx
-                    Reverse Proxy, CI/CD (GitHub Actions), Infrastructure as Code (YAML Automation), Linux VPS
+                    <strong>3. Cloud & Infrastructure:</strong> AWS (EC2, S3), OCI (Oracle Cloud), Vultr, Cloudflare
+                    Tunnels, Docker &
+                    Nginx Reverse Proxy, CI/CD (GitHub Actions), Infrastructure as Code (YAML Automation), Linux VPS
                     Administration & Server Tuning.
                 </div>
                 <div class="arch-card">
-                    <strong>System Architecture:</strong> Domain-Driven Design (DDD), Hexagonal Architecture (Ports
-                    &
-                    Adapters), Design Patterns (Strategy, Observer, Factory).
+                    <strong>4. System Architecture & Security:</strong> Domain-Driven Design (DDD), Hexagonal
+                    Architecture (Ports & Adapters), Design Patterns (Strategy, Observer, Factory), Dynamic RBAC,
+                    Multi-Tenant Data Isolation, Idempotent Processing, Real-time Data Sync (Firebase Realtime DB, FCM).
                 </div>
             </div>
         </section>
@@ -368,8 +417,8 @@
                 <span>Eastern University — B.Sc. in Computer Science & Engineering</span>
                 <span>Graduated 2019</span>
             </div>
-            <p style="margin: 4px 0 0 0;"><strong>Final Project:</strong> Social Media Engine built
-                with Raw PHP (OOP) and Mastered Advanced MySQL Schema Tuning.</p>
+            <p style="margin: 4px 0 0 0;"><strong>Final Project:</strong> Social Media Management System built with Raw
+                PHP (OOP), MySQL Schema Tuning, jQuery, and AJAX.</p>
         </section>
     </div>
 </body>
