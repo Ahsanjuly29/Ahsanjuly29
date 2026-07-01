@@ -92,19 +92,15 @@ Proven track record of transforming complex technical bottlenecks into clear com
 #### 1. Core Engineering | Pure Craftsmanship
 > Handcrafted from scratch using pure backend design patterns, strict logic, and clean code principles.
 
-1. **[NexAuth-SSO](https://github.com/Ahsanjuly29/NexAuth-SSO)** — Centralized Single Sign-On (SSO) engine built to securely bridge user sessions across independent platforms.
-2. **[ProductInventoryMS](https://github.com/Ahsanjuly29/ProductInventoryMS)** — Concurrent inventory engine engineered to eliminate database race conditions and over-selling.
-3. **[Task Management System](https://github.com/Ahsanjuly29/TaskMangegementSystem)** — Decoupled workflow manager executing heavy operational mutations through background queues.
-4. **[CvMaker](https://github.com/Ahsanjuly29/CvMaker-Php)** — High-fidelity layout generation engine processing automated PDF compilation without text margin breaks.
-5. **[BlogSite-react-inertia](https://github.com/Ahsanjuly29/BlogSite-react-inertia)** — Decoupled monolith structure demonstrating optimized client-to-backend Inertia.js pipeline mapping.
+1. **[NexAuth SSO](https://github.com/Ahsanjuly29/NexAuth-SSO)** — Centralized Single Sign-On (SSO) engine built to securely bridge user sessions across independent platforms.
+2. **[Inventory MS](https://github.com/Ahsanjuly29/ProductInventoryMS)** — Concurrent inventory engine engineered to eliminate database race conditions and over-selling.
+
 
 #### 2. AI-Assisted Engineering & Future-Tech Labs
 > Leveraging modern AI-assisted workflows and rapid execution paradigms to fast-track conceptual execution and microservice prototyping.
 
-1. **[BloodSync](https://github.com/Ahsanjuly29/BloodSync)** — Real-time geographical matching engine built to minimize communication latency during critical donor search hours.
-2. **[QRCodeGenerator](https://github.com/Ahsanjuly29/QRCodeGenerator)** ([Live Demo](https://ahsanjuly29.github.io/QRCodeGenerator/)) — Zero-dependency, browser-native serialization tool designed to generate clean data matrix structures instantly.
-3. **[InternetSpeedMeter](https://github.com/Ahsanjuly29/InternetSpeedMeter)** ([Live Demo](https://ahsanjuly29.github.io/InternetSpeedMeter/)) — Lightweight network profiling script constructed to measure download and upload bandwidth in real-time.
-4. **[mango-ecom](https://github.com/Ahsanjuly29/mango-ecom)** — Dynamic Laravel MVC prototype featuring custom Role-Based Access Control (RBAC) and a memory-efficient sales exporter.
+1. **[QRCodeGenerator](https://github.com/Ahsanjuly29/QRCodeGenerator)** ([Live Demo](https://ahsanjuly29.github.io/QRCodeGenerator/)) — Zero-dependency, browser-native serialization tool designed to generate clean data matrix structures instantly.
+2. **[InternetSpeedMeter](https://github.com/Ahsanjuly29/InternetSpeedMeter)** ([Live Demo](https://ahsanjuly29.github.io/InternetSpeedMeter/)) — Lightweight network profiling script constructed to measure download and upload bandwidth in real-time.
 
 ---
 
