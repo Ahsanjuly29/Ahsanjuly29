@@ -80,6 +80,15 @@ Proven track record of transforming complex technical bottlenecks into clear com
 
 ---
 
+### 🎯 Technical Mastery & Core Domains
+
+1. **Core Domains:** SaaS Multi-tenant Infrastructure, Travel Tech (GDS, OTA), Enterprise Logistics (ERP, POS, HRM), Fintech (Ledgers & PGs), E-Commerce & Ed-Tech.
+2. **Backend & Systems:** PHP (Laravel Ecosystem, Swoole, Octane), Redis & Message Queues (Horizon), Database Engineering (MySQL, PostgreSQL, MongoDB, B-Tree Tuning), Decoupled API Architecture & REST, High-Concurrency & Performance Tuning, SOLID Principles, Authentication (OAuth2, Sanctum), Unit Testing (Pest/PHPUnit).
+3. **Cloud & Infrastructure:** AWS (EC2, S3), OCI (Oracle Cloud), Vultr, Cloudflare Tunnels, Docker & Nginx Reverse Proxy, CI/CD (GitHub Actions), Infrastructure as Code (YAML Automation), Linux VPS Administration & Server Tuning.
+4. **System Architecture & Security:** Domain-Driven Design (DDD), Hexagonal Architecture (Ports & Adapters), Design Patterns (Strategy, Observer, Factory), Dynamic RBAC, Multi-Tenant Data Isolation, Idempotent Processing, Real-time Data Sync (Firebase Realtime DB, FCM).
+
+---
+
 ### 🎯 Technical Challenges & Strategic Solutions
 
 1. **Massive Data Streaming:** Optimized multi-million row database processing to stream and export 1M rows into a CSV within 14 seconds for automated user email delivery. 👉 [Solution Architecture](https://ahsanjuly29.github.io/LaravelEasySolutions-Manual/Export-csv/) | 👉 [Production-Complexity Blueprint](https://ahsanjuly29.github.io/LaravelEasySolutions-Manual/Export-csv/Complex-export/)
