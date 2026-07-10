@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Ahsan Ahmed - Senior Laravel Backend Engineer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahsan Ahmed - Laravel Full Stack Developer</title>
     <style>
         @page {
             size: A4;
@@ -13,10 +14,13 @@
         body {
             font-family: 'Arial', sans-serif;
             color: #2c3e50;
-            margin: 0;
+            margin: 0 auto;
             padding: 0;
+            width: 210mm;
             font-size: 10pt;
-            line-height: 1.4;
+            line-height: 1.45;
+            background-color: #ffffff;
+            -webkit-font-smoothing: antialiased;
         }
 
         .header {
@@ -50,6 +54,12 @@
             margin: 0 10px;
         }
 
+        .contact a {
+            color: #2c3e50;
+            text-decoration: none;
+            border-bottom: 1px solid #7f8c8d;
+        }
+
         h2 {
             font-size: 12pt;
             color: #2980b9;
@@ -58,12 +68,26 @@
             border-bottom: 1px solid #bdc3c7;
         }
 
+        p {
+            margin: 0 0 10px 0;
+            text-align: justify;
+        }
+
         .skills-container {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
             margin-bottom: 10px;
         }
 
         .skills-line {
-            margin: 5px 0;
+            margin: 0;
+        }
+
+        .skills-line strong {
+            display: inline-block;
+            width: 90px;
+            color: #34495e;
         }
 
         .job {
@@ -85,13 +109,14 @@
             margin-bottom: 5px;
         }
 
-        ol {
+        ul {
             margin: 0;
             padding-left: 20px;
+            list-style-type: disc;
         }
 
         li {
-            margin-bottom: 5px;
+            margin-bottom: 4px;
             text-align: justify;
         }
     </style>
@@ -101,67 +126,49 @@
 
     <div class="header">
         <div class="name">Ahsan Ahmed</div>
-        <div class="title">Senior Laravel Backend & System Optimization Engineer</div>
+        <div class="title">Laravel Full Stack Developer</div>
         <div class="contact">
             <span>Dhaka, Bangladesh</span> |
             <span>+8801948484161</span> |
             <span>ahsan.july29@gmail.com</span> |
-            <span>GitHub: github.com/ahsanjuly29</span>
+            <span><a href="https://github.com/ahsanjuly29" target="_blank"
+                    rel="noopener noreferrer">github.com/ahsanjuly29</a></span>
         </div>
     </div>
 
     <h2>Professional Summary</h2>
-    <p style="margin: 0 0 10px 0; text-align: justify;">
-        Highly analytical Backend Developer with 6+ years of professional experience specializing in PHP and Laravel web
-        application architecture. Deep expertise in high-level Database Design, SQL Query Optimization, and backend
-        system performance tuning. Competent in identifying bottlenecks, refactoring legacy code, minimizing Server
-        Latency, and writing automated tests. Experienced in managing continuous integration (CI/CD) pipelines, complex
-        Git workflows, and core DNS infrastructure to maintain high availability and security for enterprise
-        applications.
+    <p>
+        Full Stack Web Developer experienced in building business web applications using Laravel, PHP, JavaScript,
+        React, and MySQL. Skilled in developing clean, maintainable code for REST APIs, payment gateways, and
+        responsive user interfaces to deliver reliable business solutions.
     </p>
 
     <h2>Technical Skills</h2>
     <div class="skills-container">
-        <div class="skills-line">1. <strong>Core Backend:</strong> PHP 8+, Laravel, MVC Architecture, REST API Design,
-            Web Security Practices</div>
-        <div class="skills-line">2. <strong>System Optimization:</strong> Query Performance Optimization, Database
-            Indexing, Caching Strategies, Code Refactoring, Memory Management</div>
-        <div class="skills-line">3. <strong>Database Management:</strong> MySQL, Eloquent ORM, Database Schema Design,
-            Structural Migrations</div>
-        <div class="skills-line">4. <strong>Software Architecture:</strong> Repository Pattern, Service Layer, Decoupled
-            Component Design, Clean Code Practices</div>
-        <div class="skills-line">5. <strong>DevOps & Testing:</strong> CI/CD Pipelines, GitHub Actions, Automated
-            Testing (PHPUnit), DNS Management (A, CNAME, MX records), cPanel</div>
-        <div class="skills-line">6. <strong>Tools & Caching:</strong> Git & Git Workflows (Feature Branching, PR
-            Reviews), Redis Caching, Queues, Task Scheduling (Cron Jobs), Agile/Scrum</div>
-        <div class="skills-line">7. <strong>Frontend Frameworks:</strong> HTML5, CSS3, JavaScript, jQuery, AJAX, Blade
-            Components, Vue.js/react (Basic Familiarity)</div>
+        <div class="skills-line"><strong>Backend:</strong> PHP, Laravel, MVC, REST API, API Integration</div>
+        <div class="skills-line"><strong>Frontend:</strong> Blade, JavaScript, jQuery, AJAX, React, HTML5, CSS3, Bootstrap, Tailwind
+            CSS</div>
+        <div class="skills-line"><strong>Database:</strong> MySQL, Eloquent ORM, Schema Design, Indexing, Optimization</div>
+        <div class="skills-line"><strong>Authentication:</strong> RBAC, JWT, OAuth, Sanctum </div>
+        <div class="skills-line"><strong>Tools:</strong> Git, Docker, Redis, Cron, Linux</div>
     </div>
 
     <h2>Work Experience</h2>
 
     <div class="job">
         <div class="job-header">
-            <span>Senior Independent PHP Laravel Developer</span>
-            <span>2021 – Present</span>
+            <span>Independent Full Stack Web Developer</span>
+            <span>Apr 2021 – Present</span>
         </div>
-        <div class="job-meta">Client-Facing Software Development & Optimization Environment</div>
-        <ol>
-            <li>Architected and optimized heavy backend components for custom enterprise ERP, POS, LMS, and SaaS
-                platforms using PHP 8+ and Laravel.</li>
-            <li>Successfully diagnosed application bottlenecks and optimized complex MySQL schemas, reducing server
-                response latency by 40% under high concurrent loads.</li>
-            <li>Refactored legacy codebases by implementing Repository Pattern and Service Layer to improve system
-                scalability and maintainability.</li>
-            <li>Wrote automated feature and unit tests via PHPUnit to guarantee code reliability and eliminate
-                regression bugs during continuous production deployments.</li>
-            <li>Managed multi-developer code repositories using strict Git workflows, utilizing isolated feature
-                branching and mandatory pull request reviews.</li>
-            <li>Configured and maintained automated software delivery networks using GitHub Actions CI/CD pipelines for
-                secure, automated infrastructure deployment.</li>
-            <li>Handled critical hosting environment network configurations, managing fundamental DNS updates including
-                A records, CNAME, and MX records.</li>
-        </ol>
+        <div class="job-meta">Remote / Freelance</div>
+        <ul>
+            <li>Developed custom business web applications using Laravel, PHP, JavaScript, and MySQL.</li>
+            <li>Built REST APIs and integrated third-party services for web and mobile applications.</li>
+            <li>Developed responsive user interfaces using React, HTML, CSS, and Bootstrap.</li>
+            <li>Integrated payment gateways, authentication systems, and external APIs.</li>
+            <li>Optimized database queries, fixed production issues, and improved application performance.</li>
+            <li>Maintained existing applications and delivered new features based on client requirements.</li>
+        </ul>
     </div>
 
     <div class="job">
@@ -170,16 +177,13 @@
             <span>Aug 2020 – Mar 2021</span>
         </div>
         <div class="job-meta">Smart Software Ltd, Dhaka, Bangladesh</div>
-        <ol>
-            <li>Developed scalable backend logic for large-scale enterprise E-commerce platforms, optimizing automated
-                inventory data tracking and secure transaction pipelines.</li>
-            <li>Designed robust backend API layers and dynamic data handlers, optimizing system processing speed via
-                asynchronous AJAX integrations.</li>
-            <li>Integrated external third-party REST APIs and secure payment gateways, fixing critical data logic bugs
-                to secure financial transactions.</li>
-            <li>Collaborated within an Agile/Scrum framework, utilizing Git for version control and participating in
-                daily technical code evaluation loops.</li>
-        </ol>
+        <ul>
+            <li>Developed backend modules using PHP and Laravel for business web applications.</li>
+            <li>Built frontend features using JavaScript, HTML, CSS, Bootstrap, and AJAX.</li>
+            <li>Developed REST APIs and integrated third-party services and payment gateways.</li>
+            <li>Designed and maintained MySQL databases while improving query performance.</li>
+            <li>Collaborated with team members using Git and Agile development practices.</li>
+        </ul>
     </div>
 
     <h2>Education</h2>
@@ -190,7 +194,6 @@
         </div>
         <div class="job-meta">Eastern University, Bangladesh</div>
     </div>
-
 </body>
 
 </html>
