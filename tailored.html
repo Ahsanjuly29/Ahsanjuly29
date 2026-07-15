@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ahsan Ahmed - Senior Software Engineer</title>
+    <style>
+      @page {
+        size: A4;
+        margin: 12mm;
+      }
+
+      :root {
+        --ink: #0f172a;
+        --muted: #64748b;
+        --accent: #2563eb;
+        --accent-2: #0f766e;
+        --line: #e2e8f0;
+        --soft: #f8fbff;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Segoe UI", Inter, Arial, sans-serif;
+        line-height: 1.45;
+        font-size: 10.3px;
+        color: var(--ink);
+        background: linear-gradient(135deg, #f4f7fb 0%, #eef4ff 100%);
+        padding: 24px 0;
+        margin: 0;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .cv-shell {
+        max-width: 960px;
+        margin: 0 auto;
+        background: #ffffff;
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        box-shadow: 0 14px 40px rgba(15, 23, 42, 0.08);
+        padding: 30px 34px;
+      }
+
+      .header {
+        border-bottom: 2px solid var(--accent);
+        padding-bottom: 14px;
+        margin-bottom: 16px;
+      }
+
+      .name {
+        font-size: 24pt;
+        font-weight: 800;
+        color: var(--ink);
+        letter-spacing: 0.6px;
+        text-transform: uppercase;
+        margin-bottom: 4px;
+      }
+
+      .title {
+        font-size: 12pt;
+        font-weight: 700;
+        color: var(--accent);
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        margin-bottom: 6px;
+      }
+
+      .contact-info {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 12px;
+        margin-top: 8px;
+        font-size: 9.5pt;
+        color: var(--muted);
+      }
+
+      .contact-info span {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        padding: 4px 8px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: var(--soft);
+      }
+
+      .contact-info strong {
+        color: var(--ink);
+      }
+
+      .section-title {
+        font-size: 11.5pt;
+        font-weight: 800;
+        color: var(--accent-2);
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        border-left: 4px solid var(--accent);
+        padding-left: 10px;
+        margin: 16px 0 10px;
+        page-break-after: avoid;
+      }
+
+      .summary {
+        text-align: justify;
+        color: #334155;
+        margin-bottom: 8px;
+      }
+
+      .job-card {
+        margin-bottom: 12px;
+        padding: 10px 12px;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        background: linear-gradient(180deg, #fcfdff 0%, #f8fbff 100%);
+      }
+
+      .job-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 12px;
+        margin-bottom: 4px;
+        page-break-after: avoid;
+      }
+
+      .job-title-company {
+        font-weight: 700;
+        font-size: 10.5pt;
+        color: var(--ink);
+      }
+
+      .job-meta {
+        text-align: right;
+        font-size: 9.3pt;
+        color: var(--muted);
+        white-space: nowrap;
+      }
+
+      .job-tech {
+        font-size: 9pt;
+        font-style: italic;
+        color: var(--accent);
+        margin-bottom: 6px;
+        font-weight: 600;
+        page-break-after: avoid;
+      }
+
+      .job-desc {
+        margin-left: 16px;
+      }
+
+      .job-desc li {
+        margin-bottom: 4px;
+        text-align: justify;
+        color: #334155;
+      }
+
+      .tech-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 6px;
+      }
+
+      .tech-table td {
+        padding: 5px 0;
+        vertical-align: top;
+        border-bottom: 1px solid #edf2f7;
+      }
+
+      .tech-label {
+        width: 22%;
+        font-weight: 700;
+        color: var(--ink);
+      }
+
+      .tech-values {
+        width: 78%;
+        color: #334155;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 18px;
+        list-style-type: disc;
+      }
+
+      li {
+        margin-bottom: 4px;
+        text-align: justify;
+      }
+
+      @media print {
+        body {
+          background: #ffffff;
+          padding: 0;
+        }
+
+        .cv-shell {
+          max-width: none;
+          border: 0;
+          border-radius: 0;
+          box-shadow: none;
+          padding: 0;
+        }
+
+        .job-card {
+          break-inside: avoid;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cv-shell">
+      <div class="header">
+        <div class="name">Ahsan Ahmed</div>
+        <div class="title">Senior Software Engineer</div>
+        <div class="contact-info">
+          <span><strong>Email:</strong> ahsan.july29@gmail.com</span>
+          <span><strong>Phone:</strong> +880-194848-4161</span>
+          <span><strong>Location:</strong> Dhaka, Bangladesh</span>
+          <span><strong>GitHub:</strong> github.com/ahsanahmed</span>
+        </div>
+      </div>
+
+      <div class="section-title">Professional Summary</div>
+      <div class="summary">
+        Highly disciplined Senior Software Engineer & System Architect with 6+
+        years of expertise engineering high-scale distributed platforms across
+        Multi-tenant SaaS, FinTech, and Travel Technology (OTA). Proven leader
+        in modernizing legacy codebases into clean architectures and eliminating
+        heavy system bottlenecks. Expert in the modern PHP 8+ and Laravel
+        ecosystem, advanced database indexing, and asynchronous queue
+        orchestration. Skilled at code reviews, team mentoring, and balancing
+        high-performance technical decisions with core business requirements.
+      </div>
+
+      <div class="section-title">Core Technical Mastery</div>
+      <table class="tech-table">
+        <tr>
+          <td class="tech-label">Backend Engine:</td>
+          <td class="tech-values">
+            PHP 8.4, Laravel Ecosystem, Laravel Octane, Swoole, RESTful API
+            Design, Node.js
+          </td>
+        </tr>
+        <tr>
+          <td class="tech-label">Architecture:</td>
+          <td class="tech-values">
+            Domain-Driven Design (DDD), Hexagonal (Ports & Adapters), SOLID,
+            Strategy & Observer Patterns
+          </td>
+        </tr>
+        <tr>
+          <td class="tech-label">Databases & Cache:</td>
+          <td class="tech-values">
+            MySQL (Advanced B-Tree Indexing, Query Tuning, Transactions),
+            PostgreSQL, Redis Horizon
+          </td>
+        </tr>
+        <tr>
+          <td class="tech-label">Infrastructure/DevOps:</td>
+          <td class="tech-values">
+            Docker, Docker Compose, AWS (EC2, S3), Linux, Nginx (Reverse Proxy &
+            Load Balancing), CI/CD YAML
+          </td>
+        </tr>
+      </table>
+
+      <div class="section-title">Professional Experience</div>
+
+      <div class="job-card">
+        <div class="job-header">
+          <div class="job-title-company">
+            Lead Architecture & Systems Consultant &mdash; Remote SaaS & FinTech
+            Platforms
+          </div>
+          <div class="job-meta">2019 &ndash; Present</div>
+        </div>
+        <div class="job-tech">
+          Technologies: PHP 8.4, Laravel, Hexagonal Architecture, MySQL, Redis,
+          Docker, Cloudflare, Payment Gateways
+        </div>
+        <ul class="job-desc">
+          <li>
+            Architected and delivered secure, multi-tenant B2B/B2C SaaS
+            infrastructures (Invoice/ERP) leveraging Domain-Driven Design and
+            strict isolation patterns.
+          </li>
+          <li>
+            Integrated complex FinTech layer orchestration including
+            international and local payment gateways (Stripe, bKash) utilizing
+            idempotent processing and atomic locks to ensure zero transactional
+            loss.
+          </li>
+          <li>
+            Identified heavy technical debts and legacy codebase bottlenecks,
+            restructuring core database schemas and indexing to heavily minimize
+            API latency.
+          </li>
+          <li>
+            Mentored client teams and enforced strict clean code reviews
+            ensuring adherence to SOLID principles.
+          </li>
+        </ul>
+      </div>
+
+      <div class="job-card">
+        <div class="job-header">
+          <div class="job-title-company">
+            Senior Software Engineer (Fullstack) &mdash; High-Traffic OTA
+            Platform
+          </div>
+          <div class="job-meta">Jul 2024 &ndash; Jul 2025</div>
+        </div>
+        <div class="job-tech">
+          Technologies: Laravel, MySQL, Redis Horizon, Nginx, Docker, GitHub
+          Actions CI/CD, React
+        </div>
+        <ul class="job-desc">
+          <li>
+            Led the technical modernization of a legacy monolithic platform into
+            a decoupled 3-tier architecture (Isolated API, Web, and Workers),
+            reducing deployment latency by 80%.
+          </li>
+          <li>
+            Engineered asynchronous Redis worker pipelines leveraging Strategy
+            patterns to process 1M+ daily hotel rate ingestions and automated
+            pricing syncs without blocking transactional traffic.
+          </li>
+          <li>
+            Managed full payment lifecycles and webhook verifications ensuring
+            100% financial state integrity during peak hours.
+          </li>
+          <li>
+            Conducted engineering code reviews and provided rigorous mentorship
+            to accelerate mid-level and junior developers' technical growth.
+          </li>
+        </ul>
+      </div>
+
+      <div class="job-card">
+        <div class="job-header">
+          <div class="job-title-company">
+            Senior Backend & Systems Engineer &mdash; Travel Tech (OTA) Platform
+          </div>
+          <div class="job-meta">2022 &ndash; Dec 2023</div>
+        </div>
+        <div class="job-tech">
+          Technologies: Laravel Octane, Swoole, MySQL, PostgreSQL, Redis
+          Horizon, State Machines
+        </div>
+        <ul class="job-desc">
+          <li>
+            Scaled business-critical distributed OTA services using Laravel
+            Octane and Swoole, reducing multi-vendor GDS synchronization latency
+            from 10s to 200ms via composite indexing and query profiling.
+          </li>
+          <li>
+            Modeled complex multi-tenant flight booking lifecycles using strict
+            state machines, Eloquent observers, and financial ledger isolation
+            layers.
+          </li>
+          <li>
+            Architected asynchronous data analytics pipelines over
+            pre-aggregated tables, boosting total system throughput by 300%.
+          </li>
+        </ul>
+      </div>
+
+      <div class="section-title">Education</div>
+      <div class="job-header">
+        <div class="job-title-company">
+          B.Sc. in Computer Science & Engineering &mdash; Eastern University
+        </div>
+        <div class="job-meta">Graduated 2019</div>
+      </div>
+    </div>
+  </body>
+</html>
