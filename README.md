@@ -39,7 +39,7 @@ Experienced cloud engineer skilled in provisioning **multi-server production env
 
 ### 💼 Professional Journey
 
-#### Independent Technical Consultant (Remote Systems Architecture)
+#### Independent Lead Architect & Systems Consultant
 
 > **Global Remote Clients (Part-time / Contract)** | Mar 2020 – Present
 
