@@ -25,18 +25,17 @@
 
 ---
 
-### 👨‍💻 Professional Summary
+# 👨‍💻 Professional Summary
 
-Senior Software Engineer & System Architect with **6+ years of experience** designing, engineering, and scaling high-performance software platforms across **Multi-Tenant SaaS, Enterprise ERP & Logistics, E-Commerce, FinTech, Travel Technology (OTA), and EdTech** domains.
+**Senior Software Engineer & System Architect** with **6+ years of experience** designing, optimizing, and scaling high-performance software across **Multi-Tenant SaaS, FinTech, TravelTech (OTA/GDS), Enterprise ERP, Logistics, E-Commerce, and EdTech** domains.
 
-Specialized in the **Laravel ecosystem, advanced database optimization, distributed cloud infrastructure (Linux/VPS), and software architecture using SOLID principles, Domain-Driven Design (DDD), and Hexagonal Architecture**. Highly proficient in full-stack ecosystems combining asynchronous compute structures, modern responsive user interfaces, and multi-language secondary frameworks to support core enterprise systems.
+A full-stack capable backend specialist with deep expertise in the **PHP (Laravel, Octane, Swoole)** ecosystem, alongside production experience in **Node.js (NestJS) and Python (FastAPI)**, backed by foundational knowledge in **C++ and Java**. Highly proficient in building **decoupled REST APIs** and integrating them with modern frontend frameworks like **React.js, Next.js, Zustand, and TanStack Query**, as well as traditional **Blade, jQuery, and Tailwind CSS** templates.
 
-Experienced in modernizing legacy applications, developing greenfield systems, designing scalable REST APIs, optimizing high-volume databases, engineering asynchronous processing pipelines, implementing payment workflows, and building reliable production infrastructure for business-critical platforms.
+Hands-on architect experienced in implementing **Domain-Driven Design (DDD), Hexagonal Architecture, SOLID principles**, and automated testing **(TDD, PHPUnit, Pest)** to modernize legacy applications and build greenfield systems. Proven track record in **advanced database engineering (MySQL, PostgreSQL, MongoDB)** and managing **high-concurrency background processing** using **Apache Kafka, Redis Horizon, and BullMQ** message schedulers.
 
-Delivered measurable engineering outcomes, including reducing OTA synchronization latency from **10 seconds to 200 milliseconds** and building Redis-backed asynchronous processing pipelines synchronizing **1M+ records daily**. Focused on building maintainable, scalable, high-concurrency, and fault-tolerant software that ensures strong data integrity, high availability, and long-term operational reliability.
+Experienced cloud engineer skilled in provisioning **multi-server production environments** (Web, API, Database, and Workers) using **Linux (Ubuntu), Docker, and Nginx** across **AWS, Oracle Cloud, and Vultr**, with automation via **Cloudflare and GitHub Actions (YAML)**. Successfully achieved key business metrics, including **reducing API synchronization latency from 10 seconds to 200 milliseconds**, **boosting reporting throughput by 300%**, and **managing pipelines that sync 1M+ records daily**.
 
 ---
-
 
 ### 💼 Professional Journey
 
@@ -44,16 +43,16 @@ Delivered measurable engineering outcomes, including reducing OTA synchronizatio
 
 > **Global Remote Clients (Part-time / Contract)** | Mar 2020 – Present
 
-**System Context:** Independent consulting and product engineering across Multi-Tenant SaaS, ERP, POS, E-Commerce, FinTech, EdTech, Pharmacy, and custom business platforms, focusing on scalable architecture, cloud infrastructure, financial systems, and long-term maintainability.
+**System Context:** Independent consulting and product engineering across Multi-Tenant, Pharmacy SaaS, ERP, POS, E-Commerce, FinTech, EdTech and custom business platforms, focusing on scalable architecture, cloud infrastructure, financial systems, and long-term maintainability.
 
 **Architecture:** `LEMP` • `Multi-Tenant SaaS` • `Hexagonal Architecture` • `Domain-Driven Design (DDD)` • `Event-Driven Processing` • `Cloud Infrastructure` • `Polyglot Microservices`
 
-**Core Technologies:** `Laravel` • `PHP` • `Node.js (NestJS, Express.js)` • `React` • `Next.js` • `Python (Django, FastAPI)` • `MySQL` • `PostgreSQL` • `MongoDB` • `Redis` • `BullMQ` • `Docker` • `Cloudflare` • `PHPUnit` • `Pest` • `State Engines (Zustand, Redux, TanStack Query)` • `Nginx` • `Oracle Cloud` • `Payment APIs`
+**Core Technologies:** `Laravel` • `PHP` • `Node.js (NestJS, Express.js)` • `React (Next.js)` • `Python (Django, FastAPI)` • `MySQL` • `PostgreSQL` • `MongoDB` • `Redis` • `BullMQ` • `Docker` • `Cloudflare` • `PHPUnit` • `Pest` • `State Engines (Zustand, Redux, TanStack Query)` • `Nginx` • `Oracle Cloud` • `Global Payment APIs`
 
 
 #### Key Contributions
 
-1. Architected and independently developed scalable **multi-tenant SaaS platforms** including ERP, Restaurant POS, Pharmacy, Invoice Management, and EdTech systems, applying **Hexagonal Architecture**, **Domain-Driven Design (DDD)**, and modular engineering practices to support long-term scalability, maintainability, and rapid product evolution.
+1. Architected and independently developed scalable **SaaS platforms** including ERP, Restaurant POS, Pharmacy, Invoice Management, and EdTech systems, applying **Hexagonal Architecture**, **Domain-Driven Design (DDD)**, and modular engineering practices to support long-term scalability, maintainability, and rapid product evolution.
 
 2. Designed and implemented resilient financial workflows integrating multiple regional and international payment providers, utilizing idempotent webhook processing, centralized ledger management, and event-driven transaction handling to ensure reliable payment processing and consistent financial state management.
 
