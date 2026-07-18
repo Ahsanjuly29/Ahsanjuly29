@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ahsan Ahmed - Senior Software Engineer CV</title>
     <style>
-      /* 1. Reset System & Base Layout Density */
       * {
         box-sizing: border-box;
         margin: 0;
@@ -54,6 +53,7 @@
         font-weight: 500;
         margin-top: 6px;
         color: #94a3b8;
+        text-transform: uppercase;
       }
 
       .contact-links a {
@@ -64,11 +64,11 @@
 
       /* 3. Section Headers & Dynamic Lines */
       .section-title {
-        font-size: 11.5px;
+        font-size: 12px;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.03em;
-        color: #0f172a;
+        color: #236926;
         border-bottom: 1px solid #e2e8f0;
         padding-bottom: 3px;
         margin: 12px 0 6px 0;
@@ -165,6 +165,20 @@
         color: #0f172a;
       }
 
+      .job-title {
+        font-size: 14px;
+        font-weight: 600;
+        color: #636e72;
+        margin: 4px 0 0 0;
+      }
+
+      small {
+        display: block;
+        font-weight: 400;
+        color: #7f8c8d;
+        margin-top: 1px;
+      }
+
       /* 8. Print Engine Rules */
       @media print {
         body {
@@ -184,7 +198,7 @@
         }
 
         .job-entry {
-          /* page-break-inside: avoid; */
+          page-break-inside: avoid;
         }
       }
     </style>
@@ -194,23 +208,10 @@
     <div class="cv-wrapper">
       <header>
         <h1>Ahsan Ahmed</h1>
-        <p
-          style="
-            font-size: 14px;
-            font-weight: 600;
-            color: #636e72;
-            margin: 4px 0 0 0;
-          "
-        >
+
+        <p class="job-title text-uppercase">
           Senior Software Engineer
-          <small
-            style="
-              display: block;
-              font-weight: 400;
-              color: #7f8c8d;
-              margin-top: 1px;
-            "
-          >
+          <small>
             Backend Systems • Distributed Architecture • Systems Optimization •
             Decoupled Cloud Infrastructure
           </small>
@@ -254,8 +255,56 @@
       </section>
 
       <section>
-        <div class="section-title">Professional Experience</div>
+        <div class="section-title">
+          Technical Mastery & Core Domains (Expertise)
+        </div>
+        <div class="architecture-grid">
+          <div class="arch-card">
+            <strong>1. Core Domains:</strong><br />
+            Multi-Tenant SaaS • ERP • POS • HRM • Logistics • Fintech (Ledgers &
+            PGs) • OTA • E-Commerce • EdTech
+          </div>
 
+          <div class="arch-card">
+            <strong>2. Backend Engineering:</strong><br />
+            PHP (Laravel Ecosystem) • Node.js (NestJS, Express.js) • Python
+            (Django, FastAPI) • REST APIs • Redis (Caching & Queues) • MySQL •
+            PostgreSQL • MongoDB • Firebase • Swoole • Laravel Octane • Query
+            Optimization • High-Concurrency Processing • Queues (Horizon) •
+            OAuth2 • Sanctum • PHPUnit • Pest
+          </div>
+
+          <div class="arch-card">
+            <strong>3. Architecture & Engineering:</strong><br />
+            Domain-Driven Design (DDD) • Hexagonal Architecture • SOLID
+            Principles • Design Patterns (Strategy, Observer, Factory) •
+            Distributed Systems • Event-Driven Architecture • Multi-Tenant Data
+            Isolation • Idempotent Processing • Background Processing
+          </div>
+
+          <div class="arch-card">
+            <strong>4. Cloud & Infrastructure:</strong><br />
+            Linux • Docker • LEMP/LAMP • Nginx (Reverse Proxy & Load Balancing)
+            • Oracle Cloud (OCI) • AWS (EC2, S3) • Vultr • Cloudflare • GitHub
+            Actions • Infrastructure as Code (YAML) • YAML Automation
+          </div>
+
+          <div class="arch-card">
+            <strong>5. Modern Frontend & State Management:</strong><br />
+            React.js • Next.js • JavaScript • State Management (Zustand, Redux,
+            TanStack Query) • Interactive Client Dashboards
+          </div>
+
+          <div class="arch-card">
+            <strong>6. Polyglot Core & Asynchronous Compute:</strong><br />
+            C++ • Java • Asynchronous Task Processors (BullMQ) • Algorithmic
+            Foundations • System Performance R&D
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-title">Professional Experience</div>
         <!-- always on top -->
         <div class="job-entry">
           <div class="job-header">
@@ -547,53 +596,6 @@
               responsiveness by <span class="highlight">40%</span>.
             </li>
           </ol>
-        </div>
-      </section>
-
-      <section>
-        <div class="section-title">Technical Mastery & Core Domains</div>
-        <div class="architecture-grid">
-          <div class="arch-card">
-            <strong>1. Core Domains:</strong><br />
-            Multi-Tenant SaaS • ERP • POS • HRM • Logistics • Fintech (Ledgers &
-            PGs) • OTA • E-Commerce • EdTech
-          </div>
-
-          <div class="arch-card">
-            <strong>2. Backend Engineering:</strong><br />
-            PHP (Laravel Ecosystem) • Node.js (NestJS, Express.js) • Python
-            (Django, FastAPI) • REST APIs • Redis (Caching & Queues) • MySQL •
-            PostgreSQL • MongoDB • Firebase • Swoole • Laravel Octane • Query
-            Optimization • High-Concurrency Processing • Queues (Horizon) •
-            OAuth2 • Sanctum • PHPUnit • Pest
-          </div>
-
-          <div class="arch-card">
-            <strong>3. Architecture & Engineering:</strong><br />
-            Domain-Driven Design (DDD) • Hexagonal Architecture • SOLID
-            Principles • Design Patterns (Strategy, Observer, Factory) •
-            Distributed Systems • Event-Driven Architecture • Multi-Tenant Data
-            Isolation • Idempotent Processing • Background Processing
-          </div>
-
-          <div class="arch-card">
-            <strong>4. Cloud & Infrastructure:</strong><br />
-            Linux • Docker • LEMP/LAMP • Nginx (Reverse Proxy & Load Balancing)
-            • Oracle Cloud (OCI) • AWS (EC2, S3) • Vultr • Cloudflare • GitHub
-            Actions • Infrastructure as Code (YAML) • YAML Automation
-          </div>
-
-          <div class="arch-card">
-            <strong>5. Modern Frontend & State Management:</strong><br />
-            React.js • Next.js • JavaScript • State Management (Zustand, Redux,
-            TanStack Query) • Interactive Client Dashboards
-          </div>
-
-          <div class="arch-card">
-            <strong>6. Polyglot Core & Asynchronous Compute:</strong><br />
-            C++ • Java • Asynchronous Task Processors (BullMQ) • Algorithmic
-            Foundations • System Performance R&D
-          </div>
         </div>
       </section>
 
