@@ -83,6 +83,39 @@
       li {
         margin-bottom: 3px;
       }
+
+      .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        border-bottom: 2px solid #333333;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+      }
+
+      .header-text {
+        flex: 1;
+      }
+
+      .header-photo {
+        margin-top: 20px;
+        margin-left: 20px;
+      }
+
+      .header-photo img {
+        width: 140px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 14px;
+        border: 1px solid #cccccc;
+      }
+
+      @media print {
+        .header-container {
+          display: flex;
+        }
+      }
+
       @media print {
         body {
           padding: 0;
@@ -95,27 +128,32 @@
   </head>
   <body>
     <div class="container">
-      <header>
-        <h1>Ahsan Ahmed</h1>
-        <div class="contact-info">
-          <p>
-            <strong>Address:</strong>
-            61/2 bagdashalane, Nayabazar, Dhaka
-          </p>
-          <p><strong>Mobile:</strong> 01948484161</p>
-          <p><strong>Email:</strong> ahsan.july29@gmail.com</p>
-          <p>
-            <strong>LinkedIn:</strong>
-            <a href="https://www.linkedin.com/in/ahsanjuly29/"
-              >https://www.linkedin.com/in/ahsanjuly29/</a
-            >
-          </p>
-          <p>
-            <strong>GitHub:</strong>
-            <a href="https://github.com/ahsanjuly29"
-              >https://github.com/ahsanjuly29</a
-            >
-          </p>
+      <header class="header-container">
+        <div class="header-text">
+          <h1>Ahsan Ahmed</h1>
+          <div class="contact-info">
+            <p>
+              <strong>Address:</strong>
+              61/2 bagdashalane, Nayabazar, Dhaka
+            </p>
+            <p><strong>Mobile:</strong> 01948484161</p>
+            <p><strong>Email:</strong> ahsan.july29@gmail.com</p>
+            <p>
+              <strong>LinkedIn:</strong>
+              <a href="https://www.linkedin.com/in/ahsanjuly29/"
+                >https://www.linkedin.com/in/ahsanjuly29/</a
+              >
+            </p>
+            <p>
+              <strong>GitHub:</strong>
+              <a href="https://github.com/ahsanjuly29"
+                >https://github.com/ahsanjuly29</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="header-photo">
+          <img src="2.png" alt="Ahsan Ahmed" />
         </div>
       </header>
 
