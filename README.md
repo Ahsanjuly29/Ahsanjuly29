@@ -1,23 +1,58 @@
-### 🛠️ Core as badges
+# Hi, I'm Ahsan 👋 This is my 🚀 Portfolio
 
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) ![zustand](https://img.shields.io/badge/Zustand-444444?style=for-the-badge&logo=Zustand&logoColor=white) ![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white) ![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-d82c20?style=for-the-badge&logo=redis&logoColor=white) ![BullMQ](https://img.shields.io/badge/BullMQ-3B82F6?style=for-the-badge&logo=nestjs&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) ![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white) ![Vultr](https://img.shields.io/badge/Vultr-007BFF?style=for-the-badge&logo=vultr&logoColor=white) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![CI/CD](https://img.shields.io/badge/CI/CD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E94333?style=for-the-badge&logo=ubuntu&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-074D5B?style=for-the-badge&logo=sqlite&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white) ![Alpine.js](https://img.shields.io/badge/Alpine.js-8BC0D0?style=for-the-badge&logo=alpine.js&logoColor=black) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+### 🎯 Technical Challenges & Strategic Solutions
+
+#### PHP / Laravel Ecosystem:
+
+1. **Massive Data Streaming:** Optimized multi-million-row database processing to stream and export **1M+ rows into CSV within 14 seconds** for automated user email delivery.  
+   👉 [Solution Architecture](https://ahsanjuly29.github.io/LaravelEasySolutions-Manual/Export-csv/) | 👉 [Production-Complexity Blueprint](https://ahsanjuly29.github.io/LaravelEasySolutions-Manual/Export-csv/Complex-export/)
+
+2. **Contractor Integration Defenses:** Mitigated third-party structural changes from crashing internal platforms by engineering **fault-tolerant API wrappers**. Implemented strict automated boundary testing and mock test matrices using **PHPUnit/Pest**, ensuring platform stability during upstream API modifications.
 
 ---
 
-<!-- <h1 align="center">Ahsan Ahmed</h1>
+### 📂 Projects & Architectural Blueprints
+
+#### Core Engineering | Pure Craftsmanship:
+
+> Laravel Ecosystem
+
+1. **[NexAuth SSO](https://github.com/Ahsanjuly29/NexAuth-SSO)**
+   — Centralized authentication service implementing SSO patterns, session management, and secure cross-application identity sharing.
+
+2. **[Inventory MS](https://github.com/Ahsanjuly29/ProductInventoryMS)** — Concurrent inventory management system focused on stock consistency, race-condition handling, and transactional integrity.
+
+3. **[Laravel Easy Solutions Manual](https://ahsanjuly29.github.io/LaravelEasySolutions-Manual/)**
+   — Technical documentation covering Laravel performance patterns, large data export strategies, and backend engineering solutions.
+
+#### Browser Engineering & Experimental Labs:
+
+> Bootstrap JavaScript/CSS Ecosystem, Vanilla JavaScript, jQuery, QRCode, Chart.js
+
+1. **[QRCodeGenerator](https://github.com/Ahsanjuly29/QRCodeGenerator)** ([Live Demo](https://ahsanjuly29.github.io/QRCodeGenerator/)) — Zero-dependency, browser-native serialization tool designed to generate clean data matrix structures instantly.
+
+2. **[InternetSpeedMeter](https://github.com/Ahsanjuly29/InternetSpeedMeter)** ([Live Demo](https://ahsanjuly29.github.io/InternetSpeedMeter/)) — Lightweight network profiling tool built to measure download and upload bandwidth in real-time.
+
+---
+
+---
+
+<br>
 
 <div align="center">
-    <h3>Senior Software Engineer</h3>
-    <p>
-    <strong>
-      Backend System • Distributed Architecture • Systems Optimization • Decoupled Cloud Infrastructure
-    </strong>
-    </p>
-</div> -->
+
+# 👨‍💻 About Me
+
+</div>
+
+### 🛠️ Core Technologies
+
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white) ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) ![zustand](https://img.shields.io/badge/Zustand-444444?style=for-the-badge&logo=Zustand&logoColor=white) ![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white) ![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-d82c20?style=for-the-badge&logo=redis&logoColor=white) ![BullMQ](https://img.shields.io/badge/BullMQ-3B82F6?style=for-the-badge&logo=nestjs&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) ![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white) ![Vultr](https://img.shields.io/badge/Vultr-007BFF?style=for-the-badge&logo=vultr&logoColor=white) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![CI/CD](https://img.shields.io/badge/CI/CD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E94333?style=for-the-badge&logo=ubuntu&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-074D5B?style=for-the-badge&logo=sqlite&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white) ![Alpine.js](https://img.shields.io/badge/Alpine.js-8BC0D0?style=for-the-badge&logo=alpine.js&logoColor=black) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+---
 
 <p align="center">
-    <a href="https://www.linkedin.com/in/ahsanjuly29/">LinkedIn</a> |
     <a href="mailto:ahsan.july29@gmail.com">ahsan.july29@gmail.com</a> |
     <a href="https://wa.me/8801948484161">WhatsApp</a> |
     <img src="https://komarev.com/ghpvc/?username=Ahsanjuly29&color=blue&style=flat-square" alt="Views" valign="middle">
@@ -215,31 +250,6 @@ Experienced cloud engineer skilled in provisioning **multi-server production env
 1. **Infrastructure:** Distributed Production Architecture, High Availability, 3-Server Infrastructure (Database, Web, API & Background Workers), and Multi-Environment Deployments.
 
 2. **Cloud & DevOps:** Linux (Ubuntu/Debian), Docker, Docker Compose, Nginx, Oracle Cloud, Vultr, AWS (EC2, S3), Huawei Cloud, Cloudflare, GitHub Actions, YAML CI/CD, and Infrastructure Automation.
-
----
-
-### 🎯 Technical Challenges & Strategic Solutions
-
-1. **Massive Data Streaming:** Optimized multi-million row database processing to stream and export 1M rows into a CSV within 14 seconds for automated user email delivery. 👉 [Solution Architecture](https://ahsanjuly29.github.io/LaravelEasySolutions-Manual/Export-csv/) | 👉 [Production-Complexity Blueprint](https://ahsanjuly29.github.io/LaravelEasySolutions-Manual/Export-csv/Complex-export/)
-2. **Contractor Integration Defenses:** Mitigated third-party Structural Updates from crashing internal platforms by engineering Fault-Tolerant API Wrappers. Implemented strict automated boundary testing and Mock Test Matrices using PHPUnit/Pest, ensuring zero downtime during upstream API modifications.
-
----
-
-### 📂 Projects & Architectural Blueprints
-
-#### 1. Core Engineering | Pure Craftsmanship
-
-> Handcrafted from scratch using pure backend design patterns, strict logic, and clean code principles.
-
-1. **[NexAuth SSO](https://github.com/Ahsanjuly29/NexAuth-SSO)** — Centralized Single Sign-On (SSO) engine built to securely bridge user sessions across independent platforms.
-2. **[Inventory MS](https://github.com/Ahsanjuly29/ProductInventoryMS)** — Concurrent inventory engine engineered to eliminate database race conditions and over-selling.
-
-#### 2. AI-Assisted Engineering & Future-Tech Labs
-
-> Leveraging modern AI-assisted workflows and rapid execution paradigms to fast-track conceptual execution and microservice prototyping.
-
-1. **[QRCodeGenerator](https://github.com/Ahsanjuly29/QRCodeGenerator)** ([Live Demo](https://ahsanjuly29.github.io/QRCodeGenerator/)) — Zero-dependency, browser-native serialization tool designed to generate clean data matrix structures instantly.
-2. **[InternetSpeedMeter](https://github.com/Ahsanjuly29/InternetSpeedMeter)** ([Live Demo](https://ahsanjuly29.github.io/InternetSpeedMeter/)) — Lightweight network profiling script constructed to measure download and upload bandwidth in real-time.
 
 ---
 
