@@ -37,6 +37,6 @@
 
 <br>
 
-[![Curriculum Vitae](https://img.shields.io/badge/Curriculum_Vitae-Read_Full_CV-181717?style=for-the-badge&logo=github)](https://github.com/Ahsanjuly29/cvDetails.md)
+[![Curriculum Vitae](https://img.shields.io/badge/Curriculum_Vitae-Read_Full_CV-181717?style=for-the-badge&logo=github)](https://github.com/Ahsanjuly29/Ahsanjuly29/blob/main/DETAILS.md)
 
 ---
