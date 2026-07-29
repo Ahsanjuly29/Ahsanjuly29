@@ -37,6 +37,8 @@
 
 <br>
 
-[![Curriculum Vitae](https://img.shields.io/badge/Curriculum_Vitae-Read_Full_CV-181717?style=for-the-badge&logo=github)]([https://github.com/Ahsanjuly29/Ahsanjuly29/blob/main/DETAILS.md](https://ahsanjuly29.github.io/Ahsanjuly29/details.html))
+<a href="https://ahsanjuly29.github.io/Ahsanjuly29/details.html" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Curriculum_Vitae-Read_Full_CV-181717?style=for-the-badge&logo=github" alt="Curriculum Vitae" />
+</a>
 
 ---
