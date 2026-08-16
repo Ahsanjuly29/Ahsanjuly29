@@ -17,16 +17,31 @@
 
 > **<a href="https://github.com/Ahsanjuly29/NexAuth-SSO">NexAuth SSO</a>** — API-driven Single Sign-On demonstrating shared authentication across multiple Laravel applications.
 
-### Laravel Monoliths + Blade
+<br/>
+
+### Laravel + Blade
 
 > **<a href="https://github.com/Ahsanjuly29/ProductInventoryMS">Inventory MS</a>** — Concurrent inventory management focused on transactional integrity and race-condition prevention.
+
+> **<a href="https://github.com/Ahsanjuly29/DailyExpenses">Daily Expenses</a>** — Track, categorize, and report your personal expenses effortlessly.
+
+> **<a href="https://github.com/Ahsanjuly29/Mail-Generator">Mail Generator</a>** — Easy seamless mailing system
+
+<br/>
+
+### Laravel + Inertia-React
+
+> **<a href="https://github.com/Ahsanjuly29/Blogging-site">Blog site</a>** — blogging project
+
+<br/>
 
 ### Node JS + Filesystem
 
 > **<a href="https://github.com/Ahsanjuly29/UpDownTimeMonitoring">Monitoring site downtime</a>** — A RESTFul API to monitor up or down time of user defined links.
 
-### Browser Engineering
+<br/>
 
+### Browser Engineering
 *Bootstrap • JavaScript • jQuery • Chart.js • QRCode*
 
 > **<a href="https://github.com/Ahsanjuly29/QRCodeGenerator">QRCodeGenerator</a>** — Browser-native QR code generator with instant generation and download support.  
