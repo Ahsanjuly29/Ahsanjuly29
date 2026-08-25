@@ -1,394 +1,411 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>S - Ahsan Ahmed - Senior Software Engineer CV</title>
-    <style>
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-      }
 
-      body {
-        font-size: 12px;
-        font-family: "Calibri", "Inter", sans-serif;
-        line-height: 1.4;
-        color: #1e293b;
-        background-color: #ffffff;
-        -webkit-font-smoothing: antialiased;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>S - Ahsan Ahmed - Senior Software Engineer CV</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-      ul {
-        margin-left: 2%;
-      }
+    body {
+      font-size: 12px;
+      font-family: "Calibri", "Inter", sans-serif;
+      line-height: 1.4;
+      color: #1e293b;
+      background-color: #ffffff;
+      -webkit-font-smoothing: antialiased;
+    }
 
-      .cv-wrapper {
-        width: 800px;
-        margin: 0 auto;
-        padding: 25px 30px;
-      }
+    ul {
+      margin-left: 2%;
+    }
 
-      /* 2. Exact Header Replication */
-      header {
-        border-bottom: 2px solid #1e293b;
-        padding-bottom: 6px;
-        margin-bottom: 12px;
-      }
+    .cv-wrapper {
+      width: 800px;
+      margin: 0 auto;
+      padding: 25px 30px;
+    }
 
-      h1 {
-        font-size: 24px;
-        font-weight: 800;
-        text-transform: uppercase;
-        letter-spacing: -0.03em;
-        color: #0f172a;
-        line-height: 1.1;
-      }
+    /* 2. Exact Header Replication */
+    header {
+      border-bottom: 2px solid #1e293b;
+      padding-bottom: 6px;
+      margin-bottom: 12px;
+    }
 
-      .contact-links {
-        display: flex;
-        gap: 10px;
-        font-size: 10.5px;
-        font-weight: 500;
-        margin-top: 6px;
-        color: #94a3b8;
-        text-transform: uppercase;
-      }
+    h1 {
+      font-size: 24px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: -0.03em;
+      color: #0f172a;
+      line-height: 1.1;
+    }
 
-      .contact-links a {
-        text-decoration: none;
-        color: #2563eb;
-        font-weight: 600;
-      }
+    .contact-links {
+      display: flex;
+      gap: 10px;
+      font-size: 10.5px;
+      font-weight: 500;
+      margin-top: 6px;
+      color: #94a3b8;
+      text-transform: uppercase;
+    }
 
-      /* 3. Section Headers & Dynamic Lines */
-      .section-title {
-        font-size: 12px;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 0.03em;
-        color: #236926;
-        border-bottom: 1px solid #e2e8f0;
-        padding-bottom: 3px;
-        margin: 12px 0 6px 0;
-      }
+    .contact-links a {
+      text-decoration: none;
+      color: #2563eb;
+      font-weight: 600;
+    }
 
-      .summary-text {
-        text-align: justify;
-        color: #334155;
-      }
+    /* 3. Section Headers & Dynamic Lines */
+    .section-title {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      color: #236926;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 3px;
+      margin: 12px 0 6px 0;
+    }
 
-      /* 4. Experience Matrix & Job Alignment */
-      .job-entry {
-        margin-bottom: 10px;
-      }
+    .summary-text {
+      text-align: justify;
+      color: #334155;
+    }
 
-      .job-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-        font-weight: 700;
-        font-size: 14px;
-        color: #0f172a;
-      }
+    /* 4. Experience Matrix & Job Alignment */
+    .job-entry {
+      margin-bottom: 10px;
+    }
 
-      .job-title {
-        font-weight: 600;
-        color: #0f7202;
-        font-size: 13px;
-        margin-top: 1px;
-        margin-bottom: 4px;
-        text-transform: uppercase;
-        letter-spacing: 0.01em;
-      }
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-weight: 700;
+      font-size: 14px;
+      color: #0f172a;
+    }
 
-      /* 5. Compact Stack Badge Container */
-      .tech-tags {
-        font-size: 11px;
-        line-height: 1.5;
-        color: #334155;
-        border-radius: 4px;
-      }
+    .job-title {
+      font-weight: 600;
+      color: #0f7202;
+      font-size: 13px;
+      margin-top: 1px;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.01em;
+    }
 
-      .bg-success {
-        background: #eef8f1;
-        border: 1px solid #d8e5dd;
-        padding: 5px 10px;
-        margin-bottom: 6px;
-      }
+    /* 5. Compact Stack Badge Container */
+    .tech-tags {
+      font-size: 11px;
+      line-height: 1.5;
+      color: #334155;
+      border-radius: 4px;
+    }
 
-      .tech-tags strong {
-        color: #0f172a;
-      }
+    .bg-success {
+      background: #eef8f1;
+      border: 1px solid #d8e5dd;
+      padding: 5px 10px;
+      margin-bottom: 6px;
+    }
 
-      /* 6. List and Bullet Specifications */
-      ul {
-        margin: 2px 0;
-        padding-left: 12px;
-        list-style-type: disc;
-      }
+    .tech-tags strong {
+      color: #0f172a;
+    }
 
-      li {
-        font-size: 12px;
-        margin-bottom: 3px;
-        text-align: justify;
-        color: #334155;
-      }
+    /* 6. List and Bullet Specifications */
+    ul {
+      margin: 2px 0;
+      padding-left: 12px;
+      list-style-type: disc;
+    }
 
-      .highlight {
-        font-weight: 700;
-        color: #0f172a;
-      }
+    li {
+      font-size: 12px;
+      margin-bottom: 3px;
+      text-align: justify;
+      color: #334155;
+    }
 
-      /* 7. Grid & Education Layout System */
-      .architecture-grid {
-        /* display: grid;
+    .highlight {
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    /* 7. Grid & Education Layout System */
+    .architecture-grid {
+      /* display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 8px;
         margin-top: 6px; */
+    }
+
+    .arch-card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      padding: 6px 8px;
+      border-radius: 2px;
+      font-size: 11px;
+      text-align: justify;
+      color: #334155;
+    }
+
+    .education-entry {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-weight: 700;
+      font-size: 12px;
+      color: #0f172a;
+    }
+
+    small {
+      display: block;
+      font-weight: 400;
+      color: #7f8c8d;
+      margin-top: 1px;
+    }
+
+    /* 8. Print Engine Rules */
+    @media print {
+      body {
+        background: none;
+        color: #000000;
+        -webkit-print-color-adjust: exact;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+        print-color-adjust: exact;
       }
 
-      .arch-card {
-        background: #f8fafc;
-        border: 1px solid #e2e8f0;
-        padding: 6px 8px;
-        border-radius: 2px;
-        font-size: 11px;
-        text-align: justify;
-        color: #334155;
+      .cv-wrapper {
+        width: 100%;
+        padding: 0;
+        margin: 0;
       }
 
-      .education-entry {
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-        font-weight: 700;
-        font-size: 12px;
-        color: #0f172a;
+      .job-entry {
+        /* page-break-inside: avoid; */
       }
+    }
+  </style>
+</head>
 
-      small {
-        display: block;
-        font-weight: 400;
-        color: #7f8c8d;
-        margin-top: 1px;
-      }
+<body>
+  <div class="cv-wrapper">
+    <header class="header">
+      <h1>Ahsan Ahmed</h1>
 
-      /* 8. Print Engine Rules */
-      @media print {
-        body {
-          background: none;
-          color: #000000;
-          -webkit-print-color-adjust: exact;
-          -webkit-font-smoothing: antialiased;
-          -moz-osx-font-smoothing: grayscale;
-          text-rendering: optimizeLegibility;
-          print-color-adjust: exact;
-        }
+      <p class="job-title text-uppercase">
+        Senior Software Engineer
+        <small>
+          Backend Engineering , Distributed Architecture , Systems Optimization, Performance & Cloud
+        </small>
+      </p>
+      <div class="contact-links">
+        <a>Dhaka, bangladesh</a>
+        <span>|</span>
+        <a href="mailto:ahsan.july29@gmail.com">ahsan.july29@gmail.com</a>
+        <span>|</span>
+        <a href="https://wa.me/8801948484161">+880-194848-4161</a>
+        <span>|</span>
+        <a href="https://linkedin.com/in/ahsanjuly29" target="_blank">Linkedin</a>
+        <span>|</span>
+        <a href="https://github.com/Ahsanjuly29" target="_blank">GitHub</a>
+      </div>
+    </header>
 
-        .cv-wrapper {
-          width: 100%;
-          padding: 0;
-          margin: 0;
-        }
+    <section class="summary-section">
+      <p class="summary-text">
+        <b>Senior Software Engineer</b> with
+        <b>6+ years of professional experience</b> specializing in
+        <b>Laravel Ecosystem</b>, with hands-on experience in
+        <b>Blade, React/Next.js, REST APIs, Docker, Redis, Git, CI/CD,
+          Cloud and VPS Infrastructure</b>. Successfully delivered
+        <b>15+ production applications</b> across
+        <b>FinTech, Online Travel Agency (OTA), Multi-Tenant SaaS, ERP, POS,
+          Logistics, E-Commerce, Pharmacy, Restaurant, EdTech, and Business
+          Automation</b> domains. Experienced in designing and developing
+        <b>OTA booking engines, REST APIs, payment gateway integrations,
+          financial ledger systems, inventory and payroll modules, reporting
+          platforms, asynchronous job processing, notification services, and
+          third-party integrations</b>. Integrated global and regional payment
+        gateways including
+        <b>Stripe, PayPal, SSLCommerz, bKash, Nagad, TNG, FPX, and CHIP</b>,
+        along with SMS gateways and enterprise services. Proven experience
+        across the complete software development lifecycle, from
+        <b>system design and architecture to development, Docker-based
+          deployment, CI/CD automation, server provisioning, performance
+          optimization, and production support</b>, with a strong focus on
+        building scalable, secure, and maintainable backend systems.
+      </p>
+    </section>
 
-        .job-entry {
-          /* page-break-inside: avoid; */
-        }
-      }
-    </style>
-  </head>
+    <section class="expertise-section">
+      <div class="section-title">
+        Technical Mastery & Core Domains (Expertise)
+      </div>
 
-  <body>
-    <div class="cv-wrapper">
-      <header>
-        <h1>Ahsan Ahmed</h1>
+      <div class="architecture-grid">
 
-        <p class="job-title text-uppercase">
-          Senior Software Engineer
-          <small>
-            Backend Systems , Distributed Architecture , Systems Optimization ,
-            Decoupled Cloud Infrastructure
-          </small>
-        </p>
-        <div class="contact-links">
-          <a>Dhaka, bangladesh</a>
-          <span>|</span>
-          <a href="mailto:ahsan.july29@gmail.com">ahsan.july29@gmail.com</a>
-          <span>|</span>
-          <a href="https://wa.me/8801948484161">+880-194848-4161</a>
-          <span>|</span>
-          <a href="https://linkedin.com/in/ahsanjuly29" target="_blank"
-            >Linkedin</a
-          >
-          <span>|</span>
-          <a href="https://github.com/Ahsanjuly29" target="_blank">GitHub</a>
+        <div class="arch-card">
+          <strong>Core Domains:</strong><br />
+          Multi-Tenant SaaS, ERP, POS, HRM, Logistics, FinTech
+          (Ledgers & Payment Gateways), OTA, Multi-Vendor E-Commerce, EdTech
         </div>
-      </header>
 
-      <section class="summary-section">
-        <div class="section-title">Professional Summary</div>
-        <p class="summary-text">
-          <b>Senior Software Engineer</b> with
-          <b>6+ years of professional experience</b> specializing in
-          <b>Laravel Ecosystem</b>, with hands-on experience in
-          <b
-            >React/Next.js, Docker, Redis, Nginx, CI/CD, and cloud
-            infrastructure</b
-          >. Successfully delivered <b>15+ production applications</b> across
-          <b
-            >FinTech, Online Travel (OTA), Multi-Tenant SaaS, ERP, POS,
-            Logistics, E-Commerce, Pharmacy, Restaurant, EdTech, and Business
-            Automation</b
-          >
-          domains. Experienced in designing and developing
-          <b
-            >OTA booking engines, REST APIs, payment gateway integrations,
-            financial ledger systems, inventory and payroll modules, reporting
-            platforms, asynchronous job processing, notification services, and
-            third-party integrations</b
-          >. Integrated global and regional payment gateways including
-          <b>Stripe, PayPal, SSLCommerz, bKash, Nagad, TNG, FPX, and CHIP</b>,
-          along with SMS gateways and enterprise services. Proven experience
-          across the complete software development lifecycle, from
-          <b
-            >system design and architecture to development, Docker-based
-            deployment, CI/CD automation, cloud infrastructure, performance
-            optimization, and production support</b
-          >, with a strong focus on building scalable, secure, and maintainable
-          backend systems.
-        </p>
-      </section>
-
-      <section class="expertise-section">
-        <div class="section-title">
-          Technical Mastery & Core Domains (Expertise)
+        <div class="arch-card">
+          <strong>Backend Engineering:</strong><br />
+          PHP (Laravel Ecosystem, REST APIs), Redis (Caching & Queues),
+          MySQL, Firebase, Swoole, Laravel Octane, Query Optimization,
+          Laravel Horizon, OAuth2, Sanctum, JWT, PHPUnit
         </div>
-        <div class="architecture-grid">
-          <div class="arch-card">
-            <strong>Core Domains:</strong><br />
-            Multi-Tenant SaaS , ERP , POS , HRM , Logistics , Fintech (Ledgers &
-            PGs) , OTA , Multi-vendor E-Commerce , EdTech
+
+        <div class="arch-card">
+          <strong>Architecture & Engineering:</strong><br />
+          Domain-Driven Design (DDD), Hexagonal Architecture, SOLID,
+          Service Layer & Repository Patterns, Design Patterns
+          (Strategy, Factory, Adapter, Observer, Command, Builder),
+          Distributed Systems, Event-Driven Architecture,
+          Multi-Tenant Data Isolation, Idempotent Processing,
+          Background Job Processing
+        </div>
+
+        <div class="arch-card">
+          <strong>Cloud & Infrastructure:</strong><br />
+          Linux, Docker, LEMP/LAMP, Nginx (Reverse Proxy & Load Balancing),
+          AWS (EC2, S3), Vultr, Cloudflare, GitHub Actions,
+          Cloud-Init, Automated Server Provisioning, CI/CD
+        </div>
+
+        <div class="arch-card">
+          <strong>Frontend & UI Development:</strong><br />
+          Blade, jQuery, AJAX, Interactive Dashboards, REST API Integration
+        </div>
+
+        <div class="arch-card">
+          <strong>Currently Learning:</strong><br />
+          Modern JavaScript, React.js, Next.js, TypeScript,
+          Python (Django, FastAPI), PostgreSQL, MongoDB
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title">Professional Experience</div>
+
+      <!-- always on top -->
+      <div class="job-entry">
+        <div class="bg-success">
+          <div class="job-header">
+            <span>
+              <b>Independent Technical Consultant (Global Remote Projects)</b>
+            </span>
+            <span>Present</span>
           </div>
 
-          <div class="arch-card">
-            <strong>Backend Engineering:</strong><br />
-            PHP (Laravel Ecosystem, REST APIs) , Python (Django, FastAPI) ,
-            Redis (Caching & Queues) , MySQL , PostgreSQL , MongoDB , Firebase ,
-            Swoole , Laravel Octane , Query Optimization , High-Concurrency
-            Processing , Queues (Horizon) , OAuth2 , Sanctum , PHPUnit , Pest
+          <div class="job-title text-uppercase">
+            Senior Software Engineer / Technical Consultant
           </div>
 
-          <div class="arch-card">
-            <strong>Architecture & Engineering:</strong><br />
-            Domain-Driven Design (DDD) , Hexagonal Architecture , SOLID
-            Principles , Service Layer & Repository Patterns , Design Patterns
-            (Strategy, Factory, Adapter, Observer, Command, Builder) ,
-            Distributed Systems , Event-Driven Architecture , Multi-Tenant Data
-            Isolation , Idempotent Processing , Background Processing
-          </div>
-
-          <div class="arch-card">
-            <strong>Cloud & Infrastructure:</strong><br />
-            Linux , Docker , LEMP/LAMP , Nginx (Reverse Proxy & Load Balancing)
-            , Oracle Cloud (OCI) , AWS (EC2, S3) , Vultr , Cloudflare , GitHub
-            Actions , Infrastructure as Code (YAML) , YAML Automation, CI/CD
-          </div>
-
-          <div class="arch-card">
-            <strong>Modern Frontend & State Management:</strong><br />
-            React.js/Next.js , Interactive Client Dashboards, jQuery, and AJAX.
-          </div>
-
-          <div class="arch-card">
-            <strong>Polyglot Core & Asynchronous Compute:</strong><br />
-            C++ , Java , Algorithmic Foundations , System Performance R&D
+          <div class="tech-tags">
+            <p style="margin: 5px 0px">
+              <strong>Focus Areas:</strong> Backend Architecture, SaaS Platforms,
+              API & Third-Party Integrations, Payment & Financial Systems,
+              System Performance Optimization, Laravel Version Upgrades & Legacy
+              Modernization, Cloud & Deployment Automation
+            </p>
           </div>
         </div>
-      </section>
 
-      <section>
-        <div class="section-title">Professional Experience</div>
+        <ul>
+          <li>
+            <strong>Ledger & Payment Workflow Systems:</strong>
+            Developed complete payment workflows for global and regional
+            gateways, handling webhook processing, transaction states, ledger
+            management, and secure financial reconciliation flows. Built
+            supporting SMS and notification services for business-critical
+            operations.
+          </li>
 
-        <!-- always on top -->
-        <div class="job-entry">
-          <div class="bg-success">
-            <div class="job-header">
-              <span>
-                <b>Independent Technical Consultant (Global Remote Clients)</b>
-              </span>
-              <span>2020 to Present</span>
-            </div>
+          <li>
+            <strong>Business Applications:</strong>
+            Designed and developed multi-tenant platforms including invoice
+            management, education, e-commerce, pharmacy, and restaurant POS
+            solutions with role management, business automation, third-party
+            integrations, and cloud-based deployments.
+          </li>
 
-            <div class="job-title text-uppercase">
-              Senior Software Engineer / Technical Consultant
-            </div>
+          <li>
+            <strong>Legacy Modernization & Upgrades:</strong>
+            Upgraded and modernized legacy Laravel applications across major
+            framework versions, resolving compatibility issues, refactoring
+            deprecated components, and maintaining application stability during
+            migration.
+          </li>
 
-            <div class="tech-tags">
-              <p style="margin: 5px 0px">
-                <strong>Focus Areas:</strong> Backend Architecture , SaaS
-                Platforms , API Design , Cloud Deployment , System Performance
-                Optimization , Technical Leadership , Distributed Systems
-              </p>
-            </div>
+          <li>
+            <strong>Application Optimization:</strong>
+            Analyzed and improved production systems by resolving database
+            bottlenecks, optimizing complex queries, restructuring inefficient
+            modules, and improving application performance for high-volume
+            workloads.
+          </li>
+
+          <li>
+            <strong>Full-Stack Application Engineering:</strong>
+            Developed and extended production applications using Laravel,
+            Inertia.js, Blade, REST APIs, and supporting frontend technologies,
+            delivering dashboards, integrations, and workflow-driven business
+            applications.
+          </li>
+        </ul>
+      </div>
+
+      <div class="job-entry">
+        <div class="bg-success">
+          <div class="job-header">
+            <span>Please Visit my github for more details
+              <b>
+                <a href="https://github.com/Ahsanjuly29" target="_blank">
+                  www.github.com/ahsanjuly29
+                </a>
+              </b>
+            </span>
+            <span>2020 to Present</span>
           </div>
-
-          <ul>
-            <li>
-              <strong>Ledger & Payment Workflow Systems:</strong>
-              Developed complete payment workflows for global and regional
-              gateways, handling webhook processing, transaction states, ledger
-              management, and secure financial reconciliation flows. Built
-              supporting SMS and notification services for business-critical
-              operations.
-            </li>
-
-            <li>
-              <strong>Business Applications:</strong>
-              Designed and developed multi-tenant platforms including invoice
-              management, education, e-commerce, pharmacy, and restaurant POS
-              solutions with role management, business automation, third-party
-              integrations, and cloud-based deployments.
-            </li>
-
-            <li>
-              <strong>Application Optimization & System Improvement:</strong>
-              Analyzed and improved existing production systems by resolving
-              database bottlenecks, optimizing complex queries, restructuring
-              inefficient modules, and improving overall application performance
-              for high-volume workloads.
-            </li>
-
-            <li>
-              <strong>Full-Stack Application Engineering:</strong>
-              Developed and extended full-stack applications using (Express.js),
-              and Python (Django, FastApi) backend services, Laravel
-              (Inertia.js), React/Next.js frontends, delivering dashboards,
-              APIs, integrations, and workflow-driven solutions.
-            </li>
-          </ul>
         </div>
-      </section>
+      </div>
 
-      <section style="margin-top: 5px">
-        <div class="section-title">Education</div>
-        <div class="education-entry">
-          <span
-            >Eastern University — B.Sc. in Computer Science & Engineering</span
-          >
-          <span>Graduated 2019</span>
-        </div>
-        <p style="margin: 4px 0 0 0">
-          <strong>Final Project:</strong> Social Media Management Platform built
-          with Raw PHP (OOP), MySQL Schema Tuning, jQuery, and AJAX.
-        </p>
-        <p style="margin: 4px 0 0 0">
-          <strong>Core Foundations:</strong>
-          Developed algorithmic components and data structure implementations
-          utilizing <b>C++</b> and <b>Java</b> during academic lab evaluations.
-        </p>
-      </section>
-    </div>
-  </body>
+    </section>
+
+    <section style="margin-top: 5px">
+      <div class="section-title">Education</div>
+      <div class="education-entry">
+        <span>Eastern University — B.Sc. in Computer Science & Engineering</span>
+        <span>Graduated 2019</span>
+      </div>
+      <p style="margin: 4px 0 0 0">
+        <strong>Final Project:</strong> Social Media Management Platform built
+        with Raw PHP (OOP), MySQL Schema Tuning, jQuery, and AJAX.
+      </p>
+      <p style="margin: 4px 0 0 0">
+        <strong>Core Foundations:</strong>
+        Developed algorithmic components and data structure implementations
+        utilizing <b>C++</b> and <b>Java</b> during academic lab evaluations.
+      </p>
+    </section>
+  </div>
+</body>
+
 </html>
