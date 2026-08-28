@@ -1,8 +1,15 @@
-<p>
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Ahsan+%F0%9F%90%8B;This+is+my+%F0%9F%9A%80+Portfolio" alt="Typing SVG" />
-  </a>
-</p>
+<div align="center">
+
+# Ahsan Ahmed
+### Senior Software Engineer | Backend & Distributed Systems
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&pause=2000&color=58A6FF&center=true&vCenter=true&width=600&height=30&lines=%60PHP+%2F+Laravel%60+%7C+%60High-Throughput+Architecture%60;%60Database+Optimization%60+%7C+%60Distributed+Systems%60;%601M%2B+Rows+CSV+Streaming%60+%7C+%60Race-Condition+Defense%60" alt="Typing SVG" />
+</a>
+
+</div>
+
+---
 
 ## 🎯 Technical Challenges & Problem Solving
 
