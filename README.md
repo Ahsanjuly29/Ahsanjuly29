@@ -54,6 +54,6 @@
 
 <br>
 
-<a href="https://ahsanjuly29.github.io/Ahsanjuly29/details.html" target="_blank" rel="noopener noreferrer">
+<a href="https://ahsanjuly29.github.io/Ahsanjuly29/" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Curriculum_Vitae-Read_Full_CV-181717?style=for-the-badge&logo=github" alt="Curriculum Vitae" />
 </a>
