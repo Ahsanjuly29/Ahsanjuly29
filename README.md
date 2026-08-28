@@ -1,4 +1,8 @@
-# Hi, I'm Ahsan 👋 This is my 🚀 Portfolio
+<p>
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Ahsan+%F0%9F%90%8B;This+is+my+%F0%9F%9A%80+Portfolio" alt="Typing SVG" />
+  </a>
+</p>
 
 ## 🎯 Technical Challenges & Problem Solving
 
