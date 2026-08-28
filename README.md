@@ -22,7 +22,7 @@
 
 ---
 
-## 📂 Core Engineering & Production Systems
+## 📂 Projects (Core Engineering & Production Systems)
 
 ### Laravel APIs + Blade
 
