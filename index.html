@@ -1,621 +1,341 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ahsan Ahmed - Senior Software Engineer CV</title>
-    <style>
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-      }
 
-      body {
-        font-size: 12px;
-        font-family: "Calibri", "Inter", sans-serif;
-        line-height: 1.4;
-        color: #1e293b;
-        background-color: #ffffff;
-        -webkit-font-smoothing: antialiased;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ahsan Ahmed - Senior Software Engineer CV</title>
 
-      ul {
-        margin-left: 2%;
-      }
+  <link rel="stylesheet" href="css/index.css">
 
-      .cv-wrapper {
-        width: 800px;
-        margin: 0 auto;
-        padding: 25px 30px;
-      }
+</head>
 
-      /* 2. Exact Header Replication */
-      header {
-        border-bottom: 2px solid #1e293b;
-        padding-bottom: 6px;
-        margin-bottom: 12px;
-      }
+<body>
+  <div class="cv-wrapper">
+    <header class="header">
+      <h1>Ahsan Ahmed</h1>
 
-      h1 {
-        font-size: 24px;
-        font-weight: 800;
-        text-transform: uppercase;
-        letter-spacing: -0.03em;
-        color: #0f172a;
-        line-height: 1.1;
-      }
+      <p class="job-title text-uppercase">
+        Senior Software Engineer
+        <small style="font-size: 10px; font-weight: bold;">
+          Full-Stack Systems, Distributed Architecture, Cloud Infrastructure, Performance
+          Optimization
+        </small>
+      </p>
+      <div class="contact-links">
+        <a>Dhaka, bangladesh</a>
+        <span>|</span>
+        <a href="mailto:ahsan.july29@gmail.com">ahsan.july29@gmail.com</a>
+        <span>|</span>
+        <a href="https://wa.me/8801948484161">+880-194848-4161</a>
+        <span>|</span>
+        <a href="https://linkedin.com/in/ahsanjuly29" target="_blank">linkedin/ahsanjuly29</a>
+        <span>|</span>
+        <a href="https://github.com/Ahsanjuly29" target="_blank">github/Ahsanjuly29</a>
+      </div>
+    </header>
 
-      .contact-links {
-        display: flex;
-        gap: 10px;
-        font-size: 10.5px;
-        font-weight: 500;
-        margin-top: 6px;
-        color: #94a3b8;
-        text-transform: uppercase;
-      }
+    <section class="summary-section">
+      <div class="section-title">Career Summary</div>
+      <p class="summary-text">
+        <b>Senior Software Engineer</b> with <b>6+ years</b> of professional experience specializing in <b>Laravel
+          Ecosystem</b>, <b>Full-Stack Integration (Inertia.js, React.js)</b>, and <b>Distributed REST APIs</b>.
+        Successfully delivered <b>15+ production applications</b> across <b>FinTech</b>, <b>Online Travel Agency
+          (OTA)</b>, <b>Multi-Tenant SaaS</b>, <b>ERP</b>, <b>POS</b>, <b>Logistics</b>, <b>E-Commerce</b>,
+        <b>Pharmacy</b>, <b>Restaurant</b>, <b>EdTech</b>, and <b>Business Automation</b> domains. Experienced in
+        designing and developing <b>OTA booking engines</b>, REST APIs, <b>financial ledger systems</b>, inventory and
+        payroll modules, reporting platforms, <b>asynchronous job processing</b>, notification services, and third-party
+        integrations. Integrated payment gateways including <b>Stripe, PayPal, SSLCommerz, bKash, Nagad, TNG, FPX, and
+          CHIP</b> ensuring secure financial pipelines via <b>webhook verification</b>, <b>idempotent database
+          transactions</b>, and <b>automated ledger reconciliation</b>. Optimized high-traffic systems by <b>reducing
+          search API latency from 10s to 200ms</b> using <b>Redis in-memory caching</b> and <b>B-Tree indexing</b>, and
+        <b>boosted throughput by 300%</b> utilizing <b>Laravel Horizon asynchronous background jobs</b>. Proven
+        experience across the complete software development lifecycle, from system design and architecture to
+        <b>Docker-based deployment</b>, <b>CI/CD automation</b>, <b>VPS server provisioning</b>, <b>performance
+          optimization</b>, and production support, with a strong focus on building <b>scalable, secure, and
+          maintainable backend systems</b>.
+      </p>
+    </section>
 
-      .contact-links a {
-        text-decoration: none;
-        color: #2563eb;
-        font-weight: 600;
-      }
+    <section class="expertise-section">
+      <div class="section-title">
+        Technical Mastery & Core Domains (Expertise)
+      </div>
 
-      /* 3. Section Headers & Dynamic Lines */
-      .section-title {
-        font-size: 12px;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 0.03em;
-        color: #236926;
-        border-bottom: 1px solid #e2e8f0;
-        padding-bottom: 3px;
-        margin: 12px 0 6px 0;
-      }
-
-      .summary-text {
-        text-align: justify;
-        color: #334155;
-      }
-
-      /* 4. Experience Matrix & Job Alignment */
-      .job-entry {
-        margin-bottom: 10px;
-      }
-
-      .job-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-        font-weight: 700;
-        font-size: 14px;
-        color: #0f172a;
-      }
-
-      .job-title {
-        font-weight: 600;
-        color: #0f7202;
-        font-size: 13px;
-        margin-top: 1px;
-        margin-bottom: 4px;
-        text-transform: uppercase;
-        letter-spacing: 0.01em;
-      }
-
-      /* 5. Compact Stack Badge Container */
-      .tech-tags {
-        font-size: 11px;
-        line-height: 1.5;
-        color: #334155;
-        border-radius: 4px;
-      }
-
-      .bg-success {
-        background: #eef8f1;
-        border: 1px solid #d8e5dd;
-        padding: 5px 10px;
-        margin-bottom: 6px;
-      }
-
-      .tech-tags strong {
-        color: #0f172a;
-      }
-
-      /* 6. List and Bullet Specifications */
-      ul {
-        margin: 2px 0;
-        padding-left: 12px;
-        list-style-type: disc;
-      }
-
-      li {
-        font-size: 12px;
-        margin-bottom: 3px;
-        text-align: justify;
-        color: #334155;
-      }
-
-      .highlight {
-        font-weight: 700;
-        color: #0f172a;
-      }
-
-      /* 7. Grid & Education Layout System */
-      .architecture-grid {
-        /* display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 8px;
-        margin-top: 6px; */
-      }
-
-      .arch-card {
-        background: #f8fafc;
-        border: 1px solid #e2e8f0;
-        padding: 6px 8px;
-        border-radius: 2px;
-        font-size: 11px;
-        text-align: justify;
-        color: #334155;
-      }
-
-      .education-entry {
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-        font-weight: 700;
-        font-size: 12px;
-        color: #0f172a;
-      }
-
-      small {
-        display: block;
-        font-weight: 400;
-        color: #7f8c8d;
-        margin-top: 1px;
-      }
-
-      /* 8. Print Engine Rules */
-      @media print {
-        body {
-          background: none;
-          color: #000000;
-          -webkit-print-color-adjust: exact;
-          -webkit-font-smoothing: antialiased;
-          -moz-osx-font-smoothing: grayscale;
-          text-rendering: optimizeLegibility;
-          print-color-adjust: exact;
-        }
-
-        .cv-wrapper {
-          width: 100%;
-          padding: 0;
-          margin: 0;
-        }
-
-        .job-entry {
-          /* page-break-inside: avoid; */
-        }
-      }
-    </style>
-  </head>
-
-  <body>
-    <div class="cv-wrapper">
-      <header class="header">
-        <h1>Ahsan Ahmed</h1>
-
-        <p class="job-title text-uppercase">
-          Senior Software Engineer
-          <small>
-            Backend Engineering , Distributed Architecture , Systems
-            Optimization, Performance & Cloud
-          </small>
-        </p>
-        <div class="contact-links">
-          <a>Dhaka, bangladesh</a>
-          <span>|</span>
-          <a href="mailto:ahsan.july29@gmail.com">ahsan.july29@gmail.com</a>
-          <span>|</span>
-          <a href="https://wa.me/8801948484161">+880-194848-4161</a>
-          <span>|</span>
-          <a href="https://linkedin.com/in/ahsanjuly29" target="_blank"
-            >Linkedin</a
-          >
-          <span>|</span>
-          <a href="https://github.com/Ahsanjuly29" target="_blank">GitHub</a>
-        </div>
-      </header>
-
-      <section class="summary-section">
-        <div class="section-title">Career Summary</div>
-        <p class="summary-text">
-          <b>Senior Software Engineer</b> with
-          <b>6+ years of professional experience</b> specializing in
-          <b>Laravel Ecosystem</b>, with hands-on experience in
-          <b
-            >Frontend Template, REST APIs, Docker, Redis, Git, CI/CD, Cloud and
-            VPS Infrastructure</b
-          >. Successfully delivered <b>15+ production applications</b> across
-          <b
-            >FinTech, Online Travel Agency (OTA), Multi-Tenant SaaS, ERP, POS,
-            Logistics, E-Commerce, Pharmacy, Restaurant, EdTech, and Business
-            Automation</b
-          >
-          domains. Experienced in designing and developing
-          <b
-            >OTA booking engines, REST APIs, payment gateway integrations,
-            financial ledger systems, inventory and payroll modules, reporting
-            platforms, asynchronous job processing, notification services, and
-            third-party integrations</b
-          >. Integrated global and regional payment gateways including
-          <b>Stripe, PayPal, SSLCommerz, bKash, Nagad, TNG, FPX, and CHIP</b>,
-          along with <b> SMS gateways and Enterprise</b> services. Proven
-          experience across the complete software development lifecycle, from
-          <b
-            >system design and architecture to development, Docker-based
-            deployment, CI/CD automation, server Provisioning, performance
-            optimization, and production support</b
-          >, with a strong focus on building scalable, secure, and maintainable
-          backend systems.
-        </p>
-      </section>
-
-      <section class="expertise-section">
-        <div class="section-title">
-          Technical Mastery & Core Domains (Expertise)
+      <div class="architecture-grid">
+        <div class="arch-card">
+          <strong>Backend Engineering:</strong><br />
+          PHP (Laravel Ecosystem, REST APIs), Redis (Caching & Queues), Swoole, Laravel Octane, Laravel Horizon, OAuth2,
+          Sanctum, JWT, Rate Limiting, RBAC Access Control, Audit Trail Engines, Fault-Tolerant API Defenses,
+          Test-Driven Development (TDD using Pest & PHPUnit), Zero-downtime Releases
         </div>
 
-        <div class="architecture-grid">
-          <div class="arch-card">
-            <strong>Backend Engineering:</strong><br />
-            PHP (Laravel Ecosystem, REST APIs), Redis (Caching & Queues), MySQL,
-            Firebase, Swoole, Laravel Octane, Schema design, B-Tree Indexing,
-            Partitioning, Query Optimization, Laravel Horizon, OAuth2, Sanctum,
-            JWT, PHPUnit, Rate Limiting, RBAC Access Control, Audit Trail
-            Engines, and Fault-Tolerant API Defenses, Test-Driven Development
-            (TDD) using Pest and PHPUnit with zero-downtime releases.
-          </div>
-
-          <div class="arch-card">
-            <strong>Architecture & Engineering:</strong><br />
-            SOLID, Service Layer & Repository Patterns, Other Patterns
-            (Strategy, Factory, Adapter, Observer, Command, Builder),
-            Distributed Systems, Event-Driven Architecture, Multi-Tenant Data
-            Isolation, Idempotent Processing, Background Job Processing,
-            Domain-Driven Design (DDD), Hexagonal Architecture.
-          </div>
-
-          <div class="arch-card">
-            <strong>Cloud & Infrastructure:</strong><br />
-            Linux, Docker, LEMP/LAMP, Nginx (Reverse Proxy & Load Balancing),
-            AWS (EC2, S3), Vultr, Cloudflare, GitHub Actions, Cloud-Init,
-            Automated Server Provisioning, Automated deployment pipelines
-            (CI/CD)
-          </div>
-
-          <div class="arch-card">
-            <strong>Frontend & UI Development:</strong><br />
-            Blade Templating, jQuery, AJAX, Interactive Dashboards, REST API
-            Integration
-          </div>
-
-          <div class="arch-card">
-            <strong>Currently Learning:</strong><br />
-            Modern JavaScripts (React.js, Next.js, TypeScript), Python (Django,
-            FastAPI), PostgreSQL, MongoDB
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="section-title">Professional Experience</div>
-        <!-- Always on top -->
-        <div class="job-entry">
-          <div class="bg-success">
-            <div class="job-header">
-              <span>
-                <b>Independent Technical Consultant (Global Remote Projects)</b>
-              </span>
-              <span>Present</span>
-            </div>
-
-            <div class="job-title text-uppercase">
-              Senior Software Engineer / Technical Consultant
-            </div>
-
-            <div class="tech-tags">
-              <p style="margin: 5px 0px">
-                <strong>Focus Areas:</strong> Backend Architecture, SaaS
-                Platforms, API & Third-Party Integrations, Payment & Financial
-                Systems, System Performance Optimization, Laravel Version
-                Upgrades & Legacy Modernization, Cloud & Deployment Automation
-              </p>
-            </div>
-          </div>
-
-          <ul>
-            <li>
-              <strong>Ledger & Payment Workflow Systems:</strong>
-              Developed complete payment workflows for global and regional
-              gateways, handling webhook processing, transaction states, ledger
-              management, and secure financial reconciliation flows. Built
-              supporting SMS and notification services for business-critical
-              operations.
-            </li>
-
-            <li>
-              <strong>Business Applications:</strong>
-              Designed and developed multi-tenant platforms including invoice
-              management, education, e-commerce, pharmacy, and restaurant POS
-              solutions with role management, business automation, third-party
-              integrations, and cloud-based deployments.
-            </li>
-
-            <li>
-              <strong>Legacy Modernization & Upgrades:</strong>
-              Upgraded and modernized legacy Laravel applications across major
-              framework versions, resolving compatibility issues, refactoring
-              deprecated components, and maintaining application stability
-              during migration.
-            </li>
-
-            <li>
-              <strong>Application Optimization:</strong>
-              Analyzed and improved production systems by resolving database
-              bottlenecks, optimizing complex queries, restructuring inefficient
-              modules, and improving application performance for high-volume
-              workloads.
-            </li>
-
-            <li>
-              <strong>Full-Stack Application Engineering:</strong>
-              Developed and extended production applications using Laravel,
-              Inertia.js(React), Blade, REST APIs, and supporting frontend
-              technologies, delivering dashboards, integrations, and
-              workflow-driven business applications.
-            </li>
-          </ul>
+        <div class="arch-card">
+          <strong>Database Engineering & Storage:</strong><br />
+          MySQL, PostgreSQL, MongoDB, Firebase, Schema Design, B-Tree Indexing, Data Partitioning, Query Optimization,
+          Database Locking Fixes
         </div>
 
-        <!-- 5. IBOOK -->
-        <div class="job-entry">
-          <div class="bg-success">
-            <div class="job-header">
-              <span
-                ><b
-                  >IBOOK (Malaysia) - High-Traffic Online Travel Agency (OTA)</b
-                ></span
-              >
-              <span>Jul 2024 to Jul 2025</span>
-            </div>
-            <div class="job-title text-uppercase">
-              Senior Software Engineer (FullStack)
-            </div>
+        <div class="arch-card">
+          <strong>Architecture & Engineering:</strong><br />
+          SOLID Principles, Service Layer & Repository Patterns, Design Patterns (Strategy, Factory, Adapter, Observer,
+          Command, Builder), Distributed Systems, Event-Driven Architecture, Multi-Tenant Data Isolation, Idempotent
+          Processing, Background Job Processing, Domain-Driven Design (DDD), Hexagonal Architecture.
+        </div>
 
-            <div class="tech-tags">
-              <strong>Architecture:</strong> High-Traffic OTA , Distributed Web
-              Architecture , LEMP Stack , Asynchronous Processing , Event-Driven
-              Workflows , CI/CD Automation
-              <br />
-              <strong>Core Technologies:</strong> Laravel , MySQL , Redis ,
-              Horizon , Nginx , Docker , GitHub Actions , Cron Jobs
-            </div>
+        <div class="arch-card">
+          <strong>Cloud & Infrastructure:</strong><br />
+          Linux Administration, Docker, LEMP/LAMP Stack, Nginx (Reverse Proxy & Load Balancing), AWS (EC2, S3), Vultr,
+          Cloudflare, GitHub Actions, Cloud-Init, Automated Server Provisioning, Automated Deployment Pipelines (CI/CD).
+        </div>
+
+        <div class="arch-card">
+          <strong>Frontend & UI Development:</strong><br />
+          Inertia.js, React.js Integration, Next.js, TypeScript, RESTful UI Hydration, Blade Templating, JavaScript
+          (ES6+), jQuery, AJAX, Interactive Dashboards, Tailwind CSS.
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title">Professional Experience</div>
+
+      <!-- Always on top -->
+      <div class="job-entry">
+        <div class="bg-success">
+          <div class="job-header">
+            <span>
+              <b>Independent Technical Consultant (Global Remote Projects)</b>
+            </span>
+            <span>Present</span>
           </div>
 
-          <ul>
-            <li>
-              <strong>Production Infrastructure:</strong>
-              Designed and deployed a three-server Web, API, and Worker
-              architecture with automated CI/CD pipelines, reducing production
-              deployment time by
-              <span class="highlight">80%</span>.
-            </li>
-
-            <li>
-              <strong>Hotel Pricing Automation:</strong>
-              Built asynchronous data synchronization pipelines processing
-              <span class="highlight">1M+</span> hotel rate updates daily while
-              automating Google Hotel Search pricing feeds.
-            </li>
-
-            <li>
-              <strong>Payment Lifecycle:</strong>
-              Managed end-to-end payment processing for Malaysian gateways (TNG,
-              FPX, CHIP), including webhooks, reconciliation, and reliable
-              transaction handling.
-            </li>
-
-            <li>
-              <strong>Database Optimization:</strong>
-              Refactored legacy queries and indexing strategies, achieving up to
-              <span class="highlight">3×</span> faster database performance.
-            </li>
-          </ul>
-        </div>
-
-        <!-- 4. Nexoda -->
-        <div class="job-entry">
-          <div class="bg-success">
-            <div class="job-header">
-              <span><b>Nexoda (BDRen)</b></span>
-              <span>Mar 2024 to Jun 2024</span>
-            </div>
-            <div class="job-title text-uppercase">
-              Software Engineer (FullStack)
-            </div>
-
-            <div class="tech-tags">
-              <strong>Architecture:</strong> Decoupled Backend , REST APIs , BFF
-              Pattern , Large File Processing
-              <br />
-              <strong>Core Technologies:</strong> Laravel , MySQL , React ,
-              Next.js , Blade , Resumable.js
-            </div>
+          <div class="job-title text-uppercase">
+            Senior Software Engineer / Technical Consultant
           </div>
 
-          <ul>
-            <li>
-              <strong>Platform Architecture:</strong>
-              Designed a greenfield platform with a decoupled REST API backend
-              for React/Next.js applications and a dedicated Laravel admin
-              portal for internal operations.
-            </li>
-            <li>
-              <strong>Large File Processing:</strong>
-              Developed chunked file upload services supporting multi-GB
-              transfers with resumable uploads, optimized storage organization,
-              and efficient file management.
-            </li>
-            <li>
-              <strong>Access Control & File Security:</strong>
-              Implemented guest access workflows with API rate limiting, owner
-              approval, and duplicate file detection to secure shared file
-              management.
-            </li>
-          </ul>
-        </div>
-
-        <!-- 3. Flight Expert -->
-        <div class="job-entry">
-          <div class="bg-success">
-            <div class="job-header">
-              <span
-                ><b
-                  >Flight Expert - High Traffic Travel Tech (OTA) Platform</b
-                ></span
-              >
-              <span>2022 to Dec 2023</span>
-            </div>
-            <div class="job-title text-uppercase">
-              Software Engineer (Backend and Systems FullStack)
-            </div>
-
-            <div class="tech-tags">
-              <strong>Architecture:</strong> High-Traffic OTA , Distributed
-              Services , Domain-Driven Design (DDD) , Event-Driven Processing
-              <br />
-              <strong>Core Technologies:</strong> Laravel , MySQL , PostgreSQL ,
-              Redis, Laravel Horizon, Swoole , Laravel Octane , Eloquent
-              Observers , Event Listeners
-            </div>
+          <div class="tech-tags">
+            <p style="margin: 5px 0px">
+              <strong>Focus Areas:</strong> Backend Architecture, SaaS
+              Platforms, API & Third-Party Integrations, Payment & Financial
+              Systems, System Performance Optimization, Laravel Version
+              Upgrades & Legacy Modernization, Cloud & Deployment Automation
+            </p>
           </div>
-
-          <ul>
-            <li>
-              <strong>OTA Booking Platform:</strong>
-              Developed and optimized high-traffic B2B and B2C OTA services,
-              reducing multi-vendor GDS synchronization latency from
-              <span class="highlight">10s to 200ms</span> through database
-              optimization and performance tuning.
-            </li>
-
-            <li>
-              <strong>Agency Wallet & Financial Workflows:</strong>
-              Built multi-tenant agency wallet systems, payment reconciliation,
-              and ticket lifecycle management, ensuring reliable financial
-              processing across booking operations.
-            </li>
-
-            <li>
-              <strong>Reporting & Analytics:</strong>
-              Developed asynchronous reporting pipelines over pre-aggregated
-              datasets, reducing report generation time by
-              <span class="highlight">95%</span> and increasing reporting
-              throughput by <span class="highlight">300%</span>.
-            </li>
-          </ul>
         </div>
 
-        <!-- 2. RootsEdu -->
-        <div class="job-entry">
-          <div class="bg-success">
-            <div class="job-header">
-              <span><b>RootsEdu - High Concurrency Ed Tech Platform</b></span>
-              <span>2021 to Mar 2022</span>
-            </div>
-            <div class="job-title text-uppercase">
-              Software Engineer (FullStack)
-            </div>
+        <ul>
+          <li>
+            <strong>Ledger & Payment Workflows:</strong>
+            Engineered complete payment gateways (Stripe, SSLCommerz, bKash) handling idempotent transactions, webhook
+            state reconciliation, financial ledgers, and automated SMS/notification pipelines.
+          </li>
+          <li>
+            <strong>Multi-Tenant Business Platforms:</strong>
+            Architected multi-tenant SaaS and POS engines (E-Commerce, Pharmacy, Restaurant, Education, Invoicing)
+            with granular RBAC, business logic automation, and AWS/Vultr deployments.
+          </li>
+          <li>
+            <strong>Legacy Modernization & Refactoring:</strong>
+            Modernized legacy Laravel codebases across major framework versions, resolving core compatibility
+            bottlenecks, refactoring deprecated packages, and ensuring zero-downtime migrations.
+          </li>
+          <li>
+            <strong>System Performance Tuning:</strong>
+            Analyzed and resolved high-volume database concurrency issues, optimizing execution plans and refactoring
+            relational schemas for intense production workloads.
+          </li>
+          <li>
+            <strong>Full-Stack Architecture:</strong>
+            Engineered React applications using Laravel with Inertia.js (server-side prop hydration to eliminate API
+            round-trips), REST APIs, and Blade dashboards.
+          </li>
+        </ul>
+      </div>
 
-            <div class="tech-tags">
-              <strong>Architecture:</strong> REST APIs , RBAC , Multi-Role
-              Systems , Mobile Backend Services<br />
-              <strong>Core Technologies:</strong> Laravel , MySQL , REST APIs
-            </div>
+      <!-- 5. IBOOK -->
+      <div class="job-entry">
+        <div class="bg-success">
+          <div class="job-header">
+            <span><b>IBOOK (Malaysia) - High-Traffic Online Travel Agency (OTA)</b></span>
+            <span>Jul 2024 to Jul 2025</span>
           </div>
-          <ul>
-            <li>
-              <strong>Online Examination Platform:</strong>
-              Optimized database transactions and application workflows to
-              support high concurrency online examinations with reliable
-              performance during peak student activity.
-            </li>
-
-            <li>
-              <strong>REST API Development:</strong>
-              Developed secure REST APIs with role-based access control (RBAC)
-              for mobile applications, implementing structured authorization and
-              scalable backend services.
-            </li>
-          </ul>
-        </div>
-
-        <!-- 1. Smart Software Ltd -->
-        <div class="job-entry">
-          <div class="bg-success">
-            <div class="job-header">
-              <span><b>Smart Software Ltd - Software Firm</b></span>
-              <span>2020 to Mar 2021</span>
-            </div>
-            <div class="job-title text-uppercase">
-              Software Engineer (FullStack)
-            </div>
-
-            <div class="tech-tags">
-              <strong>Architecture:</strong> Multi-Tenant ERP , Modular Business
-              Applications<br />
-              <strong>Core Technologies:</strong> Laravel , PHP OOP , MySQL ,
-              Firebase
-            </div>
+          <div class="job-title text-uppercase">Senior Software Engineer (FullStack)</div>
+          <div class="tech-tags">
+            <strong>Architecture:</strong> Distributed Systems, Async Processing, Event-Driven, CI/CD Pipelines
+            <br />
+            <strong>Core Technologies:</strong> Laravel, MySQL, Redis, Horizon, Nginx, Docker, GitHub Actions, Cron
+            Jobs
           </div>
-
-          <ul>
-            <li>
-              <strong>ERP & Business Modules:</strong>
-              Developed logistics, payroll, inventory, and e-commerce modules
-              for a multi-tenant ERP platform, maintaining clean business logic
-              and modular application architecture.
-            </li>
-            <li>
-              <strong>Database Performance Optimization:</strong>
-              Improved POS transaction performance by resolving database locking
-              issues, optimizing queries, and restructuring legacy relational
-              models, increasing application responsiveness by
-              <span class="highlight">40%</span>.
-            </li>
-          </ul>
         </div>
-      </section>
 
-      <section style="margin-top: 5px">
-        <div class="section-title">Education</div>
-        <div class="education-entry">
-          <span
-            >Eastern University — B.Sc. in Computer Science & Engineering</span
-          >
-          <span>Graduated 2019</span>
+        <ul>
+          <li>
+            <strong>Production Infrastructure:</strong>
+            Designed a 3-server Web/API/Worker topology using Docker, Nginx Load Balancing, and GitHub Actions,
+            cutting deployment time by <span class="highlight">80%</span>.
+          </li>
+          <li>
+            <strong>Hotel Pricing Automation:</strong>
+            Architected async pipelines processing <span class="highlight">1M+</span> daily hotel rate updates via
+            Redis caching and automated 6-hour Google Hotel Search feeds.
+          </li>
+          <li>
+            <strong>Payment Lifecycle & Reconciliation:</strong>
+            Integrated Malaysian payment systems (TNG, FPX, CHIP) featuring robust webhook retry handlers and
+            automated ledger auditing.
+          </li>
+          <li>
+            <strong>Database Optimization:</strong>
+            Refactored slow legacy queries and restructured table indexes, accelerating database response speed by
+            <span class="highlight">3×</span>.
+          </li>
+        </ul>
+      </div>
+
+      <!-- 4. Nexoda -->
+      <div class="job-entry">
+        <div class="bg-success">
+          <div class="job-header">
+            <span><b>Nexoda (BDRen)</b></span>
+            <span>Mar 2024 to Jun 2024</span>
+          </div>
+          <div class="job-title text-uppercase">Software Engineer (FullStack)</div>
+          <div class="tech-tags">
+            <strong>Architecture:</strong> Decoupled Backend, BFF Pattern, RESTful APIs, Large File Processing
+            <br />
+            <strong>Core Technologies:</strong> Laravel, MySQL, React, Next.js, Blade, Resumable.js
+          </div>
         </div>
-        <p style="margin: 4px 0 0 0">
-          <strong>Final Project:</strong> Social Media Management Platform built
-          with Raw PHP (OOP), MySQL Schema Tuning, jQuery, and AJAX.
-        </p>
-        <p style="margin: 4px 0 0 0">
-          <strong>Core Foundations:</strong>
-          Developed algorithmic components and data structure implementations
-          utilizing <b>C++</b> and <b>Java</b> during academic lab evaluations.
-        </p>
-      </section>
-    </div>
-  </body>
+
+        <ul>
+          <li>
+            <strong>Platform Architecture:</strong>
+            Designed a greenfield platform implementing a decoupled REST API backend (BFF Pattern) for Next.js clients
+            alongside an isolated Laravel admin system.
+          </li>
+          <li>
+            <strong>Large File Processing:</strong>
+            Engineered chunked, resumable file upload pipelines supporting multi-GB transfers via Resumable.js with
+            optimized storage management.
+          </li>
+          <li>
+            <strong>Access Control & Security:</strong>
+            Implemented secure guest workflows protected by API rate-limiting, explicit owner authorization, and
+            duplicate file hashing algorithms.
+          </li>
+        </ul>
+      </div>
+
+      <!-- 3. Flight Expert -->
+      <div class="job-entry">
+        <div class="bg-success">
+          <div class="job-header">
+            <span><b>Flight Expert - High Traffic Travel Tech (OTA) Platform</b></span>
+            <span>2022 to Dec 2023</span>
+          </div>
+          <div class="job-title text-uppercase">Software Engineer (Backend and Systems FullStack)</div>
+          <div class="tech-tags">
+            <strong>Architecture:</strong> Distributed Services, DDD, Event-Driven Architecture, High-Concurrency
+            <br />
+            <strong>Core Technologies:</strong> Laravel, MySQL, PostgreSQL, Redis, Horizon, Swoole, Octane
+          </div>
+        </div>
+
+        <ul>
+          <li>
+            <strong>OTA Booking Optimization:</strong>
+            Reduced GDS API flight search latency from <span class="highlight">10s to 200ms</span> using Redis
+            in-memory caching and B-Tree composite indexing on multi-million row datasets.
+          </li>
+          <li>
+            <strong>Agency Wallet & Financial Workflows:</strong>
+            Built multi-tenant B2B agency wallets with strict transaction isolation, dynamic payment reconciliation,
+            and immutable audit logs.
+          </li>
+          <li>
+            <strong>Async Analytics & Reporting:</strong>
+            Constructed reporting pipelines over pre-aggregated DB snapshots, reducing report generation time by <span
+              class="highlight">95%</span> and boosting throughput by <span class="highlight">300%</span>.
+          </li>
+        </ul>
+      </div>
+
+      <!-- 2. RootsEdu -->
+      <div class="job-entry">
+        <div class="bg-success">
+          <div class="job-header">
+            <span><b>RootsEdu - High Concurrency Ed Tech Platform</b></span>
+            <span>2021 to Mar 2022</span>
+          </div>
+          <div class="job-title text-uppercase">Software Engineer (FullStack)</div>
+          <div class="tech-tags">
+            <strong>Architecture:</strong> REST APIs, RBAC, High-Concurrency Mobile Backends
+            <br />
+            <strong>Core Technologies:</strong> Laravel, MySQL, RESTful Web Services
+          </div>
+        </div>
+
+        <ul>
+          <li>
+            <strong>High-Concurrency Exam Engine:</strong>
+            Optimized transactional locks and database write-queues to handle high peak loads during concurrent live
+            exam submissions.
+          </li>
+          <li>
+            <strong>Secure REST API Architecture:</strong>
+            Developed role-based REST APIs with granular mobile authorization and optimized payload delivery.
+          </li>
+        </ul>
+      </div>
+
+      <!-- 1. Smart Software Ltd -->
+      <div class="job-entry">
+        <div class="bg-success">
+          <div class="job-header">
+            <span><b>Smart Software Ltd - Software Firm</b></span>
+            <span>2020 to Mar 2021</span>
+          </div>
+          <div class="job-title text-uppercase">Software Engineer (FullStack)</div>
+          <div class="tech-tags">
+            <strong>Architecture:</strong> Multi-Tenant ERP, Modular Monolith
+            <br />
+            <strong>Core Technologies:</strong> Laravel, PHP OOP, MySQL, Firebase
+          </div>
+        </div>
+
+        <ul>
+          <li>
+            <strong>Modular ERP Development:</strong>
+            Engineered multi-tenant modules for logistics, payroll, inventory, and e-commerce using strict OOP
+            principles.
+          </li>
+          <li>
+            <strong>Database Tuning:</strong>
+            Resolved table-locking issues and optimized complex relational joins, increasing POS transaction
+            throughput by <span class="highlight">40%</span>.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section style="margin-top: 5px">
+      <div class="section-title">Education</div>
+      <div class="education-entry">
+        <span>Eastern University — B.Sc. in Computer Science & Engineering</span>
+        <span>Graduated 2019</span>
+      </div>
+      <p style="margin: 4px 0 0 0">
+        <strong>Final Project:</strong> Social Media Management Platform built
+        with Raw PHP (OOP), MySQL Schema Tuning, jQuery, and AJAX.
+      </p>
+      <p style="margin: 4px 0 0 0">
+        <strong>Core Foundations:</strong>
+        Developed algorithmic components and data structure implementations
+        utilizing <b>C++</b> and <b>Java</b> during academic lab evaluations.
+      </p>
+    </section>
+  </div>
+</body>
+
 </html>

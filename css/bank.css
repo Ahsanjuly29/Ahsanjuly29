@@ -1,0 +1,143 @@
+body {
+    font-family: "calibri", sans-serif;
+    color: #222222;
+    line-height: 1.5;
+    margin: 0;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: #a90404;
+    border-bottom: 2px solid #333333;
+    padding-bottom: 5px;
+}
+
+h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #a90404;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.contact-info {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.contact-info a {
+    color: #111111;
+    text-decoration: none;
+}
+
+.job-title {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.company-info {
+    font-style: italic;
+    font-size: 13px;
+    color: #555555;
+}
+
+.job-block {
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border-bottom: 1px solid #cccccc;
+    /* background-color: #fff8f88a; */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 6px;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+ol {
+    margin: 5px 0 10px 20px;
+    padding: 0;
+    font-size: 14px;
+}
+
+li {
+    margin-bottom: 3px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 2px solid #333333;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.header-text {
+    flex: 1;
+}
+
+.header-photo {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.header-photo img {
+    width: 140px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 14px;
+    border: 1px solid #cccccc;
+}
+
+@media print {
+    body {
+        padding: 0;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .header-container {
+        display: flex;
+    }
+
+    /* .job-block,
+        table,
+        section {
+          break-inside: avoid;
+          page-break-inside: avoid;
+        } */
+}
