@@ -1,3 +1,4 @@
+<!--
 <div align="center">
 
 # Ahsan Ahmed
@@ -10,13 +11,14 @@
 </div>
 
 ---
+-->
 
 ## 🎯 Technical Challenges & Problem Solving
 
 ### PHP / Laravel Ecosystem
 
 > **1M+ Rows CSV Streaming (14 Secs)** — using a memory-efficient pipeline.  
-  🔗 <a href="https://ahsanjuly29.github.io/LaravelEasySolutions-Manual/Export-csv/">Architecture</a> • <a href="https://ahsanjuly29.github.io/LaravelEasySolutions-Manual/Export-csv/Complex-export/">Production Blueprint</a>
+>  🔗 <a href="https://ahsanjuly29.github.io/LaravelEasySolutions-Manual/Export-csv/">Architecture</a> • <a href="https://ahsanjuly29.github.io/LaravelEasySolutions-Manual/Export-csv/Complex-export/">Production Blueprint</a>
 
 > **Fault-Tolerant API Defenses** — Protected applications from third-party API changes using resilient API wrappers with automated PHPUnit/Pest boundary testing.
 
@@ -53,13 +55,14 @@
 <br/>
 
 ### Browser Engineering
-*Bootstrap • JavaScript • jQuery • Chart.js • QRCode*
+
+_Bootstrap • JavaScript • jQuery • Chart.js • QRCode_
 
 > **<a href="https://github.com/Ahsanjuly29/QRCodeGenerator">QRCodeGenerator</a>** — Browser-native QR code generator with instant generation and download support.  
-  🔗 <a href="https://ahsanjuly29.github.io/QRCodeGenerator/">Repository Demo</a>
+>  🔗 <a href="https://ahsanjuly29.github.io/QRCodeGenerator/">Repository Demo</a>
 
 > **<a href="https://github.com/Ahsanjuly29/InternetSpeedMeter">InternetSpeedMeter</a>** — Real-time browser tool for measuring upload and download bandwidth.  
-  🔗 <a href="https://ahsanjuly29.github.io/InternetSpeedMeter/">Repository Demo</a>
+>  🔗 <a href="https://ahsanjuly29.github.io/InternetSpeedMeter/">Repository Demo</a>
 
 ---
 
