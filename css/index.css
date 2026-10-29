@@ -1,192 +1,237 @@
+@import url("bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-size: 12px;
-    font-family: "Calibri", "Inter", sans-serif;
-    line-height: 1.6;
-    color: #1e293b;
-    background-color: #ffffff;
-    -webkit-font-smoothing: antialiased;
+  font-size: 12px;
+  font-family: "Calibri", "Inter", sans-serif;
+  line-height: 1.6;
+  color: #212529;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
 }
 
 ul {
-    margin-left: 2%;
+  margin-left: 2%;
 }
 
 .cv-wrapper {
-    width: 800px;
-    margin: 0 auto;
-    padding: 25px 30px;
+  width: 800px;
+  margin: 0 auto;
+  padding: 25px 30px;
 }
 
 /* 2. Exact Header Replication */
 header {
-    border-bottom: 2px solid #1e293b;
-    padding-bottom: 6px;
-    margin-bottom: 12px;
+  border-bottom: 2px solid #1e293b;
+  padding-bottom: 6px;
+  margin-bottom: 12px;
 }
 
 h1 {
-    font-size: 24px;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: -0.03em;
-    color: #0f172a;
-    line-height: 1.1;
+  font-size: 24px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: -0.03em;
+  color: #0f172a;
+  line-height: 1.1;
 }
 
 .contact-links {
-    display: flex;
-    gap: 10px;
-    font-size: 10.5px;
-    font-weight: 500;
-    margin-top: 6px;
-    color: #94a3b8;
-    text-transform: uppercase;
+  display: flex;
+  gap: 10px;
+  font-size: 10.5px;
+  font-weight: 500;
+  margin-top: 6px;
+  color: #94a3b8;
+  text-transform: uppercase;
 }
 
 .contact-links a {
-    text-decoration: none;
-    color: #2563eb;
-    font-weight: 600;
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 600;
 }
 
 /* 3. Section Headers & Dynamic Lines */
 .section-title {
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    color: #236926;
-    border-bottom: 1px solid #e2e8f0;
-    padding-bottom: 3px;
-    margin: 12px 0 6px 0;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #236926;
+  border-bottom: 1px solid #e2e8f0;
+  margin: 12px 0 6px 0;
+  margin-top: 8px;
+  margin-bottom: 4px;
+  padding-bottom: 2px;
 }
 
 .summary-text {
-    text-align: justify;
-    color: #334155;
+  text-align: justify;
+  color: #334155;
 }
 
 /* 4. Experience Matrix & Job Alignment */
 .job-entry {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .job-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    font-weight: 700;
-    font-size: 14px;
-    color: #0f172a;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-weight: 700;
+  font-size: 14px;
+  color: #0f172a;
 }
 
 .job-title {
-    font-weight: 600;
-    color: #0f7202;
-    font-size: 13px;
-    margin-top: 1px;
-    margin-bottom: 4px;
-    text-transform: uppercase;
-    letter-spacing: 0.01em;
+  font-weight: 600;
+  color: #0f7202;
+  font-size: 13px;
+  margin-top: 1px;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
 }
 
 /* 5. Compact Stack Badge Container */
 .tech-tags {
-    font-size: 11px;
-    line-height: 1.5;
-    color: #334155;
-    border-radius: 4px;
+  font-size: 11px;
+  line-height: 1.5;
+  color: #334155;
+  border-radius: 4px;
 }
 
 .bg-success {
-    background: #eef8f1;
-    border: 1px solid #d8e5dd;
-    padding: 5px 10px;
-    margin-bottom: 6px;
+  background: #eef8f1 !important;
+  border: 1px solid #d8e5dd !important;
+  padding: 5px 10px;
+  margin-bottom: 6px;
 }
 
 .tech-tags strong {
-    color: #0f172a;
+  color: #0f172a;
 }
 
 /* 6. List and Bullet Specifications */
 ul {
-    margin: 2px 0;
-    padding-left: 12px;
-    list-style-type: disc;
+  margin: 2px 0;
+  padding-left: 12px;
+  list-style-type: disc;
 }
 
 li {
-    font-size: 12px;
-    margin-bottom: 3px;
-    text-align: justify;
-    color: #334155;
+  font-size: 12px;
+  margin-bottom: 3px;
+  text-align: justify;
+  color: #334155;
 }
 
 .highlight {
-    font-weight: 700;
-    color: #0f172a;
+  font-weight: 700;
+  color: #0f172a;
 }
 
 /* 7. Grid & Education Layout System */
 .architecture-grid {
-    /* display: grid;
+  /* display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 8px;
         margin-top: 6px; */
 }
 
 .arch-card {
-    background: #f8fafc;
-    border: 1px solid #e2e8f0;
-    padding: 6px 8px;
-    border-radius: 2px;
-    font-size: 11px;
-    text-align: justify;
-    color: #334155;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 6px 8px;
+  border-radius: 2px;
+  font-size: 11px;
+  text-align: justify;
+  color: #334155;
 }
 
 .education-entry {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    font-weight: 700;
-    font-size: 12px;
-    color: #0f172a;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-weight: 700;
+  font-size: 12px;
+  color: #0f172a;
 }
 
 small {
-    display: block;
-    font-weight: 400;
-    color: #747474;
-    margin-top: 1px;
+  display: block;
+  font-weight: 400;
+  color: #747474;
+  margin-top: 1px;
 }
+
+/* .? */
+
+.tech-stack {
+  font-style: italic;
+  font-size: 10.5px;
+  color: #495057;
+  margin-bottom: 2px;
+}
+
+ul {
+  margin-bottom: 3px;
+  padding-left: 15px;
+}
+
+li {
+  margin-bottom: 1px;
+}
+
+a {
+  color: #0b6f88;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.experience-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -4px;
+}
+
+.col-sm-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 4px;
+}
+/* .? */
 
 /* 8. Print Engine Rules */
 @media print {
-    body {
-        background: none;
-        color: #000000;
-        -webkit-print-color-adjust: exact;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        text-rendering: optimizeLegibility;
-        print-color-adjust: exact;
-    }
+  body {
+    background: none;
+    color: #000000;
+    -webkit-print-color-adjust: exact;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    print-color-adjust: exact;
+  }
 
-    .cv-wrapper {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
+  .cv-wrapper {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
 
-    .job-entry {
-        /* page-break-inside: avoid; */
-    }
+  .job-entry {
+    /* page-break-inside: avoid; */
+  }
 }
