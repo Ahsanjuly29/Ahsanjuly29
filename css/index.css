@@ -15,10 +15,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-ul {
-  margin-left: 2%;
-}
-
 .cv-wrapper {
   width: 800px;
   margin: 0 auto;
@@ -33,7 +29,7 @@ header {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 36px;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: -0.03em;
@@ -60,7 +56,7 @@ h1 {
 /* 3. Section Headers & Dynamic Lines */
 .section-title {
   font-weight: bold;
-  font-size: 12px;
+  font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: #236926;
@@ -120,14 +116,16 @@ h1 {
 }
 
 /* 6. List and Bullet Specifications */
+
+ol,
 ul {
-  margin: 2px 0;
-  padding-left: 12px;
-  list-style-type: disc;
+  margin: 2px 0 3px 2%;
+  padding-left: 0px;
+  list-style-type: square;
 }
 
 li {
-  font-size: 12px;
+  /* font-size: 12px; */
   margin-bottom: 3px;
   text-align: justify;
   color: #334155;
@@ -175,15 +173,10 @@ small {
 /* .? */
 
 .tech-stack {
-  font-style: italic;
-  font-size: 10.5px;
+  /* font-style: italic; */
+  font-size: 12px;
   color: #495057;
   margin-bottom: 2px;
-}
-
-ul {
-  margin-bottom: 3px;
-  padding-left: 15px;
 }
 
 li {
@@ -210,27 +203,40 @@ a:hover {
   max-width: 50%;
   padding: 4px;
 }
+
 /* .? */
 
 /* 8. Print Engine Rules */
 @media print {
   body {
-    background: none;
-    color: #000000;
-    -webkit-print-color-adjust: exact;
+    background: none !important;
+    color: #000000 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    print-color-adjust: exact;
   }
 
   .cv-wrapper {
-    width: 100%;
-    padding: 0;
-    margin: 0;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
   }
 
-  .job-entry {
-    /* page-break-inside: avoid; */
+  .projects,
+  .portfolio,
+  .bg-light,
+  .border,
+  [style*="background-color"],
+  [style*="border-left"] {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    background-color: #f8f9fa !important; 
+  }
+
+  a,
+  [style*="color"] {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
 }
