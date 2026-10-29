@@ -1,5 +1,4 @@
 @import url("bootstrap.min.css");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -8,7 +7,7 @@
 }
 
 body {
-  font-size: 12px;
+  font-size: 14px;
   font-family: "Calibri", "Inter", sans-serif;
   line-height: 1.6;
   color: #212529;
@@ -103,7 +102,7 @@ h1 {
 
 /* 5. Compact Stack Badge Container */
 .tech-tags {
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.5;
   color: #334155;
   border-radius: 4px;
@@ -152,7 +151,7 @@ li {
   border: 1px solid #e2e8f0;
   padding: 6px 8px;
   border-radius: 2px;
-  font-size: 11px;
+  font-size: 12px;
   text-align: justify;
   color: #334155;
 }
